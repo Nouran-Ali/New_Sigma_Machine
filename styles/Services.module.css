@@ -1,0 +1,22 @@
+.bg_services{
+    background-image: url('../public/services/bg_services.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.btn_more {
+    border-color: #e2c4ff;
+    color: #1c1c1c;
+    background: #e2c4ff;
+    border-radius: 27px;
+    padding: 18px 30px;
+    font-weight: 600;
+}
+
+.btn_more:hover {
+    background: white;
+    color: #4d2eb8;
+}

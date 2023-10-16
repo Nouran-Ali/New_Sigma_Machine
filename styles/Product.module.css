@@ -1,0 +1,227 @@
+.bgProjectOne {
+    background-image: url('../public/home/product_one.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bgProjectTwo {
+    background-image: url('../public/home/product_two.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bgProjectThree {
+    background-image: url('../public/home/product_three.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bgProjectFour {
+    /* background-image: url('../public/structure_stage/8.jpeg'); */
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.gradiant {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #5031bb6b 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.title {
+    position: absolute;
+    bottom: 50px;
+    left: 40px;
+}
+
+.title_ar {
+    position: absolute;
+    bottom: 50px;
+    right: 40px;
+}
+
+
+.content {
+    background-color: white;
+    position: relative;
+    z-index: 3;
+    display: none;
+}
+
+.hover_content:hover .content {
+    display: block;
+}
+
+.animationButtom {
+    position: relative;
+    animation: fade-bottom 1s;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes fade-bottom {
+    0% {
+        bottom: -50px;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+}
+
+.scrollStyle::-webkit-scrollbar {
+    width: 5px;
+    /* Width of the scroll bar */
+    background-color: #f1f1f1;
+    /* Background color of the track */
+}
+
+.scrollStyle::-webkit-scrollbar-thumb {
+    background-color: #304644;
+    /* Color of the thumb */
+    border-radius: 6px;
+    /* Rounded corners for the thumb */
+}
+
+.scrollStyle::-webkit-scrollbar-track {
+    background-color: #d1d1d1;
+    /* Color of the track */
+}
+
+.lines {
+    opacity: 1;
+    border: 1px solid #bfbfbf52;
+}
+
+.bg_wedding {
+    /* background-image: url('../public/wedding_hall/bg.png'); */
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* position: relative; */
+}
+
+.animation_projects {
+    position: relative;
+    animation: fade-left 1s;
+    animation-iteration-count: 1;
+}
+
+@keyframes fade-left {
+    0% {
+        left: -90px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.btn_more {
+    border-color: #4526b1;
+    color: white;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border-radius: 27px;
+    padding: 20px 45px;
+}
+
+.btn_more:hover {
+    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+}
+
+.btn_more .arrow {
+    display: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn_more:hover .arrow {
+    display: block;
+}
+
+.bg_products {
+    background-image: url('../public/services/bg_services.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.box_categories {
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .07);
+}
+
+.box_categories .Category{
+    padding: 0.72rem 0;
+    border-bottom: 1px solid #e8ecef;
+}
+
+.Link_Category{
+    transition: all 0.5 ease-in-out;
+}
+
+.Link_Category:hover{
+    color: #7180be;
+}
+
+.line{
+    border: 2px solid #7180be;
+    opacity: 1;
+    width: 40px;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 1280px) {
+
+    .bgProjectOne,
+    .bgProjectTwo,
+    .bgProjectThree,
+    .bgProjectFour {
+        width: 300px;
+        height: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bgProjectOne {
+        margin-top: 20px;
+    }
+
+    .title {
+        left: 31px !important;
+    }
+
+    .title_ar {
+        right: 24px;
+    }
+
+    .hover_content:hover .content {
+        display: none;
+    }
+}

@@ -1,0 +1,252 @@
+.background {
+    background-color: #e9edf4;
+    height: 100vh;
+    overflow: clip;
+    position: relative;
+}
+
+.btn_more {
+    border-color: #4526b1;
+    color: white;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border-radius: 27px;
+    padding: 20px 45px;
+}
+
+.btn_more:hover {
+    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+}
+
+.white_circle {
+    background-color: #f7fafeb5;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    position: absolute;
+    top: -128px;
+    left: -115px;
+    z-index: 0;
+}
+
+.half_circle {
+    background-color: #7053d921;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    top: 500px;
+    left: 100px;
+}
+
+.left_dots {
+    position: absolute;
+    top: 130px;
+    left: -10px;
+}
+
+.triangle_one {
+    position: absolute;
+    top: 130px;
+    right: 50%;
+    animation-name: triangle_one;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes triangle_one {
+    0% {
+        top: 130px;
+        right: 50%;
+    }
+
+    50% {
+        top: 110px;
+        right: 53%;
+    }
+
+    100% {
+        top: 130px;
+        right: 50%;
+    }
+}
+
+.triangle_two {
+    position: absolute;
+    top: 50px;
+    right: 40%;
+    transform: rotate(69deg);
+    animation-name: triangle_two;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes triangle_two {
+    0% {
+        top: 50px;
+        right: 40%;
+    }
+
+    50% {
+        top: 40px;
+        right: 43%;
+    }
+
+    100% {
+        top: 50px;
+        right: 40%;
+    }
+}
+
+.triangle_three {
+    position: absolute;
+    top: 450px;
+    right: 10%;
+    transform: rotate(26deg);
+    animation-name: triangle_three;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes triangle_three {
+    0% {
+        top: 450px;
+        right: 10%;
+    }
+
+    50% {
+        top: 480px;
+        right: 10%;
+    }
+
+    100% {
+        top: 450px;
+        right: 10%;
+    }
+}
+
+.triangle_four {
+    position: absolute;
+    top: 450px;
+    left: 3%;
+    transform: rotate(26deg);
+    animation-name: triangle_four;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes triangle_four {
+    0% {
+        top: 450px;
+        left: 3%;
+    }
+
+    50% {
+        top: 480px;
+        left: 3%;
+    }
+
+    100% {
+        top: 450px;
+        left: 3%;
+    }
+}
+
+.triangle_five {
+    position: absolute;
+    top: 350px;
+    right: 3%;
+    transform: rotate(26deg);
+    animation-name: triangle_five;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes triangle_five {
+    0% {
+        top: 350px;
+        right: 3%;
+    }
+
+    50% {
+        top: 330px;
+        right: 6%;
+    }
+
+    100% {
+        top: 350px;
+        right: 3%;
+    }
+}
+
+.right_dots {
+    position: absolute;
+    top: 450px;
+    right: 30px;
+    transform: rotate(90deg);
+}
+
+.right_circle {
+    background-color: #7053d921;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0px;
+    right: 80px;
+}
+
+.image {
+    transform: rotateY(-169deg);
+    margin-top: -45px;
+}
+
+/* our services */
+
+.card_services {
+    padding: 40px 30px 40px;
+    background-color: #fff4f4;
+    border-color: 1px solid #ffffff50;
+    border-radius: 10px;
+    border-radius: 37% 57% 52% 65% / 84% 67% 68% 63%;
+    height: 280px;
+}
+
+.card_icon {
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title_services {
+    color: #1c1c1c;
+}
+
+.card_services_2 {
+    background-color: #7053d921;
+    border-radius: 95% 22% 55% 68% / 58% 92% 31% 56%;
+}
+
+.card_services_3 {
+    background-color: #f4ffff;
+    border-radius: 44% 40% 46% 41% / 48% 53% 46% 26%;
+}
+
+/* experience */
+.bg_experience {
+    background-image: url('../public/home/bg_experience.jpg');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+@media (max-width: 780px) {
+    .btn_more {
+        border-color: #4526b1;
+        color: white;
+        background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+        border-radius: 27px;
+        padding: 20px 30px;
+    }
+}

@@ -1,0 +1,17 @@
+.bg_resources{
+    background-image: url('../public/about/bg_about.jpg');
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bg{
+    background-image: url('../public/resources/bg.png');
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}

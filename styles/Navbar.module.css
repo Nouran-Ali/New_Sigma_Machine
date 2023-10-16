@@ -1,0 +1,30 @@
+.link {
+    color: #1c1c1c;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 7px 13px;
+    transition: all 0.25s ease-in-out;
+}
+
+.link:hover,
+.active{
+    border-color: 1px solid #7153d9;
+    color: #7153d9;
+}
+
+.bg_icon{
+    padding: 12px 14px 11px 14px;
+    border-radius: 50%;
+    border-color: #4526b1;
+    color: white;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    margin-bottom: 3px;
+    transform: rotate(90deg);
+}
+
+.bg_icon:hover{
+    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+}
+
+@media (max-width: 780px) {}
