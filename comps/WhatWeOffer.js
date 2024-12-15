@@ -35,7 +35,7 @@ const WhatWeOffer = () => {
             <h1 className='text-center text-3xl text-[#1c1c1c] font-semibold'>WHAT WE OFFER</h1>
             <div className='grid grid-cols-4 max-xl:grid-cols-1 gap-4 mt-12'>
                 <Link href="/" className='flex items-center'>
-                    <div className='bg-[#f2f5fb] rounded-full mr-5 p-6'>
+                    <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
                         <Image src="/../home/laser-cutting-machine.png" width={imageWidth} height={90}/>
                     </div>
                     <div>
@@ -43,7 +43,7 @@ const WhatWeOffer = () => {
                     </div>
                 </Link>
                 <Link href="/" className='flex items-center justify-center'>
-                    <div className='bg-[#f2f5fb] rounded-full mr-5 p-6'>
+                    <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
                         <Image src="/../home/CO2.png" width={imageWidthTwo} height={90}/>
                     </div>
                     <div>
@@ -51,7 +51,7 @@ const WhatWeOffer = () => {
                     </div>
                 </Link>
                 <Link href="/" className='flex items-center justify-center'>
-                    <div className='bg-[#f2f5fb] rounded-full mr-5 p-6'>
+                    <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
                         <Image src="/../home/cnc.png" width={imageWidthThree} height={90} />
                     </div>
                     <div>
@@ -59,7 +59,7 @@ const WhatWeOffer = () => {
                     </div>
                 </Link>
                 <Link href="/" className='flex items-center justify-center'>
-                    <div className='bg-[#f2f5fb] rounded-full mr-5 p-6'>
+                    <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
                         <Image src="/../home/Welding_machine.png" width={imageWidth} height={90}/>
                     </div>
                     <div>

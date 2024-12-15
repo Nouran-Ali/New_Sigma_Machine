@@ -8,9 +8,9 @@
 }
 
 .btn_more {
-    border-color: #e2c4ff;
+    border-color: #f7f6d5;
     color: #1c1c1c;
-    background: #e2c4ff;
+    background: #f7f6d5;
     border-radius: 27px;
     padding: 18px 30px;
     font-weight: 600;
@@ -18,5 +18,5 @@
 
 .btn_more:hover {
     background: white;
-    color: #4d2eb8;
+    color: #d9d640;
 }

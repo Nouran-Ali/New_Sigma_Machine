@@ -40,27 +40,25 @@ const Services = () => {
       <div className='px-24 max-xl:px-10'>
         <div className='grid grid-cols-2 max-xl:grid-cols-1 gap-6 mt-20 max-xl:mt-10 mb-20'>
           <div>
-            <p className='text-[#7153d9] text-lg tracking-widest uppercase font-medium'>Services</p>
+            <p className='text-[#d9d640] text-lg tracking-widest uppercase font-medium'>Services</p>
             <h1 className='text-[#1c1c1c] mt-4 text-4xl font-bold'>We Offer a Wide Variety of Technical Services</h1>
             <p className='text-[#54545f] text-xl mt-4'>Ut enim ad minim veniam, quis nostrud exercitation ullamco labor is tetur adipisicing elit, sed do eiusmod</p>
             <Image src="/../services/1.jpg" width={600} height={150} className='mx-auto mt-9 rounded-lg' />
           </div>
           <div className='grid grid-cols-2 max-xl:grid-cols-2 gap-6 mt-4'>
             <div>
-              <div className='bg-[#7153d938] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block'>
-                <p>1</p>
-              </div>
-              <h3 className='text-[#1c1c1c] mt-3 text-xl font-bold'>Selling all types of laser machines</h3>
-              <p className='text-[#54545f] text-lg mt-4'>Design and propose product improvements through periodical and accurate testing</p>
-            </div>
-            <div>
-              <div className='bg-[#7153d938] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block'>2</div>
+              <div className='bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block'>1</div>
               <h3 className='text-[#1c1c1c] mt-3 text-xl font-bold'>Maintenance of the machines</h3>
               <p className='text-[#54545f] text-lg mt-4'>Design and propose product improvements through periodical and accurate testing</p>
             </div>
             <div>
-              <div className='bg-[#7153d938] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block'>3</div>
+              <div className='bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block'>2</div>
               <h3 className='text-[#1c1c1c] mt-3 text-xl font-bold'>Spare parts for the machines</h3>
+              <p className='text-[#54545f] text-lg mt-4'>Design and propose product improvements through periodical and accurate testing</p>
+            </div>
+            <div>
+              <div className='bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block'>2</div>
+              <h3 className='text-[#1c1c1c] mt-3 text-xl font-bold'>Software and manuals</h3>
               <p className='text-[#54545f] text-lg mt-4'>Design and propose product improvements through periodical and accurate testing</p>
             </div>
           </div>
@@ -68,10 +66,10 @@ const Services = () => {
 
         <We_are_here_for_you />
       </div>
-      <div className='bg-[#e9edf4] pt-64 pb-24 -mt-44'>
+      <div className='bg-[#d9d64038] pt-64 pb-24 -mt-44'>
         <div className='px-24 max-xl:px-10'>
           <div className='text-center'>
-            <p className='text-[#7153d9] text-xl tracking-widest uppercase font-medium'>Frequently Asked Questions</p>
+            <p className='text-[#d9d640] text-xl tracking-widest uppercase font-medium'>Frequently Asked Questions</p>
             <h3 className='text-[#1c1c1c] mt-3 text-5xl font-bold'>All that Need to Know</h3>
             <p className='text-[#8d8e99] text-xl mt-5 mb-12'>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>

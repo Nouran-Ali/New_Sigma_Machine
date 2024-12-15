@@ -9,22 +9,25 @@
 
 .link:hover,
 .active{
-    border-color: 1px solid #7153d9;
-    color: #7153d9;
+    border-color: 1px solid #d9d640;
+    color: #d9d640;
 }
 
 .bg_icon{
     padding: 12px 14px 11px 14px;
     border-radius: 50%;
-    border-color: #4526b1;
+    /* border-color: #4526b1;
     color: white;
-    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #d9d640 66%); */
+    border-color: #d9d640;
+    color: white;
+    background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
     margin-bottom: 3px;
     transform: rotate(90deg);
 }
 
 .bg_icon:hover{
-    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #d9d640 45%, #c5c23a 66%);
 }
 
 @media (max-width: 780px) {}

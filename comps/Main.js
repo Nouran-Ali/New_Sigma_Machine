@@ -10,7 +10,7 @@ const Main = () => {
                 <div className={styles.background}>
                     <div className='grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10'>
                         <div className='mt-20'>
-                            <p className='text-[#7153d9] text-xl max-xl:text-lg tracking-widest uppercase font-medium'>Empowering laser users</p>
+                            <p className='text-[#666666] text-xl max-xl:text-lg tracking-widest uppercase font-medium'>Empowering laser users</p>
                             <h1 className='text-[#1c1c1c] mt-4 text-6xl max-xl:text-4xl font-bold'>Sigma Machines</h1>
                             <p className='text-[#54545f] text-xl max-xl:text-lg mt-8 mb-12'>Simplify your processes, increase your productivity, and maximize your profitability.</p>
                             <Link href="/" className={styles.btn_more}>Read More</Link>

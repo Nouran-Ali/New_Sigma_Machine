@@ -8,15 +8,15 @@
 }
 
 .btn_more {
-    border-color: #4526b1;
+    border-color: #d9d640;
     color: white;
-    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
     border-radius: 7px;
     padding: 20px 35px;
 }
 
 .btn_more:hover {
-    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #d9d640 45%, #c5c23a 66%);
 }
 
 .bg_about_2{

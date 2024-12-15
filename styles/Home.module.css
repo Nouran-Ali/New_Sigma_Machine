@@ -1,35 +1,36 @@
 .background {
-    background-color: #e9edf4;
+    background-color: #fffff433;
     height: 100vh;
     overflow: clip;
     position: relative;
 }
 
 .btn_more {
-    border-color: #4526b1;
+    border-color: #d9d640;
     color: white;
-    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
     border-radius: 27px;
     padding: 20px 45px;
 }
 
 .btn_more:hover {
-    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #d9d640 45%, #c5c23a 66%);
 }
 
 .white_circle {
-    background-color: #f7fafeb5;
+    /* background-color: #f7fafeb5; */
+    background-color: #f3ec5e24;
     width: 300px;
     height: 300px;
     border-radius: 50%;
     position: absolute;
-    top: -128px;
-    left: -115px;
+    top: -154px;
+    left: -68px;
     z-index: 0;
 }
 
 .half_circle {
-    background-color: #7053d921;
+    background-color: #eadf400e;
     width: 500px;
     height: 500px;
     border-radius: 50%;
@@ -186,7 +187,8 @@
 }
 
 .right_circle {
-    background-color: #7053d921;
+    /* background-color: #7053d921; */
+    background-color: #f3ec5e24;
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -222,7 +224,7 @@
 }
 
 .card_services_2 {
-    background-color: #7053d921;
+    background-color: #fffb1923;
     border-radius: 95% 22% 55% 68% / 58% 92% 31% 56%;
 }
 
@@ -243,9 +245,9 @@
 
 @media (max-width: 780px) {
     .btn_more {
-        border-color: #4526b1;
+        border-color: #d9d640;
         color: white;
-        background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+        background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
         border-radius: 27px;
         padding: 20px 30px;
     }

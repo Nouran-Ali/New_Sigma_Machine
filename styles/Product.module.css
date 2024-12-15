@@ -1,5 +1,5 @@
 .bgProjectOne {
-    background-image: url('../public/home/product_one.jpg');
+    background-image: url('../public/products/20.png');
     width: 100%;
     height: 350px;
     background-size: cover;
@@ -40,7 +40,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, #5031bb6b 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to top, #0000006b 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 .title {
@@ -138,15 +138,15 @@
 }
 
 .btn_more {
-    border-color: #4526b1;
+    border-color: #d9d640;
     color: white;
-    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
     border-radius: 27px;
     padding: 20px 45px;
 }
 
 .btn_more:hover {
-    background: linear-gradient(135deg, #4526b1 0%, #7153d9 45%, #5435be 66%);
+    background: linear-gradient(135deg, #d9d640 0%, #d9d640 45%, #c5c23a 66%);
 }
 
 .btn_more .arrow {
