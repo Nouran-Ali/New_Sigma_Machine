@@ -14,11 +14,5 @@ const nextConfig = {
   env: {},
 };
 
-module.exports = {
-  images: {
-    unoptimized: true,
-  },
-};
-
 
 module.exports = nextConfig;
