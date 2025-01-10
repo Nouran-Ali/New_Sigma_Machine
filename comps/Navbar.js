@@ -254,6 +254,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
+                        className="flex items-center text-[#304644] px-5 mr-3 ml-2 pt-3 font-bold normal-case text-base"
                       >
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
                       </Button>
@@ -279,8 +280,8 @@ function Navbar() {
                         marginRight: "15px",
                         color: "#304644",
                         textDecoration: "none",
-                        display: "block"
                       }}
+                      className="flex items-center text-[#304644] px-5 mr-3 ml-2 pt-3 font-bold normal-case text-base"
                     >
                       {i18n.language === "ar" ? title_ar : title}
                     </Link>
@@ -292,9 +293,10 @@ function Navbar() {
                     color: "#304644",
                     backgroundColor: "transparent",
                     fontWeight: "600",
-                    marginLeft: "44px",
+                    // marginLeft: "44px",
                   }}
-                  className="ml-9"
+                  className="flex items-center text-[#304644] px-7 mr-3 pt-3 font-bold normal-case text-base"
+                  
                 >
                   {language == "ar" ? "EN" : "AR"}
                 </Button>
@@ -502,6 +504,22 @@ function Navbar() {
                           CNC Plasma Cutting Machine
                         </Link>
                       </MenuItem>
+                      <MenuItem onClick={handleClose}>
+                        <Link
+                          href={`/products/20`}
+                          className="no-underline text-inherit"
+                        >
+                          Press Brake
+                        </Link>
+                      </MenuItem>
+                      <MenuItem onClick={handleClose}>
+                        <Link
+                          href={`/products/21`}
+                          className="no-underline text-inherit"
+                        >
+                          Shearing machine
+                        </Link>
+                      </MenuItem>
                     </Menu>
                   </div>
                 ) : (
@@ -525,6 +543,7 @@ function Navbar() {
                   fontWeight: "600",
                   marginRight: "10px",
                 }}
+                // className="flex items-center text-[#304644] mr-3 ml-3 pt-3 font-bold normal-case text-base"
               >
                 {language == "ar" ? "EN" : "AR"}
               </Button>

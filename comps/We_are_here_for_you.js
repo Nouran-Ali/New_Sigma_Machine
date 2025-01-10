@@ -11,7 +11,7 @@ const We_are_here_for_you = () => {
                     <h3 className='mt-4 text-5xl max-xl:text-3xl font-bold'>Let’s Get Back to Work</h3>
                     <p className='mt-4'>Gom ad minim veniam, quis nostrud exercitation ullamco labor is tetur adip isicing elit, sed do eiusmod</p>
                 </div>
-                <div className='mt-20 max-xl:mt-10 mx-auto'>
+                <div className='mt-20 max-xl:mt-10 mx-auto col-span-2'>
                     <Link href="/" className={`${styles.btn_more}`}>Read More</Link>
                 </div>
             </div>

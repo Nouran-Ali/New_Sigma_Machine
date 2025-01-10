@@ -4,7 +4,7 @@ import React from 'react'
 
 const Fiber_resources = () => {
     return (
-        <div className='grid grid-cols-4 max-xl:grid-cols-2 gap-4'>
+        <div className='grid grid-cols-4 max-xl:grid-cols-1 gap-4'>
             <Link href="/aerospace_area">
                 <Image src="/../resources/1.png" width={236} height={200} className='rounded-xl'/>
                 <p className='mt-3 text-center'>Aerospace Area</p>

@@ -6,15 +6,23 @@ import Image from "next/image";
 import BiotechIcon from "@mui/icons-material/Biotech";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import DomainVerificationIcon from "@mui/icons-material/DomainVerification";
+import Head from "next/head";
 
 const About = () => {
   return (
     <>
+      <Head>
+        <title>Sigma Machines / About us</title>
+        <link rel="icon" href="logo.png" />
+      </Head>
+
       <div className="relative">
-        <div className={`${styles.bg_about} mobile_d_none`}>
-          <h1 className="text-white text-5xl text-center pt-24 relative z-10">About Us</h1>
+        <div className={`${styles.bg_about} `}>
+          <h1 className="text-white text-5xl text-center pt-24 relative z-10">
+            About Us
+          </h1>
         </div>
-        <div className="bg-[#00000085] h-[250px] w-full absolute top-0 z-0"></div>
+        <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] w-full absolute top-0 z-0"></div>
       </div>
       <div className="px-24 max-xl:px-10">
         <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-6 mt-20 max-xl:mt-10 mb-20">
@@ -22,7 +30,7 @@ const About = () => {
             <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
               ABOUT US
             </p>
-            <p className="text-[#1c1c1c] mt-3 text-4xl">
+            <p className="text-[#1c1c1c] mt-3 text-4xl max-lg:text-2xl">
               Leading international developer and manufacturer of laser
               machines.
             </p>
@@ -74,7 +82,7 @@ const About = () => {
           <h1 className="text-center text-3xl text-[#1c1c1c] font-semibold">
             Why Choose Us
           </h1>
-          <div className="grid grid-cols-3 max-xl:grid-cols-2 gap-6 mt-12">
+          <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-6 mt-12">
             <Link href="/" className="">
               <div className="bg-[#d9d64040] flex justify-center w-24 p-6 rounded-full mx-auto">
                 <InventoryIcon sx={{ color: "#d9d640", fontSize: "38px" }} />

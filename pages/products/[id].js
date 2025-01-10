@@ -5,6 +5,7 @@ import styles from "../../styles/Product.module.css";
 import { Image } from "antd";
 import { CaretRightOutlined, MailOutlined } from "@ant-design/icons";
 import Product_comp from "@/comps/Product_comp";
+import Head from "next/head";
 
 const Product = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -171,9 +172,65 @@ const Product = () => {
     {
       id: 19,
       name: "JNP2040 CNC Plasma Cutting Machine Gantry Model",
-      image: "/../products/35.png",
+      image: "/../products/35.jpg",
       title: "CNC Plasma Cutting Machine Gantry",
       desc: "All kinds of metal materials such as steel, copper,aluminum and stainless steel can be processed.Applies to iron plate, aluminum plate galvanized sheet, White Steel plate, Titanium plates, and so on like the sheet metal. Ship Building, Construction Equipment, Transport Equipment, Aerospace Industry, Bridge Building, military industrial, wind power,Structural Steel, Boiler containers, Agriculture Machinery, Chassis electrical cabinets, Elevator manufacturers, Textile Machinery, Environmental protection equipment,ect.",
+    },
+    {
+      id: 20,
+      name: "Press Brake",
+      image: "/../products/40.png",
+      title: "Press Brake",
+      desc: "Steel plate welded structure, hydraulic transmission, accumulator return, holistic",
+    },
+    {
+      id: 21,
+      name: "Shearing machine",
+      image: "/../products/41.png",
+      title: "Shearing machine",
+      desc: "Back gauge controlling, General motors control, Intelligent positioning",
+    },
+    {
+      id: 22,
+      name: "DA53T 4+1Axis CNC Press Brake Machine",
+      image: "/../products/42.png",
+      title: "DA53T 4+1Axis CNC Press Brake Machine",
+      desc: "1. Steel plate welded structure, hydraulic transmission, accumulator return, holistic processed, vibrating toeliminate stress, high strength and good rigidity.2. Mechanical torque system makes sure the synchronization of cylinders. 3. The stroke of slider and back gauge is adjusted automatically by double servo motors or transducer, and showed on CNC Mechanical torque or NC control panel. 4. Slanting wedges can be chosen to install on the top dies which can be adjusted by hands or automatically. Hydraulic compensation system is installed under the worktable.",
+    },
+    {
+      id: 23,
+      name: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press",
+      image: "/../products/43.jpg",
+      title: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press Brake",
+      desc: "1. Steel plate welded structure, hydraulic transmission, accumulator return, holistic processed, vibrating toeliminate stress, high strength and good rigidity. 2. Mechanical torque system makes sure the synchronization of cylinders. 3. The stroke of slider and back gauge is adjusted automatically by double servo motors or transducer, and showed on CNC Mechanical torque or NC control panel. 4. Slanting wedges can be chosen to install on the top dies which can be adjusted by hands or automatically. Hydraulic compensation system is installed under the worktable.",
+    },
+    {
+      id: 24,
+      name: "2 Axis NC E21 Hydraulic Press Brake Machine",
+      image: "/../products/45.png",
+      title: "2 Axis NC Press Brake",
+      desc: "Model Type :WC67K",
+    },
+    {
+      id: 25,
+      name: "DA53T 300T3200mm 4+1 Axis CNC Hydraulic Press Brake",
+      image: "/../products/47.jpg",
+      title: "DA53T 300T3200mm 4+1 Axis CNC Hydraulic Press Brake",
+      desc: "1. Steel plate welded structure, hydraulic transmission, accumulator return, holistic processed, vibrating toeliminate stress, high strength and good rigidity. 2. Mechanical torque system makes sure the synchronization of cylinders. 3. The stroke of slider and back gauge is adjusted automatically by double servo motors or transducer, and showed on CNC Mechanical torque or NC control panel. 4. Slanting wedges can be chosen to install on the top dies which can be adjusted by hands or automatically. Hydraulic compensation system is installed under the worktable.",
+    },
+    {
+      id: 26,
+      name: "DA66T 6+1 Axis CNC Press Brake With Feeder Brand :Rbqlty",
+      image: "/../products/46.jpg",
+      title: "DA66T 6+1 Axis CNC Press Brake With Feeder",
+      desc: "Model Type :WE67K",
+    },
+    {
+      id: 27,
+      name: "Panel Bending Machine",
+      image: "/../products/48.png",
+      title: "Panel Bending Machine",
+      desc: "No description added",
     },
   ];
 
@@ -233,9 +290,92 @@ const Product = () => {
     {
       id: 19,
       name: "JNP2040 CNC Plasma Cutting Machine Gantry Model",
-      image: "/../products/35.png",
+      image: "/../products/35.jpg",
       title: "CNC Plasma Cutting Machine Gantry",
       desc: "All kinds of metal materials such as steel, copper,aluminum and stainless steel can be processed.Applies to iron plate, aluminum plate galvanized sheet, White Steel plate, Titanium plates, and so on like the sheet metal. Ship Building, Construction Equipment, Transport Equipment, Aerospace Industry, Bridge Building, military industrial, wind power,Structural Steel, Boiler containers, Agriculture Machinery, Chassis electrical cabinets, Elevator manufacturers, Textile Machinery, Environmental protection equipment,ect.",
+    },
+  ];
+
+  const productsPress = [
+    {
+      id: 22,
+      name: "DA53T 4+1Axis CNC Press Brake Machine",
+      image: "/../products/42.png",
+      title: "DA53T 4+1Axis CNC Press Brake Machine",
+      desc: "1. Steel plate welded structure, hydraulic transmission, accumulator return, holistic processed, vibrating toeliminate stress, high strength and good rigidity.2. Mechanical torque system makes sure the synchronization of cylinders. 3. The stroke of slider and back gauge is adjusted automatically by double servo motors or transducer, and showed on CNC Mechanical torque or NC control panel. 4. Slanting wedges can be chosen to install on the top dies which can be adjusted by hands or automatically. Hydraulic compensation system is installed under the worktable.",
+    },
+    {
+      id: 23,
+      name: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press",
+      image: "/../products/43.jpg",
+      title: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press Brake",
+      desc: "1. Steel plate welded structure, hydraulic transmission, accumulator return, holistic processed, vibrating toeliminate stress, high strength and good rigidity. 2. Mechanical torque system makes sure the synchronization of cylinders. 3. The stroke of slider and back gauge is adjusted automatically by double servo motors or transducer, and showed on CNC Mechanical torque or NC control panel. 4. Slanting wedges can be chosen to install on the top dies which can be adjusted by hands or automatically. Hydraulic compensation system is installed under the worktable.",
+    },
+    {
+      id: 24,
+      name: "2 Axis NC E21 Hydraulic Press Brake Machine",
+      image: "/../products/45.png",
+      title: "2 Axis NC Press Brake",
+      desc: "Model Type :WC67K",
+    },
+    {
+      id: 25,
+      name: "DA53T 300T3200mm 4+1 Axis CNC Hydraulic Press Brake",
+      image: "/../products/47.jpg",
+      title: "DA53T 300T3200mm 4+1 Axis CNC Hydraulic Press Brake",
+      desc: "1. Steel plate welded structure, hydraulic transmission, accumulator return, holistic processed, vibrating toeliminate stress, high strength and good rigidity. 2. Mechanical torque system makes sure the synchronization of cylinders. 3. The stroke of slider and back gauge is adjusted automatically by double servo motors or transducer, and showed on CNC Mechanical torque or NC control panel. 4. Slanting wedges can be chosen to install on the top dies which can be adjusted by hands or automatically. Hydraulic compensation system is installed under the worktable.",
+    },
+    {
+      id: 26,
+      name: "DA66T 6+1 Axis CNC Press Brake With Feeder Brand :Rbqlty",
+      image: "/../products/46.jpg",
+      title: "DA66T 6+1 Axis CNC Press Brake With Feeder",
+      desc: "Model Type :WE67K",
+    },
+    {
+      id: 27,
+      name: "Panel Bending Machine",
+      image: "/../products/48.png",
+      title: "Panel Bending Machine",
+      desc: "No description added",
+    },
+  ];
+
+  const productsShearing = [
+    {
+      id: 28,
+      name: "QC11K E21S 8x6000mm Hydraulic Guillotine Shearing Machine",
+      image: "/../products/48.jpg",
+      title: "QC11K E21S 8x6000mm Hydraulic Guillotine Shearing Machine",
+      desc: "Optional Numeric Control System Nanjing Estun E21S E200PS Back gauge controlling, General motors control, Intelligent positioning, Two programmable digital output; Work piece counting 40 program memory 25 steps for each program; Unilateral positioning, Concession function One key to parameter backup and recovery, Metric system, Chinese/English.",
+    },
+    {
+      id: 29,
+      name: "Swing beam shears",
+      image: "/../products/49.png",
+      title: "Swing Beam shearing Machine",
+      desc: "1.rack,knife,vibration to eliminate stress, welding machine, durable. 2.advanced integrated hydraulic system, good reliiability. 3.three-point support rolling guide to eliminate the bearing clearance, to ensure the quality of shear. 4.electric blade gap adjustment, quick and accurate. 5.on the full used of the blade edge on all sides,the increased use of time. 6.shear angle can be electrically adjusted,reducing the amout of shear deformation plate. 7.after the block, rv reducer electric adjudtment, electronic digital display, accurate ang reliable.",
+    },
+    {
+      id: 30,
+      name: "QC11K DAC360 16x3200 Servo Guillotine Shearing Machine",
+      image: "/../products/50.png",
+      title: "QC11K DAC360 16x3200 Servo Guillotine Shearing Machine",
+      desc: "Optional Numeric Control System Nanjing Estun E21S E200PS Back gauge controlling, General motors control, Intelligent positioning, Two programmable digital output; Work piece counting 40 program memory 25 steps for each program; Unilateral positioning; Concession function One key to parameter backup and recovery, Metric system, Chinese/English.",
+    },
+    {
+      id: 31,
+      name: "DAC360 CNC Hydraulic Shearing",
+      image: "/../products/51.jpg",
+      title: "DAC360 CNC Hydraulic Shearing",
+      desc: "No description",
+    },
+    {
+      id: 32,
+      name: "Large Heavy Duty Guillotine Shears",
+      image: "/../products/52.jpg",
+      title: "Large Heavy Duty Guillotine Shears",
+      desc: "Optional Numeric Control System Nanjing Estun E21S E200PS Back gauge controlling, General motors control, Intelligent positioning, Two programmable digital output, Work piece counting 40 program memory 25 steps for each program, Unilateral positioning, Concession function One key to parameter backup and recovery, Metric system, Chinese/English.",
     },
   ];
 
@@ -262,6 +402,11 @@ const Product = () => {
 
   return (
     <>
+      <Head>
+        <title>Sigma Machines / Products</title>
+        <link rel="icon" href="../logo.png" />
+      </Head>
+
       <div className="relative">
         <div className={`${styles.bg_products} mobile_d_none`}>
           <p className="text-center text-3xl text-white font-semibold pt-36 relative z-10">
@@ -276,13 +421,19 @@ const Product = () => {
       </div>
 
       <div className="px-24 max-xl:px-10">
-        {product?.id == "10" || product?.id == "11" ? (
+        {product?.id == "10" ||
+        product?.id == "11" ||
+        product?.id == "20" ||
+        product?.id == "21" ? (
           <p className="mt-5 mb-5 text-lg text-[#54545f]">{product?.desc}</p>
         ) : (
           ""
         )}
 
-        {product?.id == "10" || product?.id == "11" ? (
+        {product?.id == "10" ||
+        product?.id == "11" ||
+        product?.id == "20" ||
+        product?.id == "21" ? (
           <>
             {product?.id == "10" ? (
               <>
@@ -307,6 +458,44 @@ const Product = () => {
               <>
                 <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
                   {productsPlasma.map((product) => (
+                    <div>
+                      <Product_comp
+                        key={product.id}
+                        title={product.name}
+                        href={`/products/${product.id}`}
+                        background={{
+                          backgroundImage: `url(${product.image})`,
+                        }}
+                        method={product.title}
+                        description={truncatedDesc}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : product?.id == "20" ? (
+              <>
+                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
+                  {productsPress.map((product) => (
+                    <div>
+                      <Product_comp
+                        key={product.id}
+                        title={product.name}
+                        href={`/products/${product.id}`}
+                        background={{
+                          backgroundImage: `url(${product.image})`,
+                        }}
+                        method={product.title}
+                        description={truncatedDesc}
+                      />
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : product?.id == "21" ? (
+              <>
+                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
+                  {productsShearing.map((product) => (
                     <div>
                       <Product_comp
                         key={product.id}

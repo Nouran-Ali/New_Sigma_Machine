@@ -50,7 +50,7 @@ const WhatWeOffer = () => {
                         <h3 className='text-xl text-[#54545f]'>CO2 laser cutting & engraving machine</h3>
                     </div>
                 </Link>
-                <Link href="/" className='flex items-center justify-center'>
+                <Link href="/" className='flex items-center lg:justify-center '>
                     <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
                         <Image src="/../home/cnc.png" width={imageWidthThree} height={90} />
                     </div>

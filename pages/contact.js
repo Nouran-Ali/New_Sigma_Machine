@@ -3,6 +3,7 @@ const { TextArea } = Input;
 import Image from "next/image";
 import styles from "../styles/contact.module.css";
 import Link from "next/link";
+import Head from "next/head";
 
 const Contact = () => {
   const onChange = (e) => {
@@ -11,6 +12,11 @@ const Contact = () => {
 
   return (
     <>
+      <Head>
+        <title>Sigma Machines / Contact us</title>
+        <link rel="icon" href="logo.png" />
+      </Head>
+
       <div className="bg-[#d9d64038]">
         <div className="px-24 max-xl:px-10">
           <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 pt-9 max-xl:pt-1 pb-12">
@@ -28,15 +34,15 @@ const Contact = () => {
               >
                 info@sigmamachines.net
               </Link>
-              <h3 className="text-[#1d214e] text-2xl font-semibold">
-                <span className="text-[#d9d640]">+966</span> 56 974 5955
+              <h3>
+                <Link
+                  href="tel:+966569745955"
+                  className="text-[#1d214e] text-2xl font-semibold"
+                >
+                  <span className="text-[#d9d640]">+966</span> 56 974 5955
+                </Link>
               </h3>
-              <Link
-                href="tel:+966569745955"
-                className="text-[#1d214e] text-2xl font-semibold"
-              >
-                <span className="text-[#d9d640]">+966</span> 56 974 5955
-              </Link>
+
               <p className="mt-4 text-[#858493]">
                 Monday - Friday: 09:00 to 18:00 (GMT +8). Closed on Saturday
                 Sunday.
@@ -68,7 +74,7 @@ const Contact = () => {
               <div className={`${styles.white_circle} mobile_d_none`}></div>
             </div>
             <div className="relative max-xl:mt-9">
-              <div className="w-80 ml-auto max-xl:mr-auto">
+              <div className="lg:w-80 lg:ml-auto max-lg:mx-auto">
                 <div className={`${styles.half_circle} mobile_d_none`}></div>
                 <div className="bg-white p-8 rounded-3xl ml-auto relative z-0">
                   <h3 className="text-[#1d214e] text-2xl font-semibold">
@@ -102,7 +108,15 @@ const Contact = () => {
                       maxLength={100}
                       onChange={onChange}
                       placeholder="Write your message here"
-                      className="bg-[#faf9fe] pl-4 mb-7"
+                      style={{
+                        height: 100,
+                        resize: 'none',
+                        backgroundColor: "#faf9fe",
+                        border: "1px solid #dddddd",
+                        // boxShadow: "0 0 2px 1px #dddddd"
+                    }}
+                      // className="bg-[#faf9fe] pl-4 mb-7"
+                      className='bg-[#faf9fe] custom-textarea pl-4 mb-7'
                     />
 
                     <Link

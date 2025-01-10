@@ -7,7 +7,7 @@ export const Experience = () => {
 
     return (
         <div className={styles.bg_experience}>
-            <div className='flex justify-evenly items-center text-white text-center pt-40'>
+            <div className='flex justify-evenly items-center text-white text-center lg:pt-40 max-lg:pt-32'>
                 <div>
                     <Image src="/../home/diamond.png" width={50} height={50} className='mx-auto mb-3' />
                     <CountUp duration={5} end={20} />

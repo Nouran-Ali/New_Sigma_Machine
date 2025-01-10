@@ -6,10 +6,10 @@ const Our_services = () => {
   return (
     <div className={`${styles.bg_services} px-24 max-xl:px-10 mb-20`}>
       <div className="text-center mt-24">
-        <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
+        <p className="text-[#d9d640] lg:text-lg tracking-widest uppercase font-medium">
           OUR SERVICES
         </p>
-        <h1 className="text-[#1c1c1c] text-3xl mt-4">
+        <h1 className="text-[#1c1c1c] text-3xl max-lg:text-xl mt-4">
           We Offer a Wide Variety of Technical Services
         </h1>
       </div>

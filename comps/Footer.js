@@ -58,12 +58,14 @@ const Footer = () => {
                     height={60}
                     className="mr-3"
                   />
-                  <Image src="/../home/search.png" width={30} height={60} />
+                  <Link href="mailto:info@sigmamachines.net">
+                    <Image src="/../home/search.png" width={30} height={60} />
+                  </Link>
                 </div>
               </div>
             </div>
             <div
-              className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium pt-9`}
+              className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium py-9`}
             >
               <p>
                 Copyright © 2023{" "}
@@ -78,7 +80,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#fffa004f] h-[450px] w-full absolute top-0 z-0"></div>
+        <div className="bg-[#fffa004f] h-[450px] max-lg:h-full w-full absolute top-0 z-0"></div>
       </div>
     </>
   );

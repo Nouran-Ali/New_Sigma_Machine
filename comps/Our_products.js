@@ -180,7 +180,7 @@ const Our_products = () => {
         src="/../home/abstract_shape.png"
         width={130}
         height={130}
-        className="absolute right-1 bottom-1"
+        className="absolute right-1 bottom-1 max-lg:w-[100px]"
       />
     </div>
   );

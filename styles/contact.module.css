@@ -34,3 +34,7 @@
     left: -230px;
     /* z-index: 0; */
 }
+
+.ant-input{
+    background-color: #faf9fe !important;
+}
