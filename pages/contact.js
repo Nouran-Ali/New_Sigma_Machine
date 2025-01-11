@@ -51,25 +51,25 @@ const Contact = () => {
               <hr />
 
               <div className="flex mt-6">
-                <Image
-                  src="/../home/facebook.png"
+                <img
+                  src="../home/facebook.png"
                   width={30}
                   height={60}
                   className="mr-5"
                 />
-                <Image
-                  src="/../home/instagram.png"
+                <img
+                  src="../home/instagram.png"
                   width={30}
                   height={60}
                   className="mr-5"
                 />
-                <Image
-                  src="/../home/linkedin.png"
+                <img
+                  src="../home/linkedin.png"
                   width={30}
                   height={60}
                   className="mr-5"
                 />
-                <Image src="/../home/search.png" width={30} height={60} />
+                <img src="../home/search.png" width={30} height={60} />
               </div>
               <div className={`${styles.white_circle} mobile_d_none`}></div>
             </div>
@@ -139,8 +139,8 @@ const Contact = () => {
                                 autoplay
                             >
                             </dotlottie-player> */}
-              <Image
-                src="/../contact/1.png"
+              <img
+                src="../contact/1.png"
                 width={550}
                 height={250}
                 className="mt-20 ml-7 mobile_d_none"

@@ -36,7 +36,7 @@ const WhatWeOffer = () => {
             <div className='grid grid-cols-4 max-xl:grid-cols-1 gap-4 mt-12'>
                 <Link href="/" className='flex items-center'>
                     <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
-                        <Image src="/../home/laser-cutting-machine.png" width={imageWidth} height={90}/>
+                        <img src="../home/laser-cutting-machine.png" width={imageWidth} height={90}/>
                     </div>
                     <div>
                         <h3 className='text-xl text-[#54545f]'>Fiber laser cutting machine</h3>
@@ -44,7 +44,7 @@ const WhatWeOffer = () => {
                 </Link>
                 <Link href="/" className='flex items-center justify-center'>
                     <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
-                        <Image src="/../home/CO2.png" width={imageWidthTwo} height={90}/>
+                        <img src="../home/CO2.png" width={imageWidthTwo} height={90}/>
                     </div>
                     <div>
                         <h3 className='text-xl text-[#54545f]'>CO2 laser cutting & engraving machine</h3>
@@ -52,7 +52,7 @@ const WhatWeOffer = () => {
                 </Link>
                 <Link href="/" className='flex items-center lg:justify-center '>
                     <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
-                        <Image src="/../home/cnc.png" width={imageWidthThree} height={90} />
+                        <img src="../home/cnc.png" width={imageWidthThree} height={90} />
                     </div>
                     <div>
                         <h3 className='text-xl text-[#54545f]'>Cnc router</h3>
@@ -60,7 +60,7 @@ const WhatWeOffer = () => {
                 </Link>
                 <Link href="/" className='flex items-center justify-center'>
                     <div className='bg-[#d6d64014] rounded-full mr-5 p-6'>
-                        <Image src="/../home/Welding_machine.png" width={imageWidth} height={90}/>
+                        <img src="../home/Welding_machine.png" width={imageWidth} height={90}/>
                     </div>
                     <div>
                         <h3 className='text-xl text-[#54545f]'>Bending / Welding machine</h3>

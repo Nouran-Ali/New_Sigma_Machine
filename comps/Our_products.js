@@ -176,8 +176,8 @@ const Our_products = () => {
         </div>
       </div>
 
-      <Image
-        src="/../home/abstract_shape.png"
+      <img
+        src="../home/abstract_shape.png"
         width={130}
         height={130}
         className="absolute right-1 bottom-1 max-lg:w-[100px]"

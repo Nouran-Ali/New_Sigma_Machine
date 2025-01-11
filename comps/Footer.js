@@ -40,26 +40,26 @@ const Footer = () => {
               <div className="pl-6 max-xl:pl-0">
                 <h3 className="text-[#fff] mt-4 text-xl">Contact Us</h3>
                 <div className="flex mt-6">
-                  <Image
-                    src="/../home/facebook.png"
+                  <img
+                    src="../home/facebook.png"
                     width={30}
                     height={60}
                     className="mr-3"
                   />
-                  <Image
-                    src="/../home/instagram.png"
+                  <img
+                    src="../home/instagram.png"
                     width={30}
                     height={60}
                     className="mr-3"
                   />
-                  <Image
-                    src="/../home/linkedin.png"
+                  <img
+                    src="../home/linkedin.png"
                     width={30}
                     height={60}
                     className="mr-3"
                   />
                   <Link href="mailto:info@sigmamachines.net">
-                    <Image src="/../home/search.png" width={30} height={60} />
+                    <img src="../home/search.png" width={30} height={60} />
                   </Link>
                 </div>
               </div>
