@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
+import { TikTokFilled } from "@ant-design/icons";
 
 const Footer = () => {
   return (
@@ -13,12 +14,7 @@ const Footer = () => {
               <div className={`${styles.border} pr-6`}>
                 <div className="flex">
                   {/* <img src='../logo.png' width="90px" /> */}
-                  <Image
-                    src="/logo2.png"
-                    width={90}
-                    height={60}
-                    className=""
-                  />
+                  <Image src="/logo2.png" width={90} height={60} className="" />
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
                 <p className="mt-6">
@@ -32,7 +28,7 @@ const Footer = () => {
                 <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-2 mt-6 font-light">
                   <Link href="/about">About us</Link>
                   <Link href="/services">Services</Link>
-                  <Link href="/">Products</Link>
+                  <Link href="/products/1">Products</Link>
                   <Link href="/resources">Resources</Link>
                   <Link href="/contact">Contact</Link>
                 </div>
@@ -40,12 +36,12 @@ const Footer = () => {
               <div className="pl-6 max-xl:pl-0">
                 <h3 className="text-[#fff] mt-4 text-xl">Contact Us</h3>
                 <div className="flex mt-6">
-                  <img
+                  {/* <img
                     src="../home/facebook.png"
                     width={30}
                     height={60}
                     className="mr-3"
-                  />
+                  /> */}
                   <Link href="https://www.instagram.com/sigma_machines?igsh=MWRlMmc4OTMyanJwZQ==">
                     <img
                       src="../home/instagram.png"
@@ -55,12 +51,15 @@ const Footer = () => {
                     />
                   </Link>
 
-                  <img
+                  <Link href="https://www.tiktok.com/@sigma.machines?_t=ZS-8sxXxLs0xXg&_r=1">
+                    <TikTokFilled className="text-3xl mr-3"/>
+                  </Link>
+                  {/* <img
                     src="../home/linkedin.png"
                     width={30}
                     height={60}
                     className="mr-3"
-                  />
+                  /> */}
                   <Link href="mailto:info@sigmamachines.net">
                     <img src="../home/search.png" width={30} height={60} />
                   </Link>

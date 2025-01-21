@@ -163,7 +163,7 @@ function Navbar() {
           boxShadow: scrolling ? "0px 0px 5px rgba(0, 0, 0, 0.2)" : "none",
           zIndex: 1,
         }}
-        className={`navbar pr-3 ${scrolling ? "pt-3 pb-3" : "pt-3 pb-3"}`}
+        className={`navbar pr-3 ${scrolling ? "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1" : "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"}`}
         dir={language == "ar" ? "rtl" : "ltr"}
       >
         <Container maxWidth="xl">
@@ -198,7 +198,7 @@ function Navbar() {
                     }
               }
             >
-              <img src="../logo.png" width="90px" />
+              <img src="../logo.png" width="90px" className="max-lg:w-[50px]" />
             </Typography>
 
             <Box
@@ -334,7 +334,7 @@ function Navbar() {
                 justifyContent: "flex-end",
               }}
             >
-              <img src="../logo.png" width="75px" />
+              <img src="../logo.png" width="75px" className="max-lg:w-[50px]"/>
             </Typography>
             <Box
               sx={{

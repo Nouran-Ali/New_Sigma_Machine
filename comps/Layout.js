@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       <div className="">{children}</div>
       <Link
         href="mailto:info@sigmamachines.net"
-        className="fixed bottom-24 right-5 z-50 bg-[#3baec1] hover:bg-[#339aab] p-4 rounded-full"
+        className="fixed bottom-20 right-5 z-50 bg-[#3baec1] hover:bg-[#339aab] p-4 max-lg:p-3 rounded-full"
       >
         <EmailIcon className="text-white"/>
       </Link>

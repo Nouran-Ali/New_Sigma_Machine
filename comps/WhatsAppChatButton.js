@@ -10,7 +10,7 @@ const WhatsAppChatButton = () => {
         )}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="flex items-center bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300"
+        className="flex items-center bg-green-500 text-white p-3 max-lg:p-2 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300"
       >
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
