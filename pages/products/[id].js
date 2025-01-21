@@ -373,7 +373,7 @@ const Product = () => {
     {
       id: 32,
       name: "Large Heavy Duty Guillotine Shears",
-      image: "/../products/52.jpg",
+      image: "/../products/52.webp",
       title: "Large Heavy Duty Guillotine Shears",
       desc: "Optional Numeric Control System Nanjing Estun E21S E200PS Back gauge controlling, General motors control, Intelligent positioning, Two programmable digital output, Work piece counting 40 program memory 25 steps for each program, Unilateral positioning, Concession function One key to parameter backup and recovery, Metric system, Chinese/English.",
     },

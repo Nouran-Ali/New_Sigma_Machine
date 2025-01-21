@@ -14,7 +14,7 @@ const Footer = () => {
                 <div className="flex">
                   {/* <img src='../logo.png' width="90px" /> */}
                   <Image
-                    src="/../logo2.png"
+                    src="/logo2.png"
                     width={90}
                     height={60}
                     className=""
@@ -46,12 +46,15 @@ const Footer = () => {
                     height={60}
                     className="mr-3"
                   />
-                  <img
-                    src="../home/instagram.png"
-                    width={30}
-                    height={60}
-                    className="mr-3"
-                  />
+                  <Link href="https://www.instagram.com/sigma_machines?igsh=MWRlMmc4OTMyanJwZQ==">
+                    <img
+                      src="../home/instagram.png"
+                      width={30}
+                      height={60}
+                      className="mr-3"
+                    />
+                  </Link>
+
                   <img
                     src="../home/linkedin.png"
                     width={30}
@@ -65,7 +68,7 @@ const Footer = () => {
               </div>
             </div>
             <div
-              className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium py-9`}
+              className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium py-7`}
             >
               <p>
                 Copyright © 2023{" "}

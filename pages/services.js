@@ -43,12 +43,12 @@ const Services = () => {
 
       <div className="relative">
         <div className={`${styles.bg_services} `}>
-          <p className="text-center text-3xl max-lg:text-2xl text-white font-semibold pt-40 relative z-10">
+          <p className="text-center text-3xl max-lg:text-2xl text-white font-semibold pt-24 relative z-10">
             Sigma Machines Services
           </p>
         </div>
 
-        <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] max-lg:h-full w-full absolute top-0 z-0"></div>
+        {/* <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] max-lg:h-full w-full absolute top-0 z-0"></div> */}
       </div>
       <div className="px-24 max-xl:px-10">
         <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-6 mt-20 max-xl:mt-10 mb-20">
@@ -97,7 +97,7 @@ const Services = () => {
             </div>
             <div>
               <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                2
+                3
               </div>
               <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
                 Software and manuals

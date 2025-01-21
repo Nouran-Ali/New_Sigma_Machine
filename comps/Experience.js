@@ -7,19 +7,19 @@ export const Experience = () => {
 
     return (
         <div className={styles.bg_experience}>
-            <div className='flex justify-evenly items-center text-white text-center lg:pt-40 max-lg:pt-32'>
+            <div className='flex justify-evenly items-center text-white text-center lg:pt-32 max-lg:pt-32'>
                 <div>
-                    <img src="../home/diamond.png" width={50} height={50} className='mx-auto mb-3' />
+                    <Image src="/home/diamond.png" width={50} height={50} className='mx-auto mb-3' />
                     <CountUp duration={5} end={20} />
                     <p className='mt-3'>Years Of Experience</p>
                 </div>
                 <div>
-                    <img src="../home/group.png" width={50} height={50} className='mx-auto mb-3' />
+                    <Image src="/home/group.png" width={50} height={50} className='mx-auto mb-3' />
                     <CountUp duration={5} end={300} />
                     <p className='mt-3'>Experts</p>
                 </div>
                 <div>
-                    <img src="../home/earth.png" width={50} height={50} className='mx-auto mb-3' />
+                    <Image src="/home/earth.png" width={50} height={50} className='mx-auto mb-3' />
                     <CountUp duration={5} end={120} />
                     <p className='mt-3'>Countries</p>
                 </div>

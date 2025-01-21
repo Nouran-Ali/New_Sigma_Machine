@@ -85,7 +85,7 @@ body {
 }
 
 .ant-tabs-tab.ant-tabs-tab-active {
-  border-right: 2px solid #d9d640 !important;
+  /* border-right: 2px solid #d9d640 !important; */
   z-index: 2;
 }
 

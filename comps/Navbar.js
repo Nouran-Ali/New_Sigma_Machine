@@ -43,10 +43,15 @@ const pages = [
     title_ar: "المنتجات",
     href: "/products",
   },
+  // {
+  //   title: "Resources",
+  //   title_ar: "المصادر",
+  //   href: "/resources",
+  // },
   {
-    title: "Resources",
+    title: "The maintenance",
     title_ar: "المصادر",
-    href: "/resources",
+    href: "/themaintenance",
   },
   {
     title: "Contact",
@@ -296,7 +301,6 @@ function Navbar() {
                     // marginLeft: "44px",
                   }}
                   className="flex items-center text-[#304644] px-7 mr-3 pt-3 font-bold normal-case text-base"
-                  
                 >
                   {language == "ar" ? "EN" : "AR"}
                 </Button>

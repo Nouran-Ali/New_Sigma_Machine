@@ -22,7 +22,7 @@ const About = () => {
             About Us
           </h1>
         </div>
-        <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] w-full absolute top-0 z-0"></div>
+        {/* <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] w-full absolute top-0 z-0"></div> */}
       </div>
       <div className="px-24 max-xl:px-10">
         <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-6 mt-20 max-xl:mt-10 mb-20">
