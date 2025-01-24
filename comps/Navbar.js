@@ -49,7 +49,7 @@ const pages = [
   //   href: "/resources",
   // },
   {
-    title: "The maintenance",
+    title: "Maintenance",
     title_ar: "المصادر",
     href: "/themaintenance",
   },
