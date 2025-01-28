@@ -259,9 +259,10 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className="flex items-center text-[#304644] px-5 mr-3 ml-2 pt-3 font-bold normal-case text-base"
+                        className="flex items-center text-[#304644] pl-5 ml-2 pt-3 font-bold normal-case text-base"
                       >
-                        {i18n.language === "ar" ? "المنتجات" : "Products"}
+                        {i18n.language === "ar" ? "المنتجات" : "Products"} 
+                        <ArrowForwardIosIcon sx={{fontSize: "15px"}} className="mx-4"/>
                       </Button>
                       <Menu
                         id="basic-menu"
