@@ -2,7 +2,7 @@ import React from "react";
 import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { TikTokFilled } from "@ant-design/icons";
+import { TikTokOutlined } from "@ant-design/icons";
 
 const Footer = () => {
   return (
@@ -52,7 +52,8 @@ const Footer = () => {
                   </Link>
 
                   <Link href="https://www.tiktok.com/@sigma.machines?_t=ZS-8sxXxLs0xXg&_r=1">
-                    <TikTokFilled className="text-3xl mr-3"/>
+                    {/* <TikTokFilled className="text-3xl mr-3"/> */}
+                    <TikTokOutlined className="text-3xl mr-3"/>
                   </Link>
                   {/* <img
                     src="../home/linkedin.png"
