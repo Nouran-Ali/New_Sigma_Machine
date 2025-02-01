@@ -26,38 +26,38 @@ const Main = () => {
 
               <div className={styles.half_circle}></div>
               <div>
-                <Image
-                  src="/home/right-arrow.png"
-                  width={40}
-                  height={40}
+                <img
+                  src="../home/right-arrow.png"
+                  width="40"
+                  height="40"
                   className={`${styles.triangle_one} mobile_d_none`}
                   loading="lazy"
                 />
-                <Image
-                  src="/home/right-arrow.png"
-                  width={20}
-                  height={20}
+                <img
+                  src="../home/right-arrow.png"
+                  width="20"
+                  height="20"
                   className={`${styles.triangle_two} mobile_d_none`}
                   loading="lazy"
                 />
-                <Image
-                  src="/home/right-arrow.png"
-                  width={30}
-                  height={30}
+                <img
+                  src="../home/right-arrow.png"
+                  width="30"
+                  height="30"
                   className={styles.triangle_three}
                   loading="lazy"
                 />
-                <Image
-                  src="/home/right-arrow.png"
-                  width={30}
-                  height={30}
+                <img
+                  src="../home/right-arrow.png"
+                  width="20"
+                  height="20"
                   className={styles.triangle_four}
                   loading="lazy"
                 />
-                <Image
-                  src="/home/right-arrow.png"
-                  width={20}
-                  height={20}
+                <img
+                  src="../home/right-arrow.png"
+                  width="20"
+                  height="20"
                   className={styles.triangle_five}
                   loading="lazy"
                 />
@@ -65,40 +65,49 @@ const Main = () => {
             </div>
             <div>
               <div className={styles.right_circle}></div>
-              <Image
-                src="/home/4.png"
+              <img
+                src="../home/4.png"
                 className={` ${styles.image} mobile_d_none`}
-                width={600}
-                height={550}
-                
+                width="600"
+                height="550"
               />
               <div className={styles.right_dots}>
-                <Image src="/home/menu.png" width={50} height={50} loading="lazy"/>
-                <Image src="/home/menu.png" width={50} height={50} loading="lazy"/>
-                <Image src="/home/menu.png" width={50} height={50} loading="lazy"/>
-                <Image src="/home/menu.png" width={50} height={50} loading="lazy"/>
+                <img
+                  src="../home/menu.png"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+                />
+                <img
+                  src="../home/menu.png"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+                />
+                <img
+                  src="../home/menu.png"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+                />
+                <img
+                  src="../home/menu.png"
+                  width="50"
+                  height="50"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
         </div>
         <div className={`${styles.white_circle} mobile_d_none`}></div>
         <div className={styles.left_dots}>
-          <Image
-            src="/home/menu.png"
-            width={40}
-            height={40}
-            loading="lazy"
-          />
-          <Image
-            src="/home/menu.png"
-            width={40}
-            height={40}
-            loading="lazy"
-          />
-          <Image
-            src="/home/menu.png"
-            width={40}
-            height={40}
+          <img src="../home/menu.png" width="40" height="40" loading="lazy" />
+          <img src="../home/menu.png" width="40" height="40" loading="lazy" />
+          <img
+            src="../home/menu.png"
+            width="40"
+            height="40"
             loading="lazy"
             // placeholder="blur"
           />

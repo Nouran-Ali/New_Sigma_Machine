@@ -163,7 +163,11 @@ function Navbar() {
           boxShadow: scrolling ? "0px 0px 5px rgba(0, 0, 0, 0.2)" : "none",
           zIndex: 1,
         }}
-        className={`navbar pr-3 ${scrolling ? "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1" : "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"}`}
+        className={`navbar pr-3 ${
+          scrolling
+            ? "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"
+            : "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"
+        }`}
         dir={language == "ar" ? "rtl" : "ltr"}
       >
         <Container maxWidth="xl">
@@ -261,8 +265,17 @@ function Navbar() {
                         onClick={handleClick}
                         className="flex items-center text-[#304644] pl-5 ml-2 pt-3 font-bold normal-case text-base"
                       >
-                        {i18n.language === "ar" ? "المنتجات" : "Products"} 
-                        <ArrowForwardIosIcon sx={{fontSize: "15px"}} className="mx-4"/>
+                        {i18n.language === "ar" ? "المنتجات" : "Products"}
+                        <ArrowForwardIosIcon
+                          sx={{
+                            fontSize: "17px",
+                            color: "#1c1c1c",
+                            fontWeight: "600",
+                            padding: "13px 17px",
+                            textTransform: "capitalize",
+                          }}
+                          className="mx-4"
+                        />
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -335,7 +348,7 @@ function Navbar() {
                 justifyContent: "flex-end",
               }}
             >
-              <img src="../logo.png" width="75px" className="max-lg:w-[50px]"/>
+              <img src="../logo.png" width="75px" className="max-lg:w-[50px]" />
             </Typography>
             <Box
               sx={{
@@ -366,6 +379,13 @@ function Navbar() {
                       aria-expanded={open ? "true" : undefined}
                       onClick={handleClick}
                       className="flex items-center text-[#304644] mr-3 pt-3 font-bold normal-case text-base"
+                      sx={{
+                        fontSize: "17px",
+                        color: "#1c1c1c",
+                        fontWeight: "600",
+                        padding: "13px 17px",
+                        textTransform: "capitalize",
+                      }}
                     >
                       {i18n.language === "ar" ? "المنتجات" : "Products"}
                     </Button>
@@ -382,7 +402,11 @@ function Navbar() {
                         onClick={handleClickSub}
                         className="flex items-center justify-between"
                       >
-                        CNC Router <ArrowForwardIosIcon className="text-sm" />{" "}
+                        CNC Router{" "}
+                        <ArrowForwardIosIcon
+                          className="text-sm ml-5"
+                          sx={{ fontSize: "17px" }}
+                        />{" "}
                       </MenuItem>
                       <Menu
                         id="sub-menu"
@@ -460,7 +484,10 @@ function Navbar() {
                         className="flex items-center justify-between"
                       >
                         Laser Engraving Marking Machine{" "}
-                        <ArrowForwardIosIcon className="text-sm ml-5" />
+                        <ArrowForwardIosIcon
+                          className="text-sm ml-5"
+                          sx={{ fontSize: "17px" }}
+                        />
                       </MenuItem>
                       <Menu
                         id="sub2-menu"

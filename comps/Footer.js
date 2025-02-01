@@ -13,8 +13,8 @@ const Footer = () => {
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 text-white font-medium pt-24 pb-24">
               <div className={`${styles.border} pr-6`}>
                 <div className="flex">
-                  {/* <img src='../logo.png' width="90px" /> */}
-                  <Image src="/logo2.png" width={90} height={60} className="" />
+                  <img src='../logo2.png' width="90px" />
+                  {/* <Image src="/logo2.png" width={90} height={60} className="" /> */}
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
                 <p className="mt-6">

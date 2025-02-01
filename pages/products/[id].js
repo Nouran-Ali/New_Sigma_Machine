@@ -519,7 +519,7 @@ const Product = () => {
           <>
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-7 mb-7">
               <div className="col-span-2">
-                <Image
+                <img
                   src={product?.image}
                   width={imageWidth}
                   height={imageHight}

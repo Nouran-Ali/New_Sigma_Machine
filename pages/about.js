@@ -69,10 +69,16 @@ const About = () => {
           </div>
 
           <div className={`${styles.bg_about_2} mobile_d_none`}>
-            <Image
+            {/* <Image
               src="/../about/1.jfif"
               width={500}
               height={300}
+              className="rounded-lg  mt-20"
+            /> */}
+            <img
+              src="../about/1.jfif"
+              width="500px"
+              height="300px"
               className="rounded-lg  mt-20"
             />
           </div>

@@ -56,38 +56,38 @@ const Themaintenance = () => {
       <div className="px-24 max-xl:px-10 mt-12 mb-12">
         <div className="grid grid-cols-4 max-xl:grid-cols-1 gap-4">
           <Link href="/maintenance/1">
-            <Image
-              src="/3.jpeg"
-              width={280}
-              height={90}
+            <img
+              src="../3.jpeg"
+              width="280"
+              height="90"
               className="rounded-xl"
             />
             <p className="mt-3 text-center">Fiber laser cutting machine</p>
           </Link>
           <Link href="/maintenance/2">
-            <Image
-              src="/4.jpeg"
-              width={280}
-              height={90}
+            <img
+              src="../4.jpeg"
+              width="280"
+              height="90"
               className="rounded-xl"
             />
             <p className="mt-3 text-center">Router machines</p>
           </Link>
           <Link href="/maintenance/3">
-            <Image
-              src="/5.jpeg"
-              width={280}
-              height={90}
+            <img
+              src="../5.jpeg"
+              width="280"
+              height="90"
               className="rounded-xl"
             />
             <p className="mt-3 text-center">Plasma machine maintenance</p>
           </Link>
 
           <Link href="/maintenance/4">
-            <Image
-              src="/6.jpeg"
-              width={280}
-              height={90}
+            <img
+              src="../6.jpeg"
+              width="280"
+              height="90"
               className="rounded-xl"
             />
             <p className="mt-3 text-center">Fiber laser cutting rotary</p>
@@ -104,20 +104,20 @@ const Themaintenance = () => {
           </Link> */}
 
           <Link href="/maintenance/6">
-            <Image
-              src="/8.jpeg"
-              width={280}
-              height={90}
+            <img
+              src="../8.jpeg"
+              width="280"
+              height="90"
               className="rounded-xl"
             />
             <p className="mt-3 text-center">Marker</p>
           </Link>
 
           <Link href="/maintenance/7">
-            <Image
-              src="/9.jpeg"
-              width={280}
-              height={90}
+            <img
+              src="../9.jpeg"
+              width="280"
+              height="90"
               className="rounded-xl"
             />
             <p className="mt-3 text-center">Welding yag</p>
