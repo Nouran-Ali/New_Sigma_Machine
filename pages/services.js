@@ -4,6 +4,7 @@ import Image from "next/image";
 import We_are_here_for_you from "@/comps/We_are_here_for_you";
 import { Collapse } from "antd";
 import Head from "next/head";
+import Link from "next/link";
 
 const text = `
   A dog is a type of domesticated animal.
@@ -78,10 +79,11 @@ const Services = () => {
               <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
                 Maintenance of the machines
               </h3>
-              <p className="text-[#54545f] text-lg mt-4">
+              <p className="text-[#54545f] text-lg my-4">
                 Design and propose product improvements through periodical and
                 accurate testing
               </p>
+              <Link className="text-[#d9d640] text-lg mt-6" href="/themaintenance">View more</Link>
             </div>
             <div>
               <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">

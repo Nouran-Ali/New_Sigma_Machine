@@ -71,7 +71,7 @@ const Footer = () => {
               className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium py-7`}
             >
               <p>
-                Copyright © 2023{" "}
+                Copyright © 2025{" "}
                 <Link
                   href="https://www.linkedin.com/in/nouran-ali-1732b8266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   className="text-white font-light"
@@ -83,7 +83,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="bg-[#fffa004f] h-[450px] max-lg:h-full w-full absolute top-0 z-0"></div>
+        {/* <div className="bg-[#fffa004f] h-[450px] max-lg:h-full w-full absolute top-0 z-0"></div> */}
       </div>
     </>
   );
