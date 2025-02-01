@@ -63,10 +63,10 @@ const Services = () => {
               Ut enim ad minim veniam, quis nostrud exercitation ullamco labor
               is tetur adipisicing elit, sed do eiusmod
             </p>
-            <Image
-              src="/../services/1.jpg"
-              width={600}
-              height={150}
+            <img
+              src="../services/1.jpg"
+              width="600"
+              height="150"
               className="mx-auto mt-9 rounded-lg"
             />
           </div>

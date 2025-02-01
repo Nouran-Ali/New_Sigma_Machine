@@ -264,15 +264,25 @@ function Navbar() {
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
                         className="flex items-center text-[#304644] pl-5 ml-2 pt-3 font-bold normal-case text-base"
+                        sx={{
+                          color: "rgb(48, 70, 68)",
+                          marginRight: "15px",
+                          fontWeight: "700",
+                          textTransform: "capitalize",
+                          padding: "7px 0px 0px 28px",
+                          fontSize: "16px",
+                          display: "flex",
+                          justifyContent: "space-between",
+                        }}
                       >
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
                         <ArrowForwardIosIcon
                           sx={{
                             fontSize: "17px",
                             color: "#1c1c1c",
-                            fontWeight: "600",
-                            padding: "13px 17px",
-                            textTransform: "capitalize",
+                            // fontWeight: "600",
+                            // padding: "13px 17px",
+                            // textTransform: "capitalize",
                           }}
                           className="mx-4"
                         />
@@ -308,11 +318,19 @@ function Navbar() {
                 )}
                 <Button
                   onClick={toggleLanguage}
-                  style={{
-                    color: "#304644",
-                    backgroundColor: "transparent",
-                    fontWeight: "600",
-                    // marginLeft: "44px",
+                  // style={{
+                  //   color: "#304644",
+                  //   backgroundColor: "transparent",
+                  //   fontWeight: "600",
+                  //   // marginLeft: "44px",
+                  // }}
+
+                  sx={{
+                    color: "rgb(48, 70, 68)",
+                    marginRight: "15px",
+                    fontWeight: "700",
+                    padding: "7px 28px 0px 28px",
+                    fontSize: "16px",
                   }}
                   className="flex items-center text-[#304644] px-7 mr-3 pt-3 font-bold normal-case text-base"
                 >
@@ -401,6 +419,10 @@ function Navbar() {
                       <MenuItem
                         onClick={handleClickSub}
                         className="flex items-center justify-between"
+                        sx={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                        }}
                       >
                         CNC Router{" "}
                         <ArrowForwardIosIcon
@@ -482,6 +504,10 @@ function Navbar() {
                       <MenuItem
                         onClick={handleClickSub2}
                         className="flex items-center justify-between"
+                        sx={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                        }}
                       >
                         Laser Engraving Marking Machine{" "}
                         <ArrowForwardIosIcon

@@ -408,19 +408,19 @@ const Product = () => {
       </Head>
 
       <div className="relative">
-        <div className={`${styles.bg_products} mobile_d_none`}>
-          <p className="text-center text-3xl text-white font-semibold pt-36 relative z-10">
+        <div className={`${styles.bg_products} `}>
+          <p className="text-center text-3xl max-lg:text-xl text-white font-semibold pt-36 max-lg:pt-32 relative z-10 max-lg:px-5">
             Sigma Machines Products ( {product?.name} )
           </p>
-          <p className="text-center text-lg text-[#a9a9a9] mt-3 relative z-10">
+          <p className="text-center lg:text-lg text-[#a9a9a9] mt-3 relative z-10 max-lg:px-5">
             HIGH SPEED, HIGH ACCURACY, HIGH EFFICIENCY
           </p>
         </div>
 
-        <div className="bg-[#00000085] h-[350px] w-full absolute top-0 z-0"></div>
+        {/* <div className="bg-[#00000085] h-[350px] w-full absolute top-0 z-0"></div> */}
       </div>
 
-      <div className="px-24 max-xl:px-10">
+      <div className="px-24 max-lg:px-10">
         {product?.id == "10" ||
         product?.id == "11" ||
         product?.id == "20" ||
@@ -523,7 +523,7 @@ const Product = () => {
                   src={product?.image}
                   width={imageWidth}
                   height={imageHight}
-                  className="rounded-lg "
+                  className="rounded-lg max-lg:mb-5"
                 />
               </div>
               <div>
@@ -554,7 +554,7 @@ const Product = () => {
               </div>
             </div>
             <div className=" mt-7 mb-7">
-              <div className="col-span-2 ml-6">
+              <div className="col-span-2 lg:ml-6">
                 <h3 className="text-[#1c1c1c] text-3xl">Product Parameters</h3>
                 <p className="mt-5 mb-5 text-lg text-[#54545f]">
                   {product?.desc}

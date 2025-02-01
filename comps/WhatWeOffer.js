@@ -1,34 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const WhatWeOffer = () => {
-  const [imageWidth, setImageWidth] = useState(40);
-  const [imageWidthTwo, setImageWidthTwo] = useState(47);
-  const [imageWidthThree, setImageWidthThree] = useState(40);
-
-  useEffect(() => {
-    const mediaQuery = window.matchMedia("(max-width: 1280px)");
-
-    function handleMediaChange(event) {
-      if (event.matches) {
-        setImageWidth(40);
-        setImageWidthTwo(70);
-        setImageWidthThree(30);
-      } else {
-        setImageWidth(180);
-        setImageWidthTwo(94);
-        setImageWidthThree(35);
-      }
-    }
-
-    mediaQuery.addListener(handleMediaChange);
-
-    return () => {
-      mediaQuery.removeListener(handleMediaChange);
-    };
-  }, []);
-
   return (
     <div className="px-24 max-xl:px-10 mt-24 mb-24">
       <h1 className="text-center text-3xl text-[#1c1c1c] font-semibold">
@@ -36,47 +10,51 @@ const WhatWeOffer = () => {
       </h1>
       <div className="grid grid-cols-4 max-xl:grid-cols-1 gap-4 mt-12">
         <Link href="/" className="flex items-center">
-          <div className="bg-[#d6d64014] rounded-full mr-5 p-6">
+          <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[110px] h-[100px] max-lg:w-[90px] max-lg:h-[80px] flex justify-center items-center">
             <img
               src="../home/laser-cutting-machine.png"
-              width={imageWidth}
-              height="90"
+              className="object-cover w-full h-full"
             />
           </div>
           <div>
-            <h3 className="text-xl text-[#54545f]">
+            <h3 className="text-lg text-[#54545f]">
               Fiber laser cutting machine
             </h3>
           </div>
         </Link>
         <Link href="/" className="flex items-center justify-center">
-          <div className="bg-[#d6d64014] rounded-full mr-5 p-6">
-            <img src="../home/CO2.png" width={imageWidthTwo} height="90" />
+          <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[140px] h-[100px] max-lg:w-[110px] max-lg:h-[80px] flex justify-center items-center">
+            <img
+              src="../home/CO2.png"
+              className="object-cover w-full h-full"
+            />
           </div>
           <div>
-            <h3 className="text-xl text-[#54545f]">
+            <h3 className="text-lg text-[#54545f]">
               CO2 laser cutting & engraving machine
             </h3>
           </div>
         </Link>
-        <Link href="/" className="flex items-center lg:justify-center ">
-          <div className="bg-[#d6d64014] rounded-full mr-5 p-6">
-            <img src="../home/cnc.png" width={imageWidthThree} height="90" />
-          </div>
-          <div>
-            <h3 className="text-xl text-[#54545f]">Cnc router</h3>
-          </div>
-        </Link>
-        <Link href="/" className="flex items-center justify-center">
-          <div className="bg-[#d6d64014] rounded-full mr-5 p-6">
+        <Link href="/" className="flex items-center lg:justify-center">
+          <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[110px] h-[100px] max-lg:w-[90px] max-lg:h-[80px] flex justify-center items-center">
             <img
-              src="../home/Welding_machine.png"
-              width={imageWidth}
-              height="90"
+              src="../home/cnc.png"
+              className="object-cover w-full h-full"
             />
           </div>
           <div>
-            <h3 className="text-xl text-[#54545f]">
+            <h3 className="text-lg text-[#54545f]">Cnc router</h3>
+          </div>
+        </Link>
+        <Link href="/" className="flex items-center justify-center">
+          <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[130px] h-[100px] max-lg:w-[100px] max-lg:h-[80px] flex justify-center items-center">
+            <img
+              src="../home/Welding_machine.png"
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <div>
+            <h3 className="text-lg text-[#54545f]">
               Bending / Welding machine
             </h3>
           </div>

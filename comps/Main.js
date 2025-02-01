@@ -44,21 +44,21 @@ const Main = () => {
                   src="../home/right-arrow.png"
                   width="30"
                   height="30"
-                  className={styles.triangle_three}
+                  className={`${styles.triangle_three} mobile_d_none`}
                   loading="lazy"
                 />
                 <img
                   src="../home/right-arrow.png"
                   width="20"
                   height="20"
-                  className={styles.triangle_four}
+                  className={`${styles.triangle_four} mobile_d_none`}
                   loading="lazy"
                 />
                 <img
                   src="../home/right-arrow.png"
                   width="20"
                   height="20"
-                  className={styles.triangle_five}
+                  className={`${styles.triangle_five} mobile_d_none`}
                   loading="lazy"
                 />
               </div>

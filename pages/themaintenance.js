@@ -46,7 +46,7 @@ const Themaintenance = () => {
         <link rel="icon" href="logo.png" />
       </Head>
 
-      <div className={`${styles.bg_resources} mobile_d_none`}>
+      <div className={`${styles.bg_resources}`}>
         <h1 className="text-white text-5xl text-center pt-24">Applications</h1>
         <h1 className="text-[#bfbfbf] text-2xl text-center pt-5">
           Maintenance
