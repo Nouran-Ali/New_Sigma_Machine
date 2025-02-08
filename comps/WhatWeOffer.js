@@ -9,7 +9,7 @@ const WhatWeOffer = () => {
         WHAT WE OFFER
       </h1>
       <div className="grid grid-cols-4 max-xl:grid-cols-1 gap-4 mt-12">
-        <Link href="/" className="flex items-center">
+        <Link href="/products/6" className="flex items-center">
           <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[110px] h-[100px] max-lg:w-[90px] max-lg:h-[80px] flex justify-center items-center">
             <img
               src="../home/laser-cutting-machine.webp"
@@ -22,7 +22,7 @@ const WhatWeOffer = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/" className="flex items-center justify-center">
+        <Link href="/products/7" className="flex items-center justify-center">
           <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[140px] h-[100px] max-lg:w-[110px] max-lg:h-[80px] flex justify-center items-center">
             <img
               src="../home/CO2.webp"
@@ -35,7 +35,7 @@ const WhatWeOffer = () => {
             </h3>
           </div>
         </Link>
-        <Link href="/" className="flex items-center lg:justify-center">
+        <Link href="/products/11" className="flex items-center lg:justify-center">
           <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[110px] h-[100px] max-lg:w-[90px] max-lg:h-[80px] flex justify-center items-center">
             <img
               src="../home/cnc.webp"
@@ -46,7 +46,7 @@ const WhatWeOffer = () => {
             <h3 className="text-lg text-[#54545f]">Cnc router</h3>
           </div>
         </Link>
-        <Link href="/" className="flex items-center justify-center">
+        <Link href="/products/10" className="flex items-center justify-center">
           <div className="bg-[#d6d64014] rounded-full mr-5 p-6 w-[130px] h-[100px] max-lg:w-[100px] max-lg:h-[80px] flex justify-center items-center">
             <img
               src="../home/Welding_machine.webp"

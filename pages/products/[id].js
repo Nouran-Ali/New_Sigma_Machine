@@ -534,7 +534,7 @@ const Product = () => {
                     </h3>
 
                     <h3 className="text-[#1c1c1c] text-xl mt-5">Model</h3>
-                    <p className="text-[#8d8e99] text-xl mt-2">RJ-3015S</p>
+                    <p className="text-[#8d8e99] text-xl mt-2">SG-3015S</p>
 
                     <h3 className="text-[#1c1c1c] text-xl mt-5">
                       Working Area
@@ -561,15 +561,15 @@ const Product = () => {
                 </p>
                 <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1">
                   <h3 className="text-xl">Model</h3>
-                  <p className="text-lg text-[#54545f]">3015S, 4015S, 6015S</p>
+                  <p className="text-lg text-[#54545f]">1325, 2040, 2060</p>
                 </div>
-                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
+                {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
                   <h3 className="text-xl">Working Size</h3>
                   <p className="text-lg text-[#54545f] col-span-2">
                     3000×1500mm, 4000x1500mm, 6000x1500mm
                   </p>
-                </div>
-                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
+                </div> */}
+                {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
                   <h3 className="text-xl">Laser Power</h3>
                   <p className="text-lg text-[#54545f]">1000-3000w</p>
                 </div>
@@ -588,7 +588,7 @@ const Product = () => {
                 <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
                   <h3 className="text-xl">Maximum Acceleration</h3>
                   <p className="text-lg text-[#54545f]">1.0G</p>
-                </div>
+                </div> */}
               </div>
             </div>
           </>

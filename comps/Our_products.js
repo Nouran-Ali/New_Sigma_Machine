@@ -98,9 +98,12 @@ const Our_products = () => {
             </p>
           </div>
           <h1 className="text-[#1c1c1c] text-xl mt-4">
-            We offer a suitable laser machine for virtually any application. The
+            {/* We offer a suitable laser machine for virtually any application. The
             range includes laser engravers, laser cutters, large-format laser
-            cutting machines, and industrial marking lasers.
+            cutting machines, and industrial marking lasers. */}
+            At the cutting edge of sheet metal cutting and bending, we're
+            committed to delivering expertly designed equipment that perfectly
+            fits your needs.
           </h1>
         </div>
         <Carousel autoplay>

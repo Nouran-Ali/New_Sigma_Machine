@@ -9,7 +9,7 @@ const Laser_marking_sample = () => {
                 <img src="../home/Laser_Marking6.jpg" width={200} height={200} className='mx-auto mb-5' />
                 <p className='text-[#54545f] text-lg'>Laser Marking6</p>
             </Link>
-            <Link href="/">
+            {/* <Link href="/">
                 <img src="../home/Laser_Marking5.jpg" width={200} height={200} className='mx-auto mb-5 ' />
                 <p className='text-[#54545f] text-lg'>Laser Marking5</p>
             </Link>
@@ -20,7 +20,7 @@ const Laser_marking_sample = () => {
             <Link href="/">
                 <img src="../home/Laser_Marking3.jpg" width={200} height={200} className='mx-auto mb-5' />
                 <p className='text-[#54545f] text-lg'>Laser Marking3</p>
-            </Link>
+            </Link> */}
         </div>
     )
 }

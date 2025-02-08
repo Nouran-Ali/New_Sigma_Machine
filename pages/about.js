@@ -35,35 +35,35 @@ const About = () => {
               machines.
             </p>
             <p className="text-[#677289] mt-7">
-              Our vision is to be a home for all laser users. A place where you
-              get technology, opportunities, guidance, and – above all –
-              answers. Along the way, we’re making work simpler, faster, and
-              more profitable for laser users. We’re setting new standards. Day
-              after day. To be successful today and tomorrow.
+              Our machines are built to handle a wide range of materials,
+              including metals, wood, and composites. We serve industries such
+              as automotive, aerospace, furniture manufacturing, construction,
+              and more, providing tailored solutions that improve operational
+              efficiency, reduce material waste, and enhance product quality.
             </p>
             <div className="flex items-center mt-7">
               <CheckCircleFilled className="text-[#d9d640]" />
               <p className="ml-3 text-[#212529] font-semibold">
-                Model industry
+                Senior technical team
               </p>
             </div>
             <div className="flex items-center mt-2">
               <CheckCircleFilled className="text-[#d9d640]" />
               <p className="ml-3 text-[#212529] font-semibold">
-                Packaging industry
+                Professional customer service team
               </p>
             </div>
             <div className="flex items-center mt-2">
               <CheckCircleFilled className="text-[#d9d640]" />
               <p className="ml-3 text-[#212529] font-semibold">
-                Decoration industry
+                Recruitment Agents
               </p>
             </div>
             <p className="text-[#677289] mt-7 mb-12">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna.
+              Our business philosophy: quality changes the world, service
+              creates value!
             </p>
-            <Link href="/" className={styles.btn_more}>
+            <Link href="/services" className={styles.btn_more}>
               Read More
             </Link>
           </div>

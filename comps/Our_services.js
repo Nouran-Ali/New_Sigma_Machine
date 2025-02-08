@@ -14,7 +14,7 @@ const Our_services = () => {
         </h1>
       </div>
 
-      <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-8 text-center mt-11">
+      <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-8 text-center mt-10">
         <div className={`${styles.card_services} ${styles.card_services_2}`}>
           <div className={styles.card_icon}>
             <img
@@ -24,12 +24,13 @@ const Our_services = () => {
               className="mx-auto"
             />
           </div>
-          <h3 className={`${styles.title_services} text-xl mt-5 mb-5`}>
+          <h3 className={`${styles.title_services} text-xl mt-2 mb-1`}>
             Maintenance of the machines
           </h3>
           <p className="text-[#54545f]">
-            Design and propose product improvements through periodical and
-            accurate testing.
+            Regular maintenance ensures the optimal performance and longevity of
+            laser cutting machines. This includes cleaning optical components,
+            checking gas flow systems, and calibrating the laser source.
           </p>
         </div>
 
@@ -42,12 +43,13 @@ const Our_services = () => {
               className="mx-auto"
             />
           </div>
-          <h3 className={`${styles.title_services} text-xl mt-5 mb-5`}>
+          <h3 className={`${styles.title_services} text-xl mt-2 mb-1`}>
             Spare parts for the machines
           </h3>
           <p className="text-[#54545f]">
-            Design and propose product improvements through periodical and
-            accurate testing.
+            High-quality spare parts are essential for maintaining precision and
+            efficiency. We provide reliable components to minimize downtime and
+            keep your operations running smoothly.
           </p>
         </div>
 
@@ -60,12 +62,13 @@ const Our_services = () => {
               className="mx-auto"
             />
           </div>
-          <h3 className={`${styles.title_services} text-xl mt-5 mb-5`}>
+          <h3 className={`${styles.title_services} text-xl mt-2 mb-1`}>
             Software and manuals
           </h3>
           <p className="text-[#54545f]">
-            Design and propose product improvements through periodical and
-            accurate testing.
+            User-friendly software and comprehensive manuals help operators
+            achieve accurate and efficient laser cuts while maximizing machine
+            capabilities.
           </p>
         </div>
       </div>

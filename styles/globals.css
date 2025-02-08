@@ -101,4 +101,9 @@ body {
     border-bottom: 2px solid #d9d640 !important;
     z-index: 2;
   }
+  .reverce_mobile {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+  }
 }

@@ -15,22 +15,17 @@ const items = [
   {
     key: "1",
     label: "Why Sigma machines are so popular amonth others?",
-    children: <p className="text-lg text-[#54545f]">{text}</p>,
+    children: <p className="text-lg text-[#54545f] ml-6">Because we care about product quality, internal details, and after-sales service.</p>,
   },
   {
     key: "2",
     label: "What is the best way to get best from Sigma machines?",
-    children: <p className="text-lg text-[#54545f]">{text}</p>,
-  },
-  {
-    key: "3",
-    label: "What makes Sigma the best lasermachine company?",
-    children: <p className="text-lg text-[#54545f]">{text}</p>,
+    children: <p className="text-lg text-[#54545f] ml-6">By contacting us and specifying your product requirements, we will recommend the most suitable machine for your needs.</p>,
   },
   {
     key: "4",
     label: "What is the future plan for Sigma?",
-    children: <p className="text-lg text-[#54545f]">{text}</p>,
+    children: <p className="text-lg text-[#54545f] ml-6">Expanding our product range and extending our presence to more cities across the Middle East.</p>,
   },
 ];
 
@@ -61,8 +56,9 @@ const Services = () => {
               We Offer a Wide Variety of Technical Services
             </h1>
             <p className="text-[#54545f] text-xl mt-4">
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco labor
-              is tetur adipisicing elit, sed do eiusmod
+              We are committed to meeting the most demanding industrial needs
+              and delivering products that offer superior performance,
+              precision, and reliability.
             </p>
             <img
               src="../services/1.jpg"
@@ -80,10 +76,17 @@ const Services = () => {
                 Maintenance of the machines
               </h3>
               <p className="text-[#54545f] text-lg my-4">
-                Design and propose product improvements through periodical and
-                accurate testing
+                Regular maintenance ensures the optimal performance and
+                longevity of laser cutting machines. This includes cleaning
+                optical components, checking gas flow systems, and calibrating
+                the laser source.
               </p>
-              <Link className="text-[#d9d640] text-lg mt-6" href="/themaintenance">View more</Link>
+              <Link
+                className="text-[#d9d640] text-lg mt-6"
+                href="/themaintenance"
+              >
+                View more
+              </Link>
             </div>
             <div>
               <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
@@ -93,8 +96,9 @@ const Services = () => {
                 Spare parts for the machines
               </h3>
               <p className="text-[#54545f] text-lg mt-4">
-                Design and propose product improvements through periodical and
-                accurate testing
+                High-quality spare parts are essential for maintaining precision
+                and efficiency. We provide reliable components to minimize
+                downtime and keep your operations running smoothly.
               </p>
             </div>
             <div>
@@ -105,8 +109,9 @@ const Services = () => {
                 Software and manuals
               </h3>
               <p className="text-[#54545f] text-lg mt-4">
-                Design and propose product improvements through periodical and
-                accurate testing
+                User-friendly software and comprehensive manuals help operators
+                achieve accurate and efficient laser cuts while maximizing
+                machine capabilities.
               </p>
             </div>
           </div>
@@ -120,12 +125,12 @@ const Services = () => {
             <p className="text-[#d9d640] text-xl tracking-widest uppercase font-medium">
               Frequently Asked Questions
             </p>
-            <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold">
+            <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold mb-12">
               All that Need to Know
             </h3>
-            <p className="text-[#8d8e99] text-xl mt-5 mb-12">
+            {/* <p className="text-[#8d8e99] text-xl mt-5 mb-12">
               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            </p> */}
           </div>
 
           <Collapse

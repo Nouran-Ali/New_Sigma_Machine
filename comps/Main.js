@@ -8,8 +8,8 @@ const Main = () => {
     <>
       <div>
         <div className={styles.background}>
-          <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10">
-            <div className="mt-20">
+          <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 reverce_mobile">
+            <div className="lg:mt-20">
               <p className="text-[#666666] text-xl max-xl:text-lg tracking-widest uppercase font-medium">
                 Empowering laser users
               </p>
@@ -67,7 +67,7 @@ const Main = () => {
               <div className={styles.right_circle}></div>
               <img
                 src="../home/4.webp"
-                className={` ${styles.image} mobile_d_none`}
+                className={` ${styles.image} max-lg:pt-10`}
                 width="600"
                 height="550"
               />
@@ -77,24 +77,28 @@ const Main = () => {
                   width="50"
                   height="50"
                   loading="lazy"
+                  className="mobile_d_none"
                 />
                 <img
                   src="../home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
+                  className="mobile_d_none"
                 />
                 <img
                   src="../home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
+                  className="mobile_d_none"
                 />
                 <img
                   src="../home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
+                  className="mobile_d_none"
                 />
               </div>
             </div>

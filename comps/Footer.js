@@ -13,14 +13,14 @@ const Footer = () => {
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 text-white font-medium pt-24 pb-24">
               <div className={`${styles.border} pr-6`}>
                 <div className="flex">
-                  <img src='../logo2.png' width="90px" />
+                  <img src="../logo2.png" width="90px" />
                   {/* <Image src="/logo2.png" width={90} height={60} className="" /> */}
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
                 <p className="mt-6">
-                  We are the best world Information Technology Company.
-                  Providing the highest quality in hardware, Software & Network
-                  solutions.
+                  A professional CNC machine manufacturer. We are always
+                  providing customers with high-quality products, competitive
+                  prices, and excellent services.
                 </p>
               </div>
               <div className={`${styles.border} pl-6 max-xl:pl-0`}>
@@ -53,7 +53,7 @@ const Footer = () => {
 
                   <Link href="https://www.tiktok.com/@sigma.machines?_t=ZS-8sxXxLs0xXg&_r=1">
                     {/* <TikTokFilled className="text-3xl mr-3"/> */}
-                    <TikTokOutlined className="text-3xl mr-3"/>
+                    <TikTokOutlined className="text-3xl mr-3" />
                   </Link>
                   {/* <img
                     src="../home/linkedin.png"
