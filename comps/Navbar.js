@@ -88,11 +88,14 @@ function Navbar() {
   };
   const handleClose = () => {
     setAnchorEl(null);
+    setAnchorElSub(null);
+    setAnchorElSub2(null);
   };
 
   const [anchorElSub, setAnchorElSub] = React.useState(null);
   const openSub = Boolean(anchorElSub);
   const handleClickSub = (event) => {
+    setAnchorElSub2(null);
     setAnchorElSub(event.currentTarget);
   };
   const handleCloseSub = () => {
@@ -102,6 +105,7 @@ function Navbar() {
   const [anchorElSub2, setAnchorElSub2] = React.useState(null);
   const openSub2 = Boolean(anchorElSub2);
   const handleClickSub2 = (event) => {
+    setAnchorElSub(null);
     setAnchorElSub2(event.currentTarget);
   };
   const handleCloseSub2 = () => {
@@ -435,6 +439,7 @@ function Navbar() {
                         anchorEl={anchorElSub}
                         open={openSub}
                         onClose={handleCloseSub}
+                        keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
                           horizontal: "right",
@@ -520,6 +525,7 @@ function Navbar() {
                         anchorEl={anchorElSub2}
                         open={openSub2}
                         onClose={handleCloseSub2}
+                        keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
                           horizontal: "right",
@@ -593,7 +599,7 @@ function Navbar() {
                   </Link>
                 )
               )}
-              <Button
+              {/* <Button
                 onClick={toggleLanguage}
                 style={{
                   color: "#304644",
@@ -601,10 +607,9 @@ function Navbar() {
                   fontWeight: "600",
                   marginRight: "10px",
                 }}
-                // className="flex items-center text-[#304644] mr-3 ml-3 pt-3 font-bold normal-case text-base"
               >
                 {language == "ar" ? "EN" : "AR"}
-              </Button>
+              </Button> */}
               <div className="flex items-center">
                 <div className={styles.bg_icon}>
                   <PhoneFilled />

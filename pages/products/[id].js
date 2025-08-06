@@ -549,7 +549,7 @@ const Product = () => {
                 href={`/products/${product.id}`}
                 background={{ backgroundImage: `url(${product.image})` }}
                 method={product.title}
-                description={truncatedDesc}
+                description={product.desc}
               />
             </div>
           ))}
