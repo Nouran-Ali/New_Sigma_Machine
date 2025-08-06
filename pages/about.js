@@ -6,15 +6,12 @@ import Image from "next/image";
 import BiotechIcon from "@mui/icons-material/Biotech";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import DomainVerificationIcon from "@mui/icons-material/DomainVerification";
-import Head from "next/head";
+import Meta from "@/comps/Meta";
 
 const About = () => {
   return (
     <>
-      <Head>
-        <title>Sigma Machines / About us</title>
-        <link rel="icon" href="logo.png" />
-      </Head>
+      <Meta title="About Us" description="Learn more about Sigma Machines and our mission to provide quality machinery." />
 
       <div className="relative">
         <div className={`${styles.bg_about} `}>

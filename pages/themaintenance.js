@@ -9,6 +9,7 @@ import Cnc_resources from "@/comps/Cnc_resources";
 import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
+import Meta from "@/comps/Meta";
 
 const Themaintenance = () => {
   const [tabPosition, setTabPosition] = useState("left");
@@ -41,10 +42,10 @@ const Themaintenance = () => {
 
   return (
     <>
-      <Head>
-        <title>Sigma Machines / The maintenance</title>
-        <link rel="icon" href="logo.png" />
-      </Head>
+      <Meta
+        title="The Maintenance"
+        description="Discover Sigma Machines' professional maintenance services – we provide fast, reliable support to keep your industrial equipment running smoothly."
+      />
 
       <div className={`${styles.bg_resources}`}>
         <h1 className="text-white text-5xl text-center pt-24">Applications</h1>
@@ -122,7 +123,6 @@ const Themaintenance = () => {
             />
             <p className="mt-3 text-center">Welding yag</p>
           </Link>
-
         </div>
       </div>
     </>

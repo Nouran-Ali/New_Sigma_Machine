@@ -26,36 +26,36 @@ const Main = () => {
 
               <div className={styles.half_circle}></div>
               <div>
-                <img
-                  src="../home/right-arrow.webp"
+                <Image
+                  src="/home/right-arrow.webp"
                   width="40"
                   height="40"
                   className={`${styles.triangle_one} mobile_d_none`}
                   loading="lazy"
                 />
-                <img
-                  src="../home/right-arrow.webp"
+                <Image
+                  src="/home/right-arrow.webp"
                   width="20"
                   height="20"
                   className={`${styles.triangle_two} mobile_d_none`}
                   loading="lazy"
                 />
-                <img
-                  src="../home/right-arrow.webp"
+                <Image
+                  src="/home/right-arrow.webp"
                   width="30"
                   height="30"
                   className={`${styles.triangle_three} mobile_d_none`}
                   loading="lazy"
                 />
-                <img
-                  src="../home/right-arrow.webp"
+                <Image
+                  src="/home/right-arrow.webp"
                   width="20"
                   height="20"
                   className={`${styles.triangle_four} mobile_d_none`}
                   loading="lazy"
                 />
-                <img
-                  src="../home/right-arrow.webp"
+                <Image
+                  src="/home/right-arrow.webp"
                   width="20"
                   height="20"
                   className={`${styles.triangle_five} mobile_d_none`}
@@ -65,36 +65,36 @@ const Main = () => {
             </div>
             <div>
               <div className={styles.right_circle}></div>
-              <img
-                src="../home/4.webp"
+              <Image
+                src="/home/4.webp"
                 className={` ${styles.image} max-lg:pt-10`}
                 width="600"
                 height="550"
               />
               <div className={styles.right_dots}>
-                <img
-                  src="../home/menu.webp"
+                <Image
+                  src="/home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
                 />
-                <img
-                  src="../home/menu.webp"
+                <Image
+                  src="/home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
                 />
-                <img
-                  src="../home/menu.webp"
+                <Image
+                  src="/home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
                 />
-                <img
-                  src="../home/menu.webp"
+                <Image
+                  src="/home/menu.webp"
                   width="50"
                   height="50"
                   loading="lazy"
@@ -106,10 +106,10 @@ const Main = () => {
         </div>
         <div className={`${styles.white_circle} mobile_d_none`}></div>
         <div className={styles.left_dots}>
-          <img src="../home/menu.webp" width="40" height="40" loading="lazy" />
-          <img src="../home/menu.webp" width="40" height="40" loading="lazy" />
-          <img
-            src="../home/menu.webp"
+          <Image src="/home/menu.webp" width="40" height="40" loading="lazy" />
+          <Image src="/home/menu.webp" width="40" height="40" loading="lazy" />
+          <Image
+            src="/home/menu.webp"
             width="40"
             height="40"
             loading="lazy"

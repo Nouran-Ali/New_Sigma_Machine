@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "../styles/contact.module.css";
 import Link from "next/link";
 import Head from "next/head";
+import Meta from "@/comps/Meta";
 
 const Contact = () => {
   const onChange = (e) => {
@@ -12,10 +13,10 @@ const Contact = () => {
 
   return (
     <>
-      <Head>
-        <title>Sigma Machines / Contact us</title>
-        <link rel="icon" href="logo.png" />
-      </Head>
+      <Meta
+        title="Contact Us"
+        description="Get in touch with Sigma Machines for inquiries, support, or custom industrial solutions – we're here to help via email, phone, or WhatsApp."
+      />
 
       <div className="bg-[#d9d64038]">
         <div className="px-24 max-xl:px-10">
@@ -110,13 +111,13 @@ const Contact = () => {
                       placeholder="Write your message here"
                       style={{
                         height: 100,
-                        resize: 'none',
+                        resize: "none",
                         backgroundColor: "#faf9fe",
                         border: "1px solid #dddddd",
                         // boxShadow: "0 0 2px 1px #dddddd"
-                    }}
+                      }}
                       // className="bg-[#faf9fe] pl-4 mb-7"
-                      className='bg-[#faf9fe] custom-textarea pl-4 mb-7'
+                      className="bg-[#faf9fe] custom-textarea pl-4 mb-7"
                     />
 
                     <Link

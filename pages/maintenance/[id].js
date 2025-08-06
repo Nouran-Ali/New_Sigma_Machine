@@ -3,6 +3,7 @@ import styles from "../../styles/Resources.module.css";
 import { Carousel } from "antd";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import Meta from "@/comps/Meta";
 
 const contentStyle = {
   height: "260px",
@@ -70,34 +71,41 @@ const Maintenance = () => {
   }
 
   return (
-    <div className="px-24 max-xl:px-10 mt-14 max-xl:mt-10 mb-24">
-      <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 max-xl:flex max-xl:flex-wrap-reverse">
-        <div className={styles.bg}>
-          <Carousel autoplay className="text-center">
-            <div>
-              <img
-                src={item.image}
-                width="300"
-                height="90"
-                className="rounded-xl mx-auto mt-8"
-              />
-            </div>
-            <div>
-              <img
-                src={item.image}
-                width="300"
-                height="90"
-                className="rounded-xl mx-auto mt-8"
-              />
-            </div>
-          </Carousel>
-        </div>
-        <div className="text-lg text-[#677289]">
-          <h3 className="text-3xl text-[#212529]">{item.name}</h3>
-          <p className="mt-4">{item.desc}</p>
+    <>
+      <Meta
+        title="Maintenance"
+        description="Ensure optimal performance with Sigma Machines' industrial maintenance services – fast repairs, regular checkups, and expert technical support tailored to your machines."
+      />
+
+      <div className="px-24 max-xl:px-10 mt-14 max-xl:mt-10 mb-24">
+        <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 max-xl:flex max-xl:flex-wrap-reverse">
+          <div className={styles.bg}>
+            <Carousel autoplay className="text-center">
+              <div>
+                <img
+                  src={item.image}
+                  width="300"
+                  height="90"
+                  className="rounded-xl mx-auto mt-8"
+                />
+              </div>
+              <div>
+                <img
+                  src={item.image}
+                  width="300"
+                  height="90"
+                  className="rounded-xl mx-auto mt-8"
+                />
+              </div>
+            </Carousel>
+          </div>
+          <div className="text-lg text-[#677289]">
+            <h3 className="text-3xl text-[#212529]">{item.name}</h3>
+            <p className="mt-4">{item.desc}</p>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

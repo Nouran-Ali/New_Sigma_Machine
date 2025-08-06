@@ -5,6 +5,7 @@ import We_are_here_for_you from "@/comps/We_are_here_for_you";
 import { Collapse } from "antd";
 import Head from "next/head";
 import Link from "next/link";
+import Meta from "@/comps/Meta";
 
 const text = `
   A dog is a type of domesticated animal.
@@ -32,10 +33,8 @@ const items = [
 const Services = () => {
   return (
     <>
-      <Head>
-        <title>Sigma Machines / Services</title>
-        <link rel="icon" href="logo.png" />
-      </Head>
+
+      <Meta title="Services" description="Discover our full range of industrial services at Sigma Machines – from machine installation and maintenance to expert support and custom solutions." />
 
       <div className="relative">
         <div className={`${styles.bg_services} `}>
