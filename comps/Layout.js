@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sigmamachines.net" />
-        <meta property="og:image" content="/products/53.webp" />{" "}
+        <meta property="og:image" content="https://sigmamachines.net/products/53.webp" />{" "}
         
         <link rel="icon" href="/favicon.ico" />
       </Head>
