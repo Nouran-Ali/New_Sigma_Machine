@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="UTF-8" />
-        
         <meta
           property="og:title"
           content="Sigma Machines | High Quality Industrial Machinery"
@@ -28,9 +27,24 @@ const Layout = ({ children }) => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://sigmamachines.net" />
-        <meta property="og:image" content="https://sigmamachines.net/products/53.webp" />{" "}
-        
+        <meta
+          property="og:image"
+          content="https://sigmamachines.net/products/53.webp"
+        />{" "}
         <link rel="icon" href="/favicon.ico" />
+        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Sigma Machines",
+              url: "https://sigmamachines.net",
+              logo: "https://sigmamachines.net/logo.png",
+            }),
+          }}
+        />
       </Head>
 
       <Navbar />
