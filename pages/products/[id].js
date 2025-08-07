@@ -72,7 +72,6 @@ const Product = () => {
 
   return (
     <>
-
       <Head>
         <title>{product?.name} - Sigma Machines</title>
         <meta name="description" content={product?.desc} />
