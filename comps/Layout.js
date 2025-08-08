@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
         <meta property="og:url" content="https://sigmamachines.net" />
         <meta
           property="og:image"
-          content="https://sigmamachines.net/products/53.webp"
+          content="https://sigmamachines.net/products/32.webp"
         />{" "}
         <link rel="icon" href="/favicon.ico" />
         
