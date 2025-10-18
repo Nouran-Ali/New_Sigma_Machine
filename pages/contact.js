@@ -5,6 +5,7 @@ import styles from "../styles/contact.module.css";
 import Link from "next/link";
 import Head from "next/head";
 import Meta from "@/comps/Meta";
+import { TikTokOutlined } from "@ant-design/icons";
 
 const Contact = () => {
   const onChange = (e) => {
@@ -52,25 +53,34 @@ const Contact = () => {
               <hr />
 
               <div className="flex mt-6">
-                <img
-                  src="../home/facebook.png"
-                  width={30}
-                  height={60}
-                  className="mr-5"
-                />
-                <img
-                  src="../home/instagram.png"
-                  width={30}
-                  height={60}
-                  className="mr-5"
-                />
-                <img
-                  src="../home/linkedin.png"
-                  width={30}
-                  height={60}
-                  className="mr-5"
-                />
-                <img src="../home/search.png" width={30} height={60} />
+                <Link href="https://www.facebook.com/share/177NhW552u/">
+                  <img
+                    src="../home/facebook.png"
+                    width={30}
+                    height={60}
+                    className="mr-3"
+                  />
+                </Link>
+                <Link href="https://www.instagram.com/sigma_machines?igsh=MWRlMmc4OTMyanJwZQ==">
+                  <img
+                    src="../home/instagram.png"
+                    width={30}
+                    height={60}
+                    className="mr-3"
+                  />
+                </Link>
+
+                <Link href="https://www.tiktok.com/@sigma.machines?_t=ZS-8zhbiPLCRDk&_r=1">
+                  <TikTokOutlined className="text-3xl mr-3" />
+                </Link>
+                <Link href="https://www.linkedin.com/company/sigma-machines/">
+                  <img
+                    src="../home/linkedin.png"
+                    width={30}
+                    height={60}
+                    className="mr-3"
+                  />
+                </Link>
               </div>
               <div className={`${styles.white_circle} mobile_d_none`}></div>
             </div>

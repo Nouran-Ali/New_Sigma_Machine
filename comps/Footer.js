@@ -42,6 +42,14 @@ const Footer = () => {
                     height={60}
                     className="mr-3"
                   /> */}
+                  <Link href="https://www.facebook.com/share/177NhW552u/">
+                    <img
+                      src="../home/facebook.png"
+                      width={30}
+                      height={60}
+                      className="mr-3"
+                    />
+                  </Link>
                   <Link href="https://www.instagram.com/sigma_machines?igsh=MWRlMmc4OTMyanJwZQ==">
                     <img
                       src="../home/instagram.png"
@@ -51,9 +59,17 @@ const Footer = () => {
                     />
                   </Link>
 
-                  <Link href="https://www.tiktok.com/@sigma.machines?_t=ZS-8sxXxLs0xXg&_r=1">
+                  <Link href="https://www.tiktok.com/@sigma.machines?_t=ZS-8zhbiPLCRDk&_r=1">
                     {/* <TikTokFilled className="text-3xl mr-3"/> */}
                     <TikTokOutlined className="text-3xl mr-3" />
+                  </Link>
+                  <Link href="https://www.linkedin.com/company/sigma-machines/">
+                    <img
+                      src="../home/linkedin.png"
+                      width={30}
+                      height={60}
+                      className="mr-3"
+                    />
                   </Link>
                   {/* <img
                     src="../home/linkedin.png"
@@ -61,9 +77,9 @@ const Footer = () => {
                     height={60}
                     className="mr-3"
                   /> */}
-                  <Link href="mailto:info@sigmamachines.net">
+                  {/* <Link href="mailto:info@sigmamachines.net">
                     <img src="../home/search.png" width={30} height={60} />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
