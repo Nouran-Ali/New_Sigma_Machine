@@ -147,15 +147,33 @@ function Navbar() {
     }
   };
 
+  // const toggleLanguage = () => {
+  //   if (language === "en") {
+  //     changeLanguage("ar");
+  //     setCookie("language", "ar");
+  //   } else {
+  //     changeLanguage("en");
+  //     setCookie("language", "en");
+  //   }
+  // };
   const toggleLanguage = () => {
-    if (language == "en") {
-      changeLanguage("ar");
+    if (i18n.language === "en") {
+      i18n.changeLanguage("ar");
       setCookie("language", "ar");
     } else {
-      changeLanguage("en");
+      i18n.changeLanguage("en");
       setCookie("language", "en");
     }
   };
+
+  // useEffect(() => {
+  //   const savedLang = getCookie("language");
+
+  //   if (!savedLang) {
+  //     changeLanguage("ar");
+  //     setCookie("language", "ar");
+  //   }
+  // }, []);
 
   return (
     <>
@@ -167,11 +185,10 @@ function Navbar() {
           boxShadow: scrolling ? "0px 0px 5px rgba(0, 0, 0, 0.2)" : "none",
           zIndex: 1,
         }}
-        className={`navbar pr-3 ${
-          scrolling
-            ? "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"
-            : "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"
-        }`}
+        className={`navbar pr-3 ${scrolling
+          ? "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"
+          : "pt-3 pb-3 max-lg:pt-1 max-lg:pb-1"
+          }`}
         dir={language == "ar" ? "rtl" : "ltr"}
       >
         <Container maxWidth="xl">
@@ -184,26 +201,26 @@ function Navbar() {
               sx={
                 language == "ar"
                   ? {
-                      mr: 15,
-                      ml: 9,
-                      display: { xs: "none", md: "flex" },
-                      fontFamily: "monospace",
-                      fontWeight: 700,
-                      letterSpacing: ".3rem",
-                      color: "inherit",
-                      textDecoration: "none",
-                    }
+                    mr: 15,
+                    ml: 9,
+                    display: { xs: "none", md: "flex" },
+                    fontFamily: "monospace",
+                    fontWeight: 700,
+                    letterSpacing: ".3rem",
+                    color: "inherit",
+                    textDecoration: "none",
+                  }
                   : {
-                      mr: 5,
-                      ml: 9,
-                      display: { xs: "none", md: "flex" },
-                      fontFamily: "monospace",
-                      fontWeight: 700,
-                      letterSpacing: ".3rem",
-                      color: "inherit",
-                      textDecoration: "none",
-                      zIndex: "10",
-                    }
+                    mr: 5,
+                    ml: 9,
+                    display: { xs: "none", md: "flex" },
+                    fontFamily: "monospace",
+                    fontWeight: 700,
+                    letterSpacing: ".3rem",
+                    color: "inherit",
+                    textDecoration: "none",
+                    zIndex: "10",
+                  }
               }
             >
               <img src="../logo.png" width="90px" className="max-lg:w-[50px]" />
@@ -590,16 +607,15 @@ function Navbar() {
                   <Link
                     key={index}
                     href={href}
-                    className={`${styles.link} ${
-                      handleActiveLink(href) ? styles.active : " "
-                    } flex items-center`}
+                    className={`${styles.link} ${handleActiveLink(href) ? styles.active : " "
+                      } flex items-center`}
                     style={{ align: "center" }}
                   >
                     {i18n.language === "ar" ? title_ar : title}
                   </Link>
                 )
               )}
-              {/* <Button
+              <Button
                 onClick={toggleLanguage}
                 style={{
                   color: "#304644",
@@ -609,7 +625,7 @@ function Navbar() {
                 }}
               >
                 {language == "ar" ? "EN" : "AR"}
-              </Button> */}
+              </Button>
               <div className="flex items-center">
                 <div className={styles.bg_icon}>
                   <PhoneFilled />

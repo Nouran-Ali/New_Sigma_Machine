@@ -3,14 +3,16 @@ import { initReactI18next } from 'react-i18next';
 
 import enTranslation from '../pages/locale/en.json';
 import arTranslation from '../pages/locale/ar.json';
+import { getCookie } from 'cookies-next';
 
 // const storedLanguage = localStorage.getItem('language') || 'en';
 
-let storedLanguage = 'en';
+// let storedLanguage = 'ar';
 
-if (typeof window !== 'undefined') {
-  storedLanguage = localStorage.getItem('language') || 'en';
-}
+// if (typeof window !== 'undefined') {
+//   const cookieLang = getCookie('language');
+//   storedLanguage = cookieLang || 'ar';
+// }
 
 i18n
   .use(initReactI18next)
@@ -23,8 +25,8 @@ i18n
         translation: arTranslation,
       },
     },
-    lng: storedLanguage,
-    fallbackLng: 'en',
+    lng: 'ar',
+    fallbackLng: 'ar',
     interpolation: {
       escapeValue: false,
     },

@@ -13,14 +13,23 @@ export default function App({ Component, pageProps }) {
   const [t, i18n] = useTranslation();
   const language = i18n.language;
 
-  const lang = getCookie("language") || "en";
+  // const lang = getCookie("language") || "ar";
 
+  // useEffect(() => {
+  //   if (i18n.language !== lang) {
+  //     setCookie("language", lang);
+  //     i18n.changeLanguage(lang);
+  //   }
+  // }, [i18n, lang]);  
   useEffect(() => {
-    if (i18n.language !== lang) {
-      setCookie("language", lang);
-      i18n.changeLanguage(lang);
+    const savedLang = getCookie('language');
+    if (savedLang && savedLang !== i18n.language) {
+      i18n.changeLanguage(savedLang);
+    } else if (!savedLang) {
+      i18n.changeLanguage('ar');
+      setCookie('language', 'ar');
     }
-  }, [i18n, lang]);  
+  }, []);
 
   return (
     <>
