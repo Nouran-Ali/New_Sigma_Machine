@@ -2,8 +2,13 @@ import React from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Main = () => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   return (
     <>
       <div>
@@ -11,17 +16,16 @@ const Main = () => {
           <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 reverce_mobile">
             <div className="lg:mt-20">
               <p className="text-[#666666] text-xl max-xl:text-lg tracking-widest uppercase font-medium">
-                Empowering laser users
+                {t("Empowering laser users")}
               </p>
               <h1 className="text-[#1c1c1c] mt-4 text-6xl max-xl:text-4xl font-bold">
-                Sigma Machines
+                {t("Sigma Machines")}
               </h1>
               <p className="text-[#54545f] text-xl max-xl:text-lg mt-8 mb-12">
-                Simplify your processes, increase your productivity, and
-                maximize your profitability.
+                {t("Simplify your processes, increase your productivity, and maximize your profitability.")}
               </p>
               <Link href="/about" className={styles.btn_more}>
-                Read More
+                {t("Read More")}
               </Link>
 
               <div className={styles.half_circle}></div>
@@ -113,7 +117,7 @@ const Main = () => {
             width="40"
             height="40"
             loading="lazy"
-            // placeholder="blur"
+          // placeholder="blur"
           />
         </div>
       </div>
