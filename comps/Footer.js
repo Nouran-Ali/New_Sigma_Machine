@@ -18,9 +18,7 @@ const Footer = () => {
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
                 <p className="mt-6">
-                  A professional CNC machine manufacturer. We are always
-                  providing customers with high-quality products, competitive
-                  prices, and excellent services.
+                  Sigma Machines — your trusted partner for smarter, faster, and more efficient industrial manufacturing.
                 </p>
               </div>
               <div className={`${styles.border} pl-6 max-xl:pl-0`}>
