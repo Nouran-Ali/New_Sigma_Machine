@@ -16,6 +16,7 @@
     "@shadcn/ui": "^0.0.4",
     "antd": "^5.10.1",
     "cookies-next": "^4.0.0",
+    "framer-motion": "^12.23.24",
     "i18next": "^23.5.1",
     "i18next-browser-languagedetector": "^7.1.0",
     "lucide-react": "^0.468.0",

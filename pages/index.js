@@ -7,6 +7,7 @@ import WhatWeOffer from "@/comps/WhatWeOffer";
 import Image from "next/image";
 import Head from 'next/head';
 import Meta from "@/comps/Meta";
+import Products_bar from "@/comps/Products_bar";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       />
 
       <Main />
+      <Products_bar />
       <WhatWeOffer />
       <Our_products />
       <Our_services />
