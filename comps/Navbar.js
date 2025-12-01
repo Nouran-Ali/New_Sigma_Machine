@@ -125,7 +125,7 @@ function Navbar() {
   const [anchorElSub3, setAnchorElSub3] = React.useState(null);
   const openSub3 = Boolean(anchorElSub3);
   const handleClickSub3 = (event) => {
-    setAnchorElSub(null);
+    // setAnchorElSub(null);
     setAnchorElSub2(null);
     setAnchorElSub4(null);
     setAnchorElSub5(null);
@@ -140,7 +140,7 @@ function Navbar() {
   const [anchorElSub4, setAnchorElSub4] = React.useState(null);
   const openSub4 = Boolean(anchorElSub4);
   const handleClickSub4 = (event) => {
-    setAnchorElSub(null);
+    // setAnchorElSub(null);
     setAnchorElSub2(null);
     setAnchorElSub3(null);
     setAnchorElSub5(null);
@@ -583,118 +583,120 @@ function Navbar() {
                             Rotary Axis CNC Router
                           </Link>
                         </MenuItem>
-                      </Menu>
 
-                      <MenuItem
-                        onClick={handleClickSub3}
-                        className="flex items-center justify-between"
-                        sx={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                        }}
-                      >
-                        ATC CNC Router
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />{" "}
-                      </MenuItem>
-                      <Menu
-                        id="sub-menu"
-                        anchorEl={anchorElSub3}
-                        open={openSub3}
-                        onClose={handleCloseSub3}
-                        keepMounted={false}
-                        anchorOrigin={{
-                          vertical: "top",
-                          horizontal: "right",
-                        }}
-                        transformOrigin={{
-                          vertical: "top",
-                          horizontal: "left",
-                        }}
-                      >
-                        <MenuItem onClick={handleClose}>
-                          <Link
-                            href={`/products/5`}
-                            className="no-underline text-inherit"
-                          >
-                            3 Axis ATC CNC Router
-                          </Link>
-                        </MenuItem>
-                        <MenuItem onClick={handleClose}>
-                          <Link
-                            href={`/products/6`}
-                            className="no-underline text-inherit"
-                          >
-                            4 Axis ATC CNC Router
-                          </Link>
-                        </MenuItem>
-                      </Menu>
-
-                      <MenuItem
-                        onClick={handleClickSub4}
-                        className="flex items-center justify-between"
-                        sx={{
-                          display: "flex",
-                          justifyContent: "space-between",
-                        }}
-                      >
-                        Multi-Head CNC Router
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />{" "}
-                      </MenuItem>
-                      <Menu
-                        id="sub-menu"
-                        anchorEl={anchorElSub4}
-                        open={openSub4}
-                        onClose={handleCloseSub4}
-                        keepMounted={false}
-                        anchorOrigin={{
-                          vertical: "top",
-                          horizontal: "right",
-                        }}
-                        transformOrigin={{
-                          vertical: "top",
-                          horizontal: "left",
-                        }}
-                      >
-                        <MenuItem onClick={handleClose}>
-                          <Link
-                            href={`/products/7`}
-                            className="no-underline text-inherit"
-                          >
-                            Multi Spindle CNC Router
-                          </Link>
-                        </MenuItem>
-                        <MenuItem onClick={handleClose}>
-                          <Link
-                            href={`/products/8`}
-                            className="no-underline text-inherit"
-                          >
-                            Multi-Process CNC Router
-                          </Link>
-                        </MenuItem>
-                      </Menu>
-
-                      <MenuItem onClick={handleClose}>
-                        <Link
-                          href={`/products/9`}
-                          className="no-underline text-inherit"
+                        <MenuItem
+                          onClick={handleClickSub3}
+                          className="flex items-center justify-between"
+                          sx={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                          }}
                         >
-                          Stone CNC Router
-                        </Link>
-                      </MenuItem>
-                      <MenuItem onClick={handleClose}>
-                        <Link
-                          href={`/products/10`}
-                          className="no-underline text-inherit"
+                          ATC CNC Router
+                          <ArrowForwardIosIcon
+                            className="text-sm ml-5"
+                            sx={{ fontSize: "17px" }}
+                          />{" "}
+                        </MenuItem>
+                        <Menu
+                          id="sub-menu3"
+                          anchorEl={anchorElSub3}
+                          open={openSub3}
+                          onClose={handleCloseSub3}
+                          keepMounted={false}
+                          anchorOrigin={{
+                            vertical: "top",
+                            horizontal: "right",
+                          }}
+                          transformOrigin={{
+                            vertical: "top",
+                            horizontal: "left",
+                          }}
                         >
-                          Aluminum CNC Router
-                        </Link>
-                      </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link
+                              href={`/products/5`}
+                              className="no-underline text-inherit"
+                            >
+                              3 Axis ATC CNC Router
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link
+                              href={`/products/6`}
+                              className="no-underline text-inherit"
+                            >
+                              4 Axis ATC CNC Router
+                            </Link>
+                          </MenuItem>
+                        </Menu>
+
+                        <MenuItem
+                          onClick={handleClickSub4}
+                          className="flex items-center justify-between"
+                          sx={{
+                            display: "flex",
+                            justifyContent: "space-between",
+                          }}
+                        >
+                          Multi-Head CNC Router
+                          <ArrowForwardIosIcon
+                            className="text-sm ml-5"
+                            sx={{ fontSize: "17px" }}
+                          />{" "}
+                        </MenuItem>
+                        <Menu
+                          id="sub-menu4"
+                          anchorEl={anchorElSub4}
+                          open={openSub4}
+                          onClose={handleCloseSub4}
+                          keepMounted={false}
+                          anchorOrigin={{
+                            vertical: "top",
+                            horizontal: "right",
+                          }}
+                          transformOrigin={{
+                            vertical: "top",
+                            horizontal: "left",
+                          }}
+                        >
+                          <MenuItem onClick={handleClose}>
+                            <Link
+                              href={`/products/7`}
+                              className="no-underline text-inherit"
+                            >
+                              Multi Spindle CNC Router
+                            </Link>
+                          </MenuItem>
+                          <MenuItem onClick={handleClose}>
+                            <Link
+                              href={`/products/8`}
+                              className="no-underline text-inherit"
+                            >
+                              Multi-Process CNC Router
+                            </Link>
+                          </MenuItem>
+                        </Menu>
+
+                        <MenuItem onClick={handleClose}>
+                          <Link
+                            href={`/products/9`}
+                            className="no-underline text-inherit"
+                          >
+                            Stone CNC Router
+                          </Link>
+                        </MenuItem>
+                        <MenuItem onClick={handleClose}>
+                          <Link
+                            href={`/products/10`}
+                            className="no-underline text-inherit"
+                          >
+                            Aluminum CNC Router
+                          </Link>
+                        </MenuItem>
+                      </Menu>
+
+
                       <MenuItem onClick={handleClose}>
                         <Link
                           href={`/products/11`}
@@ -774,7 +776,7 @@ function Navbar() {
                         />
                       </MenuItem>
                       <Menu
-                        id="sub2-menu"
+                        id="sub5-menu"
                         anchorEl={anchorElSub5}
                         open={openSub5}
                         onClose={handleCloseSub5}
@@ -829,7 +831,7 @@ function Navbar() {
                         />
                       </MenuItem>
                       <Menu
-                        id="sub2-menu"
+                        id="sub6-menu"
                         anchorEl={anchorElSub6}
                         open={openSub6}
                         onClose={handleCloseSub6}
@@ -893,7 +895,7 @@ function Navbar() {
                         />
                       </MenuItem>
                       <Menu
-                        id="sub2-menu"
+                        id="sub7-menu"
                         anchorEl={anchorElSub7}
                         open={openSub7}
                         onClose={handleCloseSub7}

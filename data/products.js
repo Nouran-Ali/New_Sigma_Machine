@@ -1,13 +1,4 @@
 export const products = [
-  // {
-  //   id: 1,
-  //   name: "3 Axis CNC Router",
-  //   overview: "Reliable, Accurate, and Versatile CNC Cutting for Wood, Acrylic, Plastics & More",
-  //   image: "/../products/20.webp",
-  //   slug: "atc-cnc-router-laser",
-  //   title: "Production Process Of ATC CNC Router",
-  //   desc: "The ATC CNC router is designed for complex woodworking processes...",
-  // },
   {
     id: 1,
     name: "3 Axis CNC Router Machine",
@@ -117,29 +108,384 @@ export const products = [
       ],
     },
   },
+  // {
+  //   id: 2,
+  //   name: "4 Axis CNC Router Machine",
+  //   image: "/../products/21.webp",
+  //   slug: "4-axis-cnc-router-laser-machine",
+  //   title: "Production Process Of 4 Axis CNC Router Machine",
+  //   desc: "The 4-axis CNC router introduces a rotating spindle...",
+  // },
   {
     id: 2,
     name: "4 Axis CNC Router Machine",
+    overview:
+      "Advanced 4-Axis Machining with Tilting Spindle for Angled Cutting & Deep 3D Carving.",
     image: "/../products/21.webp",
     slug: "4-axis-cnc-router-laser-machine",
-    title: "Production Process Of 4 Axis CNC Router Machine",
-    desc: "The 4-axis CNC router introduces a rotating spindle...",
+    title: "4 Axis CNC Router Machine",
+    desc: "The 4-axis CNC router features a tilting spindle for advanced machining, allowing angled cuts, undercuts, multi-surface shaping, and deep 3D carving without flipping the workpiece.",
+
+    details: {
+      keyFeatures: [
+        {
+          title: "Tilting Spindle (B-Axis on the Head)",
+          points: [
+            "Spindle rotates/tilts around the B-axis",
+            "No need to flip the workpiece",
+            "Ideal for angled cuts, chamfers, and curved surfaces",
+            "Supports true 4-axis simultaneous machining",
+            "Perfect for deep 3D sculptures and complex contours",
+          ],
+        },
+        {
+          title: "High-Performance Cutting Capability",
+          points: [
+            "Executes undercuts and negative angles",
+            "Carves deep 3D shapes smoothly",
+            "Cuts multi-directional surfaces in a single setup",
+            "Reduces manual finishing significantly",
+          ],
+        },
+        {
+          title: "Industrial-Grade Machine Structure",
+          points: [
+            "Heavy-duty welded steel body",
+            "Reinforced gantry for tilting spindle load",
+            "HIWIN linear guide rails",
+            "Rack & pinion transmission for X/Y axes",
+            "Ball screw Z-axis for maximum accuracy",
+          ],
+        },
+        {
+          title: "Powerful Spindle Options",
+          points: [
+            "6kW / 9kW / 12kW spindle power",
+            "Air-cooled or water-cooled options",
+            "Up to 24,000 RPM",
+            "Suitable for hardwood, MDF, foam, acrylic, and composites",
+          ],
+        },
+        {
+          title: "Smart 4-Axis CNC Controller",
+          points: [
+            "Supports Syntec, NcStudio, RichAuto, and optional OSAI",
+            "Smooth interpolation across X, Y, Z, and A axes",
+            "Supports 4-axis G-code",
+            "Auto tool calibration",
+            "High-precision toolpath control",
+          ],
+        },
+      ],
+
+      workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+
+      applications: [
+        {
+          category: "High-End Furniture Manufacturing",
+          items: [
+            "Curved doors",
+            "Sculpted chair and table components",
+            "Multi-angle joints",
+            "Artistic wooden structures",
+          ],
+        },
+        {
+          category: "3D Carving & Artistic Production",
+          items: [
+            "Deep 3D sculpting",
+            "Organic and artistic shapes",
+            "Complex multi-angle carvings",
+          ],
+        },
+        {
+          category: "Mold & Prototype Production",
+          items: [
+            "Foam molds",
+            "Wooden patterns",
+            "Multi-surface shaping without repositioning",
+          ],
+        },
+        {
+          category: "Architectural Decoration",
+          items: [
+            "Curved wall panels",
+            "Multi-level decorative elements",
+            "Sculpted columns and artistic features",
+          ],
+        },
+      ],
+
+      advantages: [
+        "True 4-axis machining with spindle rotation",
+        "Cuts angles impossible for standard 3-axis machines",
+        "No need to flip or reposition material",
+        "Faster and more accurate multi-surface machining",
+        "Perfect for complex artistic or industrial tasks",
+        "High finishing quality with minimal handwork",
+      ],
+    },
   },
+  // {
+  //   id: 3,
+  //   name: "CNC Aluminum Milling Machine",
+  //   image: "/../products/22.webp",
+  //   slug: "cnc-aluminum-milling-laser-machine",
+  //   title: "Production Process Of CNC Aluminum Milling Machine",
+  //   desc: "Specialized for aluminum, the CNC aluminum milling machine...",
+  // },
   {
     id: 3,
-    name: "CNC Aluminum Milling Machine",
+    name: "5 Axis CNC Router Machine",
+    overview:
+      "Ultimate 5-Axis Machining for Complex 3D Surfaces, Deep Sculpting & Multi-Angle Cutting.",
     image: "/../products/22.webp",
-    slug: "cnc-aluminum-milling-laser-machine",
-    title: "Production Process Of CNC Aluminum Milling Machine",
-    desc: "Specialized for aluminum, the CNC aluminum milling machine...",
+    slug: "5-axis-cnc-router-machine",
+    title: "5 Axis CNC Router Machine",
+    desc: "The 5-axis CNC router features a dual-axis tilting and rotating spindle (B-axis + C-axis), enabling full multi-directional machining for highly complex 3D geometries, sculptures, molds, and advanced industrial components.",
+
+    details: {
+      keyFeatures: [
+        {
+          title: "Dual-Axis Tilting Spindle Head (B-axis + C-axis)",
+          points: [
+            "Spindle tilts on B-axis and rotates on C-axis",
+            "Supports full 5-axis simultaneous machining",
+            "Perfect for undercuts, compound angles, and curved surfaces",
+            "Tool can approach the workpiece from any direction",
+            "Eliminates repositioning or flipping the material",
+          ],
+        },
+        {
+          title: "True 5-Axis Interpolation",
+          points: [
+            "Smooth and accurate 5-axis toolpath execution",
+            "Ideal for organic shapes, sculptures, and molds",
+            "Perfect for aerospace-grade surface machining",
+            "Delivers ultra-smooth finishing with minimal handwork",
+          ],
+        },
+        {
+          title: "High-Strength Heavy-Duty Structure",
+          points: [
+            "Reinforced steel frame designed for 5-axis torque",
+            "Gantry engineered to support tilting-head spindle weight",
+            "HIWIN/PMI linear guide rails",
+            "Rack & pinion transmission on X/Y axes",
+            "Ball screw Z-axis for maximum accuracy",
+            "Rigid construction for vibration-free machining",
+          ],
+        },
+        {
+          title: "High-Performance Spindle Options",
+          points: [
+            "9kW / 12kW / 15kW HSD or equivalent",
+            "Air-cooled or water-cooled",
+            "Up to 24,000 RPM",
+            "Supports long-duration 5-axis machining cycles",
+          ],
+        },
+        {
+          title: "Advanced 5-Axis CNC Controller",
+          points: [
+            "Syntec 5-axis, OSAI 5-axis, Siemens/Fanuc (optional)",
+            "Supports full 5-axis simultaneous machining",
+            "5-axis RTCP (Rotational Tool Center Point)",
+            "Tool length compensation",
+            "Smooth 5-axis surface processing",
+            "High-speed data handling and precision control",
+          ],
+        },
+      ],
+
+      workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+
+      applications: [
+        {
+          category: "High-End Furniture & Woodworking",
+          items: [
+            "Sculpted chair bodies",
+            "Curved and twisted wooden panels",
+            "Artistic wooden structures",
+            "Complex multi-angle joints",
+          ],
+        },
+        {
+          category: "3D Sculpture & Artistic Production",
+          items: [
+            "Life-size statues",
+            "Organic 3D forms",
+            "Art installations",
+            "Advanced decorative shapes",
+          ],
+        },
+        {
+          category: "Mold & Prototype Manufacturing",
+          items: [
+            "Automotive molds",
+            "3D surface molds",
+            "Foam, wood, and resin patterns",
+            "Large prototypes with undercuts",
+          ],
+        },
+        {
+          category: "Aerospace & Marine Components",
+          items: [
+            "Composite shaping",
+            "Aerodynamic components",
+            "Multi-surface trimming",
+            "Precision milling for complex parts",
+          ],
+        },
+        {
+          category: "Architectural & Interior Design",
+          items: [
+            "3D wall panels",
+            "Sculpted columns",
+            "Organic interior structures",
+            "Custom artistic installations",
+          ],
+        },
+      ],
+
+      advantages: [
+        "Allows machining from any angle or direction",
+        "No need to flip or reposition the workpiece",
+        "Perfect for extremely complex 3D geometries",
+        "High-precision sculpting and mold production",
+        "Reduced manual finishing work",
+        "Ultra-smooth surface quality",
+        "Maximum flexibility for advanced manufacturing",
+      ],
+    },
   },
+  // {
+  //   id: 4,
+  //   name: "CNC Wood Router",
+  //   image: "/../products/23.webp",
+  //   slug: "cnc-wood-router-laser",
+  //   title: "Production Process Of CNC Wood Router",
+  //   desc: "The CNC wood router is a versatile tool...",
+  // },
   {
     id: 4,
-    name: "CNC Wood Router",
+    name: "Rotary Axis CNC Router Machine",
+    overview:
+      "Precision machining for cylindrical, curved, and 3D round components with full 360° rotary axis control.",
     image: "/../products/23.webp",
-    slug: "cnc-wood-router-laser",
-    title: "Production Process Of CNC Wood Router",
-    desc: "The CNC wood router is a versatile tool...",
+    slug: "rotary-axis-cnc-router-machine",
+    title: "Rotary Axis CNC Router Machine",
+    desc: "The Rotary Axis CNC Router is engineered for precision machining of cylindrical, round, and 3D curved components using an integrated A-axis rotary system that enables full 360-degree carving and multi-sided processing.",
+
+    details: {
+      keyFeatures: [
+        {
+          title: "High-Precision Rotary Axis (A-Axis)",
+          points: [
+            "Full 360° continuous rotation",
+            "Heavy-duty chuck and tailstock support",
+            "Supports long and heavy cylindrical workpieces",
+            "Perfect synchronization with XYZ axes",
+            "Ideal for spirals, 3D round carving, and deep sculpting",
+          ],
+        },
+        {
+          title: "Flexible Rotary Installation Options",
+          points: [
+            "Fixed rotary axis mounted on the bed for dedicated turning work",
+            "Detachable rotary axis for switching between flat and rotary jobs",
+            "Suitable for workshops requiring multi-function operation",
+          ],
+        },
+        {
+          title: "Powerful Spindle Options",
+          points: [
+            "3.2kW / 4.5kW / 6kW / 9kW spindle configurations",
+            "Air-cooled or water-cooled options",
+            "Up to 24,000 RPM",
+            "Stable for long-duration 3D carving operations",
+          ],
+        },
+        {
+          title: "Strong Mechanical Structure",
+          points: [
+            "Heavy-duty steel welded body",
+            "HIWIN linear guide rails",
+            "Rack & pinion transmission for X and Y axes",
+            "Ball screw Z-axis for maximum accuracy",
+            "Vibration-free machining under heavy carving loads",
+          ],
+        },
+        {
+          title: "Advanced CNC Controller",
+          points: [
+            "Supports rotary interpolation",
+            "Compatible with Syntec 6MB, RichAuto, NcStudio 4-axis, Mach3/4",
+            "Smooth coordinated 4-axis motion",
+            "Automatic tool calibration",
+            "Accurate feed-to-rotation synchronization",
+          ],
+        },
+      ],
+
+      workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+
+      applications: [
+        {
+          category: "Woodworking & Furniture",
+          items: [
+            "Table legs",
+            "Chair legs",
+            "Bed posts",
+            "Decorative spindles",
+            "Porch columns",
+            "Handrails and staircase balusters",
+          ],
+        },
+        {
+          category: "3D Sculpture & Art",
+          items: [
+            "Human and animal statues",
+            "Totem poles",
+            "Complex cylindrical carvings",
+            "Custom artistic pieces",
+          ],
+        },
+        {
+          category: "Architectural & Interior Elements",
+          items: [
+            "Ornamental pillars",
+            "Decorative columns",
+            "Curved moldings",
+            "3D wooden ornaments",
+          ],
+        },
+        {
+          category: "Advertising & Display",
+          items: [
+            "Custom cylindrical displays",
+            "3D totem structures",
+            "Rounded signage components",
+          ],
+        },
+        {
+          category: "Crafts & Handmade Production",
+          items: [
+            "Handcrafted wooden cylinders",
+            "Decorative cylindrical items",
+          ],
+        },
+      ],
+
+      advantages: [
+        "True 360° rotary machining capability",
+        "Ideal for cylindrical, round, and multi-sided components",
+        "Much faster than manual lathe carving",
+        "High precision for deep and detailed 3D carving",
+        "Functions as both flat-bed CNC and rotary CNC",
+        "Supports long, large, and heavy work materials",
+      ],
+    },
   },
   {
     id: 5,

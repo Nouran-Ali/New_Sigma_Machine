@@ -299,7 +299,7 @@ const Product = () => {
                   </div>
                 </div>
 
-                <div className="mt-12">
+                {/* <div className="mt-12">
                   <h2 className="text-3xl font-semibold  text-[#1c1c1c] text-center"> Applications</h2>
                   <hr className={`${styles.line} mx-auto text-center mt-3 mb-6`} />
 
@@ -313,19 +313,66 @@ const Product = () => {
                       </div>
                     ))}
                   </div>
-                </div>
+                </div> */}
 
-                {/* <div className="">
-                  <h2 className=" text-4xl mt-9">⚡ Advantages</h2>
+                <div className="mt-12">
+                  <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                    Applications
+                  </h2>
+                  <hr className={`${styles.line} mx-auto text-center mt-3 mb-10`} />
 
-                  <div className="mt-5">
-                    {product?.details?.advantages?.map((section) => (
-                      <div key={section}>
-                        <h3 className="text-[#1c1c1c] text-xl mt-3">{section}</h3>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    {product?.details?.applications?.map((section, idx) => (
+                      <div
+                        key={section.category}
+                        className="
+          relative group p-7 rounded-3xl border border-gray-200 
+          bg-white/60 backdrop-blur-xl shadow-md 
+          hover:shadow-xl transition-all duration-300 hover:-translate-y-1
+        "
+                      >
+                        {/* Circle Number */}
+                        <div className="
+          absolute -top-4 -left-4 bg-gradient-to-br from-[#d9d640] via-[#c5c23a] to-[#d9d640]
+          text-white w-10 h-10 rounded-full flex items-center justify-center
+          shadow-md font-semibold
+        ">
+                          {idx + 1}
+                        </div>
+
+                        {/* Category Title */}
+                        <h3 className="text-[#1c1c1c] text-xl font-semibold text-center mb-5 
+          group-hover:text-[#c5c23a] transition-all duration-300">
+                          {section.category}
+                        </h3>
+
+                        {/* Items List */}
+                        <div className="flex flex-col gap-3">
+                          {section.items.map((item) => (
+                            <div
+                              key={item}
+                              className="flex items-center gap-3 text-lg 
+                text-[#6a6b75] group-hover:text-[#50515a] transition-all"
+                            >
+                              <span className="
+                w-2.5 h-2.5 rounded-full 
+                bg-gradient-to-br from-[#d9d640] to-[#c5c23a]
+              "></span>
+                              <p>{item}</p>
+                            </div>
+                          ))}
+                        </div>
+
+                        {/* Hover Glow Border Effect */}
+                        <div className="
+          absolute inset-0 rounded-3xl border-2 border-transparent 
+          group-hover:border-[#d9d640] transition-all duration-300 pointer-events-none
+        "></div>
                       </div>
                     ))}
                   </div>
-                </div> */}
+                </div>
+
 
                 <div className="mt-12">
                   <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
