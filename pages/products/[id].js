@@ -132,21 +132,19 @@ const Product = () => {
       </div>
 
       <div className="px-24 max-lg:px-10">
-        {
-          product?.id == "11" ||
-          product?.id == "20" ||
-          product?.id == "21" ? (
+        {/* {
+          
+          product?.id == "20"  ? (
           <p className="mt-5 mb-5 text-lg text-[#54545f]">{product?.desc}</p>
         ) : (
           ""
-        )}
+        )} */}
 
-        {
-          product?.id == "11" ||
-          product?.id == "20" ||
+        {/* {
+          
           product?.id == "21" ? (
           <>
-            {
+             {
             // product?.id == "10" ? (
             //   <>
             //     <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
@@ -167,69 +165,71 @@ const Product = () => {
             //     </div>
             //   </>
             // ) :
-             product?.id == "11" ? (
-              <>
-                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
-                  {productsPlasma.map((product) => (
-                    <div>
-                      <Product_comp
-                        key={product.id}
-                        title={product.name}
-                        href={`/products/${product.id}`}
-                        background={{
-                          backgroundImage: `url(${product.image})`,
-                        }}
-                        method={product.title}
-                        description={truncatedDesc}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </>
-            ) : product?.id == "20" ? (
-              <>
-                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
-                  {productsPress.map((product) => (
-                    <div>
-                      <Product_comp
-                        key={product.id}
-                        title={product.name}
-                        href={`/products/${product.id}`}
-                        background={{
-                          backgroundImage: `url(${product.image})`,
-                        }}
-                        method={product.title}
-                        description={truncatedDesc}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </>
-            ) : product?.id == "21" ? (
-              <>
-                <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
-                  {productsShearing.map((product) => (
-                    <div>
-                      <Product_comp
-                        key={product.id}
-                        title={product.name}
-                        href={`/products/${product.id}`}
-                        background={{
-                          backgroundImage: `url(${product.image})`,
-                        }}
-                        method={product.title}
-                        description={truncatedDesc}
-                      />
-                    </div>
-                  ))}
-                </div>
-              </>
-            ) : (
-              ""
-            )}
+            //  product?.id == "11" ? (
+            //   <>
+            //     <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
+            //       {productsPlasma.map((product) => (
+            //         <div>
+            //           <Product_comp
+            //             key={product.id}
+            //             title={product.name}
+            //             href={`/products/${product.id}`}
+            //             background={{
+            //               backgroundImage: `url(${product.image})`,
+            //             }}
+            //             method={product.title}
+            //             description={truncatedDesc}
+            //           />
+            //         </div>
+            //       ))}
+            //     </div>
+            //   </>
+            // ) :
+            //  product?.id == "20" ? (
+            //   <>
+            //     <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
+            //       {productsPress.map((product) => (
+            //         <div>
+            //           <Product_comp
+            //             key={product.id}
+            //             title={product.name}
+            //             href={`/products/${product.id}`}
+            //             background={{
+            //               backgroundImage: `url(${product.image})`,
+            //             }}
+            //             method={product.title}
+            //             description={truncatedDesc}
+            //           />
+            //         </div>
+            //       ))}
+            //     </div>
+            //   </>
+            // ) : 
+            // product?.id == "21" ? (
+            //   <>
+            //     <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 mt-9 mb-9 relative">
+            //       {productsShearing.map((product) => (
+            //         <div>
+            //           <Product_comp
+            //             key={product.id}
+            //             title={product.name}
+            //             href={`/products/${product.id}`}
+            //             background={{
+            //               backgroundImage: `url(${product.image})`,
+            //             }}
+            //             method={product.title}
+            //             description={truncatedDesc}
+            //           />
+            //         </div>
+            //       ))}
+            //     </div>
+            //   </>
+            // ) : (
+            //   ""
+            // )}
           </>
-        ) : (
-          <>
+        ) : ( */}
+          
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-7 mb-7">
               <div className="col-span-2">
                 <img
@@ -441,8 +441,8 @@ const Product = () => {
                 </div> */}
               </div>
             </div>
-          </>
-        )}
+          
+        
 
         {/* <div>
           <h2 className="text-center text-4xl mt-9">Features</h2>
