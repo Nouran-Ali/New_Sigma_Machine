@@ -623,138 +623,267 @@ export const products = [
   //   title: "Production Details Of Fiber Laser Cutting Machine",
   //   desc: "The fiber laser cutting machine provides a powerful solution...",
   // },
+  //   {
+  //     id: 6,
+  //     name: "4 Axis ATC CNC Router Machine",
+  //     image: "/../products/25.webp",
+  //     slug: "4-axis-atc-cnc-router-machine",
+  //     title: "Production Details Of 4 Axis ATC CNC Router Machine",
+  //     desc: "The 4-axis ATC CNC router with a tilting spindle offers advanced machining capabilities for complex angles, deep 3D carving, and multi-surface processing. Combined with an automatic tool changer, it boosts productivity and precision.",
+
+  //     overview: `
+  // Advanced 4-Axis Machining with a Fully Automatic Tool Changer The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing. Unlike rotary 4th-axis machines, this model uses a tilting spindle (A/B axis) allowing undercuts, bevel cuts, deep carving, and multi-surface machining without flipping the material.
+  //   `,
+
+  //     keyFeatures: [
+  //       {
+  //         title: "Tilting Spindle 4-Axis",
+  //         points: [
+  //           "Angled cutting",
+  //           "Beveled edges",
+  //           "Undercuts",
+  //           "Deep 3D surface machining",
+  //           "Multi-face machining without flipping the material",
+  //           "Perfect for complex 3D molds and patterns"
+  //         ]
+  //       },
+
+  //       {
+  //         title: "Automatic Tool Changer (ATC)",
+  //         points: [
+  //           "6 / 8 / 12-tool magazine options",
+  //           "Fast, precise tool switching",
+  //           "Ideal for multi-step 3D jobs",
+  //           "Reduces production time and operator labor"
+  //         ]
+  //       },
+
+  //       {
+  //         title: "High-Performance Tilting Spindle",
+  //         points: [
+  //           "9kW / 12kW spindle options",
+  //           "0–24000 RPM",
+  //           "Stable during angled operations",
+  //           "Suitable for professional long-hour machining"
+  //         ]
+  //       },
+
+  //       {
+  //         title: "Heavy-Duty Industrial Structure",
+  //         points: [
+  //           "Thick welded steel frame",
+  //           "Reinforced gantry for tilting torque",
+  //           "HIWIN linear guides",
+  //           "Helical rack & pinion on X/Y",
+  //           "Ball screw Z-axis for high precision"
+  //         ]
+  //       },
+
+  //       {
+  //         title: "Advanced 4-Axis Controller",
+  //         points: [
+  //           "Supports full 4-axis interpolation",
+  //           "3D & multi-surface machining",
+  //           "Automatic tool calibration",
+  //           "Smooth motion control"
+  //         ],
+  //         controllers: ["Syntec", "NcStudio 4-axis", "RichAuto 4-axis", "Osai (optional)"]
+  //       }
+  //     ],
+
+  //     workingAreas: [
+  //       "1500×3500 mm",
+  //       "2000×4000 mm",
+  //       "2000×6000 mm"
+  //     ],
+
+  //     applications: [
+  //       {
+  //         title: "3D Carving & Artistic Woodwork",
+  //         items: [
+  //           "Deep 3D sculptures",
+  //           "Complex reliefs",
+  //           "Curved surface carving",
+  //           "Artistic elements"
+  //         ]
+  //       },
+  //       {
+  //         title: "Mold Making",
+  //         items: [
+  //           "Foam molds",
+  //           "Wooden molds",
+  //           "Prototypes",
+  //           "Casting patterns"
+  //         ]
+  //       },
+  //       {
+  //         title: "Furniture Manufacturing",
+  //         items: [
+  //           "Curved chair legs",
+  //           "Slanted surfaces",
+  //           "Decorative angles",
+  //           "Multi-level panels"
+  //         ]
+  //       },
+  //       {
+  //         title: "Architectural & Interior Design",
+  //         items: [
+  //           "Curved CNC panels",
+  //           "Complex ceilings",
+  //           "Column bases",
+  //           "3D wall panels"
+  //         ]
+  //       },
+  //       {
+  //         title: "Advertising & Acrylic Work",
+  //         items: [
+  //           "Angled acrylic cuts",
+  //           "3D signage",
+  //           "Deep engraving"
+  //         ]
+  //       }
+  //     ],
+
+  //     advantages: [
+  //       "4-axis tilting spindle for advanced geometry",
+  //       "No manual flipping required",
+  //       "More accuracy than rotary tables",
+  //       "ATC system increases productivity",
+  //       "Ideal for large 3D & multi-surface jobs",
+  //       "Compatible with wood, MDF, foam, plastics, molds, and some aluminum"
+  //     ]
+  //   },
   {
     id: 6,
     name: "4 Axis ATC CNC Router Machine",
+    overview:
+      "Advanced 4-Axis Machining with a Fully Automatic Tool Changer The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing. Unlike rotary 4th-axis machines, this model uses a tilting spindle (A/B axis) allowing undercuts, bevel cuts, deep carving, and multi-surface machining without flipping the material.",
     image: "/../products/25.webp",
-    slug: "4-axis-atc-cnc-router-machine",
+    image_small: "/../products/router-350x370.png",
+    slug: "3-axis-cnc-router-machine",
     title: "Production Details Of 4 Axis ATC CNC Router Machine",
     desc: "The 4-axis ATC CNC router with a tilting spindle offers advanced machining capabilities for complex angles, deep 3D carving, and multi-surface processing. Combined with an automatic tool changer, it boosts productivity and precision.",
 
-    overview: `
-Advanced 4-Axis Machining with a Fully Automatic Tool Changer
+    details: {
 
-The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing.
-Unlike rotary 4th-axis machines, this model uses a tilting spindle (A/B axis) allowing undercuts, bevel cuts, deep carving, and multi-surface machining without flipping the material.
-  `,
+      keyFeatures: [
+        {
+          title: "Tilting Spindle 4-Axis",
+          points: [
+            "Angled cutting",
+            "Beveled edges",
+            "Undercuts",
+            "Deep 3D surface machining",
+            "Multi-face machining without flipping the material",
+            "Perfect for complex 3D molds and patterns"
+          ]
+        },
 
-    keyFeatures: [
-      {
-        title: "Tilting Spindle 4-Axis",
-        points: [
-          "Angled cutting",
-          "Beveled edges",
-          "Undercuts",
-          "Deep 3D surface machining",
-          "Multi-face machining without flipping the material",
-          "Perfect for complex 3D molds and patterns"
-        ]
-      },
+        {
+          title: "Automatic Tool Changer (ATC)",
+          points: [
+            "6 / 8 / 12-tool magazine options",
+            "Fast, precise tool switching",
+            "Ideal for multi-step 3D jobs",
+            "Reduces production time and operator labor"
+          ]
+        },
 
-      {
-        title: "Automatic Tool Changer (ATC)",
-        points: [
-          "6 / 8 / 12-tool magazine options",
-          "Fast, precise tool switching",
-          "Ideal for multi-step 3D jobs",
-          "Reduces production time and operator labor"
-        ]
-      },
+        {
+          title: "High-Performance Tilting Spindle",
+          points: [
+            "9kW / 12kW spindle options",
+            "0–24000 RPM",
+            "Stable during angled operations",
+            "Suitable for professional long-hour machining"
+          ]
+        },
 
-      {
-        title: "High-Performance Tilting Spindle",
-        points: [
-          "9kW / 12kW spindle options",
-          "0–24000 RPM",
-          "Stable during angled operations",
-          "Suitable for professional long-hour machining"
-        ]
-      },
+        {
+          title: "Heavy-Duty Industrial Structure",
+          points: [
+            "Thick welded steel frame",
+            "Reinforced gantry for tilting torque",
+            "HIWIN linear guides",
+            "Helical rack & pinion on X/Y",
+            "Ball screw Z-axis for high precision"
+          ]
+        },
 
-      {
-        title: "Heavy-Duty Industrial Structure",
-        points: [
-          "Thick welded steel frame",
-          "Reinforced gantry for tilting torque",
-          "HIWIN linear guides",
-          "Helical rack & pinion on X/Y",
-          "Ball screw Z-axis for high precision"
-        ]
-      },
+        {
+          title: "Advanced 4-Axis Controller",
+          points: [
+            "Supports full 4-axis interpolation",
+            "3D & multi-surface machining",
+            "Automatic tool calibration",
+            "Smooth motion control"
+          ],
+          controllers: ["Syntec", "NcStudio 4-axis", "RichAuto 4-axis", "Osai (optional)"]
+        }
+      ],
 
-      {
-        title: "Advanced 4-Axis Controller",
-        points: [
-          "Supports full 4-axis interpolation",
-          "3D & multi-surface machining",
-          "Automatic tool calibration",
-          "Smooth motion control"
-        ],
-        controllers: ["Syntec", "NcStudio 4-axis", "RichAuto 4-axis", "Osai (optional)"]
-      }
-    ],
+      workingArea: [
+        "1500×3500 mm",
+        "2000×4000 mm",
+        "2000×6000 mm"
+      ],
 
-    workingAreas: [
-      "1500×3500 mm",
-      "2000×4000 mm",
-      "2000×6000 mm"
-    ],
+      applications: [
+        {
+          category: "3D Carving & Artistic Woodwork",
+          items: [
+            "Deep 3D sculptures",
+            "Complex reliefs",
+            "Curved surface carving",
+            "Artistic elements"
+          ]
+        },
+        {
+          category: "Mold Making",
+          items: [
+            "Foam molds",
+            "Wooden molds",
+            "Prototypes",
+            "Casting patterns"
+          ]
+        },
+        {
+          category: "Furniture Manufacturing",
+          items: [
+            "Curved chair legs",
+            "Slanted surfaces",
+            "Decorative angles",
+            "Multi-level panels"
+          ]
+        },
+        {
+          category: "Architectural & Interior Design",
+          items: [
+            "Curved CNC panels",
+            "Complex ceilings",
+            "Column bases",
+            "3D wall panels"
+          ]
+        },
+        {
+          category: "Advertising & Acrylic Work",
+          items: [
+            "Angled acrylic cuts",
+            "3D signage",
+            "Deep engraving"
+          ]
+        }
+      ],
 
-    applications: [
-      {
-        title: "3D Carving & Artistic Woodwork",
-        items: [
-          "Deep 3D sculptures",
-          "Complex reliefs",
-          "Curved surface carving",
-          "Artistic elements"
-        ]
-      },
-      {
-        title: "Mold Making",
-        items: [
-          "Foam molds",
-          "Wooden molds",
-          "Prototypes",
-          "Casting patterns"
-        ]
-      },
-      {
-        title: "Furniture Manufacturing",
-        items: [
-          "Curved chair legs",
-          "Slanted surfaces",
-          "Decorative angles",
-          "Multi-level panels"
-        ]
-      },
-      {
-        title: "Architectural & Interior Design",
-        items: [
-          "Curved CNC panels",
-          "Complex ceilings",
-          "Column bases",
-          "3D wall panels"
-        ]
-      },
-      {
-        title: "Advertising & Acrylic Work",
-        items: [
-          "Angled acrylic cuts",
-          "3D signage",
-          "Deep engraving"
-        ]
-      }
-    ],
-
-    advantages: [
-      "4-axis tilting spindle for advanced geometry",
-      "No manual flipping required",
-      "More accuracy than rotary tables",
-      "ATC system increases productivity",
-      "Ideal for large 3D & multi-surface jobs",
-      "Compatible with wood, MDF, foam, plastics, molds, and some aluminum"
-    ]
+      advantages: [
+        "4-axis tilting spindle for advanced geometry",
+        "No manual flipping required",
+        "More accuracy than rotary tables",
+        "ATC system increases productivity",
+        "Ideal for large 3D & multi-surface jobs",
+        "Compatible with wood, MDF, foam, plastics, molds, and some aluminum"
+      ],
+    },
   },
   // {
   //   id: 7,
@@ -767,146 +896,142 @@ Unlike rotary 4th-axis machines, this model uses a tilting spindle (A/B axis) al
   {
     id: 7,
     name: "Multi-Spindle CNC Router",
+    overview: "High-Efficiency CNC Router for Mass Production & Multi-Piece Machining The Multi-Spindle CNC Router is designed for high-volume production, allowing multiple spindles to operate simultaneously on several pieces at once. Ideal for factories and workshops requiring maximum output, consistent quality, and reduced machining time. With synchronized spindles, heavy-duty structure, and advanced controls, it dramatically boosts productivity in woodworking, signage, furniture manufacturing, and batch processing.",
     image: "/../products/26.webp",
     slug: "multi-spindle-cnc-router",
     title: "Production Process Of Multi-Spindle CNC Router",
     desc: "The Multi-Spindle CNC Router is built for mass production, allowing several spindles to work simultaneously for maximum efficiency and output.",
 
-    overview: `
-High-Efficiency CNC Router for Mass Production & Multi-Piece Machining
 
-The Multi-Spindle CNC Router is designed for high-volume production, allowing multiple spindles to operate simultaneously on several pieces at once. 
-Ideal for factories and workshops requiring maximum output, consistent quality, and reduced machining time.
-With synchronized spindles, heavy-duty structure, and advanced controls, it dramatically boosts productivity in woodworking, signage, furniture manufacturing, and batch processing.
-  `,
+    details: {
+      keyFeatures: [
+        {
+          title: "Multiple Spindles Working Simultaneously",
+          points: [
+            "Available in 2, 3, 4, or 6 spindles (customizable)",
+            "Machine multiple identical parts at once",
+            "Increase output by 2×–6×",
+            "Highly efficient for batch manufacturing"
+          ]
+        },
+        {
+          title: "Powerful High-Speed Spindles",
+          points: [
+            "1.5kW / 2.2kW / 3.2kW / 4.5kW spindle options",
+            "Air-cooled or water-cooled",
+            "Reliable performance during long-hour operation",
+            "Ideal for wood, MDF, acrylic, PVC, foam, and soft aluminum"
+          ]
+        },
+        {
+          title: "Rigid Heavy-Duty Structure",
+          points: [
+            "Thick steel welded frame",
+            "Reinforced gantry",
+            "Vibration-free operation",
+            "Long-term accuracy under continuous load"
+          ]
+        },
+        {
+          title: "High-Precision Transmission System",
+          points: [
+            "HIWIN linear guide rails",
+            "Ball screw Z-axis",
+            "Rack & pinion X/Y motion",
+            "Repeatability of ±0.03mm for detailed work"
+          ]
+        },
+        {
+          title: "Multiple Working Modes",
+          points: [
+            "Synchronized Mode: all spindles do the same job",
+            "Independent Mode (optional): each spindle works separately",
+            "Perfect for switching between bulk and custom production"
+          ]
+        },
+        {
+          title: "Advanced CNC Controller",
+          points: [
+            "Supports RichAuto, NcStudio, Mach3/4, Syntec (optional)",
+            "Multi-spindle synchronization",
+            "Fast data processing",
+            "Smooth motion control and large-file support"
+          ]
+        },
+        {
+          title: "Vacuum Table & T-Slot Bed",
+          points: [
+            "Strong suction for batch jobs",
+            "Holds multiple sheets securely",
+            "Reduces vibration for cleaner finishes"
+          ]
+        }
+      ],
 
-    keyFeatures: [
-      {
-        title: "Multiple Spindles Working Simultaneously",
-        points: [
-          "Available in 2, 3, 4, or 6 spindles (customizable)",
-          "Machine multiple identical parts at once",
-          "Increase output by 2×–6×",
-          "Highly efficient for batch manufacturing"
-        ]
-      },
-      {
-        title: "Powerful High-Speed Spindles",
-        points: [
-          "1.5kW / 2.2kW / 3.2kW / 4.5kW spindle options",
-          "Air-cooled or water-cooled",
-          "Reliable performance during long-hour operation",
-          "Ideal for wood, MDF, acrylic, PVC, foam, and soft aluminum"
-        ]
-      },
-      {
-        title: "Rigid Heavy-Duty Structure",
-        points: [
-          "Thick steel welded frame",
-          "Reinforced gantry",
-          "Vibration-free operation",
-          "Long-term accuracy under continuous load"
-        ]
-      },
-      {
-        title: "High-Precision Transmission System",
-        points: [
-          "HIWIN linear guide rails",
-          "Ball screw Z-axis",
-          "Rack & pinion X/Y motion",
-          "Repeatability of ±0.03mm for detailed work"
-        ]
-      },
-      {
-        title: "Multiple Working Modes",
-        points: [
-          "Synchronized Mode: all spindles do the same job",
-          "Independent Mode (optional): each spindle works separately",
-          "Perfect for switching between bulk and custom production"
-        ]
-      },
-      {
-        title: "Advanced CNC Controller",
-        points: [
-          "Supports RichAuto, NcStudio, Mach3/4, Syntec (optional)",
-          "Multi-spindle synchronization",
-          "Fast data processing",
-          "Smooth motion control and large-file support"
-        ]
-      },
-      {
-        title: "Vacuum Table & T-Slot Bed",
-        points: [
-          "Strong suction for batch jobs",
-          "Holds multiple sheets securely",
-          "Reduces vibration for cleaner finishes"
-        ]
-      }
-    ],
+      workingArea: [
+        "1300×2500 mm",
+        "1500×3500 mm",
+        "2000×4000 mm",
+        "2000×6000 mm"
+      ],
 
-    workingAreas: [
-      "1300×2500 mm",
-      "1500×3500 mm",
-      "2000×4000 mm",
-      "2000×6000 mm"
-    ],
+      applications: [
+        {
+          category: "Furniture Manufacturing",
+          items: [
+            "Cabinet doors",
+            "MDF panels",
+            "Decorative wood pieces",
+            "Chairs, tables, frames"
+          ]
+        },
+        {
+          category: "Woodworking & Carving",
+          items: [
+            "Relief carving",
+            "Pattern duplication",
+            "Artistic panels",
+            "Batch wooden parts"
+          ]
+        },
+        {
+          category: "Sign-Making",
+          items: [
+            "3D letters",
+            "Acrylic signs",
+            "PVC and foam cutting",
+            "Lightbox components"
+          ]
+        },
+        {
+          category: "Interior Decoration",
+          items: [
+            "Wall panels",
+            "Partitions",
+            "Ceiling designs",
+            "Custom engravings"
+          ]
+        },
+        {
+          category: "Mass Production Workshops",
+          items: [
+            "Hundreds of identical pieces",
+            "High-volume commercial work",
+            "Batch machining with minimal labor"
+          ]
+        }
+      ],
 
-    applications: [
-      {
-        title: "Furniture Manufacturing",
-        items: [
-          "Cabinet doors",
-          "MDF panels",
-          "Decorative wood pieces",
-          "Chairs, tables, frames"
-        ]
-      },
-      {
-        title: "Woodworking & Carving",
-        items: [
-          "Relief carving",
-          "Pattern duplication",
-          "Artistic panels",
-          "Batch wooden parts"
-        ]
-      },
-      {
-        title: "Sign-Making",
-        items: [
-          "3D letters",
-          "Acrylic signs",
-          "PVC and foam cutting",
-          "Lightbox components"
-        ]
-      },
-      {
-        title: "Interior Decoration",
-        items: [
-          "Wall panels",
-          "Partitions",
-          "Ceiling designs",
-          "Custom engravings"
-        ]
-      },
-      {
-        title: "Mass Production Workshops",
-        items: [
-          "Hundreds of identical pieces",
-          "High-volume commercial work",
-          "Batch machining with minimal labor"
-        ]
-      }
-    ],
-
-    advantages: [
-      "2–6× higher productivity",
-      "Uniform quality across all workpieces",
-      "Lower labor and machining cost",
-      "Perfect for bulk production",
-      "Strong spindle performance",
-      "Stable structure for long-term precision",
-      "Easy operation and maintenance"
-    ]
+      advantages: [
+        "2–6× higher productivity",
+        "Uniform quality across all workpieces",
+        "Lower labor and machining cost",
+        "Perfect for bulk production",
+        "Strong spindle performance",
+        "Stable structure for long-term precision",
+        "Easy operation and maintenance"
+      ]
+    }
   },
   // {
   //   id: 8,
@@ -932,108 +1057,110 @@ Each spindle holds a different tool (bit), enabling the machine to switch operat
 This makes it ideal for high-volume woodworking, furniture manufacturing, panel cutting, engraving, and decorative CNC projects.
   `,
 
-    keyFeatures: [
-      {
-        title: "3 or 4 Independent Spindles",
-        points: [
-          "Each spindle carries a different tool",
-          "Common tools: end mill, V-bit, ball nose, engraving bit, drill bit",
-          "Allows multiple operations in a single setup",
-          "No need to stop the machine to change tools"
-        ]
-      },
-      {
-        title: "Sequential Automatic Tool Switching",
-        points: [
-          "Machine automatically shifts to the required spindle",
-          "No ATC mechanism required",
-          "Much faster than manual tool changes",
-          "Zero downtime between machining steps"
-        ]
-      },
-      {
-        title: "High-Speed Air-Cooled Spindles",
-        points: [
-          "4.5kW / 6kW spindle options",
-          "18,000 to 24,000 RPM",
-          "Very reliable for long production cycles",
-          "Independent spindle control available"
-        ]
-      },
-      {
-        title: "Perfect for Mass Production",
-        points: [
-          "Significantly faster cycle times",
-          "Reduces operator workload",
-          "Consistent quality across large batches",
-          "Widely used in furniture and woodworking factories"
-        ]
-      },
-      {
-        title: "Heavy-Duty Industrial Structure",
-        points: [
-          "Steel-welded machine frame",
-          "HIWIN linear guide rails",
-          "Rack & pinion transmission on X/Y",
-          "Ball screw Z-axis for high precision",
-          "Long service life and stable performance"
-        ]
-      }
-    ],
+    details: {
+      keyFeatures: [
+        {
+          title: "3 or 4 Independent Spindles",
+          points: [
+            "Each spindle carries a different tool",
+            "Common tools: end mill, V-bit, ball nose, engraving bit, drill bit",
+            "Allows multiple operations in a single setup",
+            "No need to stop the machine to change tools"
+          ]
+        },
+        {
+          title: "Sequential Automatic Tool Switching",
+          points: [
+            "Machine automatically shifts to the required spindle",
+            "No ATC mechanism required",
+            "Much faster than manual tool changes",
+            "Zero downtime between machining steps"
+          ]
+        },
+        {
+          title: "High-Speed Air-Cooled Spindles",
+          points: [
+            "4.5kW / 6kW spindle options",
+            "18,000 to 24,000 RPM",
+            "Very reliable for long production cycles",
+            "Independent spindle control available"
+          ]
+        },
+        {
+          title: "Perfect for Mass Production",
+          points: [
+            "Significantly faster cycle times",
+            "Reduces operator workload",
+            "Consistent quality across large batches",
+            "Widely used in furniture and woodworking factories"
+          ]
+        },
+        {
+          title: "Heavy-Duty Industrial Structure",
+          points: [
+            "Steel-welded machine frame",
+            "HIWIN linear guide rails",
+            "Rack & pinion transmission on X/Y",
+            "Ball screw Z-axis for high precision",
+            "Long service life and stable performance"
+          ]
+        }
+      ],
 
-    workingAreas: [
-      "1500×3500 mm",
-      "2000×4000 mm",
-      "2000×6000 mm"
-    ],
+      workingArea: [
+        "1500×3500 mm",
+        "2000×4000 mm",
+        "2000×6000 mm"
+      ],
 
-    applications: [
-      {
-        title: "Furniture Manufacturing",
-        items: [
-          "MDF doors",
-          "Decorative wood panels",
-          "3D designs",
-          "Cabinet production",
-          "Routing and engraving"
-        ]
-      },
-      {
-        title: "Wood Carving & Decoration",
-        items: [
-          "2D and 3D relief",
-          "Islamic patterns",
-          "Frames and moldings",
-          "Artistic decorative carving"
-        ]
-      },
-      {
-        title: "Advertising Industry",
-        items: [
-          "Acrylic letters",
-          "PVC signage",
-          "Foam board cutting",
-          "Wooden advertising signs"
-        ]
-      },
-      {
-        title: "Mass Production Jobs",
-        items: [
-          "Identical repeated parts",
-          "Batch furniture components",
-          "Large-scale engraving work"
-        ]
-      }
-    ],
+      applications: [
+        {
+          category: "Furniture Manufacturing",
+          items: [
+            "MDF doors",
+            "Decorative wood panels",
+            "3D designs",
+            "Cabinet production",
+            "Routing and engraving"
+          ]
+        },
+        {
+          category: "Wood Carving & Decoration",
+          items: [
+            "2D and 3D relief",
+            "Islamic patterns",
+            "Frames and moldings",
+            "Artistic decorative carving"
+          ]
+        },
+        {
+          category: "Advertising Industry",
+          items: [
+            "Acrylic letters",
+            "PVC signage",
+            "Foam board cutting",
+            "Wooden advertising signs"
+          ]
+        },
+        {
+          category: "Mass Production Jobs",
+          items: [
+            "Identical repeated parts",
+            "Batch furniture components",
+            "Large-scale engraving work"
+          ]
+        }
+      ],
 
-    advantages: [
-      "Multiple tools available instantly",
-      "Perfect for multi-step machining",
-      "Faster than manual tool changing",
-      "More affordable than ATC CNC routers",
-      "Reliable and ideal for continuous industrial production",
-      "High accuracy and stable mechanical performance"
-    ]
+      advantages: [
+        "Multiple tools available instantly",
+        "Perfect for multi-step machining",
+        "Faster than manual tool changing",
+        "More affordable than ATC CNC routers",
+        "Reliable and ideal for continuous industrial production",
+        "High accuracy and stable mechanical performance"
+      ]
+    }
   },
   // {
   //   id: 9,
@@ -1057,136 +1184,138 @@ The Stone CNC Router is designed for powerful, accurate machining of extremely h
 With its reinforced steel frame, water-cooled spindle, corrosion-resistant table, and heavy-load structure, it is ideal for stone fabrication factories, countertop workshops, monuments, and high-detail artistic engraving.
   `,
 
-    keyFeatures: [
-      {
-        title: "Heavy-Duty Structure for Stone Processing",
-        points: [
-          "Thick welded steel frame",
-          "Reinforced gantry design",
-          "High resistance to vibration",
-          "Specially engineered for high-load cutting of hard stone",
-          "Ensures accuracy even with deep, high-force cutting"
-        ]
-      },
-      {
-        title: "High-Power Water-Cooled Spindle",
-        points: [
-          "Available in 5.5kW / 7.5kW / 9kW / 11kW",
-          "Ideal for cutting granite, marble, quartz, and stone surfaces",
-          "Supports deep 3D carving and shaping",
-          "Water cooling ensures stability during long machining cycles"
-        ]
-      },
-      {
-        title: "Stainless Steel Water Tray & Cooling System",
-        points: [
-          "Integrated stainless steel water tray",
-          "Automatic water spray for wet cutting",
-          "Corrosion-resistant working bed",
-          "Efficient dust and chip removal",
-          "Perfect for continuous stone cutting operations"
-        ]
-      },
-      {
-        title: "Precision Motion System",
-        points: [
-          "HIWIN linear guide rails",
-          "Helical rack and pinion for smooth motion",
-          "High-torque stepper or servo motors",
-          "Repeatability accuracy of ±0.05 mm",
-          "Clean edge finishing and detailed carving"
-        ]
-      },
-      {
-        title: "High-Load Working Table",
-        points: [
-          "Heavy-duty stone table options",
-          "Vacuum adsorption with clamps (optional)",
-          "Anti-slip rubber pads",
-          "Supports large stone slabs safely"
-        ]
-      },
-      {
-        title: "Industrial CNC Controller",
-        points: [
-          "Compatible with NcStudio, Weihong, Syntec, RichAuto",
-          "Supports 3-axis and 4-axis machining",
-          "Handles large 3D relief files smoothly",
-          "Accurate curve motion control"
-        ]
-      }
-    ],
+    details: {
+      keyFeatures: [
+        {
+          title: "Heavy-Duty Structure for Stone Processing",
+          points: [
+            "Thick welded steel frame",
+            "Reinforced gantry design",
+            "High resistance to vibration",
+            "Specially engineered for high-load cutting of hard stone",
+            "Ensures accuracy even with deep, high-force cutting"
+          ]
+        },
+        {
+          title: "High-Power Water-Cooled Spindle",
+          points: [
+            "Available in 5.5kW / 7.5kW / 9kW / 11kW",
+            "Ideal for cutting granite, marble, quartz, and stone surfaces",
+            "Supports deep 3D carving and shaping",
+            "Water cooling ensures stability during long machining cycles"
+          ]
+        },
+        {
+          title: "Stainless Steel Water Tray & Cooling System",
+          points: [
+            "Integrated stainless steel water tray",
+            "Automatic water spray for wet cutting",
+            "Corrosion-resistant working bed",
+            "Efficient dust and chip removal",
+            "Perfect for continuous stone cutting operations"
+          ]
+        },
+        {
+          title: "Precision Motion System",
+          points: [
+            "HIWIN linear guide rails",
+            "Helical rack and pinion for smooth motion",
+            "High-torque stepper or servo motors",
+            "Repeatability accuracy of ±0.05 mm",
+            "Clean edge finishing and detailed carving"
+          ]
+        },
+        {
+          title: "High-Load Working Table",
+          points: [
+            "Heavy-duty stone table options",
+            "Vacuum adsorption with clamps (optional)",
+            "Anti-slip rubber pads",
+            "Supports large stone slabs safely"
+          ]
+        },
+        {
+          title: "Industrial CNC Controller",
+          points: [
+            "Compatible with NcStudio, Weihong, Syntec, RichAuto",
+            "Supports 3-axis and 4-axis machining",
+            "Handles large 3D relief files smoothly",
+            "Accurate curve motion control"
+          ]
+        }
+      ],
 
-    workingAreas: [
-      "1500×3500 mm",
-      "2000×4000 mm",
-      "2000×6000 mm"
-    ],
+      workingArea: [
+        "1500×3500 mm",
+        "2000×4000 mm",
+        "2000×6000 mm"
+      ],
 
-    applications: [
-      {
-        title: "Marble & Granite Processing",
-        items: [
-          "Cutting and trimming",
-          "Stone shaping",
-          "Text and pattern engraving",
-          "Edge polishing"
-        ]
-      },
-      {
-        title: "Kitchen & Bathroom Countertops",
-        items: [
-          "Sink cutouts",
-          "Countertop edge shaping",
-          "Drilling faucet holes",
-          "Custom countertop designs"
-        ]
-      },
-      {
-        title: "Monuments & Tombstones",
-        items: [
-          "Text engraving",
-          "Deep 3D carving",
-          "Portrait engraving on stone",
-          "Decorative reliefs"
-        ]
-      },
-      {
-        title: "Building Decoration",
-        items: [
-          "Floor medallions",
-          "Wall stone art panels",
-          "Mosaic patterns",
-          "Columns and capitals"
-        ]
-      },
-      {
-        title: "Artistic Stone Carving",
-        items: [
-          "3D sculptures",
-          "Complex stone artworks",
-          "Custom engraving"
-        ]
-      },
-      {
-        title: "Quartz & Artificial Stone",
-        items: [
-          "Countertop machining",
-          "Slotting and drilling",
-          "Edge finishing and shaping"
-        ]
-      }
-    ],
+      applications: [
+        {
+          category: "Marble & Granite Processing",
+          items: [
+            "Cutting and trimming",
+            "Stone shaping",
+            "Text and pattern engraving",
+            "Edge polishing"
+          ]
+        },
+        {
+          category: "Kitchen & Bathroom Countertops",
+          items: [
+            "Sink cutouts",
+            "Countertop edge shaping",
+            "Drilling faucet holes",
+            "Custom countertop designs"
+          ]
+        },
+        {
+          category: "Monuments & Tombstones",
+          items: [
+            "Text engraving",
+            "Deep 3D carving",
+            "Portrait engraving on stone",
+            "Decorative reliefs"
+          ]
+        },
+        {
+          category: "Building Decoration",
+          items: [
+            "Floor medallions",
+            "Wall stone art panels",
+            "Mosaic patterns",
+            "Columns and capitals"
+          ]
+        },
+        {
+          category: "Artistic Stone Carving",
+          items: [
+            "3D sculptures",
+            "Complex stone artworks",
+            "Custom engraving"
+          ]
+        },
+        {
+          category: "Quartz & Artificial Stone",
+          items: [
+            "Countertop machining",
+            "Slotting and drilling",
+            "Edge finishing and shaping"
+          ]
+        }
+      ],
 
-    advantages: [
-      "Engineered specifically for hard stone machining",
-      "Extremely rigid structure with minimal vibration",
-      "High-power spindle allows deep and fast stone cutting",
-      "Excellent accuracy and clean surface finishing",
-      "Long service life with industrial reliability",
-      "Fully compatible with wet cutting systems",
-      "Ideal for heavy-duty stone workshops"
-    ]
+      advantages: [
+        "Engineered specifically for hard stone machining",
+        "Extremely rigid structure with minimal vibration",
+        "High-power spindle allows deep and fast stone cutting",
+        "Excellent accuracy and clean surface finishing",
+        "Long service life with industrial reliability",
+        "Fully compatible with wet cutting systems",
+        "Ideal for heavy-duty stone workshops"
+      ]
+    }
   },
   // {
   //   id: 10,
@@ -1211,113 +1340,116 @@ The Aluminum CNC Router is engineered for industrial manufacturing and precision
 With reinforced structure, precision linear guides, and high-speed spindle, it provides smooth cutting, tight tolerances, and excellent surface finish for aluminum, copper, brass, and other non-ferrous metals.
   `,
 
-    keyFeatures: [
-      {
-        title: "High-Speed Spindle for Aluminum Processing",
-        points: [
-          "Powerful spindle (3.2kW – 9kW)",
-          "Clean cutting of aluminum without burrs",
-          "Stable temperature during long operation",
-          "Mirror-like surface finishing",
-          "Optional air-cooled or water-cooled configurations"
-        ]
-      },
-      {
-        title: "Rigid Machine Body for Vibration-Free Operation",
-        points: [
-          "Heavy-duty welded steel frame",
-          "Stress-relief treatment for stability",
-          "Thickened gantry structure",
-          "Ensures precise cuts on aluminum, copper, brass, and plastics"
-        ]
-      },
-      {
-        title: "Precision Linear Guides & Ball Screws",
-        points: [
-          "Hiwin/TBI ball screws",
-          "Linear guide rails for smooth movement",
-          "Repeatability up to ±0.02mm",
-          "Zero backlash for high-precision machining"
-        ]
-      },
-      {
-        title: "Powerful Servo or Stepper Motors",
-        points: [
-          "Closed-loop stepper motors or Delta/Yaskawa servo systems",
-          "High stability during fast cutting",
-          "Supports high feed rates without losing steps"
-        ]
-      },
-      {
-        title: "Mist Cooling / Lubrication System",
-        points: [
-          "Reduces heat during aluminum milling",
-          "Improves tool life",
-          "Ensures clean cutting edges",
-          "Prevents chip welding"
-        ]
-      },
-      {
-        title: "Vacuum Table & Strong Suction",
-        points: [
-          "Holds aluminum sheets firmly",
-          "Prevents vibration",
-          "Supports full-sheet operations",
-          "Optional T-slot + vacuum hybrid table"
-        ]
-      },
-      {
-        title: "DSP or Industrial CNC Controller",
-        points: [
-          "Compatible with NcStudio, Syntec, RichAuto, Mach3/Mach4",
-          "Supports multi-layer machining",
-          "High-speed interpolation",
-          "Handles large files and smooth curves"
-        ]
-      }
-    ],
+    details: {
+      keyFeatures: [
+        {
+          title: "High-Speed Spindle for Aluminum Processing",
+          points: [
+            "Powerful spindle (3.2kW – 9kW)",
+            "Clean cutting of aluminum without burrs",
+            "Stable temperature during long operation",
+            "Mirror-like surface finishing",
+            "Optional air-cooled or water-cooled configurations"
+          ]
+        },
+        {
+          title: "Rigid Machine Body for Vibration-Free Operation",
+          points: [
+            "Heavy-duty welded steel frame",
+            "Stress-relief treatment for stability",
+            "Thickened gantry structure",
+            "Ensures precise cuts on aluminum, copper, brass, and plastics"
+          ]
+        },
+        {
+          title: "Precision Linear Guides & Ball Screws",
+          points: [
+            "Hiwin/TBI ball screws",
+            "Linear guide rails for smooth movement",
+            "Repeatability up to ±0.02mm",
+            "Zero backlash for high-precision machining"
+          ]
+        },
+        {
+          title: "Powerful Servo or Stepper Motors",
+          points: [
+            "Closed-loop stepper motors or Delta/Yaskawa servo systems",
+            "High stability during fast cutting",
+            "Supports high feed rates without losing steps"
+          ]
+        },
+        {
+          title: "Mist Cooling / Lubrication System",
+          points: [
+            "Reduces heat during aluminum milling",
+            "Improves tool life",
+            "Ensures clean cutting edges",
+            "Prevents chip welding"
+          ]
+        },
+        {
+          title: "Vacuum Table & Strong Suction",
+          points: [
+            "Holds aluminum sheets firmly",
+            "Prevents vibration",
+            "Supports full-sheet operations",
+            "Optional T-slot + vacuum hybrid table"
+          ]
+        },
+        {
+          title: "DSP or Industrial CNC Controller",
+          points: [
+            "Compatible with NcStudio, Syntec, RichAuto, Mach3/Mach4",
+            "Supports multi-layer machining",
+            "High-speed interpolation",
+            "Handles large files and smooth curves"
+          ]
+        }
+      ],
 
-    workingAreas: [
-      "1500×3500 mm",
-      "2000×4000 mm",
-      "2000×6000 mm"
-    ],
+      workingArea: [
+        "1500×3500 mm",
+        "2000×4000 mm",
+        "2000×6000 mm"
+      ],
 
-    applications: [
-      {
-        category: "Aluminum Sheet Cutting & Engraving",
-        items: ["Signage", "Decorative panels", "Machine covers"]
-      },
-      {
-        category: "Industrial Aluminum Parts",
-        items: ["Brackets", "Fixtures", "Aerospace components", "Automotive prototypes"]
-      },
-      {
-        category: "Mold Making",
-        items: ["Soft aluminum molds", "Casting patterns", "Temperature-control channels"]
-      },
-      {
-        category: "Electronics & Enclosures",
-        items: ["Aluminum housings", "Heat sinks", "Controller boxes"]
-      },
-      {
-        category: "Mechanical Prototyping",
-        items: ["Custom parts", "Engineering samples", "R&D components"]
-      },
-      {
-        category: "Non-Ferrous Metal Machining",
-        items: ["Copper", "Brass", "Composite materials", "Plastics & Acrylic"]
-      }
-    ],
+      applications: [
+        {
+          category: "Aluminum Sheet Cutting & Engraving",
+          items: ["Signage", "Decorative panels", "Machine covers"]
+        },
+        {
+          category: "Industrial Aluminum Parts",
+          items: ["Brackets", "Fixtures", "Aerospace components", "Automotive prototypes"]
+        },
+        {
+          category: "Mold Making",
+          items: ["Soft aluminum molds", "Casting patterns", "Temperature-control channels"]
+        },
+        {
+          category: "Electronics & Enclosures",
+          items: ["Aluminum housings", "Heat sinks", "Controller boxes"]
+        },
+        {
+          category: "Mechanical Prototyping",
+          items: ["Custom parts", "Engineering samples", "R&D components"]
+        },
+        {
+          category: "Non-Ferrous Metal Machining",
+          items: ["Copper", "Brass", "Composite materials", "Plastics & Acrylic"]
+        }
+      ],
 
-    advantages: [
-      "Extremely high accuracy",
-      "Smooth finishing on aluminum",
-      "High-speed cutting without vibration",
-      "Long tool life thanks to cooling system",
-      "Easy to operate and maintain"
-    ]
+      advantages: [
+        "Extremely high accuracy",
+        "Smooth finishing on aluminum",
+        "High-speed cutting without vibration",
+        "Long tool life thanks to cooling system",
+        "Easy to operate and maintain"
+      ]
+    }
   },
+  
   {
     id: 11,
     name: "CNC Plasma Cutting Machine",
