@@ -623,136 +623,6 @@ export const products = [
   //   title: "Production Details Of Fiber Laser Cutting Machine",
   //   desc: "The fiber laser cutting machine provides a powerful solution...",
   // },
-  //   {
-  //     id: 6,
-  //     name: "4 Axis ATC CNC Router Machine",
-  //     image: "/../products/25.webp",
-  //     slug: "4-axis-atc-cnc-router-machine",
-  //     title: "Production Details Of 4 Axis ATC CNC Router Machine",
-  //     desc: "The 4-axis ATC CNC router with a tilting spindle offers advanced machining capabilities for complex angles, deep 3D carving, and multi-surface processing. Combined with an automatic tool changer, it boosts productivity and precision.",
-
-  //     overview: `
-  // Advanced 4-Axis Machining with a Fully Automatic Tool Changer The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing. Unlike rotary 4th-axis machines, this model uses a tilting spindle (A/B axis) allowing undercuts, bevel cuts, deep carving, and multi-surface machining without flipping the material.
-  //   `,
-
-  //     keyFeatures: [
-  //       {
-  //         title: "Tilting Spindle 4-Axis",
-  //         points: [
-  //           "Angled cutting",
-  //           "Beveled edges",
-  //           "Undercuts",
-  //           "Deep 3D surface machining",
-  //           "Multi-face machining without flipping the material",
-  //           "Perfect for complex 3D molds and patterns"
-  //         ]
-  //       },
-
-  //       {
-  //         title: "Automatic Tool Changer (ATC)",
-  //         points: [
-  //           "6 / 8 / 12-tool magazine options",
-  //           "Fast, precise tool switching",
-  //           "Ideal for multi-step 3D jobs",
-  //           "Reduces production time and operator labor"
-  //         ]
-  //       },
-
-  //       {
-  //         title: "High-Performance Tilting Spindle",
-  //         points: [
-  //           "9kW / 12kW spindle options",
-  //           "0–24000 RPM",
-  //           "Stable during angled operations",
-  //           "Suitable for professional long-hour machining"
-  //         ]
-  //       },
-
-  //       {
-  //         title: "Heavy-Duty Industrial Structure",
-  //         points: [
-  //           "Thick welded steel frame",
-  //           "Reinforced gantry for tilting torque",
-  //           "HIWIN linear guides",
-  //           "Helical rack & pinion on X/Y",
-  //           "Ball screw Z-axis for high precision"
-  //         ]
-  //       },
-
-  //       {
-  //         title: "Advanced 4-Axis Controller",
-  //         points: [
-  //           "Supports full 4-axis interpolation",
-  //           "3D & multi-surface machining",
-  //           "Automatic tool calibration",
-  //           "Smooth motion control"
-  //         ],
-  //         controllers: ["Syntec", "NcStudio 4-axis", "RichAuto 4-axis", "Osai (optional)"]
-  //       }
-  //     ],
-
-  //     workingAreas: [
-  //       "1500×3500 mm",
-  //       "2000×4000 mm",
-  //       "2000×6000 mm"
-  //     ],
-
-  //     applications: [
-  //       {
-  //         title: "3D Carving & Artistic Woodwork",
-  //         items: [
-  //           "Deep 3D sculptures",
-  //           "Complex reliefs",
-  //           "Curved surface carving",
-  //           "Artistic elements"
-  //         ]
-  //       },
-  //       {
-  //         title: "Mold Making",
-  //         items: [
-  //           "Foam molds",
-  //           "Wooden molds",
-  //           "Prototypes",
-  //           "Casting patterns"
-  //         ]
-  //       },
-  //       {
-  //         title: "Furniture Manufacturing",
-  //         items: [
-  //           "Curved chair legs",
-  //           "Slanted surfaces",
-  //           "Decorative angles",
-  //           "Multi-level panels"
-  //         ]
-  //       },
-  //       {
-  //         title: "Architectural & Interior Design",
-  //         items: [
-  //           "Curved CNC panels",
-  //           "Complex ceilings",
-  //           "Column bases",
-  //           "3D wall panels"
-  //         ]
-  //       },
-  //       {
-  //         title: "Advertising & Acrylic Work",
-  //         items: [
-  //           "Angled acrylic cuts",
-  //           "3D signage",
-  //           "Deep engraving"
-  //         ]
-  //       }
-  //     ],
-
-  //     advantages: [
-  //       "4-axis tilting spindle for advanced geometry",
-  //       "No manual flipping required",
-  //       "More accuracy than rotary tables",
-  //       "ATC system increases productivity",
-  //       "Ideal for large 3D & multi-surface jobs",
-  //       "Compatible with wood, MDF, foam, plastics, molds, and some aluminum"
-  //     ]
-  //   },
   {
     id: 6,
     name: "4 Axis ATC CNC Router Machine",
@@ -1461,7 +1331,8 @@ With reinforced structure, precision linear guides, and high-speed spindle, it p
   {
     id: 11,
     name: "CO₂ Laser Cutting & Engraving Machine",
-    image: "",
+    image: "/../products/co2-550x750.png",
+    image_small: "/../products/co2-350x370.png",
     slug: "co2-laser-cutting-engraving-machine",
     title: "CO₂ Laser Cutting & Engraving Machine",
     desc: "A high-precision CO₂ laser machine designed for fast, clean cutting and engraving on wood, acrylic, MDF, leather, and other non-metal materials.",
@@ -1632,7 +1503,8 @@ Ideal for sign-making, crafts, packaging, furniture décor, and industrial produ
   {
     id: 12,
     name: "Sheet Metal Fiber Laser Cutting Machine",
-    image: "/../products/28.webp",
+    image: "/../products/fiber-laser-550x750.png",
+    image_small: "/../products/fiber-laser-350x370.png",
     slug: "sheet-metal-fiber-laser-cutting-machine",
     title: "Sheet Metal Fiber Laser Cutting Machine",
     desc: "A high-speed, high-precision fiber laser machine designed for industrial sheet metal fabrication with exceptional performance and cutting quality.",
