@@ -124,7 +124,7 @@ const Product = () => {
         description={product?.MetaDescription || product?.desc}
         keywords={product?.Keywords}
         image={product?.image}
-        url={`https://sigmamachines.net/products/${product?.slug}`}
+        url={`https://sigmamachines.net/products/${product?.id}`}
       />
 
       <section className="sr-only">
