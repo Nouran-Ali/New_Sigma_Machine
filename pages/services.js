@@ -34,7 +34,23 @@ const Services = () => {
   return (
     <>
 
-      <Meta title="Services" description="Discover our full range of industrial services at Sigma Machines – from machine installation and maintenance to expert support and custom solutions." />
+      {/* <Meta title="Services" description="Discover our full range of industrial services at Sigma Machines – from machine installation and maintenance to expert support and custom solutions." /> */}
+
+      <Meta
+        title="CNC & Laser Machine Maintenance in Saudi Arabia | Professional Service & Technical Support – Sigma Machines"
+        description="Professional CNC and laser machine maintenance in Saudi Arabia. Sigma Machines offers after-sales service, annual maintenance contracts, on-site repairs, and local support for Chinese CNC machines."
+        keywords="
+    CNC machine maintenance Saudi Arabia,
+    Fiber laser machine maintenance,
+    CNC router repair service,
+    Laser welding machine maintenance,
+    Industrial machine maintenance KSA,
+    China CNC distributor service Saudi Arabia,
+    On-site CNC repair,
+    Preventive maintenance Saudi Arabia
+  "
+      />
+
 
       <div className="relative">
         <div className={`${styles.bg_services} `}>

@@ -5,11 +5,12 @@ import WhatsAppChatButton from "./WhatsAppChatButton";
 import Link from "next/link";
 import EmailIcon from "@mui/icons-material/Email";
 import Head from "next/head";
+import MetaDefaults from "./MetaDefaults";
 
 const Layout = ({ children }) => {
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>Sigma Machines | High Quality Industrial Machinery</title>
         <meta
           name="description"
@@ -45,7 +46,11 @@ const Layout = ({ children }) => {
             }),
           }}
         />
-      </Head>
+      </Head> */}
+
+      <head>
+        <MetaDefaults />
+      </head>
 
       <Navbar />
       <div className="">{children}</div>
