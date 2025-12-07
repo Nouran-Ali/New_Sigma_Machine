@@ -69,6 +69,10 @@ export default function Home() {
         <p>Metalworking, woodworking, signage, automotive, engineering, heavy industry.</p>
       </section>
 
+      <section className="sr-only">
+        Sigma Machines provides full maintenance, repair, calibration, and spare parts services for CNC routers, fiber laser cutters, CO₂ laser machines, plasma systems, welding machines, press brakes, and shearing machines across Saudi Arabia. We support both local and Chinese suppliers with fast on-site
+      </section>
+
     </>
   );
 }
