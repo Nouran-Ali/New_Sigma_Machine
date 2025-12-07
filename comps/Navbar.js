@@ -61,6 +61,10 @@ const pages = [
 ];
 
 function Navbar() {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [anchorElProducts, setAnchorElProducts] = React.useState(null);
@@ -202,9 +206,6 @@ function Navbar() {
   const router = useRouter();
 
   const { pathname } = router;
-
-  const [t, i18n] = useTranslation();
-  const { language, changeLanguage } = i18n;
 
   const handleScroll = () => {
     if (window.scrollY > 20) {
@@ -521,6 +522,10 @@ function Navbar() {
                       MenuListProps={{
                         "aria-labelledby": "basic-button",
                       }}
+
+                      sx={{
+                        direction: i18n.language === "ar" ? "rtl" : "ltr",
+                      }}
                     >
                       <MenuItem
                         onClick={handleClickSub}
@@ -530,7 +535,7 @@ function Navbar() {
                           justifyContent: "space-between",
                         }}
                       >
-                        CNC router machine
+                        {t("cnc_router_machines")}
                         <ArrowForwardIosIcon
                           className="text-sm ml-5"
                           sx={{ fontSize: "17px" }}
@@ -556,7 +561,7 @@ function Navbar() {
                             href={`/products/1`}
                             className="no-underline text-inherit"
                           >
-                            3 Axis CNC Router
+                            {t("cnc_3_axis")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -564,7 +569,7 @@ function Navbar() {
                             href={`/products/2`}
                             className="no-underline text-inherit"
                           >
-                            4 Axis CNC Router
+                            {t("cnc_4_axis")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -572,7 +577,7 @@ function Navbar() {
                             href={`/products/3`}
                             className="no-underline text-inherit"
                           >
-                            5 Axis CNC Router
+                            {t("cnc_5_axis")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -580,7 +585,7 @@ function Navbar() {
                             href={`/products/4`}
                             className="no-underline text-inherit"
                           >
-                            Rotary Axis CNC Router
+                            {t("cnc_rotary_axis")}
                           </Link>
                         </MenuItem>
 
@@ -592,7 +597,7 @@ function Navbar() {
                             justifyContent: "space-between",
                           }}
                         >
-                          ATC CNC Router
+                          {t("atc_cnc_router")}
                           <ArrowForwardIosIcon
                             className="text-sm ml-5"
                             sx={{ fontSize: "17px" }}
@@ -618,7 +623,7 @@ function Navbar() {
                               href={`/products/5`}
                               className="no-underline text-inherit"
                             >
-                              3 Axis ATC CNC Router
+                              {t("atc_3_axis")}
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
@@ -626,7 +631,7 @@ function Navbar() {
                               href={`/products/6`}
                               className="no-underline text-inherit"
                             >
-                              4 Axis ATC CNC Router
+                              {t("atc_4_axis")}
                             </Link>
                           </MenuItem>
                         </Menu>
@@ -639,7 +644,7 @@ function Navbar() {
                             justifyContent: "space-between",
                           }}
                         >
-                          Multi-Head CNC Router
+                          {t("multi_head_router")}
                           <ArrowForwardIosIcon
                             className="text-sm ml-5"
                             sx={{ fontSize: "17px" }}
@@ -665,7 +670,7 @@ function Navbar() {
                               href={`/products/7`}
                               className="no-underline text-inherit"
                             >
-                              Multi Spindle CNC Router
+                              {t("multi_spindle_router")}
                             </Link>
                           </MenuItem>
                           <MenuItem onClick={handleClose}>
@@ -673,7 +678,7 @@ function Navbar() {
                               href={`/products/8`}
                               className="no-underline text-inherit"
                             >
-                              Multi-Process CNC Router
+                              {t("multi_process_router")}
                             </Link>
                           </MenuItem>
                         </Menu>
@@ -683,7 +688,7 @@ function Navbar() {
                             href={`/products/9`}
                             className="no-underline text-inherit"
                           >
-                            Stone CNC Router
+                            {t("stone_cnc")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -691,7 +696,7 @@ function Navbar() {
                             href={`/products/10`}
                             className="no-underline text-inherit"
                           >
-                            Aluminum CNC Router
+                            {t("aluminum_cnc")}
                           </Link>
                         </MenuItem>
                       </Menu>
@@ -702,7 +707,7 @@ function Navbar() {
                           href={`/products/11`}
                           className="no-underline text-inherit"
                         >
-                          Co2 laser cutting and engraving machine
+                          {t("co2_laser")}
                         </Link>
                       </MenuItem>
 
@@ -714,7 +719,7 @@ function Navbar() {
                           justifyContent: "space-between",
                         }}
                       >
-                        Fiber Laser Cutting Machine
+                        {t("fiber_laser_cutting")}
                         <ArrowForwardIosIcon
                           className="text-sm ml-5"
                           sx={{ fontSize: "17px" }}
@@ -740,7 +745,7 @@ function Navbar() {
                             href={`/products/12`}
                             className="no-underline text-inherit"
                           >
-                            Sheet Metal Laser Cutting Machine
+                            {t("sheet_fiber_laser")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -748,7 +753,7 @@ function Navbar() {
                             href={`/products/13`}
                             className="no-underline text-inherit"
                           >
-                            Tube Metal Laser Cutting Machine
+                            {t("tube_fiber_laser")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -756,7 +761,7 @@ function Navbar() {
                             href={`/products/14`}
                             className="no-underline text-inherit"
                           >
-                            Tube & Sheet Metal Laser Cutting Machine
+                            {t("tube_sheet_fiber_laser")}
                           </Link>
                         </MenuItem>
                       </Menu>
@@ -769,7 +774,7 @@ function Navbar() {
                           justifyContent: "space-between",
                         }}
                       >
-                        Fiber laser welding machine
+                        {t("fiber_laser_welding")}
                         <ArrowForwardIosIcon
                           className="text-sm ml-5"
                           sx={{ fontSize: "17px" }}
@@ -795,7 +800,7 @@ function Navbar() {
                             href={`/products/15`}
                             className="no-underline text-inherit"
                           >
-                            Handheld Fiber Laser Welding Machine
+                            {t("handheld_welding")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -803,7 +808,7 @@ function Navbar() {
                             href={`/products/16`}
                             className="no-underline text-inherit"
                           >
-                            3 Axis cnc fiber laser welding machine
+                            {t("cnc_3axis_welding")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -811,7 +816,7 @@ function Navbar() {
                             href={`/products/17`}
                             className="no-underline text-inherit"
                           >
-                            Fiber Laser Spot Welding Machine
+                            {t("spot_welding")}
                           </Link>
                         </MenuItem>
                       </Menu>
@@ -824,7 +829,7 @@ function Navbar() {
                           justifyContent: "space-between",
                         }}
                       >
-                        Laser marking machine
+                        {t("laser_marking_machines")}
                         <ArrowForwardIosIcon
                           className="text-sm ml-5"
                           sx={{ fontSize: "17px" }}
@@ -850,7 +855,7 @@ function Navbar() {
                             href={`/products/18`}
                             className="no-underline text-inherit"
                           >
-                            Co2 laser marking machine
+                            {t("co2_laser_marking")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -858,7 +863,7 @@ function Navbar() {
                             href={`/products/19`}
                             className="no-underline text-inherit"
                           >
-                            Fiber laser marking machine
+                            {t("fiber_laser_marking")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -866,7 +871,7 @@ function Navbar() {
                             href={`/products/20`}
                             className="no-underline text-inherit"
                           >
-                            UV laser marking machine
+                            {t("uv_laser_marking")}
                           </Link>
                         </MenuItem>
                       </Menu>
@@ -876,7 +881,7 @@ function Navbar() {
                           href={`/products/21`}
                           className="no-underline text-inherit"
                         >
-                          CNC plasma cutting machine
+                          {t("plasma_cutting")}
                         </Link>
                       </MenuItem>
 
@@ -888,7 +893,7 @@ function Navbar() {
                           justifyContent: "space-between",
                         }}
                       >
-                        Press brake Machine
+                        {t("press_brake_machines")}
                         <ArrowForwardIosIcon
                           className="text-sm ml-5"
                           sx={{ fontSize: "17px" }}
@@ -914,7 +919,7 @@ function Navbar() {
                             href={`/products/22`}
                             className="no-underline text-inherit"
                           >
-                            CNC press brake Machine
+                            {t("cnc_press_brake")}
                           </Link>
                         </MenuItem>
                         <MenuItem onClick={handleClose}>
@@ -922,7 +927,7 @@ function Navbar() {
                             href={`/products/23`}
                             className="no-underline text-inherit"
                           >
-                            NC press brake Machine
+                            {t("nc_press_brake")}
                           </Link>
                         </MenuItem>
                       </Menu>
@@ -932,7 +937,7 @@ function Navbar() {
                           href={`/products/24`}
                           className="no-underline text-inherit"
                         >
-                          Shearing machine
+                          {t("shearing_machine")}
                         </Link>
                       </MenuItem>
                     </Menu>
@@ -960,12 +965,12 @@ function Navbar() {
               >
                 {language == "ar" ? "EN" : "AR"}
               </Button>
-              <div className="flex items-center">
+              <div className="flex items-center" dir="ltr">
                 <div className={styles.bg_icon}>
                   <PhoneFilled />
                 </div>
                 <div className="ml-3">
-                  <p className="text-[#1c1c1c] text-left">Call Us</p>
+                  <p className="text-[#1c1c1c] text-left"> {t("Call Us")}</p>
                   <p className="text-[#54545f]">+966 56 974 5955</p>
                 </div>
               </div>

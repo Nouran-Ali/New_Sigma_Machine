@@ -3,36 +3,41 @@ import styles from "../styles/Footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
 import { TikTokOutlined } from "@ant-design/icons";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   return (
     <>
-      <div className="relative">
+      <div className="relative" dir={language === "en" ? "ltr" : "rtl"}>
         <div className={`${styles.bg_footer}`}>
           <div className="relative z-10">
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 text-white font-medium pt-24 pb-24">
-              <div className={`${styles.border} pr-6`}>
+              <div className={`${language === "en" ? styles.border : styles.borderAr} pr-6`}>
                 <div className="flex">
                   <img src="../logo2.png" width="90px" />
                   {/* <Image src="/logo2.png" width={90} height={60} className="" /> */}
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
                 <p className="mt-6">
-                  Sigma Machines — your trusted partner for smarter, faster, and more efficient industrial manufacturing.
+                  {t("Sigma Machines — your trusted partner for smarter, faster, and more efficient industrial manufacturing.")}
                 </p>
               </div>
-              <div className={`${styles.border} pl-6 max-xl:pl-0`}>
-                <h3 className="text-[#fff] mt-4 text-xl">Quick Links</h3>
+              <div className={`${language === "en" ? styles.border : styles.borderAr} pl-6 max-xl:pl-0`}>
+                <h3 className="text-[#fff] mt-4 text-xl">{t("Quick Links")}</h3>
                 <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-2 mt-6 font-light">
-                  <Link href="/about">About us</Link>
-                  <Link href="/services">Services</Link>
-                  <Link href="/products/1">Products</Link>
-                  <Link href="/resources">Resources</Link>
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/about">{t("About us")}</Link>
+                  <Link href="/services">{t("Services")}</Link>
+                  <Link href="/products/1"> {t("Products")}</Link>
+                  <Link href="/resources"> {t("Resources")}</Link>
+                  <Link href="/contact"> {t("Contact")}</Link>
                 </div>
               </div>
               <div className="pl-6 max-xl:pl-0">
-                <h3 className="text-[#fff] mt-4 text-xl">Contact Us</h3>
+                <h3 className="text-[#fff] mt-4 text-xl"> {t("Contact Us")}</h3>
                 <div className="flex mt-6">
                   {/* <img
                     src="../home/facebook.png"
@@ -85,14 +90,14 @@ const Footer = () => {
               className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium py-7`}
             >
               <p>
-                Copyright © 2025{" "}
+                 {t("Copyright © 2025")}
                 <Link
                   href="https://www.linkedin.com/in/nouran-ali-1732b8266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   className="text-white font-light"
                 >
-                  here.
+                   {t("here.")}
                 </Link>{" "}
-                All Rights Reserved.
+                 {t("All Rights Reserved.")}
               </p>
             </div>
           </div>

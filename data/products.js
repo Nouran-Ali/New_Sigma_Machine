@@ -126,7 +126,7 @@ export const products = [
     name: "4 Axis CNC Router Machine",
     overview:
       "Advanced 4-Axis Machining with Tilting Spindle for Angled Cutting & Deep 3D Carving.",
-    image: "/../products/21.webp",
+    image: "",
     slug: "4-axis-cnc-router-laser-machine",
     title: "4 Axis CNC Router Machine",
     desc: "The 4-axis CNC router features a tilting spindle for advanced machining, allowing angled cuts, undercuts, multi-surface shaping, and deep 3D carving without flipping the workpiece.",
@@ -248,7 +248,7 @@ export const products = [
     name: "5 Axis CNC Router Machine",
     overview:
       "Ultimate 5-Axis Machining for Complex 3D Surfaces, Deep Sculpting & Multi-Angle Cutting.",
-    image: "/../products/22.webp",
+    image: "",
     slug: "5-axis-cnc-router-machine",
     title: "5 Axis CNC Router Machine",
     desc: "The 5-axis CNC router features a dual-axis tilting and rotating spindle (B-axis + C-axis), enabling full multi-directional machining for highly complex 3D geometries, sculptures, molds, and advanced industrial components.",
@@ -385,7 +385,7 @@ export const products = [
     name: "Rotary Axis CNC Router Machine",
     overview:
       "Precision machining for cylindrical, curved, and 3D round components with full 360° rotary axis control.",
-    image: "/../products/23.webp",
+    image: "",
     slug: "rotary-axis-cnc-router-machine",
     title: "Rotary Axis CNC Router Machine",
     desc: "The Rotary Axis CNC Router is engineered for precision machining of cylindrical, round, and 3D curved components using an integrated A-axis rotary system that enables full 360-degree carving and multi-sided processing.",
@@ -517,7 +517,7 @@ export const products = [
     name: "3 Axis ATC CNC Router Machine",
     overview:
       "High-speed CNC machining with automatic tool changing for maximum productivity and seamless multi-tool operations.",
-    image: "/../products/24.webp",
+    image: "",
     slug: "3-axis-atc-cnc-router-machine",
     title: "3 Axis ATC CNC Router Machine",
     desc: "The 3 Axis ATC CNC Router is designed for fast, accurate, and continuous production. It features a fully automatic tool-changing system that enables switching between multiple tools in seconds, making it ideal for woodworking, signage, plastic machining, aluminum processing, and large-scale manufacturing.",
@@ -648,7 +648,7 @@ export const products = [
     name: "4 Axis ATC CNC Router Machine",
     overview:
       "Advanced 4-Axis Machining with a Fully Automatic Tool Changer The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing. Unlike rotary 4th-axis machines, this model uses a tilting spindle (A/B axis) allowing undercuts, bevel cuts, deep carving, and multi-surface machining without flipping the material.",
-    image: "/../products/25.webp",
+    image: "/../products/router-550x750.png",
     image_small: "/../products/router-350x370.png",
     slug: "3-axis-cnc-router-machine",
     title: "Production Details Of 4 Axis ATC CNC Router Machine",
@@ -787,7 +787,7 @@ export const products = [
     id: 7,
     name: "Multi-Spindle CNC Router",
     overview: "High-Efficiency CNC Router for Mass Production & Multi-Piece Machining The Multi-Spindle CNC Router is designed for high-volume production, allowing multiple spindles to operate simultaneously on several pieces at once. Ideal for factories and workshops requiring maximum output, consistent quality, and reduced machining time. With synchronized spindles, heavy-duty structure, and advanced controls, it dramatically boosts productivity in woodworking, signage, furniture manufacturing, and batch processing.",
-    image: "/../products/26.webp",
+    image: "",
     slug: "multi-spindle-cnc-router",
     title: "Production Process Of Multi-Spindle CNC Router",
     desc: "The Multi-Spindle CNC Router is built for mass production, allowing several spindles to work simultaneously for maximum efficiency and output.",
@@ -939,7 +939,7 @@ export const products = [
   {
     id: 8,
     name: "Multi-Process CNC Router",
-    image: "/../products/27.webp",
+    image: "",
     slug: "multi-process-cnc-router",
     title: "Production Process Of Multi-Process CNC Router",
     desc: "The Multi-Process CNC Router uses several independent spindles, each carrying a different tool, allowing fast multi-step machining with zero downtime.",
@@ -1068,7 +1068,7 @@ This makes it ideal for high-volume woodworking, furniture manufacturing, panel 
   {
     id: 9,
     name: "Stone CNC Router (Marble & Granite CNC)",
-    image: "/../products/27.webp",
+    image: "",
     slug: "stone-cnc-router",
     title: "Production Process Of Stone CNC Router",
     desc: "The Stone CNC Router is built for heavy-duty machining of marble, granite, quartz, and other dense materials with high accuracy and stability.",
@@ -1223,7 +1223,7 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
   {
     id: 10,
     name: "Aluminum CNC Router",
-    image: "/../products/28.webp",
+    image: "",
     slug: "aluminum-cnc-router",
     title: "Production Process Of Aluminum CNC Router",
     desc: "The Aluminum CNC Router is built for high-speed, high-accuracy milling, cutting, drilling, and engraving of aluminum and other non-ferrous materials.",
@@ -1700,7 +1700,7 @@ Built with a heavy-duty welded frame, intelligent control system, and high-power
   {
     id: 13,
     name: "Tube Fiber Laser Cutting Machine",
-    image: "/../products/29.webp",
+    image: "",
     slug: "tube-fiber-laser-cutting-machine",
     title: "Tube Fiber Laser Cutting Machine",
     desc: "A high-precision fiber laser machine engineered for fast, clean, and accurate cutting of round, square, rectangular, oval, and custom metal tubes.",
@@ -1874,7 +1874,7 @@ Designed for modern fabrication industries, it provides unmatched performance in
   {
     id: 14,
     name: "Tube & Sheet Fiber Laser Cutting Machine",
-    image: "/../products/30.webp",
+    image: "",
     slug: "tube-sheet-fiber-laser-cutting-machine",
     title: "Tube & Sheet Fiber Laser Cutting Machine",
     desc: "A dual-function fiber laser machine designed for high-precision cutting of both metal sheets and tubes, combining flexibility and productivity in one system.",
@@ -2039,7 +2039,7 @@ It combines flat sheet cutting and tube/pipe cutting into a single high-performa
   {
     id: 15,
     name: "Handheld Fiber Laser Welding Machine",
-    image: "/../products/31.webp",
+    image: "",
     slug: "handheld-fiber-laser-welding-machine",
     title: "Handheld Fiber Laser Welding Machine",
     desc: "A next-generation handheld fiber laser welding machine offering fast, precise, and clean welding for a wide range of metals, replacing traditional TIG/MIG welding.",
@@ -2215,7 +2215,7 @@ It delivers superior welding quality on stainless steel, carbon steel, aluminum,
   {
     id: 16,
     name: "3 Axis CNC Fiber Laser Welding Machine",
-    image: "/../products/32.webp",
+    image: "",
     slug: "3-axis-cnc-fiber-laser-welding-machine",
     title: "3 Axis CNC Fiber Laser Welding Machine",
     desc: "A high-precision, fully automated 3-axis CNC fiber laser welding machine designed for ultra-precise welding of small components, medium assemblies, and industrial production.",
@@ -2367,7 +2367,7 @@ Its X–Y–Z controlled motion system and fiber laser source deliver exceptiona
   {
     id: 17,
     name: "Fiber Laser Spot Welding Machine",
-    image: "/../products/33.webp",
+    image: "",
     slug: "fiber-laser-spot-welding-machine",
     title: "Fiber Laser Spot Welding Machine",
     desc: "A high-precision fiber laser spot welding machine designed for delicate components, thin metals, and premium decorative products with minimal heat distortion.",
@@ -2518,7 +2518,7 @@ It delivers exceptionally clean and accurate welds, making it ideal for thin she
   {
     id: 18,
     name: "CO₂ Laser Marking Machine",
-    image: "/../products/34.webp",
+    image: "",
     slug: "co2-laser-marking-machine",
     title: "CO₂ Laser Marking Machine",
     desc: "A high-speed CO₂ laser marking machine for precise, permanent marking on non-metal materials, ideal for industrial production, packaging, branding, and decorative applications.",
@@ -2667,7 +2667,7 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
   {
     id: 19,
     name: "Fiber Laser Marking Machine",
-    image: "/../products/35.webp",
+    image: "",
     slug: "fiber-laser-marking-machine",
     title: "Fiber Laser Marking Machine",
     desc: "Ultra-fast, high-precision fiber laser marking machine for metals and industrial materials, ideal for serial numbers, logos, barcodes, QR codes, and deep engraving.",
@@ -2838,7 +2838,7 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
   {
     id: 20,
     name: "UV Laser Marking Machine",
-    image: "/../products/40.webp",
+    image: "",
     slug: "uv-laser-marking-machine",
     title: "UV Laser Marking Machine",
     desc: "Ultra-fine, cold UV laser marking machine for plastics, glass, electronics, and heat-sensitive materials, ensuring precise, high-contrast, and damage-free marks.",
@@ -3003,7 +3003,7 @@ Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for 
   {
     id: 21,
     name: "CNC Plasma Cutting Machine",
-    image: "/../products/41.webp",
+    image: "",
     slug: "shearing-machine-laser",
     title: "CNC Plasma Cutting Machine",
     desc: "High-speed metal cutting machine for steel, stainless steel, and industrial fabrication with precision and productivity.",
@@ -3156,7 +3156,7 @@ With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), an
   {
     id: 22,
     name: "DA53T 4+1Axis CNC Press Brake Machine",
-    image: "/../products/42.webp",
+    image: "",
     slug: "da53t-4-plus-1-axis-cnc-press-brake-laser-machine",
     title: "DA53T 4+1Axis CNC Press Brake Machine",
     desc: "High-precision CNC press brake for sheet metal bending with advanced controllers, hydraulic/hybrid systems, and robust frame structure.",
@@ -3321,7 +3321,7 @@ With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a r
   {
     id: 23,
     name: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press",
-    image: "/../products/43.webp",
+    image: "",
     slug: "wc67k-e310-200t6000mm-heavy-duty-sheet-metal-cnc-press-laser",
     title: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press Brake",
     desc: "Reliable and cost-effective NC press brake for sheet-metal bending with hydraulic system and solid frame structure.",
@@ -3474,7 +3474,7 @@ With a simple NC controller, hydraulic power, and a solid frame structure, it of
   {
     id: 24,
     name: "2 Axis NC E21 Hydraulic Press Brake Machine",
-    image: "/../products/45.webp",
+    image: "",
     slug: "2-axis-nc-e21-hydraulic-press-brake-laser-machine",
     title: "2 Axis NC Press Brake",
     desc: "High-performance NC hydraulic press brake for precise metal bending and sheet fabrication.",

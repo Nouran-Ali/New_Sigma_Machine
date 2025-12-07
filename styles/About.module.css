@@ -28,3 +28,13 @@
     position: absolute;
     right: -20px;
 }
+
+.bg_about_2_AR{
+    background-image: url('../public/about/bg_about2.png');
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -20px;
+}
