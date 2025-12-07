@@ -15,14 +15,14 @@ const Main = () => {
         <div className={styles.background}>
           <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 reverce_mobile">
             <div className="lg:mt-20">
-              <p className="text-[#666666] text-xl max-xl:text-lg tracking-widest uppercase font-medium">
-                {t("Empowering laser users")}
+              <p className="text-[#666666] text-sm max-xl:text-sm tracking-widest uppercase font-medium">
+                {t("High-Precision CNC & Laser Cutting Machines")}
               </p>
               <h1 className="text-[#1c1c1c] mt-4 text-6xl max-xl:text-4xl font-bold">
                 {t("Sigma Machines")}
               </h1>
-              <p className="text-[#54545f] text-xl max-xl:text-lg mt-8 mb-12">
-                {t("Simplify your processes, increase your productivity, and maximize your profitability.")}
+              <p className="text-[#54545f] text-base mt-5 mb-12">
+                {t("We provide a full range of CNC and laser machinery for wood, metal, acrylic, signage, furniture production, sheet metal fabrication, and industrial manufacturing. Our machines include fiber laser cutters, CNC routers (3, 4, and 5-axis), CO₂ lasers, plasma cutting systems, welding machines, marking lasers, press brakes, and shearing machines.")}
               </p>
               <Link href="/about" className={styles.btn_more}>
                 {t("Read More")}

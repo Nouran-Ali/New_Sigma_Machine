@@ -60,7 +60,7 @@ const Products_bar = () => {
   })
 
   return (
-    <div dir="ltr" className="w-full pt-14 px-3 overflow-hidden ">
+    <div dir="ltr" className="w-full px-3 overflow-hidden ">
       <motion.div
         ref={containerRef}
         className="flex gap-4 cursor-grab active:cursor-grabbing "

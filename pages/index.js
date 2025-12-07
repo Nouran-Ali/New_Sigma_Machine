@@ -13,8 +13,9 @@ export default function Home() {
   return (
     <>
       <Meta
-        title="Sigma Machines | High Quality Industrial Machinery"
-        description="Sigma Machines is your trusted partner in industrial machinery – discover our top-quality machines for all your needs."
+        title="CNC Machines | Fiber Laser, CNC Routers, Laser Welders & Industrial Machinery"
+        description="Buy high-precision CNC machines including fiber laser cutters, CNC routers (3,4,5 axis), CO2 laser machines, plasma cutters, welding systems, marking machines & sheet metal equipment. High quality & fast delivery."
+        keywords="CNC Machines, Fiber Laser Cutting, CNC Router Supplier, Laser Machines, Industrial Machinery"
       />
 
       <Main />

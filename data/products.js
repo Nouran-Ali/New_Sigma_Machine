@@ -108,6 +108,10 @@ export const products = [
         "Low maintenance and long service life",
       ],
     },
+    TitleTag: "3 Axis CNC Router | Wood, MDF & Acrylic Cutting Machine",
+    MetaDescription: "High-performance 3 Axis CNC Router for woodworking, furniture, acrylic cutting, sign making & general manufacturing. Fast cutting, high accuracy & stable performance.",
+    Keywords: "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine",
+    SEOContent: "The 3 Axis CNC Router is ideal for woodworking, acrylic fabrication, furniture components, signage, and prototyping. It supports 2D, 2.5D, and basic 3D carving with exceptional accuracy. Built with a reinforced steel frame, powerful spindle options, and high-speed motion control, this machine is perfect for workshops and factories requiring reliable daily production."
   },
   // {
   //   id: 2,
@@ -226,6 +230,10 @@ export const products = [
         "High finishing quality with minimal handwork",
       ],
     },
+    TitleTag: "4 Axis CNC Router | Tilting Spindle | 3D Carving & Angled Cutting",
+    MetaDescription: "Advanced 4 Axis CNC Router with tilting spindle for 3D carving, mold making, angled cutting, and multi-surface machining.",
+    Keywords: "4 axis CNC router, tilting spindle, 3D carving CNC machine, multi-surface machining, advanced CNC router",
+    SEOContent: "The 4 Axis CNC Router with a tilting spindle performs angled cutting, multi-face machining, and complex 3D carving. It eliminates the need for flipping the material and enables undercuts and negative angles. Perfect for furniture manufacturing, artistic production, and mold making."
   },
   // {
   //   id: 3,
@@ -359,6 +367,10 @@ export const products = [
         "Maximum flexibility for advanced manufacturing",
       ],
     },
+    TitleTag: "5 Axis CNC Router | A&C Axis | Advanced 3D Machining",
+    MetaDescription: "Professional 5 Axis CNC Router with A and C spindle rotation for deep 3D carving, mold machining, prototypes, and high-precision multi-angle cutting.",
+    Keywords: "5 axis CNC router, A&C axis CNC, 5 axis wood machining, 3D sculpting CNC, mold CNC machine",
+    SEOContent:"This machine provides full 5-axis simultaneous machining with a dual-axis spindle head (A & C). Capable of approaching the material from any direction, it powers through complex 3D forms, curved geometries, molds, sculptures, and premium furniture components."
   },
   // {
   //   id: 4,
@@ -487,6 +499,10 @@ export const products = [
         "Supports long, large, and heavy work materials",
       ],
     },
+    TitleTag: "Rotary Axis CNC Router | 4 Axis CNC for Cylindrical Machining",
+    MetaDescription: "Rotary Axis CNC Router for columns, table legs, balusters, sculptures, and cylindrical 3D carving with high precision.",
+    Keywords: "rotary axis CNC router, 4 axis CNC, column CNC machine, cylinder CNC carving, CNC lathe router",
+    SEOContent:""
   },
   // {
   //   id: 5,
@@ -614,6 +630,10 @@ export const products = [
         "Perfect for mass production and factory environments",
       ],
     },
+    TitleTag: "Fiber Laser Cutting Machine | Sheet & Tube Metal Cutting",
+    MetaDescription: "High-speed fiber laser cutting machines for sheet metal, tube cutting, and combined tube & sheet systems. Precision cutting with low operating cost.",
+    Keywords: "fiber laser cutting machine, metal laser cutter, tube laser cutting, sheet metal laser cutting, industrial laser machine",
+    SEOContent:""
   },
   // {
   //   id: 6,
@@ -901,7 +921,12 @@ export const products = [
         "Stable structure for long-term precision",
         "Easy operation and maintenance"
       ]
-    }
+    },
+
+    TitleTag: "Handheld Fiber Laser Welding Machine | Metal Welding System",
+    MetaDescription: "Portable handheld fiber laser welding machine for stainless steel, aluminum, mild steel & metal fabrication with deep penetration fastening.",
+    Keywords: "fiber laser welding, handheld laser welder, metal laser welding machine, stainless steel welding, laser welder",
+    SEOContent:""
   },
   // {
   //   id: 8,
@@ -1490,7 +1515,12 @@ Ideal for sign-making, crafts, packaging, furniture décor, and industrial produ
         "Low maintenance and long laser tube lifespan",
         "Suitable for both hobby and industrial production"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "CO2 laser cutting machine, CO2 engraving machine, acrylic cutting laser, advertising laser machine",
+    SEOContent:""
   },
   // {
   //   id: 12,
@@ -2166,7 +2196,12 @@ It delivers superior welding quality on stainless steel, carbon steel, aluminum,
         "Lower operational cost compared to TIG/MIG",
         "Consistent industrial welding performance"
       ]
-    }
+    },
+
+    TitleTag: "Handheld Fiber Laser Welding Machine | Metal Welding System",
+    MetaDescription: "Portable handheld fiber laser welding machine for stainless steel, aluminum, mild steel & metal fabrication with deep penetration fastening.",
+    Keywords: "fiber laser welding, handheld laser welder, metal laser welding machine, stainless steel welding, laser welder",
+    SEOContent:""
   },
 
   // {
@@ -2464,7 +2499,12 @@ It delivers exceptionally clean and accurate welds, making it ideal for thin she
         "No consumables & low maintenance",
         "Perfect for precision manufacturing"
       ]
-    }
+    },
+
+    TitleTag: "Fiber Laser Spot Welding Machine | 3D Letters & Metal Fabrication",
+    MetaDescription: "Spot welding fiber laser machine for 3D letter welding, stainless steel signage, precision joints & small metal components.",
+    Keywords: "laser spot welding machine, 3D letter welding, stainless steel letter fabrication, signage welding laser",
+    SEOContent:""
   },
 
   // {
@@ -2608,7 +2648,12 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
         "Low running cost",
         "Long laser source lifespan"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "CO2 laser marking, logo marking machine, wood engraving laser",
+    SEOContent:""
   },
 
   // {
@@ -2774,7 +2819,12 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
         "Ultra-long lifespan",
         "Supports complex, detailed designs"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "fiber laser marker, metal engraving laser, deep marking system",
+    SEOContent:""
   },
 
   // {
@@ -2934,7 +2984,12 @@ Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for 
         "Minimal maintenance",
         "Long lifespan and low operating cost"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "UV laser marking, plastic marking machine, high precision marking",
+    SEOContent:""
   },
 
   // {
@@ -3082,7 +3137,12 @@ With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), an
         "Easy operation & maintenance",
         "Strong mechanical durability"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "CNC plasma cutting machine, steel plasma cutter, metal CNC plasma",
+    SEOContent:""
   },
 
   // {
@@ -3242,7 +3302,12 @@ With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a r
         "Easy to operate",
         "High productivity for mass production"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "CNC press brake, CNC bending machine, hydraulic CNC brake press",
+    SEOContent:""
   },
 
   // {
@@ -3565,7 +3630,12 @@ Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing typ
         "High productivity for mass production",
         "Reliable hydraulic performance"
       ]
-    }
+    },
+
+    TitleTag: "",
+    MetaDescription: "",
+    Keywords: "NC press brake, hydraulic bending machine",
+    SEOContent:""
   },
 ];
 

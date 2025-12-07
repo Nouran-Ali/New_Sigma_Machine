@@ -13,6 +13,7 @@ import {
   productsPress,
   productsShearing,
 } from "@/data/products";
+import Meta from "@/comps/Meta";
 
 const Product = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -72,7 +73,7 @@ const Product = () => {
 
   return (
     <>
-      <Head>
+      {/* <Head>
         <title>{product?.name} - Sigma Machines</title>
         <meta name="description" content={product?.desc} />
 
@@ -116,7 +117,19 @@ const Product = () => {
             }),
           }}
         />
-      </Head>
+      </Head> */}
+
+      <Meta
+        title={product?.TitleTag || product?.name}
+        description={product?.MetaDescription || product?.desc}
+        keywords={product?.Keywords}
+        image={product?.image}
+        url={`https://sigmamachines.net/products/${product?.slug}`}
+      />
+
+      <section className="sr-only">
+        <p>{product?.SEOContent}</p>
+      </section>
 
       <div className="relative">
         <div className={`${styles.bg_products} `}>
@@ -229,79 +242,79 @@ const Product = () => {
             // )}
           </>
         ) : ( */}
-          
-            <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-7 mb-7">
-              <div className="col-span-2">
-                <img
-                  src={product?.image}
-                  width={imageWidth}
-                  height={imageHight}
-                  className="rounded-lg max-lg:mb-5"
-                />
+
+        <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-7 mb-7">
+          <div className="col-span-2">
+            <img
+              src={product?.image}
+              width={imageWidth}
+              height={imageHight}
+              className="rounded-lg max-lg:mb-5"
+            />
+          </div>
+          <div>
+            <div>
+              <div className="bg-[#f7f4f775] p-12 rounded-3xl">
+                <h3 className="text-[#d9d640] text-2xl tracking-widest">
+                  {product?.name}
+                </h3>
+
+                <h3 className="text-[#1c1c1c] text-xl mt-5">
+                  Working Area
+                </h3>
+
+                {product?.details?.workingArea?.map((w, index) => (
+                  <div key={index}>
+                    <p className="text-[#8d8e99] text-xl mt-2">{w}</p>
+                  </div>
+                ))}
               </div>
-              <div>
-                <div>
-                  <div className="bg-[#f7f4f775] p-12 rounded-3xl">
-                    <h3 className="text-[#d9d640] text-2xl tracking-widest">
-                      {product?.name}
-                    </h3>
-
-                    <h3 className="text-[#1c1c1c] text-xl mt-5">
-                      Working Area
-                    </h3>
-
-                    {product?.details?.workingArea?.map((w, index) => (
-                      <div key={index}>
-                        <p className="text-[#8d8e99] text-xl mt-2">{w}</p>
-                      </div>
-                    ))}
-                  </div>
-                  <div className="flex bg-[#3baec1] text-white rounded-2xl mt-5 p-5 text-xl">
-                    <a href={mailtoLink} className="flex items-center">
-                      <MailOutlined />
-                      <p className="ml-4">Email us</p>
-                    </a>
-                  </div>
-                </div>
+              <div className="flex bg-[#3baec1] text-white rounded-2xl mt-5 p-5 text-xl">
+                <a href={mailtoLink} className="flex items-center">
+                  <MailOutlined />
+                  <p className="ml-4">Email us</p>
+                </a>
               </div>
             </div>
-            <div className=" mt-7 mb-7">
-              <div className="col-span-2 lg:ml-6">
-                {/* <h3 className="text-[#1c1c1c] text-3xl">Product Parameters</h3> */}
-                <p className="mt-5 mb-5 text-lg text-[#54545f]">
-                  {product?.desc}
-                </p>
+          </div>
+        </div>
+        <div className=" mt-7 mb-7">
+          <div className="col-span-2 lg:ml-6">
+            {/* <h3 className="text-[#1c1c1c] text-3xl">Product Parameters</h3> */}
+            <p className="mt-5 mb-5 text-lg text-[#54545f]">
+              {product?.desc}
+            </p>
 
-                <div className="mt-12">
-                  <h3 className="mt-8 text-3xl font-semibold text-[#1c1c1c]">Key Features</h3>
+            <div className="mt-12">
+              <h3 className="mt-8 text-3xl font-semibold text-[#1c1c1c]">Key Features</h3>
 
-                  <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-6 mt-6">
-                    {product?.details?.keyFeatures?.map((section) => (
-                      <div key={section.title} className="bg-[#d9d64029] p-5 rounded-3xl">
-                        {/* <h3 className="text-[#1c1c1c] text-xl font-semibold">{section.title}</h3> */}
+              <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-6 mt-6">
+                {product?.details?.keyFeatures?.map((section) => (
+                  <div key={section.title} className="bg-[#d9d64029] p-5 rounded-3xl">
+                    {/* <h3 className="text-[#1c1c1c] text-xl font-semibold">{section.title}</h3> */}
 
-                        <div className="w-fit text-[17px] font-[700] p-[2px] rounded-full bg-gradient-to-r from-black via-[#c5c23a] to-[#d9d640]">
-                          <div className="flex items-center gap-2 rounded-full bg-white px-4 py-2">
-                            <div
-                              className="rounded-full p-1"
-                              style={{
-                                background:
-                                  "linear-gradient(to top right, #d9d640, #c5c23a, #d9d640)",
-                              }}
-                            ></div>
-                            <p className="">{section.title}</p>
-                          </div>
-                        </div>
-
-                        {section.points.map((p) => (
-                          <p className="text-[#74757e] text-lg mt-2" key={p}>{p}</p>
-                        ))}
+                    <div className="w-fit text-[17px] font-[700] p-[2px] rounded-full bg-gradient-to-r from-black via-[#c5c23a] to-[#d9d640]">
+                      <div className="flex items-center gap-2 rounded-full bg-white px-4 py-2">
+                        <div
+                          className="rounded-full p-1"
+                          style={{
+                            background:
+                              "linear-gradient(to top right, #d9d640, #c5c23a, #d9d640)",
+                          }}
+                        ></div>
+                        <p className="">{section.title}</p>
                       </div>
+                    </div>
+
+                    {section.points.map((p) => (
+                      <p className="text-[#74757e] text-lg mt-2" key={p}>{p}</p>
                     ))}
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
 
-                {/* <div className="mt-12">
+            {/* <div className="mt-12">
                   <h2 className="text-3xl font-semibold  text-[#1c1c1c] text-center"> Applications</h2>
                   <hr className={`${styles.line} mx-auto text-center mt-3 mb-6`} />
 
@@ -317,109 +330,109 @@ const Product = () => {
                   </div>
                 </div> */}
 
-                <div className="mt-12">
-                  <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
-                    Applications
-                  </h2>
-                  <hr className={`${styles.line} mx-auto text-center mt-3 mb-10`} />
+            <div className="mt-12">
+              <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                Applications
+              </h2>
+              <hr className={`${styles.line} mx-auto text-center mt-3 mb-10`} />
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {product?.details?.applications?.map((section, idx) => (
-                      <div
-                        key={section.category}
-                        className="
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                {product?.details?.applications?.map((section, idx) => (
+                  <div
+                    key={section.category}
+                    className="
           relative group p-7 rounded-3xl border border-gray-200 
           bg-white/60 backdrop-blur-xl shadow-md 
           hover:shadow-xl transition-all duration-300 hover:-translate-y-1
         "
-                      >
-                        {/* Circle Number */}
-                        <div className="
+                  >
+                    {/* Circle Number */}
+                    <div className="
           absolute -top-4 -left-4 bg-gradient-to-br from-[#d9d640] via-[#c5c23a] to-[#d9d640]
           text-white w-10 h-10 rounded-full flex items-center justify-center
           shadow-md font-semibold
         ">
-                          {idx + 1}
-                        </div>
+                      {idx + 1}
+                    </div>
 
-                        {/* Category Title */}
-                        <h3 className="text-[#1c1c1c] text-xl font-semibold text-center mb-5 
+                    {/* Category Title */}
+                    <h3 className="text-[#1c1c1c] text-xl font-semibold text-center mb-5 
           group-hover:text-[#c5c23a] transition-all duration-300">
-                          {section.category}
-                        </h3>
+                      {section.category}
+                    </h3>
 
-                        {/* Items List */}
-                        <div className="flex flex-col gap-3">
-                          {section.items.map((item) => (
-                            <div
-                              key={item}
-                              className="flex items-center gap-3 text-lg 
+                    {/* Items List */}
+                    <div className="flex flex-col gap-3">
+                      {section.items.map((item) => (
+                        <div
+                          key={item}
+                          className="flex items-center gap-3 text-lg 
                 text-[#6a6b75] group-hover:text-[#50515a] transition-all"
-                            >
-                              <span className="
+                        >
+                          <span className="
                 w-2.5 h-2.5 rounded-full 
                 bg-gradient-to-br from-[#d9d640] to-[#c5c23a]
               "></span>
-                              <p>{item}</p>
-                            </div>
-                          ))}
+                          <p>{item}</p>
                         </div>
+                      ))}
+                    </div>
 
-                        {/* Hover Glow Border Effect */}
-                        <div className="
+                    {/* Hover Glow Border Effect */}
+                    <div className="
           absolute inset-0 rounded-3xl border-2 border-transparent 
           group-hover:border-[#d9d640] transition-all duration-300 pointer-events-none
         "></div>
-                      </div>
-                    ))}
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
 
 
-                <div className="mt-12">
-                  <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
-                    Advantages
-                  </h2>
-                  <hr className={`${styles.line} mx-auto text-center mt-3 mb-6`} />
+            <div className="mt-12">
+              <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                Advantages
+              </h2>
+              <hr className={`${styles.line} mx-auto text-center mt-3 mb-6`} />
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {product?.details?.advantages?.map((adv, i) => (
-                      <div
-                        key={i}
-                        className="group p-6 rounded-2xl border-2 border-black bg-white shadow-sm 
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {product?.details?.advantages?.map((adv, i) => (
+                  <div
+                    key={i}
+                    className="group p-6 rounded-2xl border-2 border-black bg-white shadow-sm 
                    hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
-                      >
-                        <div className="flex items-center gap-4">
-                          {/* Icon */}
-                          <div className=" flex items-center justify-center rounded-xl 
+                  >
+                    <div className="flex items-center gap-4">
+                      {/* Icon */}
+                      <div className=" flex items-center justify-center rounded-xl 
                           bg-gradient-to-br from-[#d9d640] via-[#c5c23a] to-[#d9d640] 
                           text-white text-2xl font-bold shadow-md group-hover:scale-110 
                           transition-all duration-300">
-                            <p className="w-10 h-10 flex mx-auto text-center justify-center items-center">✓</p>
-                          </div>
-
-                          {/* Text */}
-                          <p className="text-lg font-medium text-[#333] leading-relaxed">
-                            {adv}
-                          </p>
-                        </div>
+                        <p className="w-10 h-10 flex mx-auto text-center justify-center items-center">✓</p>
                       </div>
-                    ))}
+
+                      {/* Text */}
+                      <p className="text-lg font-medium text-[#333] leading-relaxed">
+                        {adv}
+                      </p>
+                    </div>
                   </div>
-                </div>
+                ))}
+              </div>
+            </div>
 
 
-                {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1">
+            {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1">
                   <h3 className="text-xl">Model</h3>
                   <p className="text-lg text-[#54545f]">1325, 2040, 2060</p>
                 </div> */}
-                {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
+            {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
                   <h3 className="text-xl">Working Size</h3>
                   <p className="text-lg text-[#54545f] col-span-2">
                     3000×1500mm, 4000x1500mm, 6000x1500mm
                   </p>
                 </div> */}
-                {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
+            {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-3">
                   <h3 className="text-xl">Laser Power</h3>
                   <p className="text-lg text-[#54545f]">1000-3000w</p>
                 </div>
@@ -439,10 +452,10 @@ const Product = () => {
                   <h3 className="text-xl">Maximum Acceleration</h3>
                   <p className="text-lg text-[#54545f]">1.0G</p>
                 </div> */}
-              </div>
-            </div>
-          
-        
+          </div>
+        </div>
+
+
 
         {/* <div>
           <h2 className="text-center text-4xl mt-9">Features</h2>
