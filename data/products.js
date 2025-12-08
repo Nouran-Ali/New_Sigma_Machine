@@ -1,360 +1,964 @@
 export const products = [
+  // {
+  //   id: 1,
+  //   name: "3 Axis CNC Router Machine",
+  //   nameAr: "راوتر CNC ثلاثي المحاور",
+  //   overview:
+  //     "Reliable, Accurate, and Versatile CNC Cutting for Wood, Acrylic, Plastics & More.",
+
+  //   overviewAr:
+  //     "دقة، استقرار، وتعدد استخدامات في قص وحفر المواد المختلفة مثل الخشب والأكريليك والبلاستيك وأكثر.",
+  //   image: "/../products/router-550x750.png",
+  //   image_small: "/../products/router-350x370.png",
+  //   slug: "3-axis-cnc-router-machine",
+  //   title: "3 Axis CNC Router Machine",
+  //   titleAr: "راوتر CNC ثلاثي المحاور",
+  //   desc: "The 3 Axis CNC router is designed for cutting, engraving, and milling wood, acrylic, plastics, and various sheet materials with high precision and long-term stability.",
+
+  //   details: {
+  //     keyFeatures: [
+  //       {
+  //         title: "High-Precision 3-Axis Motion System",
+  //         points: [
+  //           "Accurate movement on X, Y & Z axes",
+  //           "Supports 2D, 2.5D, and basic 3D carving",
+  //           "Smooth contour cutting with minimal vibration",
+  //           "Ideal for engraving, profiling, pocketing, and drilling",
+  //         ],
+  //       },
+  //       {
+  //         title: "Industrial-Grade Structure",
+  //         points: [
+  //           "Heavy-duty steel welded frame",
+  //           "Reinforced gantry structure",
+  //           "HIWIN linear guide rails",
+  //           "Rack & pinion transmission on X and Y axes",
+  //           "Ball screw on Z-axis for maximum accuracy",
+  //         ],
+  //       },
+  //       {
+  //         title: "Powerful Spindle Options",
+  //         points: [
+  //           "3.2kW / 4.5kW / 6kW / 9kW spindle options",
+  //           "Air-cooled or water-cooled",
+  //           "Up to 24,000 RPM",
+  //           "Suitable for hardwood, MDF, acrylic, foam, plastics, and more",
+  //         ],
+  //       },
+  //       {
+  //         title: "Smart CNC Controller",
+  //         points: [
+  //           "NcStudio, RichAuto DSP, Mach3/Mach4, Syntec (optional)",
+  //           "Easy operation and smooth toolpath processing",
+  //           "USB file transfer",
+  //           "Supports G-code and standard CAM outputs",
+  //         ],
+  //       },
+  //       {
+  //         title: "Vacuum Table & Dust Collection (Optional)",
+  //         points: [
+  //           "Strong vacuum hold-down for sheet materials",
+  //           "Includes dust shoe and dust collector",
+  //           "Provides cleaner cuts and reduces cleanup time",
+  //         ],
+  //       },
+  //     ],
+
+  //     workingArea: ["1300 × 2500 mm", "1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+
+  //     applications: [
+  //       {
+  //         category: "Woodworking & Furniture",
+  //         items: [
+  //           "MDF doors & cabinet panels",
+  //           "Decorative wall panels",
+  //           "2.5D carving",
+  //           "Furniture components",
+  //         ],
+  //       },
+  //       {
+  //         category: "Signage & Advertising",
+  //         items: [
+  //           "Acrylic letters",
+  //           "Engraved signs",
+  //           "PVC, foamboard, and composite sheets",
+  //           "2D/3D logo production",
+  //         ],
+  //       },
+  //       {
+  //         category: "Plastic & Acrylic Fabrication",
+  //         items: [
+  //           "Display stands",
+  //           "Lightboxes",
+  //           "Retail fixtures",
+  //           "Precision outlines",
+  //         ],
+  //       },
+  //       {
+  //         category: "Prototyping & Model Making",
+  //         items: ["Foam patterns", "Casting molds", "Architectural models"],
+  //       },
+  //       {
+  //         category: "General Manufacturing",
+  //         items: ["Drilling", "Pocketing", "Contour cutting", "Engraving & labeling"],
+  //       },
+  //     ],
+
+  //     advantages: [
+  //       "Stable and reliable for long working hours",
+  //       "Excellent price-to-performance ratio",
+  //       "Easy to learn and operate",
+  //       "Supports a wide variety of materials",
+  //       "High-speed cutting with smooth finishing",
+  //       "Low maintenance and long service life",
+  //     ],
+  //   },
+  //   TitleTag: "3 Axis CNC Router | Wood, MDF & Acrylic Cutting Machine",
+  //   MetaDescription: "High-performance 3 Axis CNC Router for woodworking, furniture, acrylic cutting, sign making & general manufacturing. Fast cutting, high accuracy & stable performance.",
+  //   Keywords: "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine",
+  //   SEOContent: "The 3 Axis CNC Router is ideal for woodworking, acrylic fabrication, furniture components, signage, and prototyping. It supports 2D, 2.5D, and basic 3D carving with exceptional accuracy. Built with a reinforced steel frame, powerful spindle options, and high-speed motion control, this machine is perfect for workshops and factories requiring reliable daily production."
+  // },
   {
     id: 1,
     name: "3 Axis CNC Router Machine",
+    nameAr: "ماكينة راوتر CNC ثلاثية المحاور",
+
     overview:
-      "Reliable, Accurate, and Versatile CNC Cutting for Wood, Acrylic, Plastics & More.",
+      "Reliable, accurate, and versatile CNC cutting for wood, acrylic, plastics, and more.",
+    overviewAr:
+      "دقة، استقرار، وتعدد استخدامات في قص وحفر المواد المختلفة مثل الخشب والأكريليك والبلاستيك وأكثر. تعد ماكينة 3 Axis CNC Router الخيار الأساسي والأكثر انتشارًا في سوق التصنيع، لأنها توفر قص وحفر وتفريز عالي الدقة مع حركة متزامنة على محاور X و Y و Z. تقدم أداء ثابت وجودة تشطيب ممتازة، مما يجعلها مثالية لورش النجارة، مصانع الأثاث، صناعة اللوحات الإعلانية، أعمال الأكريليك، النماذج الأولية، والتصنيع العام. خيار ممتاز يجمع بين الأداء والتكلفة والمرونة — مناسب للورش الصغيرة والمصانع الكبيرة.",
+
     image: "/../products/router-550x750.png",
     image_small: "/../products/router-350x370.png",
     slug: "3-axis-cnc-router-machine",
+
     title: "3 Axis CNC Router Machine",
-    desc: "The 3 Axis CNC router is designed for cutting, engraving, and milling wood, acrylic, plastics, and various sheet materials with high precision and long-term stability.",
+    titleAr: "ماكينة راوتر CNC ثلاثية المحاور",
+
+    desc: "The 3 Axis CNC Router is ideal for precise cutting, engraving, and milling on wood, MDF, acrylic, plastics, and various sheet materials.",
+    descAr:
+      "ماكينة 3 Axis CNC Router مثالية للقص والحفر والتفريز عالي الدقة على الخشب و MDF والأكريليك والبلاستيك والمواد المسطحة المختلفة.",
 
     details: {
       keyFeatures: [
         {
           title: "High-Precision 3-Axis Motion System",
+          titleAr: "نظام حركة دقيق على ثلاثة محاور",
           points: [
             "Accurate movement on X, Y & Z axes",
             "Supports 2D, 2.5D, and basic 3D carving",
             "Smooth contour cutting with minimal vibration",
             "Ideal for engraving, profiling, pocketing, and drilling",
           ],
+          pointsAr: [
+            "حركة متزامنة على محاور X,Y,Z",
+            "يدعم أعمال 2D و2.5D وأساسيات 3D",
+            "قص ناعم بدون اهتزاز",
+            "مثالي للنقش والتفريغ والقص والتثقيب",
+          ],
         },
         {
           title: "Industrial-Grade Structure",
+          titleAr: "هيكل صناعي قوي",
           points: [
             "Heavy-duty steel welded frame",
             "Reinforced gantry structure",
             "HIWIN linear guide rails",
             "Rack & pinion transmission on X and Y axes",
-            "Ball screw on Z-axis for maximum accuracy",
+            "Ball screw for accurate Z-axis motion",
+          ],
+          pointsAr: [
+            "هيكل فولاذي ملحوم عالي التحمل",
+            "جسر مُدعّم لتحمل ضغط العمل",
+            "مسارات HIWIN",
+            "نظام رف وترس لمحوري X/Y",
+            "لولب كروي لمحور Z لضمان أعلى دقة",
           ],
         },
         {
           title: "Powerful Spindle Options",
+          titleAr: "خيارات سبندل متعددة",
           points: [
             "3.2kW / 4.5kW / 6kW / 9kW spindle options",
             "Air-cooled or water-cooled",
             "Up to 24,000 RPM",
-            "Suitable for hardwood, MDF, acrylic, foam, plastics, and more",
+            "Suitable for hardwood, MDF, acrylic, plastics, and foam",
+          ],
+          pointsAr: [
+            "3.2kW / 4.5kW / 6kW / 9kW",
+            "تبريد هوائي أو مائي",
+            "سرعة تصل إلى 24,000 دورة",
+            "مناسب للخشب، MDF، الأكريليك، البلاستيك، الفوم وأكثر",
           ],
         },
         {
           title: "Smart CNC Controller",
+          titleAr: "وحدة تحكم ذكية",
           points: [
             "NcStudio, RichAuto DSP, Mach3/Mach4, Syntec (optional)",
-            "Easy operation and smooth toolpath processing",
+            "Easy operation and smooth toolpath handling",
             "USB file transfer",
-            "Supports G-code and standard CAM outputs",
+            "Supports G-code and CAM software",
+          ],
+          pointsAr: [
+            "أنظمة NcStudio / RichAuto DSP / Mach3 / Mach4 / Syntec (اختياري)",
+            "تشغيل سهل ومعالجة مسارات سلسة",
+            "نقل ملفات USB",
+            "يدعم G-code وجميع برامج CAM",
           ],
         },
         {
           title: "Vacuum Table & Dust Collection (Optional)",
+          titleAr: "طاولة شفط وتجميع نشارة (اختياري)",
           points: [
-            "Strong vacuum hold-down for sheet materials",
-            "Includes dust shoe and dust collector",
-            "Provides cleaner cuts and reduces cleanup time",
+            "Strong vacuum hold-down",
+            "Dust shoe and collector system",
+            "Cleaner cuts and reduced cleanup time",
+          ],
+          pointsAr: [
+            "تثبيت قوي للشرائح",
+            "نظام شفط للتنظيف",
+            "جودة قص أعلى + تقليل وقت التنظيف",
           ],
         },
       ],
 
-      workingArea: ["1300 × 2500 mm", "1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+      workingArea: ["1300×2500 mm", "1500×3500 mm", "2000×4000 mm", "2000×6000 mm"],
+      workingAreaAr: ["1300×2500 مم", "1500×3500 مم", "2000×4000 مم", "2000×6000 مم"],
 
       applications: [
         {
           category: "Woodworking & Furniture",
+          categoryAr: "صناعة الخشب والأثاث",
           items: [
-            "MDF doors & cabinet panels",
+            "MDF doors",
+            "Cabinet panels",
             "Decorative wall panels",
             "2.5D carving",
             "Furniture components",
           ],
+          itemsAr: [
+            "أبواب MDF",
+            "أبواب خزائن",
+            "ديكورات حائط",
+            "نحت 2.5D",
+            "أجزاء الأثاث",
+          ],
         },
         {
           category: "Signage & Advertising",
+          categoryAr: "الدعاية والإعلان",
           items: [
             "Acrylic letters",
             "Engraved signs",
-            "PVC, foamboard, and composite sheets",
-            "2D/3D logo production",
+            "PVC, foam & composite sheets",
+            "2D & 3D logos",
+          ],
+          itemsAr: [
+            "حروف أكريليك",
+            "لوحات محفورة",
+            "PVC – فوم – مواد مركبة",
+            "شعارات 2D و3D",
           ],
         },
         {
           category: "Plastic & Acrylic Fabrication",
-          items: [
-            "Display stands",
-            "Lightboxes",
-            "Retail fixtures",
-            "Precision outlines",
-          ],
+          categoryAr: "تشكيل الأكريليك والبلاستيك",
+          items: ["Display stands", "Lightboxes", "Retail fixtures", "Precision cuts"],
+          itemsAr: ["ستاندات العرض", "الليت بوكس", "تجهيزات محلات", "قصات دقيقة"],
         },
         {
-          category: "Prototyping & Model Making",
+          category: "Prototyping & Engineering Models",
+          categoryAr: "النماذج الأولية والتجهيزات الهندسية",
           items: ["Foam patterns", "Casting molds", "Architectural models"],
+          itemsAr: ["فراغات الفوم", "قوالب صب", "نماذج معمارية"],
         },
         {
           category: "General Manufacturing",
-          items: ["Drilling", "Pocketing", "Contour cutting", "Engraving & labeling"],
+          categoryAr: "التصنيع العام",
+          items: ["Drilling", "Pocketing", "Contour cutting", "Engraving & marking"],
+          itemsAr: ["تثقيب", "تفريغ", "قص كونتور", "نقش وترقيم"],
         },
       ],
 
       advantages: [
         "Stable and reliable for long working hours",
-        "Excellent price-to-performance ratio",
-        "Easy to learn and operate",
-        "Supports a wide variety of materials",
-        "High-speed cutting with smooth finishing",
-        "Low maintenance and long service life",
+        "Excellent performance-to-price ratio",
+        "Easy to operate and learn",
+        "Works on many material types",
+        "High-speed cutting with smooth finish",
+        "Low maintenance and long lifespan",
+      ],
+      advantagesAr: [
+        "استقرار عالي للعمل لساعات طويلة",
+        "أداء ممتاز مقابل السعر",
+        "سهل التشغيل والتعلم",
+        "يعمل على مواد كثيرة",
+        "سرعة عالية وتشطيب ناعم",
+        "صيانة قليلة وعمر طويل",
       ],
     },
+
     TitleTag: "3 Axis CNC Router | Wood, MDF & Acrylic Cutting Machine",
-    MetaDescription: "High-performance 3 Axis CNC Router for woodworking, furniture, acrylic cutting, sign making & general manufacturing. Fast cutting, high accuracy & stable performance.",
-    Keywords: "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine",
-    SEOContent: "The 3 Axis CNC Router is ideal for woodworking, acrylic fabrication, furniture components, signage, and prototyping. It supports 2D, 2.5D, and basic 3D carving with exceptional accuracy. Built with a reinforced steel frame, powerful spindle options, and high-speed motion control, this machine is perfect for workshops and factories requiring reliable daily production."
+    MetaDescription:
+      "High-performance 3 Axis CNC Router for woodworking, furniture, acrylic cutting, sign making & more. Fast cutting, high accuracy & stable performance.",
+    Keywords:
+      "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine",
+
+    TitleTagAr: "ماكينة راوتر CNC ثلاثية المحاور | قص الخشب وMDF والأكريليك",
+    MetaDescriptionAr:
+      "ماكينة 3 Axis CNC Router عالية الأداء للخشب والأكريليك وصناعة الأثاث واللوحات الإعلانية. دقة عالية وتشغيل ثابت وسرعة قص ممتازة.",
+    KeywordsAr:
+      "راوتر CNC ثلاثي المحاور, ماكينة CNC خشب, قص MDF, قص أكريليك, ماكينة تفريغ CNC"
   },
   // {
   //   id: 2,
   //   name: "4 Axis CNC Router Machine",
-  //   image: "/../products/21.webp",
+  //   overview:
+  //     "Advanced 4-Axis Machining with Tilting Spindle for Angled Cutting & Deep 3D Carving.",
+  //   image: "",
   //   slug: "4-axis-cnc-router-laser-machine",
-  //   title: "Production Process Of 4 Axis CNC Router Machine",
-  //   desc: "The 4-axis CNC router introduces a rotating spindle...",
+  //   title: "4 Axis CNC Router Machine",
+  //   desc: "The 4-axis CNC router features a tilting spindle for advanced machining, allowing angled cuts, undercuts, multi-surface shaping, and deep 3D carving without flipping the workpiece.",
+
+  //   details: {
+  //     keyFeatures: [
+  //       {
+  //         title: "Tilting Spindle (B-Axis on the Head)",
+  //         points: [
+  //           "Spindle rotates/tilts around the B-axis",
+  //           "No need to flip the workpiece",
+  //           "Ideal for angled cuts, chamfers, and curved surfaces",
+  //           "Supports true 4-axis simultaneous machining",
+  //           "Perfect for deep 3D sculptures and complex contours",
+  //         ],
+  //       },
+  //       {
+  //         title: "High-Performance Cutting Capability",
+  //         points: [
+  //           "Executes undercuts and negative angles",
+  //           "Carves deep 3D shapes smoothly",
+  //           "Cuts multi-directional surfaces in a single setup",
+  //           "Reduces manual finishing significantly",
+  //         ],
+  //       },
+  //       {
+  //         title: "Industrial-Grade Machine Structure",
+  //         points: [
+  //           "Heavy-duty welded steel body",
+  //           "Reinforced gantry for tilting spindle load",
+  //           "HIWIN linear guide rails",
+  //           "Rack & pinion transmission for X/Y axes",
+  //           "Ball screw Z-axis for maximum accuracy",
+  //         ],
+  //       },
+  //       {
+  //         title: "Powerful Spindle Options",
+  //         points: [
+  //           "6kW / 9kW / 12kW spindle power",
+  //           "Air-cooled or water-cooled options",
+  //           "Up to 24,000 RPM",
+  //           "Suitable for hardwood, MDF, foam, acrylic, and composites",
+  //         ],
+  //       },
+  //       {
+  //         title: "Smart 4-Axis CNC Controller",
+  //         points: [
+  //           "Supports Syntec, NcStudio, RichAuto, and optional OSAI",
+  //           "Smooth interpolation across X, Y, Z, and A axes",
+  //           "Supports 4-axis G-code",
+  //           "Auto tool calibration",
+  //           "High-precision toolpath control",
+  //         ],
+  //       },
+  //     ],
+
+  //     workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+
+  //     applications: [
+  //       {
+  //         category: "High-End Furniture Manufacturing",
+  //         items: [
+  //           "Curved doors",
+  //           "Sculpted chair and table components",
+  //           "Multi-angle joints",
+  //           "Artistic wooden structures",
+  //         ],
+  //       },
+  //       {
+  //         category: "3D Carving & Artistic Production",
+  //         items: [
+  //           "Deep 3D sculpting",
+  //           "Organic and artistic shapes",
+  //           "Complex multi-angle carvings",
+  //         ],
+  //       },
+  //       {
+  //         category: "Mold & Prototype Production",
+  //         items: [
+  //           "Foam molds",
+  //           "Wooden patterns",
+  //           "Multi-surface shaping without repositioning",
+  //         ],
+  //       },
+  //       {
+  //         category: "Architectural Decoration",
+  //         items: [
+  //           "Curved wall panels",
+  //           "Multi-level decorative elements",
+  //           "Sculpted columns and artistic features",
+  //         ],
+  //       },
+  //     ],
+
+  //     advantages: [
+  //       "True 4-axis machining with spindle rotation",
+  //       "Cuts angles impossible for standard 3-axis machines",
+  //       "No need to flip or reposition material",
+  //       "Faster and more accurate multi-surface machining",
+  //       "Perfect for complex artistic or industrial tasks",
+  //       "High finishing quality with minimal handwork",
+  //     ],
+  //   },
+  //   TitleTag: "4 Axis CNC Router | Tilting Spindle | 3D Carving & Angled Cutting",
+  //   MetaDescription: "Advanced 4 Axis CNC Router with tilting spindle for 3D carving, mold making, angled cutting, and multi-surface machining.",
+  //   Keywords: "4 axis CNC router, tilting spindle, 3D carving CNC machine, multi-surface machining, advanced CNC router",
+  //   SEOContent: "The 4 Axis CNC Router with a tilting spindle performs angled cutting, multi-face machining, and complex 3D carving. It eliminates the need for flipping the material and enables undercuts and negative angles. Perfect for furniture manufacturing, artistic production, and mold making."
   // },
   {
     id: 2,
     name: "4 Axis CNC Router Machine",
+    nameAr: "ماكينة راوتر CNC رباعية المحاور ",
+
     overview:
       "Advanced 4-Axis Machining with Tilting Spindle for Angled Cutting & Deep 3D Carving.",
+    overviewAr:
+      "تقنية متقدمة للقص والنحت بزاويا مختلفة بفضل دوران/ميلان السبندل نفسه. ماكينة 4 Axis CNC هنا ليست نظام Rotary، بل حركة دوران للسبندل على محور B، مما يسمح بالقص من زوايا لا يمكن الوصول لها بماكينة 3 محاور. مثالية لقص الزوايا، التشطيب المائل، الأعمال الفنية، النحت العميق، والتشكيلات المعقدة.",
+
     image: "",
     slug: "4-axis-cnc-router-laser-machine",
+
     title: "4 Axis CNC Router Machine",
+    titleAr: "ماكينة راوتر CNC رباعية المحاور",
+
     desc: "The 4-axis CNC router features a tilting spindle for advanced machining, allowing angled cuts, undercuts, multi-surface shaping, and deep 3D carving without flipping the workpiece.",
+    descAr:
+      "تتميز ماكينة 4 محاور CNC بسبندل قابل للميلان لتنفيذ عمليات قص ونحت متقدمة، مما يسمح بالقص بزاويا مختلفة، وتنفيذ الانحدارات، وتشكيل الأسطح متعددة الاتجاهات، والنحت العميق بدون الحاجة لقلب الخامة.",
 
     details: {
       keyFeatures: [
         {
           title: "Tilting Spindle (B-Axis on the Head)",
+          titleAr: "سبندل متحرك قابل للميلان (محور B)",
+
           points: [
             "Spindle rotates/tilts around the B-axis",
             "No need to flip the workpiece",
             "Ideal for angled cuts, chamfers, and curved surfaces",
             "Supports true 4-axis simultaneous machining",
-            "Perfect for deep 3D sculptures and complex contours",
+            "Perfect for deep 3D sculptures and complex contours"
           ],
+
+          pointsAr: [
+            "دوران/ميلان السبندل على رأس الماكينة",
+            "بدون الحاجة لقلب الخامة",
+            "مثالي للقص المائل والانحناءات",
+            "يدعم تشغيل 4 محاور متزامنة",
+            "أداء ممتاز في النحت العميق"
+          ]
         },
+
         {
           title: "High-Performance Cutting Capability",
+          titleAr: "قدرات قص عالية",
+
           points: [
             "Executes undercuts and negative angles",
             "Carves deep 3D shapes smoothly",
             "Cuts multi-directional surfaces in a single setup",
-            "Reduces manual finishing significantly",
+            "Reduces manual finishing significantly"
           ],
+
+          pointsAr: [
+            "تنفيذ الانحدارات والزاويا السالبة",
+            "نحت 3D عميق وسلس",
+            "قص متعدد الاتجاهات في نفس العملية",
+            "يقلل أعمال التشطيب اليدوي"
+          ]
         },
+
         {
           title: "Industrial-Grade Machine Structure",
+          titleAr: "هيكل صناعي عالي القوة",
+
           points: [
             "Heavy-duty welded steel body",
             "Reinforced gantry for tilting spindle load",
             "HIWIN linear guide rails",
             "Rack & pinion transmission for X/Y axes",
-            "Ball screw Z-axis for maximum accuracy",
+            "Ball screw Z-axis for maximum accuracy"
           ],
+
+          pointsAr: [
+            "هيكل فولاذي مُعزز",
+            "جسر قوي لتحمل ضغط ميلان السبندل",
+            "مسارات HIWIN",
+            "رف وترس لمحاور X/Y",
+            "لولب كروي لمحور Z"
+          ]
         },
+
         {
           title: "Powerful Spindle Options",
+          titleAr: "خيارات سبندل قوية",
+
           points: [
             "6kW / 9kW / 12kW spindle power",
             "Air-cooled or water-cooled options",
             "Up to 24,000 RPM",
-            "Suitable for hardwood, MDF, foam, acrylic, and composites",
+            "Suitable for hardwood, MDF, foam, acrylic, and composites"
           ],
+
+          pointsAr: [
+            "6kW – 9kW – 12kW",
+            "تبريد هوائي/مائي",
+            "حتى 24,000 دورة",
+            "مناسب للخشب – MDF – الفوم – الأكريليك – المواد المركّبة"
+          ]
         },
+
         {
           title: "Smart 4-Axis CNC Controller",
+          titleAr: "تحكم ذكي لأربع محاور",
+
           points: [
-            "Supports Syntec, NcStudio, RichAuto, and optional OSAI",
+            "Supports Syntec, NcStudio, RichAuto, and OSAI",
             "Smooth interpolation across X, Y, Z, and A axes",
             "Supports 4-axis G-code",
             "Auto tool calibration",
-            "High-precision toolpath control",
+            "High-precision toolpath control"
           ],
-        },
+
+          pointsAr: [
+            "متوافق مع Syntec – NcStudio – RichAuto – OSAI",
+            "انسيابية حركة X,Y,Z,B",
+            "G-code خاص 4 محاور",
+            "معايرة أوتوماتيكية للأداة",
+            "تحكم عالي الدقة في مسار الأداة"
+          ]
+        }
       ],
 
       workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+      workingAreaAr: ["1500×3500 مم", "2000×4000 مم", "2000×6000 مم"],
 
       applications: [
         {
           category: "High-End Furniture Manufacturing",
+          categoryAr: "الأثاث الفاخر",
+
           items: [
             "Curved doors",
             "Sculpted chair and table components",
             "Multi-angle joints",
-            "Artistic wooden structures",
+            "Artistic wooden structures"
           ],
+          itemsAr: [
+            "أبواب منحنية",
+            "أجزاء منحوته",
+            "وصلات متعددة الزوايا",
+            "قطع ديكور فنية"
+          ]
         },
+
         {
           category: "3D Carving & Artistic Production",
-          items: [
-            "Deep 3D sculpting",
-            "Organic and artistic shapes",
-            "Complex multi-angle carvings",
-          ],
+          categoryAr: "النحت والفنون",
+
+          items: ["Deep 3D sculpting", "Organic and artistic shapes", "Complex multi-angle carvings"],
+          itemsAr: ["نحت 3D عميق", "أشكال معقدة", "مجسمات عضوية"]
         },
+
         {
           category: "Mold & Prototype Production",
-          items: [
-            "Foam molds",
-            "Wooden patterns",
-            "Multi-surface shaping without repositioning",
-          ],
+          categoryAr: "القوالب والنماذج",
+
+          items: ["Foam molds", "Wooden patterns", "Multi-surface shaping without repositioning"],
+          itemsAr: ["قوالب فوم", "نماذج خشب", "تشكيل متعدد الأسطح"]
         },
+
         {
           category: "Architectural Decoration",
-          items: [
-            "Curved wall panels",
-            "Multi-level decorative elements",
-            "Sculpted columns and artistic features",
-          ],
-        },
+          categoryAr: "الديكور المعماري",
+
+          items: ["Curved wall panels", "Multi-layer decorative elements", "Sculpted columns"],
+          itemsAr: ["ألواح منحنية", "عناصر ديكور متعدد الطبقات", "أعمدة منحوتة"]
+        }
       ],
 
       advantages: [
         "True 4-axis machining with spindle rotation",
-        "Cuts angles impossible for standard 3-axis machines",
+        "Cuts angles impossible for 3-axis machines",
         "No need to flip or reposition material",
         "Faster and more accurate multi-surface machining",
-        "Perfect for complex artistic or industrial tasks",
-        "High finishing quality with minimal handwork",
+        "Excellent finishing quality"
       ],
+
+      advantagesAr: [
+        "تشغيل 4 محاور حقيقي",
+        "قص من زوايا مستحيلة على 3 محاور",
+        "يلغي قلب الخامة",
+        "سرعة ودقة أعلى",
+        "جودة تشطيب ممتازة"
+      ]
     },
+
     TitleTag: "4 Axis CNC Router | Tilting Spindle | 3D Carving & Angled Cutting",
-    MetaDescription: "Advanced 4 Axis CNC Router with tilting spindle for 3D carving, mold making, angled cutting, and multi-surface machining.",
-    Keywords: "4 axis CNC router, tilting spindle, 3D carving CNC machine, multi-surface machining, advanced CNC router",
-    SEOContent: "The 4 Axis CNC Router with a tilting spindle performs angled cutting, multi-face machining, and complex 3D carving. It eliminates the need for flipping the material and enables undercuts and negative angles. Perfect for furniture manufacturing, artistic production, and mold making."
+    TitleTagAr: "ماكينة CNC رباعية المحاور | سبندل مائل | نحت 3D وقص بزاويا مختلفة",
+
+    MetaDescription:
+      "Advanced 4 Axis CNC Router with tilting spindle for 3D carving, mold making, angled cutting, and multi-surface machining.",
+    MetaDescriptionAr:
+      "ماكينة CNC رباعية المحاور مع سبندل مائل للنحت ثلاثي الأبعاد، صناعة القوالب، القص المائل، وتشكيل الأسطح متعددة الاتجاهات.",
+
+    Keywords:
+      "4 axis CNC router, tilting spindle, 3D carving CNC machine, multi-surface machining, advanced CNC router",
+    KeywordsAr:
+      "ماكينة CNC 4 محاور، سبندل مائل، نحت ثلاثي الأبعاد، قص متعدد الاتجاهات، ماكينة راوتر متقدمة",
+
+    SEOContent:
+      "The 4 Axis CNC Router with a tilting spindle performs angled cutting, multi-face machining, and complex 3D carving.",
+    SEOContentAr:
+      "تقوم ماكينة CNC رباعية المحاور المزودة بسبندل مائل بعمليات قص من زوايا مختلفة، تشكيل متعدد الأسطح، ونحت ثلاثي الأبعاد مع دقة عالية وبدون قلب الخامة."
   },
   // {
   //   id: 3,
-  //   name: "CNC Aluminum Milling Machine",
-  //   image: "/../products/22.webp",
-  //   slug: "cnc-aluminum-milling-laser-machine",
-  //   title: "Production Process Of CNC Aluminum Milling Machine",
-  //   desc: "Specialized for aluminum, the CNC aluminum milling machine...",
+  //   name: "5 Axis CNC Router Machine",
+  //   overview:
+  //     "Ultimate 5-Axis Machining for Complex 3D Surfaces, Deep Sculpting & Multi-Angle Cutting.",
+  //   image: "",
+  //   slug: "5-axis-cnc-router-machine",
+  //   title: "5 Axis CNC Router Machine",
+  //   desc: "The 5-axis CNC router features a dual-axis tilting and rotating spindle (B-axis + C-axis), enabling full multi-directional machining for highly complex 3D geometries, sculptures, molds, and advanced industrial components.",
+
+  //   details: {
+  //     keyFeatures: [
+  //       {
+  //         title: "Dual-Axis Tilting Spindle Head (B-axis + C-axis)",
+  //         points: [
+  //           "Spindle tilts on B-axis and rotates on C-axis",
+  //           "Supports full 5-axis simultaneous machining",
+  //           "Perfect for undercuts, compound angles, and curved surfaces",
+  //           "Tool can approach the workpiece from any direction",
+  //           "Eliminates repositioning or flipping the material",
+  //         ],
+  //       },
+  //       {
+  //         title: "True 5-Axis Interpolation",
+  //         points: [
+  //           "Smooth and accurate 5-axis toolpath execution",
+  //           "Ideal for organic shapes, sculptures, and molds",
+  //           "Perfect for aerospace-grade surface machining",
+  //           "Delivers ultra-smooth finishing with minimal handwork",
+  //         ],
+  //       },
+  //       {
+  //         title: "High-Strength Heavy-Duty Structure",
+  //         points: [
+  //           "Reinforced steel frame designed for 5-axis torque",
+  //           "Gantry engineered to support tilting-head spindle weight",
+  //           "HIWIN/PMI linear guide rails",
+  //           "Rack & pinion transmission on X/Y axes",
+  //           "Ball screw Z-axis for maximum accuracy",
+  //           "Rigid construction for vibration-free machining",
+  //         ],
+  //       },
+  //       {
+  //         title: "High-Performance Spindle Options",
+  //         points: [
+  //           "9kW / 12kW / 15kW HSD or equivalent",
+  //           "Air-cooled or water-cooled",
+  //           "Up to 24,000 RPM",
+  //           "Supports long-duration 5-axis machining cycles",
+  //         ],
+  //       },
+  //       {
+  //         title: "Advanced 5-Axis CNC Controller",
+  //         points: [
+  //           "Syntec 5-axis, OSAI 5-axis, Siemens/Fanuc (optional)",
+  //           "Supports full 5-axis simultaneous machining",
+  //           "5-axis RTCP (Rotational Tool Center Point)",
+  //           "Tool length compensation",
+  //           "Smooth 5-axis surface processing",
+  //           "High-speed data handling and precision control",
+  //         ],
+  //       },
+  //     ],
+
+  //     workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+
+  //     applications: [
+  //       {
+  //         category: "High-End Furniture & Woodworking",
+  //         items: [
+  //           "Sculpted chair bodies",
+  //           "Curved and twisted wooden panels",
+  //           "Artistic wooden structures",
+  //           "Complex multi-angle joints",
+  //         ],
+  //       },
+  //       {
+  //         category: "3D Sculpture & Artistic Production",
+  //         items: [
+  //           "Life-size statues",
+  //           "Organic 3D forms",
+  //           "Art installations",
+  //           "Advanced decorative shapes",
+  //         ],
+  //       },
+  //       {
+  //         category: "Mold & Prototype Manufacturing",
+  //         items: [
+  //           "Automotive molds",
+  //           "3D surface molds",
+  //           "Foam, wood, and resin patterns",
+  //           "Large prototypes with undercuts",
+  //         ],
+  //       },
+  //       {
+  //         category: "Aerospace & Marine Components",
+  //         items: [
+  //           "Composite shaping",
+  //           "Aerodynamic components",
+  //           "Multi-surface trimming",
+  //           "Precision milling for complex parts",
+  //         ],
+  //       },
+  //       {
+  //         category: "Architectural & Interior Design",
+  //         items: [
+  //           "3D wall panels",
+  //           "Sculpted columns",
+  //           "Organic interior structures",
+  //           "Custom artistic installations",
+  //         ],
+  //       },
+  //     ],
+
+  //     advantages: [
+  //       "Allows machining from any angle or direction",
+  //       "No need to flip or reposition the workpiece",
+  //       "Perfect for extremely complex 3D geometries",
+  //       "High-precision sculpting and mold production",
+  //       "Reduced manual finishing work",
+  //       "Ultra-smooth surface quality",
+  //       "Maximum flexibility for advanced manufacturing",
+  //     ],
+  //   },
+  //   TitleTag: "5 Axis CNC Router | A&C Axis | Advanced 3D Machining",
+  //   MetaDescription: "Professional 5 Axis CNC Router with A and C spindle rotation for deep 3D carving, mold machining, prototypes, and high-precision multi-angle cutting.",
+  //   Keywords: "5 axis CNC router, A&C axis CNC, 5 axis wood machining, 3D sculpting CNC, mold CNC machine",
+  //   SEOContent: "This machine provides full 5-axis simultaneous machining with a dual-axis spindle head (A & C). Capable of approaching the material from any direction, it powers through complex 3D forms, curved geometries, molds, sculptures, and premium furniture components."
   // },
   {
     id: 3,
     name: "5 Axis CNC Router Machine",
+    nameAr: "ماكينة راوتر CNC خمس محاور",
+
     overview:
       "Ultimate 5-Axis Machining for Complex 3D Surfaces, Deep Sculpting & Multi-Angle Cutting.",
+    overviewAr:
+      "تقنية الخمسة محاور هي قمة ما وصلت له تكنولوجيا القصّ والنحت ثلاثي الأبعاد. ماكينة 5 Axis CNC Router مزودة برأس سبندل يتحرك ويميل ويدور بالكامل (محور B + محور C)، مما يسمح للأداة بالوصول للقطعة من أي اتجاه تقريبًا دون الحاجة لقلب الخامة. مثالية للنحت العميق، الأشكال العضوية، القوالب الصناعية، الأجزاء الهندسية، والأعمال المعقدة متعددة الزوايا.",
+
     image: "",
     slug: "5-axis-cnc-router-machine",
+
     title: "5 Axis CNC Router Machine",
-    desc: "The 5-axis CNC router features a dual-axis tilting and rotating spindle (B-axis + C-axis), enabling full multi-directional machining for highly complex 3D geometries, sculptures, molds, and advanced industrial components.",
+    titleAr: "ماكينة راوتر CNC خمس محاور",
+
+    desc:
+      "The 5-axis CNC router features a tilting and rotating spindle head (B-axis + C-axis), enabling full multi-directional machining for complex 3D shapes, molds, sculptures, and high-precision industrial components.",
+    descAr:
+      "ماكينة 5 محاور تأتي برأس سبندل قابل للميلان والدوران (محور B + محور C) مما يوفر تشغيل كامل متعدد الاتجاهات للقص والنحت ثلاثي الأبعاد، القوالب، التماثيل، والأجزاء الصناعية عالية الدقة.",
 
     details: {
       keyFeatures: [
         {
           title: "Dual-Axis Tilting Spindle Head (B-axis + C-axis)",
+          titleAr: "رأس سبندل متحرك بمحورين (B + C)",
           points: [
             "Spindle tilts on B-axis and rotates on C-axis",
             "Supports full 5-axis simultaneous machining",
             "Perfect for undercuts, compound angles, and curved surfaces",
             "Tool can approach the workpiece from any direction",
-            "Eliminates repositioning or flipping the material",
+            "Eliminates repositioning or flipping the material"
           ],
+          pointsAr: [
+            "ميلان ودوران كامل للسبندل على محوري B و C",
+            "تشغيل 5 محاور متزامن بالكامل",
+            "معالجة الانحدارات والقصات المركبة والانحناءات",
+            "الوصول إلى القطعة من أي زاوية",
+            "إلغاء الحاجة لقلب الخامة أو إعادة تثبيتها"
+          ]
         },
         {
           title: "True 5-Axis Interpolation",
+          titleAr: "تشغيل 5 محاور حقيقي",
           points: [
             "Smooth and accurate 5-axis toolpath execution",
             "Ideal for organic shapes, sculptures, and molds",
             "Perfect for aerospace-grade surface machining",
-            "Delivers ultra-smooth finishing with minimal handwork",
+            "Delivers ultra-smooth finishing with minimal handwork"
           ],
+          pointsAr: [
+            "تحكم ناعم ودقيق في مسار الأداة",
+            "مثالي للأشكال العضوية والتماثيل والقوالب",
+            "تشغيل مثالي لمكونات صناعية معقدة",
+            "تشطيب عالي الجودة مع تقليل العمل اليدوي"
+          ]
         },
         {
           title: "High-Strength Heavy-Duty Structure",
+          titleAr: "هيكل صناعي فائق القوة",
           points: [
             "Reinforced steel frame designed for 5-axis torque",
             "Gantry engineered to support tilting-head spindle weight",
             "HIWIN/PMI linear guide rails",
             "Rack & pinion transmission on X/Y axes",
             "Ball screw Z-axis for maximum accuracy",
-            "Rigid construction for vibration-free machining",
+            "Rigid construction for vibration-free machining"
           ],
+          pointsAr: [
+            "هيكل فولاذي مُدعّم لتحمل عزم تشغيل 5 محاور",
+            "جسر قوي لتحمل وزن رأس السبندل المائل",
+            "سكك حركة HIWIN/PMI عالية الجودة",
+            "نظام رف وترس لمحوري X و Y",
+            "لولب كروي لمحور Z لضمان أعلى دقة",
+            "ثبات عالي وتشغيل بدون اهتزاز"
+          ]
         },
         {
           title: "High-Performance Spindle Options",
+          titleAr: "خيارات سبندل عالية الأداء",
           points: [
             "9kW / 12kW / 15kW HSD or equivalent",
             "Air-cooled or water-cooled",
             "Up to 24,000 RPM",
-            "Supports long-duration 5-axis machining cycles",
+            "Supports long-duration 5-axis machining cycles"
           ],
+          pointsAr: [
+            "خيارات سبندل 9kW / 12kW / 15kW",
+            "تبريد هوائي أو مائي",
+            "سرعة حتى 24,000 RPM",
+            "مناسب للتشغيل الطويل والمستمر"
+          ]
         },
         {
           title: "Advanced 5-Axis CNC Controller",
+          titleAr: "نظام تحكم متطور لتشغيل 5 محاور",
           points: [
             "Syntec 5-axis, OSAI 5-axis, Siemens/Fanuc (optional)",
             "Supports full 5-axis simultaneous machining",
             "5-axis RTCP (Rotational Tool Center Point)",
             "Tool length compensation",
             "Smooth 5-axis surface processing",
-            "High-speed data handling and precision control",
+            "High-speed data handling and precision control"
           ],
-        },
+          pointsAr: [
+            "Syntec 5-axis – OSAI – Siemens – Fanuc (اختياري)",
+            "تشغيل 5 محاور كامل بالتزامن",
+            "تقنية RTCP للتحكم بمركز دوران الأداة",
+            "تعويض طول الأداة",
+            "معالجة ناعمة للأسطح المعقدة",
+            "تحكم سريع ودقيق بالمعالجة"
+          ]
+        }
       ],
 
-      workingArea: ["1500 × 3500 mm", "2000 × 4000 mm", "2000 × 6000 mm"],
+      workingArea: ["1500×3500 mm", "2000×4000 mm", "2000×6000 mm"],
+      workingAreaAr: ["1500×3500 مم", "2000×4000 مم", "2000×6000 مم"],
 
       applications: [
         {
           category: "High-End Furniture & Woodworking",
+          categoryAr: "الأثاث الراقي والخشب الفاخر",
           items: [
             "Sculpted chair bodies",
-            "Curved and twisted wooden panels",
+            "Curved and twisted panels",
             "Artistic wooden structures",
-            "Complex multi-angle joints",
+            "Complex multi-angle joints"
           ],
+          itemsAr: [
+            "هياكل كراسي منحوتة",
+            "ألواح خشبية منحنية ومعقدة",
+            "أعمال فنية خشبية",
+            "وصلات متعددة الزوايا"
+          ]
         },
         {
           category: "3D Sculpture & Artistic Production",
+          categoryAr: "النحت ثلاثي الأبعاد والأعمال الفنية",
           items: [
-            "Life-size statues",
+            "Life-size sculptures",
             "Organic 3D forms",
             "Art installations",
-            "Advanced decorative shapes",
+            "Decorative shapes"
           ],
+          itemsAr: [
+            "تماثيل كبيرة الحجم",
+            "أشكال ثلاثية الأبعاد عضوية",
+            "تركيبات فنية",
+            "ديكورات وتصاميم فنية"
+          ]
         },
         {
           category: "Mold & Prototype Manufacturing",
+          categoryAr: "تصنيع القوالب والنماذج الأولية",
           items: [
             "Automotive molds",
             "3D surface molds",
             "Foam, wood, and resin patterns",
-            "Large prototypes with undercuts",
+            "Large prototypes with undercuts"
           ],
+          itemsAr: [
+            "قوالب سيارات",
+            "قوالب أسطح ثلاثية الأبعاد",
+            "نماذج فوم وخشب ورزين",
+            "نماذج كبيرة بانحدارات عميقة"
+          ]
         },
         {
           category: "Aerospace & Marine Components",
+          categoryAr: "مكونات الطيران والبحرية",
           items: [
             "Composite shaping",
             "Aerodynamic components",
             "Multi-surface trimming",
-            "Precision milling for complex parts",
+            "Precision machining"
           ],
+          itemsAr: [
+            "تشكيل المواد المركبة",
+            "أجزاء انسيابية",
+            "قص متعدد الأسطح",
+            "تشغيل دقيق لقطع معقدة"
+          ]
         },
         {
           category: "Architectural & Interior Design",
+          categoryAr: "العمارة والديكور الداخلي",
           items: [
             "3D wall panels",
             "Sculpted columns",
             "Organic interior structures",
-            "Custom artistic installations",
+            "Custom artistic installations"
           ],
-        },
+          itemsAr: [
+            "ألواح حائط ثلاثية الأبعاد",
+            "أعمدة منحوتة",
+            "هياكل داخلية عضوية",
+            "تصاميم فنية خاصة"
+          ]
+        }
       ],
 
       advantages: [
@@ -364,13 +968,30 @@ export const products = [
         "High-precision sculpting and mold production",
         "Reduced manual finishing work",
         "Ultra-smooth surface quality",
-        "Maximum flexibility for advanced manufacturing",
+        "Maximum flexibility for advanced manufacturing"
       ],
+      advantagesAr: [
+        "الوصول لأي سطح من أي زاوية",
+        "عدم الحاجة لقلب أو إعادة تثبيت الخامة",
+        "مثالية للأشكال ثلاثية الأبعاد المعقدة جدًا",
+        "نحت عالي الدقة وتصنيع قوالب احترافي",
+        "تقليل كبير في العمل اليدوي",
+        "تشطيب سطحي فائق النعومة",
+        "أقصى مرونة لتطبيقات التصنيع المتقدمة"
+      ]
     },
+
     TitleTag: "5 Axis CNC Router | A&C Axis | Advanced 3D Machining",
-    MetaDescription: "Professional 5 Axis CNC Router with A and C spindle rotation for deep 3D carving, mold machining, prototypes, and high-precision multi-angle cutting.",
-    Keywords: "5 axis CNC router, A&C axis CNC, 5 axis wood machining, 3D sculpting CNC, mold CNC machine",
-    SEOContent:"This machine provides full 5-axis simultaneous machining with a dual-axis spindle head (A & C). Capable of approaching the material from any direction, it powers through complex 3D forms, curved geometries, molds, sculptures, and premium furniture components."
+    MetaDescription:
+      "Professional 5 Axis CNC Router with B and C rotating spindle for deep 3D carving, molds, prototypes, and multi-angle machining.",
+    Keywords:
+      "5 axis CNC router, B&C axis CNC, 5 axis machining, 3D sculpting CNC, mold CNC machine",
+
+    TitleTagAr: "ماكينة راوتر CNC خمس محاور | نحت ثلاثي الأبعاد وقوالب احترافية",
+    MetaDescriptionAr:
+      "ماكينة CNC خمس محاور برأس متحرك (B + C) للنحت العميق والتصنيع ثلاثي الأبعاد والقوالب الكبيرة والهندسية بدقة عالية وتشغيل مستمر.",
+    KeywordsAr:
+      "راوتر CNC خمس محاور, ماكينة نحت 5 محاور, ماكينة قوالب 5 محاور, نحت ثلاثي الأبعاد, CNC صناعي متقدم"
   },
   // {
   //   id: 4,
@@ -502,7 +1123,7 @@ export const products = [
     TitleTag: "Rotary Axis CNC Router | 4 Axis CNC for Cylindrical Machining",
     MetaDescription: "Rotary Axis CNC Router for columns, table legs, balusters, sculptures, and cylindrical 3D carving with high precision.",
     Keywords: "rotary axis CNC router, 4 axis CNC, column CNC machine, cylinder CNC carving, CNC lathe router",
-    SEOContent:""
+    SEOContent: ""
   },
   // {
   //   id: 5,
@@ -633,7 +1254,7 @@ export const products = [
     TitleTag: "Fiber Laser Cutting Machine | Sheet & Tube Metal Cutting",
     MetaDescription: "High-speed fiber laser cutting machines for sheet metal, tube cutting, and combined tube & sheet systems. Precision cutting with low operating cost.",
     Keywords: "fiber laser cutting machine, metal laser cutter, tube laser cutting, sheet metal laser cutting, industrial laser machine",
-    SEOContent:""
+    SEOContent: ""
   },
   // {
   //   id: 6,
@@ -926,7 +1547,7 @@ export const products = [
     TitleTag: "Handheld Fiber Laser Welding Machine | Metal Welding System",
     MetaDescription: "Portable handheld fiber laser welding machine for stainless steel, aluminum, mild steel & metal fabrication with deep penetration fastening.",
     Keywords: "fiber laser welding, handheld laser welder, metal laser welding machine, stainless steel welding, laser welder",
-    SEOContent:""
+    SEOContent: ""
   },
   // {
   //   id: 8,
@@ -1520,7 +2141,7 @@ Ideal for sign-making, crafts, packaging, furniture décor, and industrial produ
     TitleTag: "",
     MetaDescription: "",
     Keywords: "CO2 laser cutting machine, CO2 engraving machine, acrylic cutting laser, advertising laser machine",
-    SEOContent:""
+    SEOContent: ""
   },
   // {
   //   id: 12,
@@ -2201,7 +2822,7 @@ It delivers superior welding quality on stainless steel, carbon steel, aluminum,
     TitleTag: "Handheld Fiber Laser Welding Machine | Metal Welding System",
     MetaDescription: "Portable handheld fiber laser welding machine for stainless steel, aluminum, mild steel & metal fabrication with deep penetration fastening.",
     Keywords: "fiber laser welding, handheld laser welder, metal laser welding machine, stainless steel welding, laser welder",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -2504,7 +3125,7 @@ It delivers exceptionally clean and accurate welds, making it ideal for thin she
     TitleTag: "Fiber Laser Spot Welding Machine | 3D Letters & Metal Fabrication",
     MetaDescription: "Spot welding fiber laser machine for 3D letter welding, stainless steel signage, precision joints & small metal components.",
     Keywords: "laser spot welding machine, 3D letter welding, stainless steel letter fabrication, signage welding laser",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -2653,7 +3274,7 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
     TitleTag: "",
     MetaDescription: "",
     Keywords: "CO2 laser marking, logo marking machine, wood engraving laser",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -2824,7 +3445,7 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
     TitleTag: "",
     MetaDescription: "",
     Keywords: "fiber laser marker, metal engraving laser, deep marking system",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -2989,7 +3610,7 @@ Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for 
     TitleTag: "",
     MetaDescription: "",
     Keywords: "UV laser marking, plastic marking machine, high precision marking",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -3142,7 +3763,7 @@ With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), an
     TitleTag: "",
     MetaDescription: "",
     Keywords: "CNC plasma cutting machine, steel plasma cutter, metal CNC plasma",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -3307,7 +3928,7 @@ With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a r
     TitleTag: "",
     MetaDescription: "",
     Keywords: "CNC press brake, CNC bending machine, hydraulic CNC brake press",
-    SEOContent:""
+    SEOContent: ""
   },
 
   // {
@@ -3635,7 +4256,7 @@ Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing typ
     TitleTag: "",
     MetaDescription: "",
     Keywords: "NC press brake, hydraulic bending machine",
-    SEOContent:""
+    SEOContent: ""
   },
 ];
 

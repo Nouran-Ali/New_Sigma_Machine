@@ -8,8 +8,13 @@ import Image from "next/image";
 import Head from 'next/head';
 import Meta from "@/comps/Meta";
 import Products_bar from "@/comps/Products_bar";
+import { useTranslation } from "react-i18next";
 
 export default function Home() {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   return (
     <>
       {/* <Meta
@@ -31,48 +36,51 @@ export default function Home() {
   "
       />
 
-      <div className="sr-only">
-        <h1>Professional CNC & Laser Machine Maintenance in Saudi Arabia</h1>
+      <div dir={language === "en" ? "ltr" : "rtl"}>
 
-        <h2>Strong After-Sales Support & Expert Engineers</h2>
-        <h2>Annual Maintenance Contracts for Factories & Workshops</h2>
-        <h2>On-Site External Maintenance Across Saudi Arabia</h2>
-        <h2>Local Service Provider for Chinese CNC & Laser Machines</h2>
-        <h2>Fast Response, Accurate Diagnosis & Reliable Repair</h2>
-        <h2>Spare Parts Availability for All CNC & Laser Systems</h2>
+        <div className="sr-only">
+          <h1>Professional CNC & Laser Machine Maintenance in Saudi Arabia</h1>
 
-        <h3>CNC Router Service</h3>
-        <h3>Fiber Laser Cutting Machine Support</h3>
-        <h3>CO₂ Laser Maintenance</h3>
-        <h3>Laser Welding System Calibration</h3>
-        <h3>Press Brake & Shearing Machine Repair</h3>
+          <h2>Strong After-Sales Support & Expert Engineers</h2>
+          <h2>Annual Maintenance Contracts for Factories & Workshops</h2>
+          <h2>On-Site External Maintenance Across Saudi Arabia</h2>
+          <h2>Local Service Provider for Chinese CNC & Laser Machines</h2>
+          <h2>Fast Response, Accurate Diagnosis & Reliable Repair</h2>
+          <h2>Spare Parts Availability for All CNC & Laser Systems</h2>
+
+          <h3>CNC Router Service</h3>
+          <h3>Fiber Laser Cutting Machine Support</h3>
+          <h3>CO₂ Laser Maintenance</h3>
+          <h3>Laser Welding System Calibration</h3>
+          <h3>Press Brake & Shearing Machine Repair</h3>
+
+        </div>
+
+
+        <Main />
+        <Products_bar />
+        <WhatWeOffer />
+        <Our_products />
+        <Our_services />
+        <Experience />
+        <Samples />
+
+        <section className="container mx-auto py-10 text-gray-700 sr-only">
+          <h2>CNC Machine Maintenance in Saudi Arabia – Who We Serve</h2>
+          <p>We provide maintenance services to metal fabrication factories, signage companies, furniture manufacturers, engineering workshops, and industrial facilities.</p>
+
+          <h2>Supported Machine Brands</h2>
+          <p>We service Chinese CNC routers, fiber laser machines, hybrid machines, and global CNC brands.</p>
+
+          <h2>Industries We Support</h2>
+          <p>Metalworking, woodworking, signage, automotive, engineering, heavy industry.</p>
+        </section>
+
+        <section className="sr-only">
+          Sigma Machines provides full maintenance, repair, calibration, and spare parts services for CNC routers, fiber laser cutters, CO₂ laser machines, plasma systems, welding machines, press brakes, and shearing machines across Saudi Arabia. We support both local and Chinese suppliers with fast on-site
+        </section>
 
       </div>
-
-
-      <Main />
-      <Products_bar />
-      <WhatWeOffer />
-      <Our_products />
-      <Our_services />
-      <Experience />
-      <Samples />
-
-      <section className="container mx-auto py-10 text-gray-700 sr-only">
-        <h2>CNC Machine Maintenance in Saudi Arabia – Who We Serve</h2>
-        <p>We provide maintenance services to metal fabrication factories, signage companies, furniture manufacturers, engineering workshops, and industrial facilities.</p>
-
-        <h2>Supported Machine Brands</h2>
-        <p>We service Chinese CNC routers, fiber laser machines, hybrid machines, and global CNC brands.</p>
-
-        <h2>Industries We Support</h2>
-        <p>Metalworking, woodworking, signage, automotive, engineering, heavy industry.</p>
-      </section>
-
-      <section className="sr-only">
-        Sigma Machines provides full maintenance, repair, calibration, and spare parts services for CNC routers, fiber laser cutters, CO₂ laser machines, plasma systems, welding machines, press brakes, and shearing machines across Saudi Arabia. We support both local and Chinese suppliers with fast on-site
-      </section>
-
     </>
   );
 }

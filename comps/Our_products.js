@@ -12,8 +12,13 @@ import {
   productsPress,
   productsShearing,
 } from "@/data/products";
+import { useTranslation } from "react-i18next";
 
 const Our_products = () => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   // const products = [
   //   {
   //     id: 1,
@@ -101,7 +106,7 @@ const Our_products = () => {
           <div className="relative">
             <div className="bg-[#f3ec5e24] p-6 rounded-full absolute -left-3 -top-3"></div>
             <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
-              OUR PRODUCTS
+              {t("OUR PRODUCTS")}
             </p>
           </div>
           <h1 className="text-[#1c1c1c] text-xl mt-4">
@@ -122,14 +127,19 @@ const Our_products = () => {
                     ? product.desc.substring(0, 100) + "..."
                     : product.desc;
 
+                const truncatedDescAr =
+                  product.desc.length > 100
+                    ? product.descAr.substring(0, 100) + "..."
+                    : product.descAr;
+
                 return (
                   <Product
                     key={product.id}
-                    title={product.name}
+                    title={(language === "en" ? product.name : product.nameAr) || product.name}
                     href={`/products/${product.id}`}
                     background={{ backgroundImage: `url(${product.image_small})` }}
-                    method={product.title}
-                    description={truncatedDesc}
+                    method={(language === "en" ? product.title : product.titleAr) || product.title}
+                    description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
                   />
                 );
               })}
