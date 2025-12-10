@@ -195,22 +195,23 @@
     position: absolute;
     top: 0px;
     right: 80px;
+    z-index: 0;
 }
 
-.image {
-    transform: rotateY(-169deg);
-    margin-top: -45px;
-}
+/* .image {
+    /* transform: rotateY(-169deg); */
+    /* margin-top: -45px; 
+} */
 
 /* our services */
 
 .card_services {
     padding: 40px 30px 40px;
-    background-color: #fff4f4;
+    background-color: #ff795117;
     border-color: 1px solid #ffffff50;
     border-radius: 10px;
     border-radius: 37% 57% 52% 65% / 84% 67% 68% 63%;
-    height: 280px;
+    height: 180px;
 }
 
 .card_icon {
@@ -231,6 +232,21 @@
 .card_services_3 {
     background-color: #f4ffff;
     border-radius: 44% 40% 46% 41% / 48% 53% 46% 26%;
+}
+
+.card_services_4 {
+    background-color: #a855f712;
+    border-radius: 95% 22% 55% 68% / 58% 92% 31% 56%;
+}
+
+.card_services_5 {
+    background-color: #ef444412;
+    border-radius: 95% 22% 55% 68% / 58% 92% 31% 56%;
+}
+
+.card_services_6 {
+    background-color: #fffb1923;
+    border-radius: 95% 22% 55% 68% / 58% 92% 31% 56%;
 }
 
 /* experience */

@@ -14,11 +14,11 @@ const Main = () => {
       <div>
         <div className={styles.background}>
           <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 reverce_mobile">
-            <div className="lg:mt-20">
-              <p className="text-[#666666] text-sm max-xl:text-sm tracking-widest uppercase font-medium">
+            <div className="lg:mt-20 ">
+              <p className="text-[#666666] text-sm max-xl:text-sm tracking-widest uppercase font-medium relative z-10">
                 {t("High-Precision CNC & Laser Cutting Machines")}
               </p>
-              <h1 className="text-[#1c1c1c] mt-4 text-6xl max-xl:text-4xl font-bold">
+              <h1 className="text-[#1c1c1c] mt-4 text-6xl max-xl:text-4xl font-bold relative z-10">
                 {t("Sigma Machines")}
               </h1>
               <p className="text-[#54545f] text-base mt-5 mb-12">
@@ -69,10 +69,16 @@ const Main = () => {
             </div>
             <div>
               <div className={styles.right_circle}></div>
-              <img
+              {/* <img
                 src="/home/4.webp"
                 className={` ${styles.image} max-lg:pt-10`}
                 width="600"
+                height="550"
+              /> */}
+              <img
+                src="/products/router-550x750-removebg-preview.png"
+                className={` ${styles.image} relative z-10`}
+                width="800"
                 height="550"
               />
               <div className={styles.right_dots}>

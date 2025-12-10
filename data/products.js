@@ -3453,66 +3453,260 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
     Keywords: "aluminum cnc router, aluminum cutting machine, cnc for aluminum, aluminum machining",
     SEOContent: ""
   },
+  //   {
+  //     id: 11,
+  //     name: "CO₂ Laser Cutting & Engraving Machine",
+  //     image: "/../products/co2-550x750.png",
+  //     image_small: "/../products/co2-350x370.png",
+  //     slug: "co2-laser-cutting-engraving-machine",
+  //     title: "CO₂ Laser Cutting & Engraving Machine",
+  //     desc: "A high-precision CO₂ laser machine designed for fast, clean cutting and engraving on wood, acrylic, MDF, leather, and other non-metal materials.",
 
-  // {
-  //   id: 11,
-  //   name: "CNC Plasma Cutting Machine",
-  //   image: "",
-  //   slug: "cnc-plasma-cutting-laser-machine",
-  //   title: "CNC Plasma Cutting Machine",
-  //   desc: "The CNC plasma cutting machine is designed for cutting conductive metals...",
-  // },
+  //     overview: `
+  // High-Precision Cutting & Engraving for Wood, Acrylic, Leather, MDF & More
+
+  // The CO₂ Laser Cutting & Engraving Machine is a versatile solution designed for high-speed, high-precision cutting and engraving on a wide range of non-metal materials.
+  // Ideal for sign-making, crafts, packaging, furniture décor, and industrial production, the CO₂ laser delivers clean edges, smooth engraving, and exceptional detail quality.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Speed Cutting & Engraving",
+  //           points: [
+  //             "Advanced CO₂ laser tube (60W–500W)",
+  //             "Fast processing with smooth, polished edges",
+  //             "Ideal for detailed engraving and high-volume cutting",
+  //             "Stable performance for long working hours"
+  //           ]
+  //         },
+  //         {
+  //           title: "Supports a Wide Range of Materials",
+  //           points: [
+  //             "Acrylic",
+  //             "MDF & Wood",
+  //             "Leather",
+  //             "Fabric",
+  //             "Plastic",
+  //             "Paper & Cardboard",
+  //             "Rubber",
+  //             "Glass (surface engraving)"
+  //           ]
+  //         },
+  //         {
+  //           title: "High-Precision Motion System",
+  //           points: [
+  //             "Stable guide rail system",
+  //             "Accurate positioning for detailed work",
+  //             "Smooth motion for clean cutting lines",
+  //             "Ensures consistent quality on all materials"
+  //           ]
+  //         },
+  //         {
+  //           title: "Large Working Area Options",
+  //           points: [
+  //             "40×30 cm",
+  //             "60×40 cm",
+  //             "90×60 cm",
+  //             "100×160 cm",
+  //             "130×90 cm",
+  //             "130×180 cm",
+  //             "Custom sizes available"
+  //           ]
+  //         },
+  //         {
+  //           title: "User-Friendly Control Software",
+  //           points: [
+  //             "Compatible with RDWorks",
+  //             "Supports LightBurn",
+  //             "CorelDRAW plug-ins",
+  //             "Vector cutting & raster engraving",
+  //             "Multi-layer job support"
+  //           ]
+  //         },
+  //         {
+  //           title: "Automatic Up/Down Table & Rotary Axis (Optional)",
+  //           points: [
+  //             "Perfect for cups, bottles, and cylindrical objects",
+  //             "Improves workflow flexibility",
+  //             "Ideal for 360° engraving"
+  //           ]
+  //         },
+  //         {
+  //           title: "Clean & Safe Operation",
+  //           points: [
+  //             "Built-in exhaust fan",
+  //             "Air assist system prevents burning",
+  //             "Clean edges on all materials",
+  //             "Improved safety during long jobs"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "40×30 cm",
+  //         "60×40 cm",
+  //         "90×60 cm",
+  //         "130×90 cm",
+  //         "130×180 cm",
+  //         "Custom sizes available"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Signage & Advertising",
+  //           items: [
+  //             "Acrylic letters",
+  //             "Lightbox panels",
+  //             "Engraved logos",
+  //             "Event decorations"
+  //           ]
+  //         },
+  //         {
+  //           category: "Woodworking & Interior Décor",
+  //           items: [
+  //             "MDF wall panels",
+  //             "Wooden art pieces",
+  //             "Decorative partitions",
+  //             "Custom furniture components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Packaging & Craft Industry",
+  //           items: [
+  //             "Paper cutting",
+  //             "Cardboard prototypes",
+  //             "Gift boxes",
+  //             "Customized craft designs"
+  //           ]
+  //         },
+  //         {
+  //           category: "Leather Products",
+  //           items: [
+  //             "Wallets",
+  //             "Belts",
+  //             "Bags",
+  //             "Shoes"
+  //           ]
+  //         },
+  //         {
+  //           category: "Fabric & Garments",
+  //           items: [
+  //             "Textile cutting",
+  //             "Pattern engraving",
+  //             "Fashion accessories"
+  //           ]
+  //         },
+  //         {
+  //           category: "Personalization & Custom Gifts",
+  //           items: [
+  //             "Photo engraving",
+  //             "Name tags",
+  //             "Awards",
+  //             "Trophies"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Smooth polished edges without extra finishing",
+  //         "No tool wear (contactless cutting)",
+  //         "Extremely fine engraving details",
+  //         "Low maintenance and long laser tube lifespan",
+  //         "Suitable for both hobby and industrial production"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "CO2 laser cutting machine, CO2 engraving machine, acrylic cutting laser, advertising laser machine",
+  //     SEOContent: ""
+  //   },
   {
     id: 11,
     name: "CO₂ Laser Cutting & Engraving Machine",
+    nameAr: "ماكينة ليزر CO₂ للقص والحفر",
     image: "/../products/co2-550x750.png",
     image_small: "/../products/co2-350x370.png",
     slug: "co2-laser-cutting-engraving-machine",
+
     title: "CO₂ Laser Cutting & Engraving Machine",
-    desc: "A high-precision CO₂ laser machine designed for fast, clean cutting and engraving on wood, acrylic, MDF, leather, and other non-metal materials.",
+    titleAr: "ماكينة ليزر CO₂ للقص والحفر",
 
-    overview: `
-High-Precision Cutting & Engraving for Wood, Acrylic, Leather, MDF & More
+    desc:
+      "A high-precision CO₂ laser machine designed for fast, clean cutting and engraving on wood, acrylic, MDF, leather, fabric, rubber, and various non-metal materials.",
+    descAr:
+      "ماكينة ليزر CO₂ عالية الدقة مخصصة للقص والنقش السريع والنظيف على الخشب، الأكريليك، الـMDF، الجلد، القماش، المطاط، وغيرها من المواد غير المعدنية.",
 
-The CO₂ Laser Cutting & Engraving Machine is a versatile solution designed for high-speed, high-precision cutting and engraving on a wide range of non-metal materials.
-Ideal for sign-making, crafts, packaging, furniture décor, and industrial production, the CO₂ laser delivers clean edges, smooth engraving, and exceptional detail quality.
-`,
+    overview:
+      "High-Precision Laser Cutting & Engraving for Wood, Acrylic, Leather, MDF & More. The CO₂ Laser Cutting & Engraving Machine is engineered for professional production, offering clean edges, high detail, smooth engraving, and stable performance for signage, crafts, décor, packaging, and industrial applications.",
+    overviewAr:
+      "قص ونقش ليزري عالي الدقة على الخشب، الأكريليك، الجلد، الـMDF، وغيرها. تم تصميم ماكينة ليزر CO₂ لتوفير حواف نظيفة، تفاصيل دقيقة، ونقش سلس يناسب الإعلانات، الحرف اليدوية، الديكور، التغليف، والاستخدامات الصناعية مع أداء ثابت وجودة ممتازة.",
 
     details: {
       keyFeatures: [
         {
           title: "High-Speed Cutting & Engraving",
+          titleAr: "قص ونقش عالي السرعة",
           points: [
-            "Advanced CO₂ laser tube (60W–500W)",
-            "Fast processing with smooth, polished edges",
-            "Ideal for detailed engraving and high-volume cutting",
-            "Stable performance for long working hours"
+            "CO₂ laser tube (60W–500W)",
+            "Fast, polished-edge cutting",
+            "Ideal for detailed engraving",
+            "Stable performance for long shifts"
+          ],
+          pointsAr: [
+            "أنبوب ليزر CO₂ بقدرات من 60W حتى 500W",
+            "قص سريع بحواف مصقولة",
+            "مثالية للنقش التفصيلي",
+            "أداء ثابت خلال ساعات العمل الطويلة"
           ]
         },
+
         {
           title: "Supports a Wide Range of Materials",
+          titleAr: "يدعم مجموعة واسعة من المواد",
           points: [
             "Acrylic",
             "MDF & Wood",
             "Leather",
             "Fabric",
+            "Rubber",
             "Plastic",
             "Paper & Cardboard",
-            "Rubber",
             "Glass (surface engraving)"
+          ],
+          pointsAr: [
+            "الأكريليك",
+            "الخشب والـMDF",
+            "الجلد",
+            "القماش",
+            "المطاط",
+            "البلاستيك",
+            "الورق والكرتون",
+            "الزجاج (نقش سطحي)"
           ]
         },
+
         {
           title: "High-Precision Motion System",
+          titleAr: "نظام حركة عالي الدقة",
           points: [
-            "Stable guide rail system",
-            "Accurate positioning for detailed work",
-            "Smooth motion for clean cutting lines",
-            "Ensures consistent quality on all materials"
+            "Stable guide rails",
+            "Accurate positioning",
+            "Smooth and clean cutting lines",
+            "Consistent results on all materials"
+          ],
+          pointsAr: [
+            "سكك توجيه مستقرة",
+            "دقة عالية في التمركز",
+            "خطوط قص نظيفة وسلسة",
+            "نتائج ثابتة على جميع المواد"
           ]
         },
+
         {
           title: "Large Working Area Options",
+          titleAr: "خيارات مساحات عمل مختلفة",
           points: [
             "40×30 cm",
             "60×40 cm",
@@ -3520,34 +3714,67 @@ Ideal for sign-making, crafts, packaging, furniture décor, and industrial produ
             "100×160 cm",
             "130×90 cm",
             "130×180 cm",
-            "Custom sizes available"
+            "Customizable sizes"
+          ],
+          pointsAr: [
+            "40×30 سم",
+            "60×40 سم",
+            "90×60 سم",
+            "100×160 سم",
+            "130×90 سم",
+            "130×180 سم",
+            "مقاسات مخصصة حسب الطلب"
           ]
         },
+
         {
           title: "User-Friendly Control Software",
+          titleAr: "برنامج تشغيل سهل الاستخدام",
           points: [
             "Compatible with RDWorks",
             "Supports LightBurn",
             "CorelDRAW plug-ins",
             "Vector cutting & raster engraving",
-            "Multi-layer job support"
+            "Multi-layer setup"
+          ],
+          pointsAr: [
+            "متوافق مع RDWorks",
+            "يدعم LightBurn",
+            "إضافات CorelDRAW",
+            "قص متجهي ونقش Raster",
+            "يدعم الطبقات المتعددة"
           ]
         },
+
         {
           title: "Automatic Up/Down Table & Rotary Axis (Optional)",
+          titleAr: "طاولة رفع تلقائي ومحور دوّار (اختياري)",
           points: [
-            "Perfect for cups, bottles, and cylindrical objects",
-            "Improves workflow flexibility",
-            "Ideal for 360° engraving"
+            "Ideal for cups and cylindrical objects",
+            "Perfect for 360° engraving",
+            "Enhances workflow flexibility"
+          ],
+          pointsAr: [
+            "مثالية للأكواب والأجسام الأسطوانية",
+            "نقش 360° بسهولة",
+            "مرونة أكبر في التشغيل"
           ]
         },
+
         {
           title: "Clean & Safe Operation",
+          titleAr: "تشغيل نظيف وآمن",
           points: [
             "Built-in exhaust fan",
-            "Air assist system prevents burning",
-            "Clean edges on all materials",
-            "Improved safety during long jobs"
+            "Air assist prevents burning",
+            "Cleaner edges",
+            "Enhanced safety"
+          ],
+          pointsAr: [
+            "مروحة شفط مدمجة",
+            "Air Assist لمنع الاحتراق",
+            "حواف أنظف",
+            "أمان أعلى أثناء التشغيل"
           ]
         }
       ],
@@ -3560,146 +3787,341 @@ Ideal for sign-making, crafts, packaging, furniture décor, and industrial produ
         "130×180 cm",
         "Custom sizes available"
       ],
+      workingAreaAr: [
+        "40×30 سم",
+        "60×40 سم",
+        "90×60 سم",
+        "130×90 سم",
+        "130×180 سم",
+        "مقاسات مخصصة"
+      ],
 
       applications: [
         {
           category: "Signage & Advertising",
-          items: [
-            "Acrylic letters",
-            "Lightbox panels",
-            "Engraved logos",
-            "Event decorations"
-          ]
+          categoryAr: "الإعلانات",
+          items: ["Acrylic letters", "Lightbox panels", "Engraved logos", "Event decorations"],
+          itemsAr: ["حروف أكريليك", "لوحات Lightbox", "شعارات منقوشة", "ديكورات مناسبات"]
         },
         {
-          category: "Woodworking & Interior Décor",
-          items: [
-            "MDF wall panels",
-            "Wooden art pieces",
-            "Decorative partitions",
-            "Custom furniture components"
-          ]
+          category: "Woodworking & Décor",
+          categoryAr: "الخشب والديكور",
+          items: ["MDF panels", "Wood art", "Decorative partitions", "Custom furniture parts"],
+          itemsAr: ["ألواح MDF", "قطع فنية خشبية", "فواصل زخرفية", "أجزاء أثاث مخصصة"]
         },
         {
-          category: "Packaging & Craft Industry",
-          items: [
-            "Paper cutting",
-            "Cardboard prototypes",
-            "Gift boxes",
-            "Customized craft designs"
-          ]
+          category: "Packaging & Crafts",
+          categoryAr: "التغليف والحرف",
+          items: ["Paper cutting", "Cardboard prototypes", "Gift boxes", "Craft projects"],
+          itemsAr: ["قص الورق", "نماذج كرتون", "علب هدايا", "أعمال حرفية"]
         },
         {
           category: "Leather Products",
-          items: [
-            "Wallets",
-            "Belts",
-            "Bags",
-            "Shoes"
-          ]
+          categoryAr: "منتجات الجلد",
+          items: ["Wallets", "Belts", "Bags", "Shoes"],
+          itemsAr: ["محافظ", "أحزمة", "حقائب", "أحذية"]
         },
         {
-          category: "Fabric & Garments",
-          items: [
-            "Textile cutting",
-            "Pattern engraving",
-            "Fashion accessories"
-          ]
+          category: "Textile & Garments",
+          categoryAr: "القماش والملابس",
+          items: ["Pattern cutting", "Engraving on fabric", "Fashion accessories"],
+          itemsAr: ["قص النقوش", "نقش على القماش", "إكسسوارات الموضة"]
         },
         {
-          category: "Personalization & Custom Gifts",
-          items: [
-            "Photo engraving",
-            "Name tags",
-            "Awards",
-            "Trophies"
-          ]
+          category: "Custom Gifts & Personalization",
+          categoryAr: "الهدايا والمنتجات المخصصة",
+          items: ["Photo engraving", "Name tags", "Awards", "Trophies"],
+          itemsAr: ["صور منقوشة", "ميداليات", "دروع", "كوؤس"]
         }
       ],
 
       advantages: [
-        "Smooth polished edges without extra finishing",
-        "No tool wear (contactless cutting)",
-        "Extremely fine engraving details",
-        "Low maintenance and long laser tube lifespan",
-        "Suitable for both hobby and industrial production"
+        "Smooth polished edges",
+        "No tool wear (non-contact cutting)",
+        "Fine engraving details",
+        "Low maintenance",
+        "Suitable for hobby and industrial use"
+      ],
+      advantagesAr: [
+        "حواف ناعمة بدون تشطيب إضافي",
+        "بدون تآكل أدوات (قص غير تلامسي)",
+        "تفاصيل نقش دقيقة",
+        "صيانة منخفضة",
+        "مناسب للهواة والمصانع"
       ]
     },
 
-    TitleTag: "",
-    MetaDescription: "",
-    Keywords: "CO2 laser cutting machine, CO2 engraving machine, acrylic cutting laser, advertising laser machine",
+    TitleTag: "CO₂ Laser Cutting Machine | High-Precision Laser Engraving System",
+    MetaDescription:
+      "High-speed CO₂ laser cutting and engraving machine for wood, acrylic, leather, MDF, and non-metal materials with clean edges and precision results.",
+    Keywords: "co2 laser machine, acrylic laser cutting, co2 engraving machine, mdf laser cutter",
     SEOContent: ""
   },
-  // {
-  //   id: 12,
-  //   name: "2024 Ultra-Portable 500W air cooled handheld welding Machine",
-  //   image: "/../products/28.webp",
-  //   slug: "2024-ultra-portable-500w-air-cooled-handheld-welding-laser-machine",
-  //   title: "Previous Next Ultra portable 500w air cooled welding",
-  //   desc: "1. Compact & Portable Design The 2024 handheld welding tool...",
-  // },
+  //   {
+  //     id: 12,
+  //     name: "Sheet Metal Fiber Laser Cutting Machine",
+  //     image: "/../products/fiber-laser-550x750.png",
+  //     image_small: "/../products/fiber-laser-350x370.png",
+  //     slug: "sheet-metal-fiber-laser-cutting-machine",
+  //     title: "Sheet Metal Fiber Laser Cutting Machine",
+  //     desc: "A high-speed, high-precision fiber laser machine designed for industrial sheet metal fabrication with exceptional performance and cutting quality.",
+
+  //     overview: `
+  // High-Speed Precision Cutting for Industrial Sheet Metal Fabrication
+
+  // Our Sheet Metal Fiber Laser Cutting Machine is engineered for manufacturers who demand speed, accuracy, and exceptional cutting quality.
+  // Built with a heavy-duty welded frame, intelligent control system, and high-power fiber laser source, this machine delivers consistent performance for both small workshops and large-scale production facilities.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Power Fiber Laser Source",
+  //           points: [
+  //             "Power options from 1 kW to 60 kW",
+  //             "Clean and fast cutting performance",
+  //             "Perfect for steel, stainless steel, aluminum, brass, and copper",
+  //             "Stable output for continuous industrial production"
+  //           ]
+  //         },
+  //         {
+  //           title: "Industrial-Grade Machine Body",
+  //           points: [
+  //             "Fully welded steel frame",
+  //             "Heat-treated for maximum stability",
+  //             "Precision machined to eliminate vibration",
+  //             "Ensures long-term accuracy and durability"
+  //           ]
+  //         },
+  //         {
+  //           title: "Ultra-Fast Cutting Speed",
+  //           points: [
+  //             "High-speed motion system",
+  //             "Smooth travel with minimal inertia",
+  //             "Perfect for high-volume production",
+  //             "Consistent precision at maximum speed"
+  //           ]
+  //         },
+  //         {
+  //           title: "Auto-Focus Laser Head",
+  //           points: [
+  //             "Automatically adjusts to material thickness",
+  //             "Delivers flawless cutting edges",
+  //             "Minimizes manual adjustment",
+  //             "Industrial-grade laser head built for sheet metal"
+  //           ]
+  //         },
+  //         {
+  //           title: "Low Maintenance & Long Lifespan",
+  //           points: [
+  //             "Reliable fiber laser source",
+  //             "Minimal service requirements",
+  //             "High efficiency and reduced operating costs",
+  //             "Built for 24/7 continuous operation"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "1500×3000 mm",
+  //         "1500×6000 mm",
+  //         "2000×6000 mm",
+  //         "2500×6000 mm",
+  //         "3000×12000 mm",
+  //         "Optional double table system"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "General Metal Fabrication",
+  //           items: [
+  //             "Steel structures",
+  //             "Custom metal parts",
+  //             "Contract manufacturing"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Ducting",
+  //           items: [
+  //             "Ventilation components",
+  //             "Duct parts",
+  //             "Industrial air systems"
+  //           ]
+  //         },
+  //         {
+  //           category: "Industrial Enclosures",
+  //           items: [
+  //             "Machine covers",
+  //             "Control boxes",
+  //             "Protective housings"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Transportation",
+  //           items: [
+  //             "Car parts",
+  //             "Chassis components",
+  //             "Metal prototypes"
+  //           ]
+  //         },
+  //         {
+  //           category: "Kitchen Equipment",
+  //           items: [
+  //             "Stainless steel tables",
+  //             "Cabinets",
+  //             "Commercial appliances"
+  //           ]
+  //         },
+  //         {
+  //           category: "Signage & Advertising",
+  //           items: [
+  //             "Metal letters",
+  //             "Lightbox components",
+  //             "Decorative metal panels"
+  //           ]
+  //         },
+  //         {
+  //           category: "Steel Furniture",
+  //           items: [
+  //             "Tables",
+  //             "Shelving",
+  //             "Interior metal décor"
+  //           ]
+  //         },
+  //         {
+  //           category: "Agricultural Machinery",
+  //           items: [
+  //             "Machine panels",
+  //             "Metal parts",
+  //             "Repair components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Electrical Cabinets",
+  //           items: [
+  //             "Distribution boxes",
+  //             "Control panels",
+  //             "Enclosure fabrication"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Cutting accuracy up to ±0.02 mm",
+  //         "Clean edges with zero burrs",
+  //         "Extremely fast processing speed",
+  //         "Durable industrial-grade components",
+  //         "Professional after-sales support & spare parts",
+  //         "Customizable options: auto-loader, tube cutting, shuttle table"
+  //       ]
+  //     }
+  //   },
   {
     id: 12,
     name: "Sheet Metal Fiber Laser Cutting Machine",
+    nameAr: "ماكينة الفايبر ليزر لقص الصفائح المعدنية",
+
     image: "/../products/fiber-laser-550x750.png",
     image_small: "/../products/fiber-laser-350x370.png",
     slug: "sheet-metal-fiber-laser-cutting-machine",
+
     title: "Sheet Metal Fiber Laser Cutting Machine",
-    desc: "A high-speed, high-precision fiber laser machine designed for industrial sheet metal fabrication with exceptional performance and cutting quality.",
+    titleAr: "ماكينة الفايبر ليزر لقص الصفائح المعدنية",
 
-    overview: `
-High-Speed Precision Cutting for Industrial Sheet Metal Fabrication
+    desc:
+      "A high-speed, high-precision fiber laser cutting machine designed for industrial sheet metal fabrication with exceptional quality and performance.",
+    descAr:
+      "ماكينة فايبر ليزر عالية السرعة والدقة مخصصة لقص الصفائح المعدنية بجودة ممتازة وأداء ثابت يناسب المصانع وخطوط الإنتاج.",
 
-Our Sheet Metal Fiber Laser Cutting Machine is engineered for manufacturers who demand speed, accuracy, and exceptional cutting quality.
-Built with a heavy-duty welded frame, intelligent control system, and high-power fiber laser source, this machine delivers consistent performance for both small workshops and large-scale production facilities.
-`,
+    overview:
+      "High-Speed & High-Precision Metal Cutting. The Sheet Metal Fiber Laser Cutting Machine is engineered for industrial manufacturers needing stable performance, clean edges, and ultra-fast production. Perfect for cutting steel, stainless steel, aluminum, brass, and copper with exceptional accuracy.",
+    overviewAr:
+      "قص فائق السرعة والدقة للصفائح المعدنية الصناعية. تم تصميم ماكينة الفايبر ليزر لقص المعادن بأعلى جودة لضمان أداء ثابت، حواف نظيفة، وإنتاج سريع للمصانع التي تعمل على الحديد، الستانلس، الألمنيوم، النحاس، والبرونز.",
 
     details: {
       keyFeatures: [
         {
           title: "High-Power Fiber Laser Source",
+          titleAr: "ليزر فايبر عالي القدرة",
           points: [
             "Power options from 1 kW to 60 kW",
-            "Clean and fast cutting performance",
-            "Perfect for steel, stainless steel, aluminum, brass, and copper",
+            "Fast and clean metal cutting",
+            "Works with steel, stainless steel, aluminum, brass, copper",
             "Stable output for continuous industrial production"
+          ],
+          pointsAr: [
+            "قدرات من 1 كيلووات حتى 60 كيلووات",
+            "قص سريع ونظيف لكل أنواع المعادن",
+            "مثالي للحديد، الستانلس، الألمنيوم، النحاس، والبرونز",
+            "ثبات عالي للتشغيل الصناعي المستمر"
           ]
         },
+
         {
           title: "Industrial-Grade Machine Body",
+          titleAr: "هيكل صناعي ثقيل",
           points: [
-            "Fully welded steel frame",
-            "Heat-treated for maximum stability",
+            "Fully welded steel structure",
+            "Heat-treated for maximum rigidity",
             "Precision machined to eliminate vibration",
-            "Ensures long-term accuracy and durability"
+            "Long-term accuracy and durability"
+          ],
+          pointsAr: [
+            "هيكل فولاذي ملحوم بالكامل",
+            "معالج حرارياً لضمان أعلى ثبات",
+            "تصنيع دقيق لمنع أي اهتزاز",
+            "دقة وثبات طويل المدى"
           ]
         },
+
         {
           title: "Ultra-Fast Cutting Speed",
+          titleAr: "سرعة قص عالية جداً",
           points: [
             "High-speed motion system",
-            "Smooth travel with minimal inertia",
-            "Perfect for high-volume production",
-            "Consistent precision at maximum speed"
+            "Smooth and stable movement",
+            "Perfect for large production batches",
+            "Precision maintained at maximum speed"
+          ],
+          pointsAr: [
+            "نظام حركة عالي السرعة",
+            "حركة سلسة ومستقرة",
+            "مثالية للإنتاج الكثيف",
+            "دقة ثابتة حتى عند أعلى سرعة"
           ]
         },
+
         {
           title: "Auto-Focus Laser Head",
+          titleAr: "عدسة أوتوفوكس ذكية",
           points: [
-            "Automatically adjusts to material thickness",
-            "Delivers flawless cutting edges",
-            "Minimizes manual adjustment",
-            "Industrial-grade laser head built for sheet metal"
+            "Automatic focus adjustment",
+            "Clean and accurate cutting edges",
+            "No manual calibration needed",
+            "Designed specifically for metal cutting"
+          ],
+          pointsAr: [
+            "تعديل تلقائي للبؤرة حسب السماكة",
+            "حواف نظيفة ودقيقة",
+            "بدون الحاجة لضبط يدوي",
+            "مصممة خصيصاً لقص الصفائح المعدنية"
           ]
         },
+
         {
           title: "Low Maintenance & Long Lifespan",
+          titleAr: "صيانة منخفضة وعمر طويل",
           points: [
-            "Reliable fiber laser source",
-            "Minimal service requirements",
-            "High efficiency and reduced operating costs",
-            "Built for 24/7 continuous operation"
+            "Reliable fiber source",
+            "Minimal servicing requirements",
+            "High efficiency and reduced power consumption",
+            "Built for 24/7 industrial use"
+          ],
+          pointsAr: [
+            "مصدر ليزر موثوق",
+            "صيانة قليلة جداً",
+            "كفاءة عالية وأقل استهلاك للطاقة",
+            "مصممة للعمل المستمر 24/7"
           ]
         }
       ],
@@ -3712,107 +4134,277 @@ Built with a heavy-duty welded frame, intelligent control system, and high-power
         "3000×12000 mm",
         "Optional double table system"
       ],
+      workingAreaAr: [
+        "1500×3000 مم",
+        "1500×6000 مم",
+        "2000×6000 مم",
+        "2500×6000 مم",
+        "3000×12000 مم",
+        "يتوفر أيضاً طاولة عمل مزدوجة"
+      ],
 
       applications: [
         {
           category: "General Metal Fabrication",
-          items: [
-            "Steel structures",
-            "Custom metal parts",
-            "Contract manufacturing"
-          ]
+          categoryAr: "تصنيع المعادن",
+          items: ["Steel structures", "Custom parts", "Contract manufacturing"],
+          itemsAr: ["هياكل معدنية", "قطع مخصصة", "تصنيع تعاقدي"]
         },
         {
           category: "HVAC & Ducting",
-          items: [
-            "Ventilation components",
-            "Duct parts",
-            "Industrial air systems"
-          ]
+          categoryAr: "دكتات التكييف HVAC",
+          items: ["Ventilation parts", "Duct components", "Air system panels"],
+          itemsAr: ["قطع التهوية", "مكونات الدكت", "ألواح نظم الهواء"]
         },
         {
           category: "Industrial Enclosures",
-          items: [
-            "Machine covers",
-            "Control boxes",
-            "Protective housings"
-          ]
+          categoryAr: "الصناديق الصناعية",
+          items: ["Machine covers", "Control boxes", "Metal housings"],
+          itemsAr: ["أغطية ماكينات", "صناديق التحكم", "هياكل معدنية"]
         },
         {
           category: "Automotive & Transportation",
-          items: [
-            "Car parts",
-            "Chassis components",
-            "Metal prototypes"
-          ]
+          categoryAr: "السيارات والنقل",
+          items: ["Car parts", "Chassis components", "Metal prototypes"],
+          itemsAr: ["أجزاء سيارات", "مكونات شاسيه", "نماذج معدنية"]
         },
         {
           category: "Kitchen Equipment",
-          items: [
-            "Stainless steel tables",
-            "Cabinets",
-            "Commercial appliances"
-          ]
+          categoryAr: "معدات المطابخ",
+          items: ["Stainless steel tables", "Cabinets", "Commercial appliances"],
+          itemsAr: ["طاولات ستانلس", "خزائن", "معدات تجارية"]
         },
         {
           category: "Signage & Advertising",
-          items: [
-            "Metal letters",
-            "Lightbox components",
-            "Decorative metal panels"
-          ]
+          categoryAr: "الإعلانات",
+          items: ["Metal letters", "Lightbox parts", "Decorative panels"],
+          itemsAr: ["حروف معدنية", "مكونات لايت بوكس", "ألواح ديكور معدنية"]
         },
         {
           category: "Steel Furniture",
-          items: [
-            "Tables",
-            "Shelving",
-            "Interior metal décor"
-          ]
+          categoryAr: "الأثاث المعدني",
+          items: ["Tables", "Shelving", "Interior décor"],
+          itemsAr: ["طاولات", "أرفف", "ديكور داخلي معدني"]
         },
         {
           category: "Agricultural Machinery",
-          items: [
-            "Machine panels",
-            "Metal parts",
-            "Repair components"
-          ]
+          categoryAr: "الآلات الزراعية",
+          items: ["Panels", "Spare parts", "Machine components"],
+          itemsAr: ["ألواح", "قطع غيار", "مكونات آلات"]
         },
         {
           category: "Electrical Cabinets",
-          items: [
-            "Distribution boxes",
-            "Control panels",
-            "Enclosure fabrication"
-          ]
+          categoryAr: "صناديق الكهرباء",
+          items: ["Distribution boxes", "Control panels", "Enclosures"],
+          itemsAr: ["علب توزيع", "لوحات تحكم", "هياكل معدنية"]
         }
       ],
 
       advantages: [
         "Cutting accuracy up to ±0.02 mm",
         "Clean edges with zero burrs",
-        "Extremely fast processing speed",
-        "Durable industrial-grade components",
-        "Professional after-sales support & spare parts",
-        "Customizable options: auto-loader, tube cutting, shuttle table"
+        "Extremely fast cutting speed",
+        "Industrial-grade components",
+        "After-sales support & spare parts",
+        "Optional: Auto-loader, Tube Cutting, Shuttle Table"
+      ],
+      advantagesAr: [
+        "دقة قص تصل إلى ±0.02 مم",
+        "حواف نظيفة بدون رايش",
+        "سرعة قص عالية جداً",
+        "مكونات صناعية عالية الجودة",
+        "دعم فني وقطع غيار",
+        "خيارات إضافية: Auto-loader – Tube Cutting – Shuttle Table"
       ]
-    }
+    },
+
+    TitleTag: "Sheet Metal Fiber Laser Cutting Machine | High-Speed Metal Cutting",
+    MetaDescription:
+      "Industrial fiber laser cutting machine for sheet metal fabrication. High-speed cutting, clean edges, and precision accuracy for steel, stainless steel, aluminum, brass, and copper.",
+    Keywords: "fiber laser cutting machine, metal laser cutter, sheet metal fiber laser, industrial laser cutting",
+    SEOContent: ""
   },
-  // {
-  //   id: 13,
-  //   name: "2024 Best Portable Water cooled laser welding machine 4 in1",
-  //   image: "/../products/29.webp",
-  //   slug: "2024-best-portable-water-cooled-laser-welding-machine-4-in1-laser",
-  //   title: "Portable water cooled laser welding machine",
-  //   desc: "1.JNTECH handheld laser welding machine adopts the latest...",
-  // },
+  //   {
+  //     id: 13,
+  //     name: "Tube Fiber Laser Cutting Machine",
+  //     image: "",
+  //     slug: "tube-fiber-laser-cutting-machine",
+  //     title: "Tube Fiber Laser Cutting Machine",
+  //     desc: "A high-precision fiber laser machine engineered for fast, clean, and accurate cutting of round, square, rectangular, oval, and custom metal tubes.",
+
+  //     overview: `
+  // Precision Cutting for Round, Square & Custom Tubes
+
+  // Our Tube Fiber Laser Cutting Machine is engineered to deliver fast, clean, and highly accurate cuts across all types of metal pipes and profiles.
+  // Designed for modern fabrication industries, it provides unmatched performance in cutting round, square, rectangular, oval, and custom-shaped tubes with exceptional consistency.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Performance Fiber Laser Source",
+  //           points: [
+  //             "Available from 1 kW to 60 kW",
+  //             "Fast, stable, and clean cutting quality",
+  //             "Equipped with Raycus, IPG, or MAX laser sources",
+  //             "Suitable for carbon steel, stainless steel, aluminum, brass, and more"
+  //           ]
+  //         },
+  //         {
+  //           title: "Ultra-Precise Tube Cutting",
+  //           points: [
+  //             "Smooth edges without post-processing",
+  //             "High accuracy for complex contours and bevel cuts",
+  //             "Ideal for structural and decorative tube components"
+  //           ]
+  //         },
+  //         {
+  //           title: "Automatic Tube Loading System (Optional)",
+  //           points: [
+  //             "Automatic feeding and centering",
+  //             "Reduces labor cost",
+  //             "Supports continuous, unmanned operation",
+  //             "Boosts overall production efficiency"
+  //           ]
+  //         },
+  //         {
+  //           title: "High-Speed Rotary Chuck System",
+  //           points: [
+  //             "Servo-driven rotary chucks for maximum stability",
+  //             "Automatic adjustment for multiple tube diameters",
+  //             "Supports tubes from 20 mm to 320 mm (customizable)"
+  //           ]
+  //         },
+  //         {
+  //           title: "Real-Time Monitoring & Smart Control",
+  //           points: [
+  //             "Advanced CNC control system",
+  //             "Automatic nesting and toolpath optimization",
+  //             "Real-time cutting visualization",
+  //             "Error detection with smart alarms"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Supports tube diameters: 20 mm – 320 mm (customizable)",
+  //         "Supports round, square, rectangular, oval, and special profiles",
+  //         "Optional automatic loading system for long tubes"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Industrial Metal Fabrication",
+  //           items: [
+  //             "Structural pipes",
+  //             "Supporting beams",
+  //             "Industrial assemblies"
+  //           ]
+  //         },
+  //         {
+  //           category: "Furniture Manufacturing",
+  //           items: [
+  //             "Metal chairs & tables",
+  //             "Bed frames",
+  //             "Office furniture",
+  //             "Decorative tubular designs"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Transportation",
+  //           items: [
+  //             "Exhaust systems",
+  //             "Chassis components",
+  //             "Roll cages",
+  //             "Lightweight aluminum tubes"
+  //           ]
+  //         },
+  //         {
+  //           category: "Fitness & Gym Equipment",
+  //           items: [
+  //             "Gym machines",
+  //             "Weightlifting racks",
+  //             "Fitness accessories"
+  //           ]
+  //         },
+  //         {
+  //           category: "Architectural & Interior Design",
+  //           items: [
+  //             "Handrails",
+  //             "Staircase frames",
+  //             "Decorative metal structures",
+  //             "Lighting installations"
+  //           ]
+  //         },
+  //         {
+  //           category: "Agriculture & Construction Machinery",
+  //           items: [
+  //             "Hydraulic components",
+  //             "Machine frames",
+  //             "Protective tube guards"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Ventilation Systems",
+  //           items: [
+  //             "Ventilation tubing",
+  //             "Duct connectors",
+  //             "Industrial piping"
+  //           ]
+  //         },
+  //         {
+  //           category: "Signage & Advertising",
+  //           items: [
+  //             "Lightbox frames",
+  //             "Billboard structures",
+  //             "Aluminum profile systems"
+  //           ]
+  //         },
+  //         {
+  //           category: "Medical Equipment Fabrication",
+  //           items: [
+  //             "Hospital beds",
+  //             "Wheelchairs",
+  //             "Surgical frames",
+  //             "Precision medical components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Steel Doors & Frames",
+  //           items: [
+  //             "Metal gates",
+  //             "Fencing systems",
+  //             "Custom tubular frames"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Higher cutting speed than plasma or mechanical saws",
+  //         "Zero burrs and minimal heat effect",
+  //         "Reduced material waste",
+  //         "Long machine lifespan with lower maintenance",
+  //         "Perfect for mass production",
+  //         "Easily integrated into automated production lines"
+  //       ]
+  //     }
+  //   },
   {
     id: 13,
     name: "Tube Fiber Laser Cutting Machine",
+    nameAr: "ماكينة الفايبر ليزر لقص الأنابيب",
+
     image: "",
+    image_small: "",
     slug: "tube-fiber-laser-cutting-machine",
+
     title: "Tube Fiber Laser Cutting Machine",
-    desc: "A high-precision fiber laser machine engineered for fast, clean, and accurate cutting of round, square, rectangular, oval, and custom metal tubes.",
+    titleAr: "ماكينة الفايبر ليزر لقص الأنابيب",
+
+    desc:
+      "A high-precision fiber laser machine engineered for fast, clean, and accurate cutting of round, square, rectangular, oval, and custom metal tubes.",
+    descAr:
+      "ماكينة فايبر ليزر عالية الدقة مصممة لقص الأنابيب المعدنية المستديرة والمربعة والمستطيلة والبيضاوية والمقاطع المختلفة بسرعة ودقة وحواف نظيفة.",
 
     overview: `
 Precision Cutting for Round, Square & Custom Tubes
@@ -3820,50 +4412,89 @@ Precision Cutting for Round, Square & Custom Tubes
 Our Tube Fiber Laser Cutting Machine is engineered to deliver fast, clean, and highly accurate cuts across all types of metal pipes and profiles.
 Designed for modern fabrication industries, it provides unmatched performance in cutting round, square, rectangular, oval, and custom-shaped tubes with exceptional consistency.
 `,
+    overviewAr:
+      "قص دقيق للأنابيب الدائرية والمربعة والمستطيلة والبيضاوية والمقاطع الخاصة. تم تصميم ماكينة قص الأنابيب بالفايبر لتوفير أداء عالي السرعة والدقة والثبات لمختلف التطبيقات الصناعية، مع قدرة ممتازة على التعامل مع الأنابيب المعدنية بأشكالها وأنواعها المختلفة.",
 
     details: {
       keyFeatures: [
         {
           title: "High-Performance Fiber Laser Source",
+          titleAr: "ليزر فايبر عالي الأداء",
           points: [
             "Available from 1 kW to 60 kW",
             "Fast, stable, and clean cutting quality",
             "Equipped with Raycus, IPG, or MAX laser sources",
             "Suitable for carbon steel, stainless steel, aluminum, brass, and more"
+          ],
+          pointsAr: [
+            "قدرات تبدأ من 1 كيلووات حتى 60 كيلووات",
+            "جودة قص سريعة ونظيفة وثابتة",
+            "مزودة بمصادر ليزر: Raycus – IPG – MAX",
+            "مناسبة للحديد، الستانلس، الألومنيوم، النحاس، والبرونز"
           ]
         },
+
         {
           title: "Ultra-Precise Tube Cutting",
+          titleAr: "قص دقيق للغاية للأنابيب",
           points: [
             "Smooth edges without post-processing",
             "High accuracy for complex contours and bevel cuts",
             "Ideal for structural and decorative tube components"
+          ],
+          pointsAr: [
+            "حواف ناعمة بدون الحاجة لتشطيب إضافي",
+            "دقة عالية للقصات المنحنية والمعقدة وللبوفل",
+            "مثالية للأنابيب الهيكلية والزخرفية"
           ]
         },
+
         {
           title: "Automatic Tube Loading System (Optional)",
+          titleAr: "نظام تحميل أنابيب أوتوماتيكي (اختياري)",
           points: [
             "Automatic feeding and centering",
             "Reduces labor cost",
             "Supports continuous, unmanned operation",
             "Boosts overall production efficiency"
+          ],
+          pointsAr: [
+            "تغذية أوتوماتيكية وتمركز تلقائي",
+            "تقليل تكلفة العمالة",
+            "تشغيل مستمر بدون تدخل بشري",
+            "زيادة كفاءة الإنتاج"
           ]
         },
+
         {
           title: "High-Speed Rotary Chuck System",
+          titleAr: "تشاك دوار عالي السرعة",
           points: [
             "Servo-driven rotary chucks for maximum stability",
             "Automatic adjustment for multiple tube diameters",
             "Supports tubes from 20 mm to 320 mm (customizable)"
+          ],
+          pointsAr: [
+            "تشاك سيرفو للحصول على أعلى ثبات",
+            "ضبط تلقائي لأقطار الأنابيب المتنوعة",
+            "يدعم أقطار من 20 مم حتى 320 مم (قابل للتخصيص)"
           ]
         },
+
         {
           title: "Real-Time Monitoring & Smart Control",
+          titleAr: "مراقبة ذكية وتحكم متقدم",
           points: [
             "Advanced CNC control system",
             "Automatic nesting and toolpath optimization",
             "Real-time cutting visualization",
             "Error detection with smart alarms"
+          ],
+          pointsAr: [
+            "نظام تحكم CNC متطور",
+            "Nesting تلقائي وتحسين لمسار القطع",
+            "رؤية مباشرة لعملية القص",
+            "إنذارات ذكية واكتشاف للأخطاء"
           ]
         }
       ],
@@ -3873,91 +4504,72 @@ Designed for modern fabrication industries, it provides unmatched performance in
         "Supports round, square, rectangular, oval, and special profiles",
         "Optional automatic loading system for long tubes"
       ],
+      workingAreaAr: [
+        "يدعم أقطار الأنابيب: 20 مم – 320 مم (قابل للتخصيص)",
+        "يدعم الأنابيب الدائرية والمربعة والمستطيلة والبيضاوية والمقاطع الخاصة",
+        "نظام تحميل أوتوماتيكي اختياري للأنابيب الطويلة"
+      ],
 
       applications: [
         {
           category: "Industrial Metal Fabrication",
-          items: [
-            "Structural pipes",
-            "Supporting beams",
-            "Industrial assemblies"
-          ]
+          categoryAr: "تصنيع الهياكل المعدنية",
+          items: ["Structural pipes", "Supporting beams", "Industrial assemblies"],
+          itemsAr: ["أنابيب هيكلية", "عوارض دعم", "تجميعات صناعية"]
         },
         {
           category: "Furniture Manufacturing",
-          items: [
-            "Metal chairs & tables",
-            "Bed frames",
-            "Office furniture",
-            "Decorative tubular designs"
-          ]
+          categoryAr: "صناعة الأثاث المعدني",
+          items: ["Metal chairs & tables", "Bed frames", "Office furniture", "Decorative tubular designs"],
+          itemsAr: ["كراسي وطاولات معدنية", "هياكل أسرّة", "أثاث مكتبي", "تصميمات أنابيب زخرفية"]
         },
         {
           category: "Automotive & Transportation",
-          items: [
-            "Exhaust systems",
-            "Chassis components",
-            "Roll cages",
-            "Lightweight aluminum tubes"
-          ]
+          categoryAr: "السيارات والنقل",
+          items: ["Exhaust systems", "Chassis components", "Roll cages", "Lightweight aluminum tubes"],
+          itemsAr: ["عوادم سيارات", "مكونات شاسيه", "حمايات رول بار", "أنابيب ألومنيوم خفيفة"]
         },
         {
           category: "Fitness & Gym Equipment",
-          items: [
-            "Gym machines",
-            "Weightlifting racks",
-            "Fitness accessories"
-          ]
+          categoryAr: "معدات الجيم واللياقة",
+          items: ["Gym machines", "Weightlifting racks", "Fitness accessories"],
+          itemsAr: ["ماكينات جيم", "رفوف أوزان", "معدات لياقة"]
         },
         {
           category: "Architectural & Interior Design",
-          items: [
-            "Handrails",
-            "Staircase frames",
-            "Decorative metal structures",
-            "Lighting installations"
-          ]
+          categoryAr: "الأعمال المعمارية والديكور",
+          items: ["Handrails", "Staircase frames", "Decorative metal structures", "Lighting installations"],
+          itemsAr: ["درابزين", "هياكل سلالم", "هياكل معدنية ديكورية", "تركيبات إضاءة"]
         },
         {
           category: "Agriculture & Construction Machinery",
-          items: [
-            "Hydraulic components",
-            "Machine frames",
-            "Protective tube guards"
-          ]
+          categoryAr: "الآلات الزراعية والإنشائية",
+          items: ["Hydraulic components", "Machine frames", "Protective tube guards"],
+          itemsAr: ["مكونات هيدروليك", "هياكل معدات", "حمايات أنابيب"]
         },
         {
           category: "HVAC & Ventilation Systems",
-          items: [
-            "Ventilation tubing",
-            "Duct connectors",
-            "Industrial piping"
-          ]
+          categoryAr: "أنظمة التهوية والتكييف",
+          items: ["Ventilation tubing", "Duct connectors", "Industrial piping"],
+          itemsAr: ["أنابيب تهوية", "وصلات دكت", "配管 صناعي"]
         },
         {
           category: "Signage & Advertising",
-          items: [
-            "Lightbox frames",
-            "Billboard structures",
-            "Aluminum profile systems"
-          ]
+          categoryAr: "الإعلانات واليافطات",
+          items: ["Lightbox frames", "Billboard structures", "Aluminum profile systems"],
+          itemsAr: ["هياكل لايت بوكس", "هياكل لوحات إعلانية", "أنظمة بروفايل ألومنيوم"]
         },
         {
           category: "Medical Equipment Fabrication",
-          items: [
-            "Hospital beds",
-            "Wheelchairs",
-            "Surgical frames",
-            "Precision medical components"
-          ]
+          categoryAr: "تصنيع المعدات الطبية",
+          items: ["Hospital beds", "Wheelchairs", "Surgical frames", "Precision medical components"],
+          itemsAr: ["أسرة مستشفيات", "كراسي متحركة", "هياكل جراحية", "قطع طبية دقيقة"]
         },
         {
           category: "Steel Doors & Frames",
-          items: [
-            "Metal gates",
-            "Fencing systems",
-            "Custom tubular frames"
-          ]
+          categoryAr: "الأبواب والهياكل المعدنية",
+          items: ["Metal gates", "Fencing systems", "Custom tubular frames"],
+          itemsAr: ["بوابات معدنية", "أسوار", "هياكل أنابيب مخصصة"]
         }
       ],
 
@@ -3968,25 +4580,197 @@ Designed for modern fabrication industries, it provides unmatched performance in
         "Long machine lifespan with lower maintenance",
         "Perfect for mass production",
         "Easily integrated into automated production lines"
+      ],
+      advantagesAr: [
+        "سرعة أعلى من البلازما والمناشير التقليدية",
+        "بدون رايش وتأثير حراري منخفض",
+        "هدر أقل في الخامة",
+        "عمر تشغيل طويل وصيانة أقل",
+        "مثالية للإنتاج الكمي",
+        "يمكن دمجها بسهولة مع خطوط الإنتاج"
       ]
-    }
-  },
+    },
 
-  // {
-  //   id: 14,
-  //   name: "Affordable Price Five-axis platform laser welding machine",
-  //   image: "/../products/30.webp",
-  //   slug: "affordable-price-five-axis-platform-laser-welding-machine",
-  //   title: "Platform Laser Welding Machine",
-  //   desc: "1) High degree of automation,simple welding process...",
-  // },
+    TitleTag: "Tube Fiber Laser Cutting Machine | High-Accuracy Tube Laser",
+    MetaDescription:
+      "High-speed fiber laser cutting machine for round, square, rectangular, and custom metal tubes. Ideal for industrial fabrication with high precision and stability.",
+    Keywords:
+      "tube laser cutting machine, pipe fiber laser, metal tube cutter, round tube laser, square tube laser",
+    SEOContent: ""
+  },
+  //   {
+  //     id: 14,
+  //     name: "Tube & Sheet Fiber Laser Cutting Machine",
+  //     image: "",
+  //     slug: "tube-sheet-fiber-laser-cutting-machine",
+  //     title: "Tube & Sheet Fiber Laser Cutting Machine",
+  //     desc: "A dual-function fiber laser machine designed for high-precision cutting of both metal sheets and tubes, combining flexibility and productivity in one system.",
+
+  //     overview: `
+  // One Machine for Cutting Both Metal Sheets and Tubes With High Precision
+
+  // The Tube & Sheet Fiber Laser Cutting Machine is a dual-function system designed for manufacturers who need maximum flexibility in their production line.
+  // It combines flat sheet cutting and tube/pipe cutting into a single high-performance machine, reducing factory space requirements while boosting productivity.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "Dual Cutting Functionality",
+  //           points: [
+  //             "Performs flat sheet metal cutting and round/square/rectangular tube cutting",
+  //             "Eliminates need for separate machines",
+  //             "Reduces operational costs",
+  //             "Boosts factory productivity"
+  //           ]
+  //         },
+  //         {
+  //           title: "High-Power Fiber Laser Source",
+  //           points: [
+  //             "Power options from 1 kW to 60 kW",
+  //             "Fast, stable, and clean cuts",
+  //             "Suitable for all common metals",
+  //             "Reliable performance for industrial production"
+  //           ]
+  //         },
+  //         {
+  //           title: "Automatic Rotary Tube Cutting System",
+  //           points: [
+  //             "Servo-driven rotary chuck",
+  //             "Supports tubes from 20 mm to 320 mm (customizable)",
+  //             "High accuracy at high speeds",
+  //             "Smooth rotation for complex contours and beveled cuts"
+  //           ]
+  //         },
+  //         {
+  //           title: "Advanced Autofocus Laser Head",
+  //           points: [
+  //             "Smart autofocus adjusts to material thickness",
+  //             "Consistent cutting quality for both tubes and sheets",
+  //             "Minimizes manual adjustment",
+  //             "Ensures flawless edges"
+  //           ]
+  //         },
+  //         {
+  //           title: "Intelligent CNC Control System",
+  //           points: [
+  //             "High-speed nesting",
+  //             "Path optimization",
+  //             "Real-time cutting preview",
+  //             "Error detection & smart alarms",
+  //             "One-click switching between tube and sheet modes"
+  //           ]
+  //         },
+  //         {
+  //           title: "Heavy-Duty Industrial Construction",
+  //           points: [
+  //             "Stress-relieved, heat-treated, and machined frame",
+  //             "Minimal vibration during operation",
+  //             "Ensures long-term stability",
+  //             "Durable for continuous industrial use"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "1500×3000 mm",
+  //         "1500×6000 mm",
+  //         "2000×6000 mm",
+  //         "2500×6000 mm",
+  //         "3000×12000 mm"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Metal Fabrication Workshops",
+  //           items: [
+  //             "Flat sheet cutting",
+  //             "Tube and pipe processing"
+  //           ]
+  //         },
+  //         {
+  //           category: "Furniture & Decoration Industry",
+  //           items: [
+  //             "MDF & metal furniture components",
+  //             "Decorative metal designs"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive Parts Manufacturing",
+  //           items: [
+  //             "Car frames",
+  //             "Chassis components",
+  //             "Custom tubular parts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Steel Structures & Construction",
+  //           items: [
+  //             "Structural beams",
+  //             "Support frameworks",
+  //             "Industrial assemblies"
+  //           ]
+  //         },
+  //         {
+  //           category: "Agricultural & Industrial Machinery",
+  //           items: [
+  //             "Machine frames",
+  //             "Hydraulic components",
+  //             "Protective tube guards"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Ventilation Systems",
+  //           items: [
+  //             "Ventilation tubes",
+  //             "Duct connectors",
+  //             "Industrial piping"
+  //           ]
+  //         },
+  //         {
+  //           category: "Advertising & Signage Industry",
+  //           items: [
+  //             "Lightbox frames",
+  //             "Billboard structures",
+  //             "Aluminum profile systems"
+  //           ]
+  //         },
+  //         {
+  //           category: "Electrical Cabinets & Enclosures",
+  //           items: [
+  //             "Control panels",
+  //             "Distribution boxes",
+  //             "Protective housings"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Cuts both sheets and tubes with a single machine",
+  //         "Saves factory space and reduces equipment costs",
+  //         "High-speed cutting with burr-free edges",
+  //         "Lower power consumption than CO₂ systems",
+  //         "Long service life with minimal maintenance",
+  //         "Professional support, training, and spare parts"
+  //       ]
+  //     }
+  //   },
   {
     id: 14,
     name: "Tube & Sheet Fiber Laser Cutting Machine",
+    nameAr: "ماكينة فايبر ليزر للصفائح والأنابيب",
+
     image: "",
+    image_small: "",
     slug: "tube-sheet-fiber-laser-cutting-machine",
+
     title: "Tube & Sheet Fiber Laser Cutting Machine",
-    desc: "A dual-function fiber laser machine designed for high-precision cutting of both metal sheets and tubes, combining flexibility and productivity in one system.",
+    titleAr: "ماكينة فايبر ليزر للصفائح والأنابيب",
+
+    desc:
+      "A dual-function fiber laser machine designed for high-precision cutting of both metal sheets and tubes, combining flexibility and productivity in one system.",
+    descAr:
+      "ماكينة فايبر ليزر مزدوجة الوظيفة لقص الصفائح المعدنية والأنابيب بدقة عالية، تجمع بين المرونة والإنتاجية في جهاز واحد.",
 
     overview: `
 One Machine for Cutting Both Metal Sheets and Tubes With High Precision
@@ -3994,62 +4778,116 @@ One Machine for Cutting Both Metal Sheets and Tubes With High Precision
 The Tube & Sheet Fiber Laser Cutting Machine is a dual-function system designed for manufacturers who need maximum flexibility in their production line.
 It combines flat sheet cutting and tube/pipe cutting into a single high-performance machine, reducing factory space requirements while boosting productivity.
 `,
+    overviewAr: `
+جهاز واحد لقص الصفائح المعدنية والأنابيب بدقة عالية.
+
+ماكينة الفايبر المزدوجة توفر حل مثالي للمصانع التي تحتاج تنوع في الإنتاج.
+تجمع بين قص الصفائح وقص الأنابيب في نفس الجهاز، مما يوفر مساحة المصنع ويزيد الإنتاجية.
+`,
 
     details: {
       keyFeatures: [
         {
           title: "Dual Cutting Functionality",
+          titleAr: "وظيفة قص مزدوجة",
           points: [
             "Performs flat sheet metal cutting and round/square/rectangular tube cutting",
             "Eliminates need for separate machines",
             "Reduces operational costs",
             "Boosts factory productivity"
+          ],
+          pointsAr: [
+            "قص الصفائح المعدنية",
+            "قص الأنابيب (دائري – مربع – مستطيل)",
+            "بدون الحاجة لشراء جهازين منفصلين",
+            "تقليل التكلفة وزيادة الإنتاجية"
           ]
         },
+
         {
           title: "High-Power Fiber Laser Source",
+          titleAr: "ليزر فايبر عالي القدرة",
           points: [
             "Power options from 1 kW to 60 kW",
             "Fast, stable, and clean cuts",
             "Suitable for all common metals",
             "Reliable performance for industrial production"
+          ],
+          pointsAr: [
+            "قدرات تبدأ من 1kW حتى 60kW",
+            "قص نظيف وسريع",
+            "مناسب لمعظم المعادن",
+            "أداء موثوق للإنتاج الصناعي"
           ]
         },
+
         {
           title: "Automatic Rotary Tube Cutting System",
+          titleAr: "تشاك دوار أوتوماتيكي",
           points: [
             "Servo-driven rotary chuck",
             "Supports tubes from 20 mm to 320 mm (customizable)",
             "High accuracy at high speeds",
             "Smooth rotation for complex contours and beveled cuts"
+          ],
+          pointsAr: [
+            "تشاك سيرفو عالي الدقة",
+            "يدعم أنابيب من 20 مم حتى 320 مم (قابل للتخصيص)",
+            "دقة ممتازة بسرعات عالية",
+            "سلاسة في القص للمنحنيات والقصات المائلة"
           ]
         },
+
         {
           title: "Advanced Autofocus Laser Head",
+          titleAr: "عدسة Autofocus متقدمة",
           points: [
             "Smart autofocus adjusts to material thickness",
             "Consistent cutting quality for both tubes and sheets",
             "Minimizes manual adjustment",
             "Ensures flawless edges"
+          ],
+          pointsAr: [
+            "ضبط تلقائي حسب سماكة المادة",
+            "جودة قص ثابتة للصفائح والأنابيب",
+            "تقليل الحاجة للضبط اليدوي",
+            "حواف نظيفة بدون عيوب"
           ]
         },
+
         {
           title: "Intelligent CNC Control System",
+          titleAr: "نظام CNC ذكي",
           points: [
             "High-speed nesting",
             "Path optimization",
             "Real-time cutting preview",
             "Error detection & smart alarms",
             "One-click switching between tube and sheet modes"
+          ],
+          pointsAr: [
+            "Nesting عالي السرعة",
+            "تحسين مسار القص",
+            "معاينة مباشرة للعمل",
+            "إنذارات ذكية واكتشاف الأخطاء",
+            "تبديل سريع بين وضع الصفائح والأنابيب"
           ]
         },
+
         {
           title: "Heavy-Duty Industrial Construction",
+          titleAr: "هيكل صناعي ثقيل",
           points: [
-            "Stress-relieved, heat-treated, and machined frame",
+            "Stress-relieved, heat-treated frame",
             "Minimal vibration during operation",
-            "Ensures long-term stability",
+            "Long-term stability",
             "Durable for continuous industrial use"
+          ],
+          pointsAr: [
+            "هيكل معالج حرارياً ومفرغ من الإجهاد",
+            "اهتزاز منخفض أثناء التشغيل",
+            "ثبات عالي على المدى الطويل",
+            "مصمم للاستخدام الصناعي المستمر"
           ]
         }
       ],
@@ -4061,69 +4899,62 @@ It combines flat sheet cutting and tube/pipe cutting into a single high-performa
         "2500×6000 mm",
         "3000×12000 mm"
       ],
+      workingAreaAr: [
+        "1500×3000 مم",
+        "1500×6000 مم",
+        "2000×6000 مم",
+        "2500×6000 مم",
+        "3000×12000 مم"
+      ],
 
       applications: [
         {
           category: "Metal Fabrication Workshops",
-          items: [
-            "Flat sheet cutting",
-            "Tube and pipe processing"
-          ]
+          categoryAr: "الورش والمصانع المعدنية",
+          items: ["Flat sheet cutting", "Tube and pipe processing"],
+          itemsAr: ["قص الصفائح", "قص الأنابيب والمعادن"]
         },
         {
           category: "Furniture & Decoration Industry",
-          items: [
-            "MDF & metal furniture components",
-            "Decorative metal designs"
-          ]
+          categoryAr: "صناعة الأثاث والديكور",
+          items: ["MDF & metal furniture components", "Decorative metal designs"],
+          itemsAr: ["مكونات أثاث MDF ومعدن", "تصميمات معدنية زخرفية"]
         },
         {
           category: "Automotive Parts Manufacturing",
-          items: [
-            "Car frames",
-            "Chassis components",
-            "Custom tubular parts"
-          ]
+          categoryAr: "تصنيع أجزاء السيارات",
+          items: ["Car frames", "Chassis components", "Custom tubular parts"],
+          itemsAr: ["هياكل سيارات", "مكونات شاسيه", "قطع أنابيب مخصصة"]
         },
         {
           category: "Steel Structures & Construction",
-          items: [
-            "Structural beams",
-            "Support frameworks",
-            "Industrial assemblies"
-          ]
+          categoryAr: "الهياكل المعدنية والإنشاءات",
+          items: ["Structural beams", "Support frameworks", "Industrial assemblies"],
+          itemsAr: ["عوارض هيكلية", "هياكل دعم", "تجميعات صناعية"]
         },
         {
           category: "Agricultural & Industrial Machinery",
-          items: [
-            "Machine frames",
-            "Hydraulic components",
-            "Protective tube guards"
-          ]
+          categoryAr: "معدات زراعية وصناعية",
+          items: ["Machine frames", "Hydraulic components", "Protective tube guards"],
+          itemsAr: ["هياكل معدات", "قطع هيدروليك", "حمايات أنابيب"]
         },
         {
           category: "HVAC & Ventilation Systems",
-          items: [
-            "Ventilation tubes",
-            "Duct connectors",
-            "Industrial piping"
-          ]
+          categoryAr: "أنظمة HVAC والتهوية",
+          items: ["Ventilation tubes", "Duct connectors", "Industrial piping"],
+          itemsAr: ["أنابيب تهوية", "وصلات دكت", "配管 صناعي"]
         },
         {
           category: "Advertising & Signage Industry",
-          items: [
-            "Lightbox frames",
-            "Billboard structures",
-            "Aluminum profile systems"
-          ]
+          categoryAr: "الإعلانات واليافطات",
+          items: ["Lightbox frames", "Billboard structures", "Aluminum profile systems"],
+          itemsAr: ["هياكل لايت بوكس", "هياكل لوحات إعلانية", "أنظمة بروفايل ألومنيوم"]
         },
         {
           category: "Electrical Cabinets & Enclosures",
-          items: [
-            "Control panels",
-            "Distribution boxes",
-            "Protective housings"
-          ]
+          categoryAr: "لوحات وصناديق كهرباء",
+          items: ["Control panels", "Distribution boxes", "Protective housings"],
+          itemsAr: ["لوحات تحكم", "صناديق توزيع", "هياكل حماية كهربائية"]
         }
       ],
 
@@ -4134,469 +4965,1076 @@ It combines flat sheet cutting and tube/pipe cutting into a single high-performa
         "Lower power consumption than CO₂ systems",
         "Long service life with minimal maintenance",
         "Professional support, training, and spare parts"
+      ],
+      advantagesAr: [
+        "جهاز واحد للصفائح والأنابيب",
+        "توفير مساحة وتكاليف المعدات",
+        "قص سريع ونظيف بدون رايش",
+        "استهلاك طاقة أقل من أنظمة CO₂",
+        "عمر تشغيل طويل وصيانة بسيطة",
+        "تدريب ودعم وقطع غيار"
       ]
-    }
+    },
+
+    TitleTag: "Tube & Sheet Fiber Laser Cutting Machine | Dual-Function Laser Cutter",
+    MetaDescription:
+      "High-precision dual-function fiber laser machine for cutting metal sheets and tubes. Ideal for factories requiring flexibility, speed, and clean cutting.",
+    Keywords:
+      "fiber laser cutting machine, tube and sheet laser cutter, dual laser machine, metal sheet cutting, tube laser system",
+    SEOContent: ""
   },
-  // {
-  //   id: 15,
-  //   name: "3 in 1 Fiber Laser Welding Cleaning Cutting Machine",
-  //   image: "/../products/31.webp",
-  //   slug: "3-in-1-fiber-laser-welding-cleaning-cutting-machine",
-  //   title: "3 in 1 Fiber Laser Welding Cleaning Cutting Machine",
-  //   desc: "3 in 1 Fiber Laser Welding Cleaning Cutting Machine  is an eco-friendly power welding tool...",
-  // },
+  //   {
+  //     id: 15,
+  //     name: "Handheld Fiber Laser Welding Machine",
+  //     image: "",
+  //     slug: "handheld-fiber-laser-welding-machine",
+  //     title: "Handheld Fiber Laser Welding Machine",
+  //     desc: "A next-generation handheld fiber laser welding machine offering fast, precise, and clean welding for a wide range of metals, replacing traditional TIG/MIG welding.",
+
+  //     overview: `
+  // Fast, Clean & High-Precision Welding for All Metal Fabrication Needs
+
+  // The Handheld Fiber Laser Welding Machine is designed for manufacturers who demand high speed, exceptional accuracy, and clean weld seams without post-processing.
+  // It delivers superior welding quality on stainless steel, carbon steel, aluminum, brass, and other metals, making it ideal for industrial and craft applications.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High Welding Speed",
+  //           points: [
+  //             "Up to 4X faster than TIG/MIG welding",
+  //             "Increases productivity",
+  //             "Reduces labor costs"
+  //           ]
+  //         },
+  //         {
+  //           title: "Deep Penetration & Strong Welds",
+  //           points: [
+  //             "Smooth, uniform welds",
+  //             "Minimal heat distortion",
+  //             "Stronger mechanical bonding",
+  //             "Welds thicknesses from 0.5 to 14 mm"
+  //           ]
+  //         },
+  //         {
+  //           title: "Low Heat Input (Minimal HAZ)",
+  //           points: [
+  //             "Prevents metal deformation",
+  //             "Ideal for thin sheet welding",
+  //             "Reduces post-processing needs"
+  //           ]
+  //         },
+  //         {
+  //           title: "Multi-Function Welding Head",
+  //           points: [
+  //             "Continuous welding",
+  //             "Spot welding",
+  //             "Stitch welding",
+  //             "Overlap welding",
+  //             "Fillet & corner welding"
+  //           ]
+  //         },
+  //         {
+  //           title: "Smart Control System",
+  //           points: [
+  //             "Laser power adjustment",
+  //             "Pre-set welding modes",
+  //             "Real-time monitoring",
+  //             "Safety interlock system"
+  //           ]
+  //         },
+  //         {
+  //           title: "Safe & Easy to Use",
+  //           points: [
+  //             "Lightweight handheld gun with ergonomic grip",
+  //             "Built-in safety sensors",
+  //             "Minimal learning curve",
+  //             "Safe for new operators"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Suitable for welding stainless steel, carbon steel, aluminum, brass, and other metals",
+  //         "Handles metal thickness from 0.5 mm to 14 mm"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Stainless Steel Kitchen Equipment",
+  //           items: [
+  //             "Kitchen countertops",
+  //             "Cooking appliances",
+  //             "Industrial food equipment"
+  //           ]
+  //         },
+  //         {
+  //           category: "Doors, Gates & Window Frames",
+  //           items: [
+  //             "Metal doors",
+  //             "Gates",
+  //             "Window frames"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Ventilation Systems",
+  //           items: [
+  //             "Air ducts",
+  //             "Ventilation components",
+  //             "Industrial piping"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive Parts & Bodywork",
+  //           items: [
+  //             "Chassis repair",
+  //             "Body panels",
+  //             "Custom automotive parts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Metal Furniture & Decoration",
+  //           items: [
+  //             "Tables & chairs",
+  //             "Decorative metal components",
+  //             "Frames and fixtures"
+  //           ]
+  //         },
+  //         {
+  //           category: "Electrical Cabinets",
+  //           items: [
+  //             "Control panels",
+  //             "Distribution boxes",
+  //             "Protective housings"
+  //           ]
+  //         },
+  //         {
+  //           category: "Signage & Advertising Structures",
+  //           items: [
+  //             "Metal letters",
+  //             "Billboards",
+  //             "Custom signage"
+  //           ]
+  //         },
+  //         {
+  //           category: "Repair & Maintenance Workshops",
+  //           items: [
+  //             "Industrial repairs",
+  //             "Metal fabrication workshops",
+  //             "On-site welding projects"
+  //           ]
+  //         },
+  //         {
+  //           category: "Aluminum & Stainless Steel Fabrication",
+  //           items: [
+  //             "Custom metal projects",
+  //             "Precision industrial welding",
+  //             "Prototyping"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Faster, cleaner, and stronger welds",
+  //         "Very small learning curve",
+  //         "Less finishing work (no polishing needed)",
+  //         "Safe and easy for new operators",
+  //         "Lower operational cost compared to TIG/MIG",
+  //         "Consistent industrial welding performance"
+  //       ]
+  //     },
+
+  //     TitleTag: "Handheld Fiber Laser Welding Machine | Metal Welding System",
+  //     MetaDescription: "Portable handheld fiber laser welding machine for stainless steel, aluminum, mild steel & metal fabrication with deep penetration fastening.",
+  //     Keywords: "fiber laser welding, handheld laser welder, metal laser welding machine, stainless steel welding, laser welder",
+  //     SEOContent: ""
+  //   },
   {
     id: 15,
     name: "Handheld Fiber Laser Welding Machine",
+    nameAr: "ماكينة اللحام بالليزر المحمولة – فايبر",
+
     image: "",
+    image_small: "",
     slug: "handheld-fiber-laser-welding-machine",
+
     title: "Handheld Fiber Laser Welding Machine",
-    desc: "A next-generation handheld fiber laser welding machine offering fast, precise, and clean welding for a wide range of metals, replacing traditional TIG/MIG welding.",
+    titleAr: "ماكينة اللحام بالليزر المحمولة – فايبر",
+
+    desc:
+      "A next-generation handheld fiber laser welding machine offering fast, precise, and clean welding for a wide range of metals, replacing traditional TIG/MIG welding.",
+    descAr:
+      "جيل جديد من ماكينات اللحام الليزري المحمولة يوفر لحامًا سريعًا، نظيفًا، ودقيقًا لمختلف المعادن، وهو بديل مثالي للحام التقليدي TIG/MIG.",
 
     overview: `
 Fast, Clean & High-Precision Welding for All Metal Fabrication Needs
 
-The Handheld Fiber Laser Welding Machine is designed for manufacturers who demand high speed, exceptional accuracy, and clean weld seams without post-processing.
-It delivers superior welding quality on stainless steel, carbon steel, aluminum, brass, and other metals, making it ideal for industrial and craft applications.
+The Handheld Fiber Laser Welding Machine is designed for manufacturers who require high welding speed, exceptional accuracy, and clean weld seams without post-processing.
+It delivers superior welding performance on stainless steel, carbon steel, aluminum, brass, and other metals, making it ideal for industrial production and custom metalwork.
+`,
+    overviewAr: `
+لحام سريع، نظيف، ودقيق لكافة احتياجات تشكيل المعادن.
+
+ماكينة اللحام المحمولة بالفايبر تمثل الجيل الجديد للمصنعين الذين يحتاجون إلى سرعة عالية، دقة ممتازة، وجودة لحام فائقة بدون الحاجة لأي تشطيب لاحق.
+توفر أداءً قويًا على الفولاذ المقاوم للصدأ، الفولاذ الكربوني، الألمنيوم، النحاس، وغيرها — مما يجعلها بديلاً مثالياً للحام TIG/MIG التقليدي.
 `,
 
     details: {
       keyFeatures: [
         {
           title: "High Welding Speed",
+          titleAr: "سرعة لحام عالية",
           points: [
-            "Up to 4X faster than TIG/MIG welding",
-            "Increases productivity",
+            "Up to 4× faster than TIG/MIG welding",
+            "Boosts production efficiency",
             "Reduces labor costs"
+          ],
+          pointsAr: [
+            "أسرع حتى 4 مرات من لحام TIG/MIG",
+            "زيادة كبيرة في الإنتاجية",
+            "تقليل تكاليف العمالة"
           ]
         },
+
         {
-          title: "Deep Penetration & Strong Welds",
+          title: "Deep Penetration & Strong Weld Quality",
+          titleAr: "اختراق عميق وجودة لحام قوية",
           points: [
-            "Smooth, uniform welds",
+            "Smooth and uniform weld seams",
             "Minimal heat distortion",
             "Stronger mechanical bonding",
-            "Welds thicknesses from 0.5 to 14 mm"
+            "Supports metal thickness 0.5–14 mm"
+          ],
+          pointsAr: [
+            "لحامات ناعمة ومتجانسة",
+            "تشوه حراري منخفض",
+            "ترابط ميكانيكي قوي",
+            "يدعم لحام سماكات من 0.5 حتى 14 مم"
           ]
         },
+
         {
           title: "Low Heat Input (Minimal HAZ)",
+          titleAr: "تشوه حراري منخفض (منطقة تأثير حراري صغيرة)",
           points: [
-            "Prevents metal deformation",
+            "Prevents metal warping",
             "Ideal for thin sheet welding",
-            "Reduces post-processing needs"
+            "Reduces or eliminates polishing work"
+          ],
+          pointsAr: [
+            "يمنع التواء المعادن",
+            "مثالي للألواح الرقيقة",
+            "تقليل أو إلغاء الحاجة للتشطيب"
           ]
         },
+
         {
           title: "Multi-Function Welding Head",
+          titleAr: "رأس لحام متعددة الوظائف",
           points: [
             "Continuous welding",
             "Spot welding",
             "Stitch welding",
             "Overlap welding",
             "Fillet & corner welding"
+          ],
+          pointsAr: [
+            "لحام مستمر",
+            "لحام نقطي",
+            "لحام خياطة",
+            "لحام تراكمي",
+            "لحام زوايا وحواف"
           ]
         },
+
         {
           title: "Smart Control System",
+          titleAr: "نظام تحكم ذكي",
           points: [
-            "Laser power adjustment",
+            "Adjustable laser power",
             "Pre-set welding modes",
             "Real-time monitoring",
-            "Safety interlock system"
+            "Integrated safety interlocks"
+          ],
+          pointsAr: [
+            "تحكم كامل في قدرة الليزر",
+            "وضعيات لحام جاهزة",
+            "مراقبة مباشرة أثناء التشغيل",
+            "أنظمة أمان متقدمة"
           ]
         },
+
         {
           title: "Safe & Easy to Use",
+          titleAr: "سهلة وآمنة التشغيل",
           points: [
-            "Lightweight handheld gun with ergonomic grip",
+            "Lightweight ergonomic handheld gun",
             "Built-in safety sensors",
             "Minimal learning curve",
-            "Safe for new operators"
+            "Suitable for new operators"
+          ],
+          pointsAr: [
+            "مسدس لحام خفيف ومريح",
+            "حساسات أمان مدمجة",
+            "سهولة التعلم والتشغيل",
+            "مناسبة للمشغلين الجدد"
           ]
         }
       ],
 
       workingArea: [
-        "Suitable for welding stainless steel, carbon steel, aluminum, brass, and other metals",
-        "Handles metal thickness from 0.5 mm to 14 mm"
+        "Suitable for stainless steel, carbon steel, aluminum, copper, brass and more",
+        "Supports welding thickness 0.5 mm – 14 mm"
+      ],
+      workingAreaAr: [
+        "مناسبة للفولاذ المقاوم، الفولاذ الكربوني، الألمنيوم، النحاس، والنحاس الأصفر",
+        "تدعم لحام سماكات من 0.5 مم حتى 14 مم"
       ],
 
       applications: [
         {
           category: "Stainless Steel Kitchen Equipment",
-          items: [
-            "Kitchen countertops",
-            "Cooking appliances",
-            "Industrial food equipment"
-          ]
+          categoryAr: "معدات المطابخ الفولاذية",
+          items: ["Countertops", "Cooking units", "Industrial kitchen equipment"],
+          itemsAr: ["أسطح مطابخ", "أجهزة طهي", "معدات مطابخ صناعية"]
         },
         {
-          category: "Doors, Gates & Window Frames",
-          items: [
-            "Metal doors",
-            "Gates",
-            "Window frames"
-          ]
+          category: "Doors, Windows & Gates",
+          categoryAr: "الأبواب، الشبابيك، والبوابات",
+          items: ["Metal doors", "Frames", "Gate fabrication"],
+          itemsAr: ["أبواب معدنية", "إطارات نوافذ", "بوابات معدنية"]
         },
         {
           category: "HVAC & Ventilation Systems",
-          items: [
-            "Air ducts",
-            "Ventilation components",
-            "Industrial piping"
-          ]
+          categoryAr: "أنظمة التكييف والتهوية",
+          items: ["Ducts", "Ventilation parts", "Industrial tubes"],
+          itemsAr: ["دكتات تهوية", "مكونات تهوية", "أنابيب صناعية"]
         },
         {
-          category: "Automotive Parts & Bodywork",
-          items: [
-            "Chassis repair",
-            "Body panels",
-            "Custom automotive parts"
-          ]
+          category: "Automotive Fabrication",
+          categoryAr: "صناعة السيارات",
+          items: ["Body repair", "Panels", "Custom parts"],
+          itemsAr: ["هياكل سيارات", "ألواح جسم السيارة", "قطع معدنية مخصصة"]
         },
         {
-          category: "Metal Furniture & Decoration",
-          items: [
-            "Tables & chairs",
-            "Decorative metal components",
-            "Frames and fixtures"
-          ]
+          category: "Metal Furniture",
+          categoryAr: "الأثاث المعدني",
+          items: ["Tables & chairs", "Decorative pieces", "Frames"],
+          itemsAr: ["طاولات وكراسي", "قطع ديكور معدنية", "هياكل وإطارات"]
         },
         {
           category: "Electrical Cabinets",
-          items: [
-            "Control panels",
-            "Distribution boxes",
-            "Protective housings"
-          ]
+          categoryAr: "الخزائن الكهربائية",
+          items: ["Control panels", "Boxes", "Protective housings"],
+          itemsAr: ["لوحات تحكم", "صناديق كهرباء", "هياكل حماية"]
         },
         {
-          category: "Signage & Advertising Structures",
-          items: [
-            "Metal letters",
-            "Billboards",
-            "Custom signage"
-          ]
+          category: "Advertising & Signage",
+          categoryAr: "الإعلانات واليافطات",
+          items: ["Metal letters", "Frames", "Sign structures"],
+          itemsAr: ["حروف معدنية", "هياكل لوحات", "إطارات يافطات"]
         },
         {
-          category: "Repair & Maintenance Workshops",
-          items: [
-            "Industrial repairs",
-            "Metal fabrication workshops",
-            "On-site welding projects"
-          ]
-        },
-        {
-          category: "Aluminum & Stainless Steel Fabrication",
-          items: [
-            "Custom metal projects",
-            "Precision industrial welding",
-            "Prototyping"
-          ]
+          category: "Maintenance Workshops",
+          categoryAr: "ورش الصيانة",
+          items: ["Industrial repairs", "On-site welding", "Custom fabrication"],
+          itemsAr: ["صيانة صناعية", "لحام ميداني", "تشكيل معدني مخصص"]
         }
       ],
 
       advantages: [
-        "Faster, cleaner, and stronger welds",
-        "Very small learning curve",
-        "Less finishing work (no polishing needed)",
-        "Safe and easy for new operators",
-        "Lower operational cost compared to TIG/MIG",
-        "Consistent industrial welding performance"
+        "Clean and strong welding quality",
+        "No polishing required after welding",
+        "Lower running cost than TIG/MIG",
+        "Beginner-friendly operation",
+        "Consistent industrial performance",
+        "Suitable for a wide range of metals"
+      ],
+      advantagesAr: [
+        "لحام نظيف وقوي بدون تشطيب",
+        "لا يحتاج إلى تلميع بعد اللحام",
+        "تكلفة تشغيل أقل من TIG/MIG",
+        "سهل الاستخدام للمبتدئين",
+        "أداء صناعي ثابت",
+        "مناسب لأنواع معادن متعددة"
       ]
     },
 
-    TitleTag: "Handheld Fiber Laser Welding Machine | Metal Welding System",
-    MetaDescription: "Portable handheld fiber laser welding machine for stainless steel, aluminum, mild steel & metal fabrication with deep penetration fastening.",
-    Keywords: "fiber laser welding, handheld laser welder, metal laser welding machine, stainless steel welding, laser welder",
+    TitleTag: "Handheld Fiber Laser Welding Machine | Portable Laser Welder",
+    MetaDescription:
+      "High-speed handheld fiber laser welding machine for stainless steel, aluminum, carbon steel & metal fabrication with clean weld seams and minimal distortion.",
+    Keywords:
+      "fiber laser welding machine, handheld laser welder, portable laser welding, stainless steel laser welding, metal welding equipment",
     SEOContent: ""
   },
 
-  // {
-  //   id: 16,
-  //   name: "1kw-3kw Handheld Fiber Laser Welding Machine",
-  //   image: "/../products/32.webp",
-  //   slug: "1kw-3kw-handheld-fiber-laser-welding-machine",
-  //   title: "Handheld Fiber Laser Welding Machine",
-  //   desc: "JNW1000W JNW2000w JNW3000w Fiber Laser welding machine...",
-  // },
+  //   {
+  //     id: 16,
+  //     name: "3 Axis CNC Fiber Laser Welding Machine",
+  //     image: "",
+  //     slug: "3-axis-cnc-fiber-laser-welding-machine",
+  //     title: "3 Axis CNC Fiber Laser Welding Machine",
+  //     desc: "A high-precision, fully automated 3-axis CNC fiber laser welding machine designed for ultra-precise welding of small components, medium assemblies, and industrial production.",
+
+  //     overview: `
+  // High-Precision Automated Welding for Industrial Production
+
+  // The 3 Axis CNC Fiber Laser Welding Machine is designed for manufacturers who require fully automated, repeatable, and ultra-precise welding.
+  // Its X–Y–Z controlled motion system and fiber laser source deliver exceptional welding quality for small parts, medium assemblies, and high-volume industrial production.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "3-Axis CNC Control System",
+  //           points: [
+  //             "Fully automated movement across X, Y, Z axes",
+  //             "Highly accurate welding paths",
+  //             "Perfect repeatability",
+  //             "Consistent weld quality every cycle",
+  //             "Ideal for complex shapes and precise welding requirements"
+  //           ]
+  //         },
+  //         {
+  //           title: "High-Quality Fiber Laser Source",
+  //           points: [
+  //             "Available in 500W, 1000W, 1500W, 2000W, 3000W",
+  //             "Stable, clean, and deep welds",
+  //             "Suitable for various metals",
+  //             "Reliable for continuous industrial operation"
+  //           ]
+  //         },
+  //         {
+  //           title: "Micron-Level Welding Accuracy",
+  //           points: [
+  //             "Ultra-fine positioning accuracy",
+  //             "Perfect for small parts, thin materials, and electronics-grade welding",
+  //             "Ensures high-quality precision welds"
+  //           ]
+  //         },
+  //         {
+  //           title: "Smart Control & Programming",
+  //           points: [
+  //             "G-code programming",
+  //             "CAD/CAM compatibility",
+  //             "Welding path simulation",
+  //             "Automatic parameter setting",
+  //             "Supports multi-step welding processes"
+  //           ]
+  //         },
+  //         {
+  //           title: "Stable Industrial Machine Body",
+  //           points: [
+  //             "Heavy-duty steel frame",
+  //             "Eliminates vibration",
+  //             "Improves welding quality",
+  //             "Ensures long-term reliability"
+  //           ]
+  //         },
+  //         {
+  //           title: "Automatic Cooling System",
+  //           points: [
+  //             "High-performance chillers maintain laser temperature",
+  //             "Stable operation during continuous work",
+  //             "Reduces thermal distortion"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Small to medium component welding",
+  //         "Ultra-precise applications in electronics and metal fabrication",
+  //         "Supports various industrial production needs"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Medical Devices Manufacturing",
+  //           items: [
+  //             "Surgical tools",
+  //             "Medical equipment components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive Sensors & Parts",
+  //           items: [
+  //             "Precision automotive sensors",
+  //             "Small mechanical parts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Metal Enclosures & Cabinets",
+  //           items: [
+  //             "Electrical enclosures",
+  //             "Protective metal cabinets"
+  //           ]
+  //         },
+  //         {
+  //           category: "Hardware Products",
+  //           items: [
+  //             "Fasteners",
+  //             "Small hardware components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Aerospace Components",
+  //           items: [
+  //             "Precision aerospace parts",
+  //             "Lightweight metal assemblies"
+  //           ]
+  //         },
+  //         {
+  //           category: "Instrumentation & Precision Tools",
+  //           items: [
+  //             "Measuring instruments",
+  //             "Precision hand tools"
+  //           ]
+  //         },
+  //         {
+  //           category: "Fine Metal Fabrication",
+  //           items: [
+  //             "Decorative metal parts",
+  //             "Custom fabrication projects",
+  //             "Industrial prototypes"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Fully automated high-precision welding",
+  //         "Eliminates human error",
+  //         "Perfect for mass-production",
+  //         "Extremely low heat distortion",
+  //         "Strong weld bonding",
+  //         "Lower operating cost compared to TIG/MIG",
+  //         "Ideal for small and medium complex parts"
+  //       ]
+  //     }
+  //   },
   {
     id: 16,
     name: "3 Axis CNC Fiber Laser Welding Machine",
+    nameAr: "ماكينة اللحام بالليزر CNC ثلاثية المحاور – فايبر",
+
     image: "",
+    image_small: "",
     slug: "3-axis-cnc-fiber-laser-welding-machine",
+
     title: "3 Axis CNC Fiber Laser Welding Machine",
-    desc: "A high-precision, fully automated 3-axis CNC fiber laser welding machine designed for ultra-precise welding of small components, medium assemblies, and industrial production.",
+    titleAr: "ماكينة اللحام بالليزر CNC ثلاثية المحاور – فايبر",
+
+    desc:
+      "A fully automated 3-axis CNC fiber laser welding machine offering ultra-precise welding for small components, assemblies, and industrial production.",
+    descAr:
+      "ماكينة لحام ليزر CNC ثلاثية المحاور توفر لحامًا دقيقًا للغاية بفضل التحكم الكامل في المحاور X–Y–Z، ومثالية للحام القطع الصغيرة والمتوسطة والإنتاج الصناعي الضخم.",
 
     overview: `
-High-Precision Automated Welding for Industrial Production
+High-Precision Automated Welding for Industrial Manufacturing
 
-The 3 Axis CNC Fiber Laser Welding Machine is designed for manufacturers who require fully automated, repeatable, and ultra-precise welding.
-Its X–Y–Z controlled motion system and fiber laser source deliver exceptional welding quality for small parts, medium assemblies, and high-volume industrial production.
+This 3-axis CNC fiber laser welding system is built for manufacturers who require fully automated, repeatable, and ultra-precise welding.
+With X–Y–Z motion control and a stable fiber laser source, it ensures flawless welding for small parts, medium assemblies, and mass-production environments.
+`,
+    overviewAr: `
+لحام آلي عالي الدقة للإنتاج الصناعي.
+
+تأتي ماكينة اللحام بالليزر CNC ثلاثية المحاور لتلبية احتياجات المصانع التي تتطلب لحامًا دقيقًا، متكررًا، وذو جودة ثابتة في كل دورة.
+بفضل التحكم في المحاور X–Y–Z ومصدر الليزر الفايبر القوي، تقدم لحامات فائقة النقاء للقطع الصغيرة والمتوسطة وفي خطوط الإنتاج الضخمة.
 `,
 
     details: {
       keyFeatures: [
         {
           title: "3-Axis CNC Control System",
+          titleAr: "نظام تحكم CNC ثلاثي المحاور",
           points: [
             "Fully automated movement across X, Y, Z axes",
+            "Perfect repeatability for mass production",
             "Highly accurate welding paths",
-            "Perfect repeatability",
-            "Consistent weld quality every cycle",
-            "Ideal for complex shapes and precise welding requirements"
+            "Ensures consistent weld quality every cycle",
+            "Ideal for complex shapes and micro-welding"
+          ],
+          pointsAr: [
+            "تحكم آلي كامل في محاور X–Y–Z",
+            "تكرار عالي الدقة يناسب الإنتاج الضخم",
+            "مسارات لحام دقيقة للغاية",
+            "جودة لحام ثابتة في كل دورة",
+            "مثالية للأشكال المعقدة واللحام الميكروي"
           ]
         },
+
         {
           title: "High-Quality Fiber Laser Source",
+          titleAr: "مصدر ليزر فايبر عالي الجودة",
           points: [
-            "Available in 500W, 1000W, 1500W, 2000W, 3000W",
-            "Stable, clean, and deep welds",
-            "Suitable for various metals",
-            "Reliable for continuous industrial operation"
+            "Available powers: 500W–3000W",
+            "Deep, clean, and stable welds",
+            "Suitable for many metal types",
+            "Reliable for continuous industrial work"
+          ],
+          pointsAr: [
+            "قدرات متعددة: من 500W حتى 3000W",
+            "لحام عميق ونظيف وثابت",
+            "مناسب لمجموعة واسعة من المعادن",
+            "موثوق للعمل الصناعي المستمر"
           ]
         },
+
         {
           title: "Micron-Level Welding Accuracy",
+          titleAr: "دقة لحام بمستوى الميكرون",
           points: [
             "Ultra-fine positioning accuracy",
-            "Perfect for small parts, thin materials, and electronics-grade welding",
-            "Ensures high-quality precision welds"
+            "Perfect for small parts & thin materials",
+            "Consistent precision every cycle"
+          ],
+          pointsAr: [
+            "دقة تحديد عالية جدًا",
+            "مثالية للقطع الصغيرة والصفائح الرقيقة",
+            "ثبات تام في جودة اللحام"
           ]
         },
+
         {
-          title: "Smart Control & Programming",
+          title: "Smart Programming & Automation",
+          titleAr: "برمجة ذكية وتشغيل آلي",
           points: [
             "G-code programming",
-            "CAD/CAM compatibility",
+            "Supports CAD/CAM",
             "Welding path simulation",
             "Automatic parameter setting",
-            "Supports multi-step welding processes"
+            "Multi-step welding support"
+          ],
+          pointsAr: [
+            "برمجة باستخدام G-code",
+            "يدعم CAD/CAM",
+            "محاكاة لمسار اللحام",
+            "إعداد تلقائي للمعايير",
+            "يدعم عمليات لحام متعددة الخطوات"
           ]
         },
+
         {
           title: "Stable Industrial Machine Body",
+          titleAr: "هيكل صناعي ثابت",
           points: [
-            "Heavy-duty steel frame",
-            "Eliminates vibration",
-            "Improves welding quality",
-            "Ensures long-term reliability"
+            "Rigid steel frame reduces vibration",
+            "Improves accuracy and weld quality",
+            "Designed for long-term industrial use"
+          ],
+          pointsAr: [
+            "هيكل فولاذي قوي يقلل الاهتزاز",
+            "يعزز الدقة وجودة اللحام",
+            "مصمم للعمل الصناعي الطويل"
           ]
         },
+
         {
           title: "Automatic Cooling System",
+          titleAr: "نظام تبريد أوتوماتيكي",
           points: [
-            "High-performance chillers maintain laser temperature",
-            "Stable operation during continuous work",
-            "Reduces thermal distortion"
+            "Industrial chiller integration",
+            "Stable laser temperature",
+            "Prevents thermal distortion"
+          ],
+          pointsAr: [
+            "تشغيل متكامل مع شيلر صناعي",
+            "يحافظ على درجة حرارة الليزر",
+            "يمنع التشوه الحراري"
           ]
         }
       ],
 
       workingArea: [
-        "Small to medium component welding",
-        "Ultra-precise applications in electronics and metal fabrication",
-        "Supports various industrial production needs"
+        "High-precision small to medium components",
+        "Electronics-grade welding",
+        "Industrial production lines"
+      ],
+      workingAreaAr: [
+        "لحام القطع الصغيرة والمتوسطة بدقة عالية",
+        "لحام مكونات إلكترونية ومعادن رقيقة",
+        "مناسب لخطوط الإنتاج الصناعي"
       ],
 
       applications: [
         {
           category: "Medical Devices Manufacturing",
-          items: [
-            "Surgical tools",
-            "Medical equipment components"
-          ]
+          categoryAr: "تصنيع الأجهزة الطبية",
+          items: ["Surgical tools", "Medical components"],
+          itemsAr: ["أدوات جراحية", "مكونات طبية دقيقة"]
         },
         {
           category: "Automotive Sensors & Parts",
-          items: [
-            "Precision automotive sensors",
-            "Small mechanical parts"
-          ]
+          categoryAr: "حساسات وقطع السيارات",
+          items: ["Automotive sensors", "Precision small parts"],
+          itemsAr: ["حساسات سيارات", "قطع دقيقة صغيرة"]
         },
         {
-          category: "Metal Enclosures & Cabinets",
-          items: [
-            "Electrical enclosures",
-            "Protective metal cabinets"
-          ]
+          category: "Metal Enclosures",
+          categoryAr: "الخزائن والهياكل المعدنية",
+          items: ["Electrical enclosures", "Metal boxes"],
+          itemsAr: ["خزائن كهرباء", "هياكل وصناديق معدنية"]
         },
         {
-          category: "Hardware Products",
-          items: [
-            "Fasteners",
-            "Small hardware components"
-          ]
+          category: "Hardware Components",
+          categoryAr: "مكونات الهاردوير",
+          items: ["Fasteners", "Mini hardware"],
+          itemsAr: ["مسامير وأجزاء تثبيت", "قطع هاردوير صغيرة"]
         },
         {
           category: "Aerospace Components",
-          items: [
-            "Precision aerospace parts",
-            "Lightweight metal assemblies"
-          ]
+          categoryAr: "مكونات الطيران",
+          items: ["Precision aerospace parts"],
+          itemsAr: ["قطع طيران دقيقة وخفيفة"]
         },
         {
-          category: "Instrumentation & Precision Tools",
-          items: [
-            "Measuring instruments",
-            "Precision hand tools"
-          ]
+          category: "Instrumentation Tools",
+          categoryAr: "أدوات القياس الدقيقة",
+          items: ["Measuring tools", "Precision tools"],
+          itemsAr: ["أدوات قياس", "أدوات دقيقة"]
         },
         {
           category: "Fine Metal Fabrication",
-          items: [
-            "Decorative metal parts",
-            "Custom fabrication projects",
-            "Industrial prototypes"
-          ]
+          categoryAr: "التصنيع المعدني الدقيق",
+          items: ["Custom parts", "Industrial prototypes"],
+          itemsAr: ["قطع مخصصة", "نماذج صناعية"]
         }
       ],
 
       advantages: [
-        "Fully automated high-precision welding",
+        "Ultra-high precision automated welding",
         "Eliminates human error",
-        "Perfect for mass-production",
-        "Extremely low heat distortion",
+        "Ideal for mass production",
+        "Minimal heat distortion",
         "Strong weld bonding",
-        "Lower operating cost compared to TIG/MIG",
-        "Ideal for small and medium complex parts"
+        "Lower operating cost vs TIG/MIG",
+        "Perfect for small/complex parts"
+      ],
+      advantagesAr: [
+        "لحام آلي عالي الدقة",
+        "إلغاء الأخطاء البشرية تمامًا",
+        "مثالية للإنتاج الضخم",
+        "تشوه حراري شبه معدوم",
+        "تماسك لحام قوي",
+        "تكلفة تشغيل أقل من TIG/MIG",
+        "ممتازة للقطع الصغيرة والمعقدة"
       ]
-    }
+    },
+
+    TitleTag: "3 Axis CNC Fiber Laser Welding Machine | Industrial Precision Welding",
+    MetaDescription:
+      "Automated CNC 3-axis fiber laser welding machine for ultra-precise industrial welding. Ideal for electronics, automotive parts, medical devices, and precision manufacturing.",
+    Keywords:
+      "3 axis laser welding, cnc fiber laser welder, precision laser welding, automated laser welding, industrial welding machine",
+    SEOContent: ""
   },
 
-  // {
-  //   id: 17,
-  //   name: "2023 Top Affordable JNP1530 CNC Plasma Cutting Table for Sale",
-  //   image: "/../products/33.webp",
-  //   slug: "2023-top-affordable-jnp1530-cnc-plasma-cutting-laser-table-for-sale",
-  //   title: "JNP1530 CNC Plasma Cutting Machine",
-  //   desc: "JNP1530 CNC plasma cutting table is an automatic power tool...",
-  // },
+  //   {
+  //     id: 17,
+  //     name: "Fiber Laser Spot Welding Machine",
+  //     image: "",
+  //     slug: "fiber-laser-spot-welding-machine",
+  //     title: "Fiber Laser Spot Welding Machine",
+  //     desc: "A high-precision fiber laser spot welding machine designed for delicate components, thin metals, and premium decorative products with minimal heat distortion.",
+
+  //     overview: `
+  // High-Precision Spot Welding for Delicate Components
+
+  // The Fiber Laser Spot Welding Machine is engineered for applications that require high-precision, low-heat, and high-strength spot welding.
+  // It delivers exceptionally clean and accurate welds, making it ideal for thin sheet metals, 3D stainless-steel and aluminum channel letters, and precision decorative products.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Precision Spot Control",
+  //           points: [
+  //             "Adjustable spot diameter from 0.1 mm to 2.0 mm",
+  //             "Perfect welding for miniature components and thin metals",
+  //             "Ensures precise micro-welds"
+  //           ]
+  //         },
+  //         {
+  //           title: "Minimal Heat-Affected Zone (HAZ)",
+  //           points: [
+  //             "Ultra-low heat input",
+  //             "Prevents warping, bending, or discoloration",
+  //             "Essential for stainless steel decorative letters"
+  //           ]
+  //         },
+  //         {
+  //           title: "Fast & Clean Pulsed Welding",
+  //           points: [
+  //             "Instant energy delivery",
+  //             "Strong and clean weld spots",
+  //             "Almost zero post-processing required"
+  //           ]
+  //         },
+  //         {
+  //           title: "Intelligent Control System",
+  //           points: [
+  //             "Touchscreen interface",
+  //             "Preset welding modes",
+  //             "Pulse / frequency / energy adjustment",
+  //             "Real-time monitoring",
+  //             "Automatic fault detection"
+  //           ]
+  //         },
+  //         {
+  //           title: "Long-Life Fiber Laser Source",
+  //           points: [
+  //             "Over 100,000 hours lifespan",
+  //             "Stable output",
+  //             "No consumables required",
+  //             "Low maintenance"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Thin sheet metals",
+  //         "Small and delicate components",
+  //         "3D stainless-steel and aluminum letters",
+  //         "Micro parts in electronics and jewelry"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Channel Letter Fabrication (Signage Industry)",
+  //           items: [
+  //             "Spot welding stainless-steel and aluminum 3D letters",
+  //             "Joining sidewalls (returns) to back plates",
+  //             "Welding corners, curves, and tight bends",
+  //             "Attaching internal tabs and supports"
+  //           ]
+  //         },
+  //         {
+  //           category: "Electronics & Micro-Components",
+  //           items: [
+  //             "Welding sensors, connectors, and metal contacts",
+  //             "Assembly of precision electronic parts",
+  //             "Micro-welding for heat-sensitive components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Battery Manufacturing",
+  //           items: [
+  //             "Welding nickel tabs and terminal connections",
+  //             "Small cell assemblies and battery modules"
+  //           ]
+  //         },
+  //         {
+  //           category: "Jewelry & Fine Metalwork",
+  //           items: [
+  //             "Spot welding gold, silver, platinum",
+  //             "Repairing delicate jewelry components",
+  //             "Assembling micro-sized decorative pieces"
+  //           ]
+  //         },
+  //         {
+  //           category: "Medical Device Production",
+  //           items: [
+  //             "Stainless steel surgical tools",
+  //             "Precision assemblies",
+  //             "Micro-mechanical components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Precision Hardware & Small Parts",
+  //           items: [
+  //             "Hinges, locks, switches, micro-mechanisms",
+  //             "Miniature metal parts requiring accurate joints"
+  //           ]
+  //         },
+  //         {
+  //           category: "General Thin-Metal Fabrication",
+  //           items: [
+  //             "Welding thin stainless steel sheets",
+  //             "Aluminum enclosures and casings",
+  //             "Small brackets, tabs, and lightweight structures"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Extremely accurate spot positioning",
+  //         "Very low heat distortion",
+  //         "High-strength micro welds",
+  //         "Long service life of the laser source",
+  //         "No consumables & low maintenance",
+  //         "Perfect for precision manufacturing"
+  //       ]
+  //     },
+
+  //     TitleTag: "Fiber Laser Spot Welding Machine | 3D Letters & Metal Fabrication",
+  //     MetaDescription: "Spot welding fiber laser machine for 3D letter welding, stainless steel signage, precision joints & small metal components.",
+  //     Keywords: "laser spot welding machine, 3D letter welding, stainless steel letter fabrication, signage welding laser",
+  //     SEOContent: ""
+  //   },
   {
     id: 17,
     name: "Fiber Laser Spot Welding Machine",
+    nameAr: "ماكينة اللحام النقطي بالليزر – فايبر",
+
     image: "",
+    image_small: "",
     slug: "fiber-laser-spot-welding-machine",
+
     title: "Fiber Laser Spot Welding Machine",
-    desc: "A high-precision fiber laser spot welding machine designed for delicate components, thin metals, and premium decorative products with minimal heat distortion.",
+    titleAr: "ماكينة اللحام النقطي بالليزر – فايبر",
+
+    desc:
+      "A high-precision fiber laser spot welding machine designed for delicate components, thin metals, and premium decorative products with minimal heat distortion.",
+    descAr:
+      "ماكينة لحام نقطي بالليزر فايبر توفر لحامًا دقيقًا للغاية مع أقل معدل حرارة وتشوه، مناسبة للمعادن الرقيقة والمنتجات الهندسية الدقيقة والاعمال الزخرفية.",
 
     overview: `
 High-Precision Spot Welding for Delicate Components
 
 The Fiber Laser Spot Welding Machine is engineered for applications that require high-precision, low-heat, and high-strength spot welding.
-It delivers exceptionally clean and accurate welds, making it ideal for thin sheet metals, 3D stainless-steel and aluminum channel letters, and precision decorative products.
+With exceptionally clean weld spots and adjustable micro-level parameters, it is perfect for thin metals, channel letters, precision tools, and high-end engineered products.
+`,
+    overviewAr: `
+نظرة عامة
+
+ماكينة لحام مؤتمتة بالكامل بدقة عالية، مخصصة للإنتاج الصناعي المتكرر.
+تعتمد على نظام حركة دقيق مع مصدر ليزر ثابت لضمان نقاط لحام متناسقة ونظيفة في كل دورة.
+مصممة خصيصًا للمعادن الرقيقة والقطع الصغيرة والمنتجات الهندسية عالية الجودة.
 `,
 
     details: {
       keyFeatures: [
         {
           title: "High-Precision Spot Control",
+          titleAr: "تحكم عالي الدقة في نقطة اللحام",
           points: [
             "Adjustable spot diameter from 0.1 mm to 2.0 mm",
-            "Perfect welding for miniature components and thin metals",
+            "Perfect for miniature components and thin metals",
             "Ensures precise micro-welds"
+          ],
+          pointsAr: [
+            "تعديل قطر نقطة اللحام بين 0.1 مم حتى 2.0 مم",
+            "مثالية للأجزاء الصغيرة والمعادن الرقيقة",
+            "توفر لحامات ميكرو دقيقة"
           ]
         },
+
         {
-          title: "Minimal Heat-Affected Zone (HAZ)",
+          title: "Minimal Heat-Affected Zone",
+          titleAr: "منطقة تأثر حراري منخفضة للغاية",
           points: [
             "Ultra-low heat input",
-            "Prevents warping, bending, or discoloration",
-            "Essential for stainless steel decorative letters"
+            "Prevents warping or discoloration",
+            "Perfect for stainless steel decorative letters"
+          ],
+          pointsAr: [
+            "حرارة منخفضة جدًا",
+            "منع الالتواء أو تغير اللون",
+            "مثالية لحروف الستانلس ستيل ثلاثية الأبعاد"
           ]
         },
+
         {
           title: "Fast & Clean Pulsed Welding",
+          titleAr: "لحام نبضي سريع ونظيف",
           points: [
             "Instant energy delivery",
             "Strong and clean weld spots",
-            "Almost zero post-processing required"
+            "Almost zero post-processing"
+          ],
+          pointsAr: [
+            "طاقة لحام فورية",
+            "نقاط لحام قوية ونظيفة",
+            "لا تحتاج معالجة لاحقة تقريبًا"
           ]
         },
+
         {
-          title: "Intelligent Control System",
+          title: "Advanced Intelligent Control System",
+          titleAr: "نظام تحكم ذكي ومتطور",
           points: [
             "Touchscreen interface",
             "Preset welding modes",
             "Pulse / frequency / energy adjustment",
             "Real-time monitoring",
             "Automatic fault detection"
+          ],
+          pointsAr: [
+            "واجهة شاشة لمس",
+            "وضعيات لحام جاهزة",
+            "تحكم في النبض والتردد والطاقة",
+            "مراقبة لحظية",
+            "كشف أعطال تلقائي"
           ]
         },
+
         {
           title: "Long-Life Fiber Laser Source",
+          titleAr: "مصدر ليزر فايبر طويل العمر",
           points: [
             "Over 100,000 hours lifespan",
-            "Stable output",
+            "Stable laser output",
             "No consumables required",
             "Low maintenance"
+          ],
+          pointsAr: [
+            "عمر افتراضي يتجاوز 100,000 ساعة",
+            "ثبات عالي في خرج الليزر",
+            "لا يحتاج مستهلكات",
+            "صيانة منخفضة"
           ]
         }
       ],
 
       workingArea: [
         "Thin sheet metals",
-        "Small and delicate components",
+        "Small delicate components",
         "3D stainless-steel and aluminum letters",
-        "Micro parts in electronics and jewelry"
+        "Electronics micro parts"
+      ],
+      workingAreaAr: [
+        "معادن رقيقة",
+        "قطع صغيرة ودقيقة",
+        "حروف 3D ستانلس ستيل وألومنيوم",
+        "مكونات إلكترونية ميكرو"
       ],
 
       applications: [
         {
-          category: "Channel Letter Fabrication (Signage Industry)",
-          items: [
-            "Spot welding stainless-steel and aluminum 3D letters",
-            "Joining sidewalls (returns) to back plates",
-            "Welding corners, curves, and tight bends",
-            "Attaching internal tabs and supports"
-          ]
+          category: "Medical Devices",
+          categoryAr: "الأجهزة الطبية",
+          items: ["Surgical tools", "Precision components"],
+          itemsAr: ["أدوات جراحية", "مكونات دقيقة"]
         },
         {
-          category: "Electronics & Micro-Components",
-          items: [
-            "Welding sensors, connectors, and metal contacts",
-            "Assembly of precision electronic parts",
-            "Micro-welding for heat-sensitive components"
-          ]
+          category: "Automotive Sensors",
+          categoryAr: "حساسات السيارات",
+          items: ["Automotive sensors", "Small precision parts"],
+          itemsAr: ["حساسات سيارات", "قطع دقيقة صغيرة"]
         },
         {
-          category: "Battery Manufacturing",
-          items: [
-            "Welding nickel tabs and terminal connections",
-            "Small cell assemblies and battery modules"
-          ]
+          category: "Fine Metal Structures",
+          categoryAr: "الهياكل المعدنية الدقيقة",
+          items: ["Thin metal welds", "Engineered parts"],
+          itemsAr: ["لحام معادن رفيعة", "منتجات هندسية دقيقة"]
         },
         {
-          category: "Jewelry & Fine Metalwork",
-          items: [
-            "Spot welding gold, silver, platinum",
-            "Repairing delicate jewelry components",
-            "Assembling micro-sized decorative pieces"
-          ]
+          category: "Aerospace Components",
+          categoryAr: "مكونات الطائرات",
+          items: ["Precision aerospace parts"],
+          itemsAr: ["قطع طيران دقيقة"]
         },
         {
-          category: "Medical Device Production",
-          items: [
-            "Stainless steel surgical tools",
-            "Precision assemblies",
-            "Micro-mechanical components"
-          ]
+          category: "Measurement Tools",
+          categoryAr: "أدوات القياس",
+          items: ["Precision measuring tools"],
+          itemsAr: ["أدوات قياس دقيقة"]
         },
         {
-          category: "Precision Hardware & Small Parts",
-          items: [
-            "Hinges, locks, switches, micro-mechanisms",
-            "Miniature metal parts requiring accurate joints"
-          ]
-        },
-        {
-          category: "General Thin-Metal Fabrication",
-          items: [
-            "Welding thin stainless steel sheets",
-            "Aluminum enclosures and casings",
-            "Small brackets, tabs, and lightweight structures"
-          ]
+          category: "Fine Metal Fabrication",
+          categoryAr: "الأجزاء المعدنية الدقيقة",
+          items: ["Custom micro parts", "Small metal assemblies"],
+          itemsAr: ["أجزاء معدنية دقيقة", "تجميعات صغيرة"]
         }
       ],
 
@@ -4604,33 +6042,185 @@ It delivers exceptionally clean and accurate welds, making it ideal for thin she
         "Extremely accurate spot positioning",
         "Very low heat distortion",
         "High-strength micro welds",
-        "Long service life of the laser source",
+        "Long laser source lifespan",
         "No consumables & low maintenance",
-        "Perfect for precision manufacturing"
+        "Ideal for precision manufacturing"
+      ],
+      advantagesAr: [
+        "لحام مؤتمت بالكامل",
+        "إلغاء الأخطاء البشرية",
+        "مثالي للإنتاج الكبير",
+        "حرارة وتشوه منخفض جدًا",
+        "جودة لحام ممتازة",
+        "تكلفة تشغيل منخفضة"
       ]
     },
 
-    TitleTag: "Fiber Laser Spot Welding Machine | 3D Letters & Metal Fabrication",
-    MetaDescription: "Spot welding fiber laser machine for 3D letter welding, stainless steel signage, precision joints & small metal components.",
-    Keywords: "laser spot welding machine, 3D letter welding, stainless steel letter fabrication, signage welding laser",
+    TitleTag: "Fiber Laser Spot Welding Machine | Precision Micro Welding",
+    MetaDescription:
+      "High-precision fiber laser spot welding machine for thin metals, 3D letters, micro components, and precision industrial manufacturing.",
+    Keywords:
+      "fiber laser spot welding, micro welding machine, 3D letter welding, precision welding system",
+
     SEOContent: ""
   },
 
-  // {
-  //   id: 18,
-  //   name: "JNP1530R Sheet Metal & Tube Plasma Cutter on Sale",
-  //   image: "/../products/34.webp",
-  //   slug: "jnp1530r-sheet-metal-and-tube-plasma-cutter-laser-on-sale",
-  //   title: "JNP1530R Sheet Metal&Tube Plasma Machine",
-  //   desc: "JNP1530R CNC plasma cutting machine can do All kinds of metal sheet and tube...",
-  // },
+  //   {
+  //     id: 18,
+  //     name: "CO₂ Laser Marking Machine",
+  //     image: "",
+  //     slug: "co2-laser-marking-machine",
+  //     title: "CO₂ Laser Marking Machine",
+  //     desc: "A high-speed CO₂ laser marking machine for precise, permanent marking on non-metal materials, ideal for industrial production, packaging, branding, and decorative applications.",
+
+  //     overview: `
+  // High-Speed Marking for Non-Metal Materials with Superior Clarity
+
+  // The CO₂ Laser Marking Machine is engineered for fast, precise, and permanent marking on a wide range of non-metal materials.
+  // Advanced RF or glass CO₂ laser sources deliver excellent marking quality for industrial production, packaging, branding, and decorative applications.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Speed Non-Metal Marking",
+  //           points: [
+  //             "Ultra-fast marking on wood, leather, acrylic, paper, cardboard, plastics, rubber, fabric, and glass (surface marking)",
+  //             "Clean and precise results across various materials"
+  //           ]
+  //         },
+  //         {
+  //           title: "Permanent, High-Contrast Results",
+  //           points: [
+  //             "Sharp and detailed marks",
+  //             "Supports text, logos, serial numbers, QR codes, barcodes, and patterns"
+  //           ]
+  //         },
+  //         {
+  //           title: "Optional RF Metal Tube for Ultra-Fine Marking",
+  //           points: [
+  //             "Longer lifespan",
+  //             "Higher accuracy",
+  //             "Finer marking lines",
+  //             "Better stability for long production runs"
+  //           ]
+  //         },
+  //         {
+  //           title: "Maintenance-Free Operation",
+  //           points: [
+  //             "Minimal upkeep",
+  //             "Suitable for continuous industrial use"
+  //           ]
+  //         },
+  //         {
+  //           title: "User-Friendly Software",
+  //           points: [
+  //             "Compatible with EZCAD, CorelDRAW plug-ins, AutoCAD vector imports",
+  //             "Supports multi-layer marking, variable text, batch serialization, and full graphic control"
+  //           ]
+  //         },
+  //         {
+  //           title: "Flexible Integration Options",
+  //           points: [
+  //             "Standalone workstation or fully integrated inline marking",
+  //             "Large marking area options with F-Theta lenses: 100×100 mm up to 800×800 mm"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Non-metal materials: wood, leather, acrylic, plastics, rubber, fabric, paper, cardboard, glass",
+  //         "Large marking fields with F-Theta lenses up to 800×800 mm"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Packaging & Labeling",
+  //           items: [
+  //             "Logos, expiration dates, batch codes",
+  //             "Food & beverage packaging",
+  //             "Pharmaceutical & cosmetic labels"
+  //           ]
+  //         },
+  //         {
+  //           category: "Advertising & Signage",
+  //           items: [
+  //             "Engraved logos",
+  //             "Acrylic branding plates",
+  //             "Pattern work on non-metal surfaces"
+  //           ]
+  //         },
+  //         {
+  //           category: "Leather Goods",
+  //           items: [
+  //             "Branding logos on bags, wallets, belts",
+  //             "Serial marking on leather products"
+  //           ]
+  //         },
+  //         {
+  //           category: "Wood & Artisan Crafts",
+  //           items: [
+  //             "Decorative engraving",
+  //             "Personalized gifts",
+  //             "Artboards and MDF crafts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Rubber & Plastics",
+  //           items: [
+  //             "Keypads",
+  //             "Switch labels",
+  //             "Product housings"
+  //           ]
+  //         },
+  //         {
+  //           category: "Paper & Cardboard",
+  //           items: [
+  //             "Luxury packaging",
+  //             "Pattern cutting",
+  //             "Gift card marking"
+  //           ]
+  //         },
+  //         {
+  //           category: "Glass Surface Marking",
+  //           items: [
+  //             "Bottles, cups",
+  //             "Decorative engraving"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Fast, non-contact marking",
+  //         "Clean edges with no burning",
+  //         "High-resolution marking for logos & codes",
+  //         "Works with large and complex designs",
+  //         "Low running cost",
+  //         "Long laser source lifespan"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "CO2 laser marking, logo marking machine, wood engraving laser",
+  //     SEOContent: ""
+  //   },
   {
     id: 18,
     name: "CO₂ Laser Marking Machine",
+    nameAr: "ماكينة تعليم الليزر CO₂",
+
     image: "",
+    image_small: "",
     slug: "co2-laser-marking-machine",
+
     title: "CO₂ Laser Marking Machine",
-    desc: "A high-speed CO₂ laser marking machine for precise, permanent marking on non-metal materials, ideal for industrial production, packaging, branding, and decorative applications.",
+    titleAr: "ماكينة تعليم الليزر CO₂",
+
+    desc:
+      "A high-speed CO₂ laser marking machine for precise, permanent marking on non-metal materials, ideal for industrial production, packaging, branding, and decorative applications.",
+    descAr:
+      "حل تعليم ليزر عالي السرعة ودقيق على المواد غير المعدنية، مثالي للإنتاج الصناعي والتغليف والعلامات التجارية والتطبيقات الزخرفية.",
 
     overview: `
 High-Speed Marking for Non-Metal Materials with Superior Clarity
@@ -4638,51 +6228,75 @@ High-Speed Marking for Non-Metal Materials with Superior Clarity
 The CO₂ Laser Marking Machine is engineered for fast, precise, and permanent marking on a wide range of non-metal materials.
 Advanced RF or glass CO₂ laser sources deliver excellent marking quality for industrial production, packaging, branding, and decorative applications.
 `,
+    overviewAr: `
+نظرة عامة
+
+حل لحام دقيق جداً ومنخفض الحرارة، مثالي للأجزاء الصغيرة والمواد الحساسة.
+ممتاز لحروف اللوحات الإعلانية ثلاثية الأبعاد من الستانلس والألمنيوم، والأعمال الدقيقة.
+`,
 
     details: {
       keyFeatures: [
         {
-          title: "High-Speed Non-Metal Marking",
+          title: "Precise Spot & Line Control",
+          titleAr: "تحكم دقيق في النقاط والخطوط",
           points: [
-            "Ultra-fast marking on wood, leather, acrylic, paper, cardboard, plastics, rubber, fabric, and glass (surface marking)",
+            "Ultra-fast marking on wood, leather, acrylic, paper, cardboard, plastics, rubber, fabric, and glass",
             "Clean and precise results across various materials"
+          ],
+          pointsAr: [
+            "تحكم سريع ودقيق على الخشب، الجلد، الأكريليك، الورق، الكرتون، البلاستيك، المطاط، القماش والزجاج",
+            "نتائج نظيفة ودقيقة على جميع المواد"
           ]
         },
         {
-          title: "Permanent, High-Contrast Results",
+          title: "Permanent, High-Contrast Marks",
+          titleAr: "علامات دائمة وواضحة",
           points: [
             "Sharp and detailed marks",
             "Supports text, logos, serial numbers, QR codes, barcodes, and patterns"
+          ],
+          pointsAr: [
+            "علامات حادة وواضحة",
+            "يدعم النصوص، الشعارات، الأرقام التسلسلية، QR، الباركود والأنماط"
           ]
         },
         {
-          title: "Optional RF Metal Tube for Ultra-Fine Marking",
+          title: "Long-Life Laser Source",
+          titleAr: "مصدر ليزر طويل العمر",
           points: [
-            "Longer lifespan",
-            "Higher accuracy",
-            "Finer marking lines",
-            "Better stability for long production runs"
-          ]
-        },
-        {
-          title: "Maintenance-Free Operation",
-          points: [
-            "Minimal upkeep",
-            "Suitable for continuous industrial use"
+            "Optional RF metal tube for high precision",
+            "Stable and long-lasting performance",
+            "Low maintenance"
+          ],
+          pointsAr: [
+            "مصدر ليزر معدني RF اختياري لدقة عالية",
+            "أداء مستقر وطويل الأمد",
+            "صيانة منخفضة"
           ]
         },
         {
           title: "User-Friendly Software",
+          titleAr: "برنامج سهل الاستخدام",
           points: [
             "Compatible with EZCAD, CorelDRAW plug-ins, AutoCAD vector imports",
             "Supports multi-layer marking, variable text, batch serialization, and full graphic control"
+          ],
+          pointsAr: [
+            "متوافق مع EZCAD، إضافات CorelDRAW واستيراد فيكتور AutoCAD",
+            "يدعم تعليم متعدد الطبقات، نصوص متغيرة، ترقيم دفعية، والتحكم الكامل بالرسومات"
           ]
         },
         {
           title: "Flexible Integration Options",
+          titleAr: "خيارات تكامل مرنة",
           points: [
             "Standalone workstation or fully integrated inline marking",
             "Large marking area options with F-Theta lenses: 100×100 mm up to 800×800 mm"
+          ],
+          pointsAr: [
+            "يمكن استخدامه كوحدة مستقلة أو مدمج بالكامل في خطوط الإنتاج",
+            "مساحات تعليم كبيرة مع عدسات F-Theta من 100×100 مم حتى 800×800 مم"
           ]
         }
       ],
@@ -4691,95 +6305,266 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
         "Non-metal materials: wood, leather, acrylic, plastics, rubber, fabric, paper, cardboard, glass",
         "Large marking fields with F-Theta lenses up to 800×800 mm"
       ],
+      workingAreaAr: [
+        "مواد غير معدنية: خشب، جلد، أكريليك، بلاستيك، مطاط، قماش، ورق، كرتون، زجاج",
+        "مساحات تعليم كبيرة حتى 800×800 مم مع عدسات F-Theta"
+      ],
 
       applications: [
         {
-          category: "Packaging & Labeling",
+          category: "Signage & 3D Letters",
+          categoryAr: "حروف ولافتات 3D",
           items: [
-            "Logos, expiration dates, batch codes",
-            "Food & beverage packaging",
-            "Pharmaceutical & cosmetic labels"
+            "Welding stainless steel and aluminum",
+            "Welding corners, curves, and edges",
+            "Attaching internal supports"
+          ],
+          itemsAr: [
+            "لحام الستانلس والألمنيوم",
+            "لحام الحواف والمنحنيات والزوايا",
+            "تثبيت الدعامات الداخلية"
           ]
         },
         {
-          category: "Advertising & Signage",
-          items: [
-            "Engraved logos",
-            "Acrylic branding plates",
-            "Pattern work on non-metal surfaces"
-          ]
+          category: "Electronics & Micro-Components",
+          categoryAr: "الإلكترونيات والمكونات الدقيقة",
+          items: ["Sensors", "Connectors", "Micro contact points"],
+          itemsAr: ["حساسات", "موصلات", "نقاط اتصال صغيرة"]
         },
         {
-          category: "Leather Goods",
-          items: [
-            "Branding logos on bags, wallets, belts",
-            "Serial marking on leather products"
-          ]
+          category: "Battery Manufacturing",
+          categoryAr: "تصنيع البطاريات",
+          items: ["Nickel welding", "Small cell assemblies"],
+          itemsAr: ["لحام النيكل", "وحدات خلايا صغيرة"]
         },
         {
-          category: "Wood & Artisan Crafts",
-          items: [
-            "Decorative engraving",
-            "Personalized gifts",
-            "Artboards and MDF crafts"
-          ]
+          category: "Jewelry & Fine Metalwork",
+          categoryAr: "المجوهرات",
+          items: ["Gold, silver, platinum welding", "Repairing delicate parts"],
+          itemsAr: ["لحام الذهب والفضة والبلاتين", "إصلاح القطع الدقيقة"]
         },
         {
-          category: "Rubber & Plastics",
-          items: [
-            "Keypads",
-            "Switch labels",
-            "Product housings"
-          ]
+          category: "Medical Tools",
+          categoryAr: "الأدوات الطبية",
+          items: ["Surgical tools", "Precision small components"],
+          itemsAr: ["أدوات جراحية", "مكونات صغيرة دقيقة"]
         },
         {
-          category: "Paper & Cardboard",
-          items: [
-            "Luxury packaging",
-            "Pattern cutting",
-            "Gift card marking"
-          ]
+          category: "Hardware & Small Parts",
+          categoryAr: "الهاردوير والمكونات الصغيرة",
+          items: ["Hinges", "Locks", "Precision mechanisms"],
+          itemsAr: ["مفصلات", "أقفال", "آليات دقيقة"]
         },
         {
-          category: "Glass Surface Marking",
-          items: [
-            "Bottles, cups",
-            "Decorative engraving"
-          ]
+          category: "Thin Metal Sheets",
+          categoryAr: "الصفائح المعدنية الرفيعة",
+          items: ["Metal casings", "Light brackets", "Small parts"],
+          itemsAr: ["أغلفة معدنية", "براكتات خفيفة", "أجزاء صغيرة"]
         }
       ],
 
       advantages: [
-        "Fast, non-contact marking",
-        "Clean edges with no burning",
-        "High-resolution marking for logos & codes",
-        "Works with large and complex designs",
-        "Low running cost",
-        "Long laser source lifespan"
+        "Extremely precise marking",
+        "Minimal heat distortion",
+        "Strong and durable marks",
+        "Long-lasting laser source",
+        "Low maintenance",
+        "Suitable for industrial production"
+      ],
+      advantagesAr: [
+        "دقة عالية جدًا",
+        "حرارة منخفضة",
+        "قوة علامات ممتازة",
+        "عمر طويل",
+        "صيانة منخفضة",
+        "مثالي للإنتاج الصناعي"
       ]
     },
 
-    TitleTag: "",
-    MetaDescription: "",
+    TitleTag: "CO₂ Laser Marking Machine | Precision Marking for Non-Metal Materials",
+    MetaDescription:
+      "High-speed CO₂ laser marking machine for precise, permanent marking on wood, leather, acrylic, paper, plastics, and other non-metal materials.",
     Keywords: "CO2 laser marking, logo marking machine, wood engraving laser",
     SEOContent: ""
   },
+  //   {
+  //     id: 19,
+  //     name: "Fiber Laser Marking Machine",
+  //     image: "",
+  //     slug: "fiber-laser-marking-machine",
+  //     title: "Fiber Laser Marking Machine",
+  //     desc: "Ultra-fast, high-precision fiber laser marking machine for metals and industrial materials, ideal for serial numbers, logos, barcodes, QR codes, and deep engraving.",
 
-  // {
-  //   id: 19,
-  //   name: "JNP2040 CNC Plasma Cutting Machine Gantry Model",
-  //   image: "/../products/35.webp",
-  //   slug: "jnp2040-cnc-plasma-cutting-laser-machine-gantry-model",
-  //   title: "CNC Plasma Cutting Machine Gantry",
-  //   desc: "All kinds of metal materials such as steel, copper,aluminum...",
-  // },
+  //     overview: `
+  // Ultra-Fast, High-Precision Marking for Metals & Industrial Materials
+
+  // The Fiber Laser Marking Machine is engineered for extremely fast, permanent, and high-precision marking on all types of metals and many industrial materials.
+  // Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers exceptional marking quality for factories, workshops, and branding applications.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Speed Metal Marking",
+  //           points: [
+  //             "Optimized for stainless steel, carbon steel, aluminum, brass, copper, titanium, gold, silver, anodized aluminum, and hard plastics (ABS, PVC, PC)",
+  //             "Clean, precise, and durable marks"
+  //           ]
+  //         },
+  //         {
+  //           title: "Permanent, High-Contrast Results",
+  //           points: [
+  //             "Ultra-sharp marks resistant to wear, heat, chemicals, and corrosion",
+  //             "Ideal for industrial-grade identification and branding"
+  //           ]
+  //         },
+  //         {
+  //           title: "MOPA Laser Option (JPT M7/M8)",
+  //           points: [
+  //             "Color marking on stainless steel",
+  //             "Fine marking on plastics",
+  //             "Adjustable pulse width for smoother results",
+  //             "Ultra-precise edge control"
+  //           ]
+  //         },
+  //         {
+  //           title: "Deep Metal Engraving (Optional)",
+  //           points: [
+  //             "Tool marking, molds, gunsmithing",
+  //             "Heavy industrial parts"
+  //           ]
+  //         },
+  //         {
+  //           title: "User-Friendly Software",
+  //           points: [
+  //             "Powered by EZCAD or LightBurn Laser",
+  //             "Supports vector/raster marking, QR/barcode/UID marking, auto-serialization, variable data, multi-layer processing, high-resolution image engraving"
+  //           ]
+  //         },
+  //         {
+  //           title: "Large Marking Field Options",
+  //           points: [
+  //             "70×70 mm, 110×110 mm, 150×150 mm, 175×175 mm, 200×200 mm, 300×300 mm"
+  //           ]
+  //         },
+  //         {
+  //           title: "Low Maintenance & Long Lifespan",
+  //           points: [
+  //             "Fiber source lifespan: 100,000+ hours",
+  //             "No optical adjustments needed"
+  //           ]
+  //         },
+  //         {
+  //           title: "Multiple Machine Configurations",
+  //           points: [
+  //             "Desktop model",
+  //             "Split-type model",
+  //             "Enclosed cabinet (Class 1 laser safety)",
+  //             "Flight (online marking for production lines)"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Metals: stainless steel, carbon steel, aluminum, brass, copper, titanium, gold, silver",
+  //         "Hard plastics: ABS, PVC, PC",
+  //         "Large marking fields up to 300×300 mm",
+  //         "Supports MOPA color marking on select metals"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Industrial Part Identification",
+  //           items: [
+  //             "Serial numbers",
+  //             "Batch codes",
+  //             "Product IDs",
+  //             "UDI medical marking"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Machinery Components",
+  //           items: [
+  //             "Engine parts",
+  //             "Gears",
+  //             "Bearings",
+  //             "Tools and mechanical hardware"
+  //           ]
+  //         },
+  //         {
+  //           category: "Jewelry & Luxury Items",
+  //           items: [
+  //             "Metal engraving",
+  //             "Custom branding",
+  //             "Deep engraving for long-lasting marks"
+  //           ]
+  //         },
+  //         {
+  //           category: "Electronics & Electrical Components",
+  //           items: [
+  //             "Chips",
+  //             "Circuit boards",
+  //             "Metal housings",
+  //             "Connectors"
+  //           ]
+  //         },
+  //         {
+  //           category: "Tools & Hardware",
+  //           items: [
+  //             "Wrenches",
+  //             "Knives",
+  //             "Cutting tools",
+  //             "Metal plates"
+  //           ]
+  //         },
+  //         {
+  //           category: "Gifts & Branding",
+  //           items: [
+  //             "Customized pens",
+  //             "Metal accessories",
+  //             "Promotional items"
+  //           ]
+  //         },
+  //         {
+  //           category: "Color Marking (MOPA Models)",
+  //           items: [
+  //             "Stainless steel full-color engraving",
+  //             "Anodized aluminum color effects"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Extremely fast marking speed (up to 7,000 mm/s)",
+  //         "High contrast & permanent results",
+  //         "Zero maintenance required",
+  //         "Very low power consumption",
+  //         "Ultra-long lifespan",
+  //         "Supports complex, detailed designs"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "fiber laser marker, metal engraving laser, deep marking system",
+  //     SEOContent: ""
+  //   },
   {
     id: 19,
     name: "Fiber Laser Marking Machine",
+    nameAr: "ماكينة الحفر بالليزر فايبر",
+
     image: "",
+    image_small: "",
     slug: "fiber-laser-marking-machine",
+
     title: "Fiber Laser Marking Machine",
-    desc: "Ultra-fast, high-precision fiber laser marking machine for metals and industrial materials, ideal for serial numbers, logos, barcodes, QR codes, and deep engraving.",
+    titleAr: "ماكينة الحفر بالليزر فايبر",
+
+    desc:
+      "Ultra-fast, high-precision fiber laser marking machine for metals and industrial materials, ideal for serial numbers, logos, barcodes, QR codes, and deep engraving.",
+    descAr:
+      "حل حفر ليزر فايبر عالي السرعة ودقيق على المعادن والمواد الصناعية، مثالي للترقيم التسلسلي، الشعارات، الباركود، QR والحفر العميق.",
 
     overview: `
 Ultra-Fast, High-Precision Marking for Metals & Industrial Materials
@@ -4787,66 +6572,115 @@ Ultra-Fast, High-Precision Marking for Metals & Industrial Materials
 The Fiber Laser Marking Machine is engineered for extremely fast, permanent, and high-precision marking on all types of metals and many industrial materials.
 Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers exceptional marking quality for factories, workshops, and branding applications.
 `,
+    overviewAr: `
+نظرة عامة
+
+حل حفر ليزر فايبر سريع ودقيق للغاية، مناسب لجميع أنواع المعادن والمواد الصناعية.
+يستخدم مصادر ليزر فايبر متقدمة (20–100 واط، JPT، Raycus، MAX) لتقديم جودة حفر ممتازة للمصانع وورش العمل والعلامات التجارية.
+`,
 
     details: {
       keyFeatures: [
         {
           title: "High-Speed Metal Marking",
+          titleAr: "حفر عالي السرعة على المعادن",
           points: [
             "Optimized for stainless steel, carbon steel, aluminum, brass, copper, titanium, gold, silver, anodized aluminum, and hard plastics (ABS, PVC, PC)",
             "Clean, precise, and durable marks"
+          ],
+          pointsAr: [
+            "مصممة للستانلس ستيل، الكربون ستيل، الألومنيوم، النحاس الأصفر، النحاس، التيتانيوم، الذهب، الفضة، الألومنيوم المؤكسد، والبلاستيك الصلب (ABS, PVC, PC)",
+            "نتائج نظيفة، دقيقة ودائمة"
           ]
         },
         {
           title: "Permanent, High-Contrast Results",
+          titleAr: "نتائج دائمة ووضوح عالي",
           points: [
             "Ultra-sharp marks resistant to wear, heat, chemicals, and corrosion",
             "Ideal for industrial-grade identification and branding"
+          ],
+          pointsAr: [
+            "علامات حادة للغاية مقاومة للتآكل والحرارة والمواد الكيميائية والتآكل",
+            "مثالية للتمييز الصناعي والعلامات التجارية"
           ]
         },
         {
           title: "MOPA Laser Option (JPT M7/M8)",
+          titleAr: "خيار ليزر MOPA (JPT M7/M8)",
           points: [
             "Color marking on stainless steel",
             "Fine marking on plastics",
             "Adjustable pulse width for smoother results",
             "Ultra-precise edge control"
+          ],
+          pointsAr: [
+            "علامات ملونة على الستانلس ستيل",
+            "حفر دقيق على البلاستيك",
+            "ضبط عرض النبضة لنتائج أكثر نعومة",
+            "تحكم فائق الدقة في الحواف"
           ]
         },
         {
           title: "Deep Metal Engraving (Optional)",
+          titleAr: "حفر المعادن العميق (اختياري)",
           points: [
             "Tool marking, molds, gunsmithing",
             "Heavy industrial parts"
+          ],
+          pointsAr: [
+            "حفر الأدوات والقوالب وصناعة الأسلحة",
+            "قطع صناعية ثقيلة"
           ]
         },
         {
           title: "User-Friendly Software",
+          titleAr: "برنامج سهل الاستخدام",
           points: [
             "Powered by EZCAD or LightBurn Laser",
             "Supports vector/raster marking, QR/barcode/UID marking, auto-serialization, variable data, multi-layer processing, high-resolution image engraving"
+          ],
+          pointsAr: [
+            "يعمل ببرنامج EZCAD أو LightBurn Laser",
+            "يدعم الحفر بالفيكتور/الراستر، QR/باركود/UID، الترقيم التلقائي، البيانات المتغيرة، المعالجة متعددة الطبقات، والحفر عالي الدقة للصور"
           ]
         },
         {
           title: "Large Marking Field Options",
+          titleAr: "خيارات مساحات حفر كبيرة",
           points: [
             "70×70 mm, 110×110 mm, 150×150 mm, 175×175 mm, 200×200 mm, 300×300 mm"
+          ],
+          pointsAr: [
+            "70×70 مم، 110×110 مم، 150×150 مم، 175×175 مم، 200×200 مم، 300×300 مم"
           ]
         },
         {
           title: "Low Maintenance & Long Lifespan",
+          titleAr: "صيانة منخفضة وعمر طويل",
           points: [
             "Fiber source lifespan: 100,000+ hours",
             "No optical adjustments needed"
+          ],
+          pointsAr: [
+            "عمر مصدر الليزر: أكثر من 100,000 ساعة",
+            "لا تحتاج إلى تعديلات بصرية"
           ]
         },
         {
           title: "Multiple Machine Configurations",
+          titleAr: "تكوينات متعددة للماكينة",
           points: [
             "Desktop model",
             "Split-type model",
             "Enclosed cabinet (Class 1 laser safety)",
             "Flight (online marking for production lines)"
+          ],
+          pointsAr: [
+            "نموذج مكتبي",
+            "نموذج مقسم",
+            "خزانة مغلقة (أمان ليزر الفئة 1)",
+            "حفر مباشر للخطوط الإنتاجية"
           ]
         }
       ],
@@ -4857,66 +6691,55 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
         "Large marking fields up to 300×300 mm",
         "Supports MOPA color marking on select metals"
       ],
+      workingAreaAr: [
+        "المعادن: ستانلس ستيل، كربون ستيل، ألومنيوم، نحاس أصفر، نحاس، تيتانيوم، ذهب، فضة",
+        "البلاستيك الصلب: ABS, PVC, PC",
+        "مساحات حفر كبيرة حتى 300×300 مم",
+        "يدعم الحفر الملون MOPA على بعض المعادن"
+      ],
 
       applications: [
         {
           category: "Industrial Part Identification",
-          items: [
-            "Serial numbers",
-            "Batch codes",
-            "Product IDs",
-            "UDI medical marking"
-          ]
+          categoryAr: "تمييز القطع الصناعية",
+          items: ["Serial numbers", "Batch codes", "Product IDs", "UDI medical marking"],
+          itemsAr: ["الأرقام التسلسلية", "رموز الدفعات", "معرفات المنتجات", "تمييز طبي UDI"]
         },
         {
           category: "Automotive & Machinery Components",
-          items: [
-            "Engine parts",
-            "Gears",
-            "Bearings",
-            "Tools and mechanical hardware"
-          ]
+          categoryAr: "مكونات السيارات والآلات",
+          items: ["Engine parts", "Gears", "Bearings", "Tools and mechanical hardware"],
+          itemsAr: ["قطع المحرك", "تروس", "محامل", "أدوات ومعدات ميكانيكية"]
         },
         {
           category: "Jewelry & Luxury Items",
-          items: [
-            "Metal engraving",
-            "Custom branding",
-            "Deep engraving for long-lasting marks"
-          ]
+          categoryAr: "المجوهرات والمنتجات الفاخرة",
+          items: ["Metal engraving", "Custom branding", "Deep engraving for long-lasting marks"],
+          itemsAr: ["حفر المعادن", "علامات مخصصة", "حفر عميق لعلامات دائمة"]
         },
         {
           category: "Electronics & Electrical Components",
-          items: [
-            "Chips",
-            "Circuit boards",
-            "Metal housings",
-            "Connectors"
-          ]
+          categoryAr: "الإلكترونيات والمكونات الكهربائية",
+          items: ["Chips", "Circuit boards", "Metal housings", "Connectors"],
+          itemsAr: ["رقائق", "لوحات دوائر", "أغلفة معدنية", "موصلات"]
         },
         {
           category: "Tools & Hardware",
-          items: [
-            "Wrenches",
-            "Knives",
-            "Cutting tools",
-            "Metal plates"
-          ]
+          categoryAr: "الأدوات والمعدات",
+          items: ["Wrenches", "Knives", "Cutting tools", "Metal plates"],
+          itemsAr: ["مفاتيح الربط", "سكاكين", "أدوات قطع", "صفائح معدنية"]
         },
         {
           category: "Gifts & Branding",
-          items: [
-            "Customized pens",
-            "Metal accessories",
-            "Promotional items"
-          ]
+          categoryAr: "الهدايا والعلامات التجارية",
+          items: ["Customized pens", "Metal accessories", "Promotional items"],
+          itemsAr: ["أقلام مخصصة", "إكسسوارات معدنية", "منتجات ترويجية"]
         },
         {
           category: "Color Marking (MOPA Models)",
-          items: [
-            "Stainless steel full-color engraving",
-            "Anodized aluminum color effects"
-          ]
+          categoryAr: "الحفر الملون (نماذج MOPA)",
+          items: ["Stainless steel full-color engraving", "Anodized aluminum color effects"],
+          itemsAr: ["حفر ملون كامل على الستانلس ستيل", "تأثيرات اللون على الألومنيوم المؤكسد"]
         }
       ],
 
@@ -4927,163 +6750,302 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
         "Very low power consumption",
         "Ultra-long lifespan",
         "Supports complex, detailed designs"
+      ],
+      advantagesAr: [
+        "سرعة حفر عالية جدًا (حتى 7000 مم/ثانية)",
+        "نتائج واضحة ودائمة",
+        "لا تحتاج صيانة",
+        "استهلاك منخفض جدًا للطاقة",
+        "عمر طويل للغاية",
+        "يدعم التصاميم المعقدة والدقيقة"
       ]
     },
 
-    TitleTag: "",
-    MetaDescription: "",
+    TitleTag: "Fiber Laser Marking Machine | High-Speed Precision Metal Marking",
+    MetaDescription:
+      "Ultra-fast fiber laser marking machine for precise, permanent marking on metals and industrial materials. Supports serial numbers, logos, barcodes, QR codes, and deep engraving.",
     Keywords: "fiber laser marker, metal engraving laser, deep marking system",
     SEOContent: ""
   },
 
-  // {
-  //   id: 20,
-  //   name: "Press Brake",
-  //   image: "/../products/40.webp",
-  //   slug: "press-brake-laser",
-  //   title: "Press Brake",
-  //   desc: "Steel plate welded structure, hydraulic transmission...",
-  // },
+  //   {
+  //     id: 20,
+  //     name: "UV Laser Marking Machine",
+  //     image: "",
+  //     slug: "uv-laser-marking-machine",
+  //     title: "UV Laser Marking Machine",
+  //     desc: "Ultra-fine, cold UV laser marking machine for plastics, glass, electronics, and heat-sensitive materials, ensuring precise, high-contrast, and damage-free marks.",
+
+  //     overview: `
+  // Ultra-Fine, Cold Marking for Plastics, Glass, Electronics & Sensitive Materials
+
+  // The UV Laser Marking Machine is engineered for extremely fine, high-contrast marking with minimal heat impact.
+  // Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for plastics, glass, silicon, medical devices, and micro-electronics where traditional lasers may cause burning or deformation.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "Cold Marking Technology (No Burning)",
+  //           points: [
+  //             "355nm wavelength produces almost zero heat",
+  //             "Perfect for marking plastics (ABS, PVC, PP, PE, PC), glass, silicone, ceramic, sapphire, PCB boards, coated materials, cosmetics packaging, and medical plastics"
+  //           ]
+  //         },
+  //         {
+  //           title: "Ultra-Fine, High-Resolution Marking",
+  //           points: [
+  //             "Micro-level detail for micro-text, logos, barcodes, QR codes, high-density vector graphics, calibration scales"
+  //           ]
+  //         },
+  //         {
+  //           title: "No Damage to Product Surface",
+  //           points: [
+  //             "Smooth, clean marks without melting, charring, or cracking",
+  //             "Ideal for transparent & translucent materials, medical-grade plastics, electronics, and chip components"
+  //           ]
+  //         },
+  //         {
+  //           title: "Large Marking Field Options",
+  //           points: [
+  //             "Available lenses: 70×70 mm, 110×110 mm, 150×150 mm, 175×175 mm, 200×200 mm, 300×300 mm"
+  //           ]
+  //         },
+  //         {
+  //           title: "Wide Power Range Options",
+  //           points: [
+  //             "Available in 3W, 5W, 10W, 15W depending on production needs"
+  //           ]
+  //         },
+  //         {
+  //           title: "Highly Stable Performance",
+  //           points: [
+  //             "Compact, air-cooled UV laser source with consistent long-term marking stability"
+  //           ]
+  //         },
+  //         {
+  //           title: "Advanced Software Control",
+  //           points: [
+  //             "Compatible with EZCAD",
+  //             "Batch serial marking, variable data, high-resolution image marking, multi-layer engraving, auto-positioning & red-light preview"
+  //           ]
+  //         },
+  //         {
+  //           title: "Multiple Machine Formats",
+  //           points: [
+  //             "Desktop model",
+  //             "Split model",
+  //             "Fully enclosed Class 1 safety box",
+  //             "Conveyor integration for production lines"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "Electronics & Semiconductors: IC chips, micro-components, connectors, phone parts, camera modules, PCB marking",
+  //         "Medical & Laboratory Devices: syringes, catheters, medical tubes, surgical plastics, pharmaceutical packaging",
+  //         "Cosmetics & Packaging: plastic bottles, transparent caps, date coding & batch marking, anti-counterfeit marking",
+  //         "Glass & Crystal Marking: cups, bottles, perfume glass, barcode marking, decorative engraving",
+  //         "High-Precision Industrial Marking: calibration scales, sensors, instrument panels, automotive electronics",
+  //         "Ceramic & Sapphire Components: phone camera lenses, ceramic insulators, smartwatch components"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Electronics & Semiconductors",
+  //           items: [
+  //             "IC chips",
+  //             "Micro-components",
+  //             "Connectors",
+  //             "Phone parts",
+  //             "Camera modules",
+  //             "PCB marking"
+  //           ]
+  //         },
+  //         {
+  //           category: "Medical & Laboratory Devices",
+  //           items: [
+  //             "Syringes",
+  //             "Catheters",
+  //             "Medical tubes",
+  //             "Surgical plastics",
+  //             "Pharmaceutical packaging"
+  //           ]
+  //         },
+  //         {
+  //           category: "Cosmetics & Packaging",
+  //           items: [
+  //             "Plastic bottles",
+  //             "Transparent caps",
+  //             "Date coding & batch marking",
+  //             "Anti-counterfeit marking"
+  //           ]
+  //         },
+  //         {
+  //           category: "Glass & Crystal Marking",
+  //           items: [
+  //             "Cups, bottles, perfume glass",
+  //             "Barcode marking on glass",
+  //             "Decorative engraving"
+  //           ]
+  //         },
+  //         {
+  //           category: "High-Precision Industrial Marking",
+  //           items: [
+  //             "Calibration scales",
+  //             "Sensors",
+  //             "Instrument panels",
+  //             "Automotive electronics"
+  //           ]
+  //         },
+  //         {
+  //           category: "Ceramic & Sapphire Components",
+  //           items: [
+  //             "Phone camera lenses",
+  //             "Ceramic insulators",
+  //             "Smartwatch components"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Extremely fine marking resolution",
+  //         "No thermal damage (Cold Light Technology)",
+  //         "Ideal for sensitive materials",
+  //         "Clean, smooth marking edges",
+  //         "Zero consumables",
+  //         "Minimal maintenance",
+  //         "Long lifespan and low operating cost"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "UV laser marking, plastic marking machine, high precision marking",
+  //     SEOContent: ""
+  //   },
   {
     id: 20,
     name: "UV Laser Marking Machine",
+    nameAr: "ماكينة الحفر بالليزر UV",
     image: "",
+    image_small: "",
     slug: "uv-laser-marking-machine",
     title: "UV Laser Marking Machine",
-    desc: "Ultra-fine, cold UV laser marking machine for plastics, glass, electronics, and heat-sensitive materials, ensuring precise, high-contrast, and damage-free marks.",
-
+    titleAr: "ماكينة الحفر بالليزر UV",
+    desc:
+      "Ultra-fine, cold UV laser marking machine for plastics, glass, electronics, and heat-sensitive materials, ensuring precise, high-contrast, and damage-free marks.",
+    descAr:
+      "حل حفر ليزر UV دقيق جدًا وبارد للبلاستيك والزجاج والإلكترونيات والمواد الحساسة للحرارة، يضمن علامات دقيقة وواضحة ودون تلف.",
     overview: `
 Ultra-Fine, Cold Marking for Plastics, Glass, Electronics & Sensitive Materials
 
 The UV Laser Marking Machine is engineered for extremely fine, high-contrast marking with minimal heat impact.
 Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for plastics, glass, silicon, medical devices, and micro-electronics where traditional lasers may cause burning or deformation.
 `,
+    overviewAr: `
+نظرة عامة
 
+حل حفر ليزر UV دقيق جدًا وبارد، مناسب للحفر على البلاستيك والزجاج والأجهزة الطبية والمكونات الدقيقة الحساسة للحرارة.
+يستخدم طول موجي قصير 355 نانومتر ليزر UV لتحقيق حفر بارد دون تشويه أو حروق.
+`,
     details: {
       keyFeatures: [
         {
           title: "Cold Marking Technology (No Burning)",
+          titleAr: "تقنية الحفر البارد (بدون حرق)",
           points: [
             "355nm wavelength produces almost zero heat",
             "Perfect for marking plastics (ABS, PVC, PP, PE, PC), glass, silicone, ceramic, sapphire, PCB boards, coated materials, cosmetics packaging, and medical plastics"
+          ],
+          pointsAr: [
+            "طول موجة 355 نانومتر ينتج حرارة شبه معدومة",
+            "مثالية للحفر على البلاستيك (ABS, PVC, PP, PE, PC)، الزجاج، السليكون، السيراميك، الياقوت، لوحات PCB، المواد المطلية، تغليف مستحضرات التجميل، والبلاستيك الطبي"
           ]
         },
         {
           title: "Ultra-Fine, High-Resolution Marking",
+          titleAr: "حفر فائق الدقة وعالي الجودة",
           points: [
             "Micro-level detail for micro-text, logos, barcodes, QR codes, high-density vector graphics, calibration scales"
+          ],
+          pointsAr: [
+            "تفاصيل دقيقة جدًا للنصوص الصغيرة، الشعارات، الباركود، QR، الرسوميات عالية الكثافة، ومقاييس المعايرة"
           ]
         },
         {
           title: "No Damage to Product Surface",
+          titleAr: "بدون تلف لسطح المنتج",
           points: [
             "Smooth, clean marks without melting, charring, or cracking",
             "Ideal for transparent & translucent materials, medical-grade plastics, electronics, and chip components"
+          ],
+          pointsAr: [
+            "علامات ناعمة ونظيفة دون ذوبان أو حرق أو تشقق",
+            "مثالية للمواد الشفافة والنصف شفافة، البلاستيك الطبي، الإلكترونيات ومكونات الشرائح"
           ]
         },
         {
           title: "Large Marking Field Options",
+          titleAr: "خيارات مساحة الحفر الكبيرة",
           points: [
             "Available lenses: 70×70 mm, 110×110 mm, 150×150 mm, 175×175 mm, 200×200 mm, 300×300 mm"
-          ]
-        },
-        {
-          title: "Wide Power Range Options",
-          points: [
-            "Available in 3W, 5W, 10W, 15W depending on production needs"
-          ]
-        },
-        {
-          title: "Highly Stable Performance",
-          points: [
-            "Compact, air-cooled UV laser source with consistent long-term marking stability"
+          ],
+          pointsAr: [
+            "عدسات متوفرة: 70×70 مم، 110×110 مم، 150×150 مم، 175×175 مم، 200×200 مم، 300×300 مم"
           ]
         },
         {
           title: "Advanced Software Control",
+          titleAr: "برنامج تحكم متقدم",
           points: [
             "Compatible with EZCAD",
             "Batch serial marking, variable data, high-resolution image marking, multi-layer engraving, auto-positioning & red-light preview"
-          ]
-        },
-        {
-          title: "Multiple Machine Formats",
-          points: [
-            "Desktop model",
-            "Split model",
-            "Fully enclosed Class 1 safety box",
-            "Conveyor integration for production lines"
+          ],
+          pointsAr: [
+            "متوافق مع برنامج EZCAD",
+            "يدعم الترقيم التسلسلي، البيانات المتغيرة، الحفر عالي الدقة للصور، الحفر متعدد الطبقات، التموضع التلقائي، ومعاينة الضوء الأحمر"
           ]
         }
       ],
-
       workingArea: [
         "Electronics & Semiconductors: IC chips, micro-components, connectors, phone parts, camera modules, PCB marking",
         "Medical & Laboratory Devices: syringes, catheters, medical tubes, surgical plastics, pharmaceutical packaging",
         "Cosmetics & Packaging: plastic bottles, transparent caps, date coding & batch marking, anti-counterfeit marking",
-        "Glass & Crystal Marking: cups, bottles, perfume glass, barcode marking, decorative engraving",
-        "High-Precision Industrial Marking: calibration scales, sensors, instrument panels, automotive electronics",
-        "Ceramic & Sapphire Components: phone camera lenses, ceramic insulators, smartwatch components"
+        "Glass & Crystal Marking: cups, bottles, perfume glass, barcode marking, decorative engraving"
       ],
-
+      workingAreaAr: [
+        "الإلكترونيات والرقائق: شرائح IC، المكونات الدقيقة، الموصلات، أجزاء الهواتف، وحدات الكاميرا، علامات PCB",
+        "الأجهزة الطبية والمخبرية: محاقن، قساطر، أنابيب طبية، بلاستيك جراحي، تغليف دوائي",
+        "المستحضرات والتغليف: زجاجات بلاستيكية، أغطية شفافة، ترميز تواريخ، ترميز دفعات، علامات مكافحة التزوير",
+        "الزجاج والكريستال: أكواب، زجاجات، زجاج العطور، باركود، نقش زخرفي"
+      ],
       applications: [
         {
           category: "Electronics & Semiconductors",
-          items: [
-            "IC chips",
-            "Micro-components",
-            "Connectors",
-            "Phone parts",
-            "Camera modules",
-            "PCB marking"
-          ]
+          categoryAr: "الإلكترونيات والرقائق",
+          items: ["IC chips", "Micro-components", "Connectors", "Phone parts", "Camera modules", "PCB marking"],
+          itemsAr: ["شرائح IC", "مكونات دقيقة", "موصلات", "أجزاء الهواتف", "وحدات الكاميرا", "علامات PCB"]
         },
         {
           category: "Medical & Laboratory Devices",
-          items: [
-            "Syringes",
-            "Catheters",
-            "Medical tubes",
-            "Surgical plastics",
-            "Pharmaceutical packaging"
-          ]
+          categoryAr: "الأجهزة الطبية والمخبرية",
+          items: ["Syringes", "Catheters", "Medical tubes", "Surgical plastics", "Pharmaceutical packaging"],
+          itemsAr: ["محاقن", "قساطر", "أنابيب طبية", "بلاستيك جراحي", "تغليف دوائي"]
         },
         {
           category: "Cosmetics & Packaging",
-          items: [
-            "Plastic bottles",
-            "Transparent caps",
-            "Date coding & batch marking",
-            "Anti-counterfeit marking"
-          ]
+          categoryAr: "المستحضرات والتغليف",
+          items: ["Plastic bottles", "Transparent caps", "Date coding & batch marking", "Anti-counterfeit marking"],
+          itemsAr: ["زجاجات بلاستيكية", "أغطية شفافة", "ترميز تواريخ ودفعات", "علامات مكافحة التزوير"]
         },
         {
           category: "Glass & Crystal Marking",
-          items: [
-            "Cups, bottles, perfume glass",
-            "Barcode marking on glass",
-            "Decorative engraving"
-          ]
-        },
-        {
-          category: "High-Precision Industrial Marking",
-          items: [
-            "Calibration scales",
-            "Sensors",
-            "Instrument panels",
-            "Automotive electronics"
-          ]
-        },
-        {
-          category: "Ceramic & Sapphire Components",
-          items: [
-            "Phone camera lenses",
-            "Ceramic insulators",
-            "Smartwatch components"
-          ]
+          categoryAr: "الزجاج والكريستال",
+          items: ["Cups", "Bottles", "Perfume glass", "Barcode marking", "Decorative engraving"],
+          itemsAr: ["أكواب", "زجاجات", "زجاج العطور", "باركود", "نقش زخرفي"]
         }
       ],
-
       advantages: [
         "Extremely fine marking resolution",
         "No thermal damage (Cold Light Technology)",
@@ -5092,88 +7054,272 @@ Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for 
         "Zero consumables",
         "Minimal maintenance",
         "Long lifespan and low operating cost"
+      ],
+      advantagesAr: [
+        "دقة حفر فائقة",
+        "بدون تلف حراري (تقنية الضوء البارد)",
+        "مثالي للمواد الحساسة",
+        "حواف حفر نظيفة وناعمة",
+        "لا مواد مستهلكة",
+        "صيانة منخفضة",
+        "عمر طويل وتكلفة تشغيل منخفضة"
       ]
     },
-
-    TitleTag: "",
-    MetaDescription: "",
-    Keywords: "UV laser marking, plastic marking machine, high precision marking",
+    TitleTag: "UV Laser Marking Machine | Ultra-Fine Cold Marking",
+    MetaDescription:
+      "Ultra-fine UV laser marking machine for plastics, glass, electronics, and heat-sensitive materials. High-precision, damage-free, and high-contrast marking.",
+    Keywords: "UV laser marking, cold laser marker, plastic marking machine",
     SEOContent: ""
   },
 
-  // {
-  //   id: 21,
-  //   name: "Shearing machine",
-  //   image: "/../products/41.webp",
-  //   slug: "shearing-machine-laser",
-  //   title: "Shearing machine",
-  //   desc: "Back gauge controlling, General motors control...",
-  // },
+  //   {
+  //     id: 21,
+  //     name: "CNC Plasma Cutting Machine",
+  //     image: "",
+  //     slug: "shearing-machine-laser",
+  //     title: "CNC Plasma Cutting Machine",
+  //     desc: "High-speed metal cutting machine for steel, stainless steel, and industrial fabrication with precision and productivity.",
+
+  //     overview: `
+  // High-Speed Metal Cutting for Steel, Stainless Steel & Industrial Fabrication
+
+  // The CNC Plasma Cutting Machine is built for heavy-duty metal cutting, offering high-speed performance, strong penetration capability, and excellent productivity.
+  // It delivers clean edges on thick and thin metals, making it ideal for workshops, fabrication plants, HVAC production, steel structure factories, automotive parts, and custom metalwork.
+  // With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), and a rigid mechanical structure, it ensures accuracy, stability, and long-term durability.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Speed Metal Cutting",
+  //           points: [
+  //             "Cuts carbon steel, stainless steel, galvanized steel, aluminum, brass, copper",
+  //             "Suitable for both thin sheets and thick metal plates"
+  //           ]
+  //         },
+  //         {
+  //           title: "Powerful Plasma Sources (Optional)",
+  //           points: [
+  //             "Hypertherm Powermax Series (top-tier finish)",
+  //             "Huayuan (economical & stable performance)",
+  //             "Power options: 63A, 100A, 160A, 200A, 300A, 400A"
+  //           ]
+  //         },
+  //         {
+  //           title: "High Cutting Precision",
+  //           points: [
+  //             "Smooth, accurate cutting edges",
+  //             "Minimal dross",
+  //             "High repeatability",
+  //             "Excellent performance for detailed patterns & shapes"
+  //           ]
+  //         },
+  //         {
+  //           title: "Rigid Machine Structure",
+  //           points: [
+  //             "Heavy-duty steel frame ensures high stability, low vibration, and long lifespan"
+  //           ]
+  //         },
+  //         {
+  //           title: "Advanced CNC Controller",
+  //           points: [
+  //             "User-friendly interface",
+  //             "DXF / PLT / AI file import",
+  //             "Nesting software",
+  //             "Auto-height control (THC)",
+  //             "Accurate torch path management"
+  //           ]
+  //         },
+  //         {
+  //           title: "Automatic Torch Height Control (THC)",
+  //           points: [
+  //             "Maintains optimal cutting distance",
+  //             "Better edge quality",
+  //             "Longer torch life",
+  //             "Stable cutting performance"
+  //           ]
+  //         }
+  //       ],
+
+  //       workingArea: [
+  //         "1300×2500 mm",
+  //         "1500×3000 mm",
+  //         "2000×4000 mm",
+  //         "2500×6000 mm",
+  //         "3000×12000 mm",
+  //         "Tailor-made sizes for industrial production"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Metal Fabrication Workshops",
+  //           items: [
+  //             "Custom metal parts",
+  //             "Machine components",
+  //             "Heavy-duty structures"
+  //           ]
+  //         },
+  //         {
+  //           category: "Steel Structure Production",
+  //           items: [
+  //             "Beams",
+  //             "Frames",
+  //             "Connection plates"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC Duct Manufacturing",
+  //           items: [
+  //             "Duct panels",
+  //             "Flanges",
+  //             "Fittings"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Machinery Parts",
+  //           items: [
+  //             "Brackets",
+  //             "Mounting plates",
+  //             "Structural components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Industrial Decorations & Signage",
+  //           items: [
+  //             "Metal art",
+  //             "Decorative panels",
+  //             "Custom designs"
+  //           ]
+  //         },
+  //         {
+  //           category: "Shipbuilding & Heavy Industries",
+  //           items: [
+  //             "Thick metal cutting",
+  //             "Reinforcement plates",
+  //             "Structural components"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Fast cutting speed & high productivity",
+  //         "Affordable metal cutting solution",
+  //         "Powerful penetration for thick metals",
+  //         "Compatible with nesting & CAD/CAM software",
+  //         "Easy operation & maintenance",
+  //         "Strong mechanical durability"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "CNC plasma cutting machine, steel plasma cutter, metal CNC plasma",
+  //     SEOContent: ""
+  //   },
   {
     id: 21,
     name: "CNC Plasma Cutting Machine",
+    nameAr: "ماكينة القطع بالبلازما CNC",
     image: "",
-    slug: "shearing-machine-laser",
+    image_small: "",
+    slug: "cnc-plasma-cutting-machine",
     title: "CNC Plasma Cutting Machine",
-    desc: "High-speed metal cutting machine for steel, stainless steel, and industrial fabrication with precision and productivity.",
+    titleAr: "ماكينة القطع بالبلازما CNC",
+    desc: "High-speed CNC plasma cutting machine for steel, stainless steel, and industrial fabrication, providing precision, strong penetration, and high productivity.",
+    descAr: "ماكينة قطع بالبلازما CNC عالية السرعة للحديد، الستانلس ستيل، والأعمال الصناعية، توفر دقة، قدرة اختراق قوية، وإنتاجية عالية.",
 
     overview: `
 High-Speed Metal Cutting for Steel, Stainless Steel & Industrial Fabrication
 
-The CNC Plasma Cutting Machine is built for heavy-duty metal cutting, offering high-speed performance, strong penetration capability, and excellent productivity.
-It delivers clean edges on thick and thin metals, making it ideal for workshops, fabrication plants, HVAC production, steel structure factories, automotive parts, and custom metalwork.
-With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), and a rigid mechanical structure, it ensures accuracy, stability, and long-term durability.
+The CNC Plasma Cutting Machine is designed for heavy-duty, high-productivity metal cutting, capable of cutting both thin sheets and thick plates with excellent precision.
+Equipped with advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), and a rigid mechanical structure, it ensures accuracy, stability, and long-term durability.
+`,
+    overviewAr: `
+نظرة عامة
+
+قطع معدني عالي السرعة للحديد، الستانلس ستيل، والأعمال الصناعية.
+ماكينة القطع بالبلازما CNC مصممة للقطع الشاق عالي الإنتاجية، بقدرة اختراق قوية ودقة ممتازة سواء للصفائح الرقيقة أو السميكة. مناسبة لورش التصنيع، مصانع الهياكل المعدنية، مصانع مجاري الهواء (HVAC)، قطع غيار السيارات، والأعمال المعدنية المُخصصة.
+مزودة بأنظمة CNC متقدمة ومصادر بلازما عالية الجودة (Hypertherm – Huayuan) وهيكل ميكانيكي قوي لضمان دقة واستقرار وعمر تشغيل طويل.
 `,
 
     details: {
       keyFeatures: [
         {
           title: "High-Speed Metal Cutting",
+          titleAr: "قطع معدني عالي السرعة",
           points: [
             "Cuts carbon steel, stainless steel, galvanized steel, aluminum, brass, copper",
             "Suitable for both thin sheets and thick metal plates"
+          ],
+          pointsAr: [
+            "قادرة على قطع مجموعة واسعة من المعادن: الحديد، الستانلس ستيل، الصاج المجلفن، الألمنيوم، النحاس الأصفر، النحاس الأحمر",
+            "مناسبة للصفائح الرقيقة والشرائح السميكة"
           ]
         },
         {
           title: "Powerful Plasma Sources (Optional)",
+          titleAr: "مصادر بلازما قوية (اختياري)",
           points: [
             "Hypertherm Powermax Series (top-tier finish)",
             "Huayuan (economical & stable performance)",
             "Power options: 63A, 100A, 160A, 200A, 300A, 400A"
+          ],
+          pointsAr: [
+            "خيارات مولدات البلازما: Hypertherm Powermax (أفضل جودة قطع)، Huayuan (اقتصادي وثابت)",
+            "قدرات: 63A / 100A / 160A / 200A / 300A / 400A"
           ]
         },
         {
           title: "High Cutting Precision",
+          titleAr: "دقة قطع عالية",
           points: [
             "Smooth, accurate cutting edges",
             "Minimal dross",
             "High repeatability",
             "Excellent performance for detailed patterns & shapes"
+          ],
+          pointsAr: [
+            "حواف ناعمة ودقيقة",
+            "حد أدنى من الخبث (Dross)",
+            "تكرار ممتاز",
+            "مثالية للأشكال التفصيلية والتصميمات المعقدة"
           ]
         },
         {
           title: "Rigid Machine Structure",
+          titleAr: "هيكل ميكانيكي قوي",
           points: [
             "Heavy-duty steel frame ensures high stability, low vibration, and long lifespan"
+          ],
+          pointsAr: [
+            "إطار فولاذي ثقيل لضمان ثبات عالي، اهتزاز منخفض، وعمر طويل للماكينة"
           ]
         },
         {
           title: "Advanced CNC Controller",
+          titleAr: "وحدة تحكم CNC متقدمة",
           points: [
             "User-friendly interface",
             "DXF / PLT / AI file import",
             "Nesting software",
             "Auto-height control (THC)",
             "Accurate torch path management"
+          ],
+          pointsAr: [
+            "واجهة استخدام سهلة وتدعم: استيراد ملفات DXF / PLT / AI، برنامج Nesting، خاصية التحكم التلقائي في الارتفاع (THC)، إدارة دقيقة لمسار الشعلة"
           ]
         },
         {
           title: "Automatic Torch Height Control (THC)",
+          titleAr: "نظام التحكم التلقائي بارتفاع الشعلة (THC)",
           points: [
             "Maintains optimal cutting distance",
             "Better edge quality",
             "Longer torch life",
             "Stable cutting performance"
+          ],
+          pointsAr: [
+            "يحافظ على الارتفاع المثالي، مما يعني جودة حافة أفضل، عمر أطول للشعلة، قطع مستقر وثابت"
           ]
         }
       ],
@@ -5186,55 +7332,59 @@ With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), an
         "3000×12000 mm",
         "Tailor-made sizes for industrial production"
       ],
+      workingAreaAr: [
+        "1300×2500 مم",
+        "1500×3000 مم",
+        "2000×4000 مم",
+        "2500×6000 مم",
+        "3000×12000 مم",
+        "وأحجام خاصة لخطوط الإنتاج"
+      ],
 
       applications: [
         {
           category: "Metal Fabrication Workshops",
+          categoryAr: "ورش تصنيع المعادن",
           items: [
             "Custom metal parts",
             "Machine components",
             "Heavy-duty structures"
+          ],
+          itemsAr: [
+            "قطع غيار معدنية مخصصة",
+            "مكونات الماكينة",
+            "هياكل ثقيلة"
           ]
         },
         {
           category: "Steel Structure Production",
-          items: [
-            "Beams",
-            "Frames",
-            "Connection plates"
-          ]
+          categoryAr: "مصانع الهياكل المعدنية",
+          items: ["Beams", "Frames", "Connection plates"],
+          itemsAr: ["الكمرات", "الإطارات", "لوحات التوصيل"]
         },
         {
           category: "HVAC Duct Manufacturing",
-          items: [
-            "Duct panels",
-            "Flanges",
-            "Fittings"
-          ]
+          categoryAr: "صناعة مجاري الهواء HVAC",
+          items: ["Duct panels", "Flanges", "Fittings"],
+          itemsAr: ["ألواح مجاري الهواء", "الحواف", "التوصيلات"]
         },
         {
           category: "Automotive & Machinery Parts",
-          items: [
-            "Brackets",
-            "Mounting plates",
-            "Structural components"
-          ]
+          categoryAr: "قطع الغيار الميكانيكية والسيارات",
+          items: ["Brackets", "Mounting plates", "Structural components"],
+          itemsAr: ["حوامل", "لوحات التركيب", "مكونات هيكلية"]
         },
         {
           category: "Industrial Decorations & Signage",
-          items: [
-            "Metal art",
-            "Decorative panels",
-            "Custom designs"
-          ]
+          categoryAr: "الديكورات المعدنية واللافتات",
+          items: ["Metal art", "Decorative panels", "Custom designs"],
+          itemsAr: ["أعمال فنية معدنية", "ألواح زخرفية", "تصاميم مخصصة"]
         },
         {
           category: "Shipbuilding & Heavy Industries",
-          items: [
-            "Thick metal cutting",
-            "Reinforcement plates",
-            "Structural components"
-          ]
+          categoryAr: "بناء السفن والصناعات الثقيلة",
+          items: ["Thick metal cutting", "Reinforcement plates", "Structural components"],
+          itemsAr: ["قطع المعادن السميكة", "لوحات التعزيز", "مكونات هيكلية"]
         }
       ],
 
@@ -5245,30 +7395,190 @@ With advanced CNC control, high-quality plasma sources (Hypertherm, Huayuan), an
         "Compatible with nesting & CAD/CAM software",
         "Easy operation & maintenance",
         "Strong mechanical durability"
+      ],
+      advantagesAr: [
+        "سرعة قطع عالية وإنتاجية قوية",
+        "حل اقتصادي للقطع المعدني",
+        "قدرة اختراق ممتازة للمعادن السميكة",
+        "متوافق مع برامج CAD/CAM",
+        "تشغيل وصيانة سهلة",
+        "بنية ميكانيكية قوية"
       ]
     },
 
-    TitleTag: "",
-    MetaDescription: "",
-    Keywords: "CNC plasma cutting machine, steel plasma cutter, metal CNC plasma",
+    TitleTag: "CNC Plasma Cutting Machine | High-Speed Metal Cutting",
+    MetaDescription: "CNC plasma cutting machine for steel, stainless steel, and industrial fabrication. High-speed, precise, and durable with advanced CNC control.",
+    Keywords: "CNC plasma cutting, metal cutting machine, plasma cutter",
     SEOContent: ""
   },
 
-  // {
-  //   id: 22,
-  //   name: "DA53T 4+1Axis CNC Press Brake Machine",
-  //   image: "/../products/42.webp",
-  //   slug: "da53t-4-plus-1-axis-cnc-press-brake-laser-machine",
-  //   title: "DA53T 4+1Axis CNC Press Brake Machine",
-  //   desc: "1. Steel plate welded structure, hydraulic transmission...",
-  // },
+  //   {
+  //     id: 22,
+  //     name: "DA53T 4+1Axis CNC Press Brake Machine",
+  //     image: "",
+  //     slug: "da53t-4-plus-1-axis-cnc-press-brake-laser-machine",
+  //     title: "DA53T 4+1Axis CNC Press Brake Machine",
+  //     desc: "High-precision CNC press brake for sheet metal bending with advanced controllers, hydraulic/hybrid systems, and robust frame structure.",
+
+  //     overview: `
+  // High-Precision Bending for Sheet Metal Fabrication
+
+  // The CNC Press Brake Machine is engineered for precise, consistent, and high-efficiency bending of sheet metal.
+  // With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a rigid frame structure, it delivers exceptional accuracy for industrial fabrication, HVAC, enclosures, metal furniture, and large-scale production.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "High-Precision Bending Performance",
+  //           points: [
+  //             "CNC-controlled back gauge and bending angles for accurate repeatability",
+  //             "Smooth bending lines",
+  //             "Perfect results for complex shapes"
+  //           ]
+  //         },
+  //         {
+  //           title: "Advanced CNC Controller",
+  //           points: [
+  //             "Delem DA-52S / DA-58T / DA-66T / DA-69T",
+  //             "ESA S630 / S640 / S650",
+  //             "2D/3D bending simulation",
+  //             "Automatic crowning calculation",
+  //             "Multi-step programming",
+  //             "Automatic bending sequence planning"
+  //           ]
+  //         },
+  //         {
+  //           title: "Robust Machine Structure",
+  //           points: [
+  //             "High-strength welded steel frame, stress-relieved for long-term stability",
+  //             "Ensures precision under heavy-duty continuous work"
+  //           ]
+  //         },
+  //         {
+  //           title: "Hydraulic or Hybrid Servo System",
+  //           points: [
+  //             "Hydraulic press brake",
+  //             "Hybrid servo-controlled system for higher accuracy and energy savings",
+  //             "Reduced oil consumption, lower noise, faster response time"
+  //           ]
+  //         },
+  //         {
+  //           title: "Automatic Crowning System",
+  //           points: [
+  //             "Ensures consistent bending angle across the entire sheet length"
+  //           ]
+  //         },
+  //         {
+  //           title: "Back Gauge with Multiple Axes",
+  //           points: [
+  //             "Options: X, R, Z1, Z2 axes for complex and multi-step bending jobs"
+  //           ]
+  //         },
+  //         {
+  //           title: "Safety & Protection Systems",
+  //           points: [
+  //             "Safety light curtains",
+  //             "Emergency stop",
+  //             "Safety foot pedal",
+  //             "Side and rear guards"
+  //           ]
+  //         }
+  //       ],
+
+  //       machineLengths: [
+  //         "1.2 meters (1200 mm)",
+  //         "1.6 meters (1600 mm)",
+  //         "2.0 meters (2000 mm)",
+  //         "2.5 meters (2500 mm)",
+  //         "3.2 meters (3200 mm)",
+  //         "4.0 meters (4000 mm)",
+  //         "5.0 meters (5000 mm)",
+  //         "6.0 meters (6000 mm)",
+  //         "8.0 meters (8000 mm)",
+  //         "10 meters (10,000 mm)",
+  //         "Custom lengths (7m, 9m, 12m) available upon request"
+  //       ],
+
+  //       tonCapacity: [
+  //         "40 Ton – 63 Ton (Light duty, thin sheets)",
+  //         "80 Ton – 100 Ton (General fabrication work)",
+  //         "125 Ton – 160 Ton (Medium industrial use)",
+  //         "200 Ton – 250 Ton (Heavy bending)",
+  //         "300 Ton – 400 Ton (Large panel forming)",
+  //         "500 Ton – 1000 Ton (Heavy-duty industrial applications)"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Sheet Metal Fabrication",
+  //           items: [
+  //             "Enclosures",
+  //             "Panels",
+  //             "Cabinets",
+  //             "Electrical boxes"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Ducting Industry",
+  //           items: [
+  //             "Duct components",
+  //             "Brackets",
+  //             "Angle bending"
+  //           ]
+  //         },
+  //         {
+  //           category: "Metal Furniture & Decoration",
+  //           items: [
+  //             "Frames",
+  //             "Tables",
+  //             "Customized metal parts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Machinery",
+  //           items: [
+  //             "Brackets",
+  //             "Mounting parts",
+  //             "Structural components"
+  //           ]
+  //         },
+  //         {
+  //           category: "Industrial Manufacturing",
+  //           items: [
+  //             "Machine parts",
+  //             "Frames",
+  //             "Large custom metal projects"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "High accuracy & repeatability",
+  //         "Fast bending cycles",
+  //         "Low energy consumption (Hybrid models)",
+  //         "Suitable for complex shapes",
+  //         "Easy to operate",
+  //         "High productivity for mass production"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "CNC press brake, CNC bending machine, hydraulic CNC brake press",
+  //     SEOContent: ""
+  //   },
   {
     id: 22,
     name: "DA53T 4+1Axis CNC Press Brake Machine",
+    nameAr: "ماكينة ثني الصاج CNC",
     image: "",
+    image_small: "",
     slug: "da53t-4-plus-1-axis-cnc-press-brake-laser-machine",
     title: "DA53T 4+1Axis CNC Press Brake Machine",
+    titleAr: "ماكينة ثني الصاج CNC",
     desc: "High-precision CNC press brake for sheet metal bending with advanced controllers, hydraulic/hybrid systems, and robust frame structure.",
+    descAr: "ماكينة الثني CNC عالية الدقة لصفائح المعادن مجهزة بوحدات تحكم متقدمة وأنظمة هيدروليك/هجينة وهيكل صلب.",
 
     overview: `
 High-Precision Bending for Sheet Metal Fabrication
@@ -5276,19 +7586,32 @@ High-Precision Bending for Sheet Metal Fabrication
 The CNC Press Brake Machine is engineered for precise, consistent, and high-efficiency bending of sheet metal.
 With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a rigid frame structure, it delivers exceptional accuracy for industrial fabrication, HVAC, enclosures, metal furniture, and large-scale production.
 `,
+    overviewAr: `
+نظرة عامة
+
+ثني عالي الدقة لصفائح المعادن.
+ماكينة الثني CNC مصممة لتقديم دقة عالية، ثبات، وكفاءة إنتاجية ممتازة في ثني المعادن. مجهزة بوحدات تحكم CNC متقدمة، أنظمة هيدروليك أو سيرفو هجينة، وهيكل صلب لضمان نتائج دقيقة في تصنيع الصاج، HVAC، الكباين، الأثاث المعدني، وخطوط الإنتاج الصناعية.
+`,
 
     details: {
       keyFeatures: [
         {
           title: "High-Precision Bending Performance",
+          titleAr: "دقة ثني عالية",
           points: [
             "CNC-controlled back gauge and bending angles for accurate repeatability",
             "Smooth bending lines",
             "Perfect results for complex shapes"
+          ],
+          pointsAr: [
+            "مزودة بباك جيج (Back Gauge) وزاوية ثني متحكم بها CNC لتحقيق دقة تكرار ممتازة",
+            "خطوط ثني ناعمة",
+            "نتائج مثالية للأشكال المعقدة"
           ]
         },
         {
           title: "Advanced CNC Controller",
+          titleAr: "وحدة تحكم CNC متطورة",
           points: [
             "Delem DA-52S / DA-58T / DA-66T / DA-69T",
             "ESA S630 / S640 / S650",
@@ -5296,47 +7619,72 @@ With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a r
             "Automatic crowning calculation",
             "Multi-step programming",
             "Automatic bending sequence planning"
+          ],
+          pointsAr: [
+            "خيارات: Delem DA-52S / DA-58T / DA-66T / DA-69T، ESA S630 / S640 / S650",
+            "محاكاة ثني 2D / 3D",
+            "حساب أوتوماتيك للتعويض (Crowning)",
+            "برمجة متعددة الخطوات",
+            "تخطيط أوتوماتيكي لترتيب الانحناءات"
           ]
         },
         {
           title: "Robust Machine Structure",
+          titleAr: "هيكل قوي",
           points: [
             "High-strength welded steel frame, stress-relieved for long-term stability",
             "Ensures precision under heavy-duty continuous work"
+          ],
+          pointsAr: [
+            "إطار فولاذي ملحوم عالي الصلابة، معالج لإزالة الإجهاد الحراري",
+            "يضمن الدقة مع العمل الشاق طويل المدى"
           ]
         },
         {
           title: "Hydraulic or Hybrid Servo System",
+          titleAr: "نظام هيدروليكي أو هجين Servo",
           points: [
             "Hydraulic press brake",
             "Hybrid servo-controlled system for higher accuracy and energy savings",
             "Reduced oil consumption, lower noise, faster response time"
+          ],
+          pointsAr: [
+            "ثناية هيدروليك أو سيرفو هجين",
+            "ثناية سيرفو هجين لأعلى دقة وتوفير الطاقة",
+            "استهلاك زيت أقل، ضوضاء أقل، استجابة أسرع"
           ]
         },
         {
           title: "Automatic Crowning System",
-          points: [
-            "Ensures consistent bending angle across the entire sheet length"
-          ]
+          titleAr: "نظام تعويض تلقائي (Crowning)",
+          points: ["Ensures consistent bending angle across the entire sheet length"],
+          pointsAr: ["يحافظ على زاوية ثني ثابتة على كامل طول الصاج"]
         },
         {
           title: "Back Gauge with Multiple Axes",
-          points: [
-            "Options: X, R, Z1, Z2 axes for complex and multi-step bending jobs"
-          ]
+          titleAr: "الباك جيج متعدد المحاور",
+          points: ["Options: X, R, Z1, Z2 axes for complex and multi-step bending jobs"],
+          pointsAr: ["خيارات: X – R – Z1 – Z2 مناسب لأعمال الثني المعقدة"]
         },
         {
           title: "Safety & Protection Systems",
+          titleAr: "أنظمة حماية كاملة",
           points: [
             "Safety light curtains",
             "Emergency stop",
             "Safety foot pedal",
             "Side and rear guards"
+          ],
+          pointsAr: [
+            "ستائر ضوئية",
+            "إيقاف طوارئ",
+            "دواسة قدم آمنة",
+            "حمايات جانبية وخلفية"
           ]
         }
       ],
 
-      machineLengths: [
+      workingArea: [
         "1.2 meters (1200 mm)",
         "1.6 meters (1600 mm)",
         "2.0 meters (2000 mm)",
@@ -5349,57 +7697,50 @@ With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a r
         "10 meters (10,000 mm)",
         "Custom lengths (7m, 9m, 12m) available upon request"
       ],
-
-      tonCapacity: [
-        "40 Ton – 63 Ton (Light duty, thin sheets)",
-        "80 Ton – 100 Ton (General fabrication work)",
-        "125 Ton – 160 Ton (Medium industrial use)",
-        "200 Ton – 250 Ton (Heavy bending)",
-        "300 Ton – 400 Ton (Large panel forming)",
-        "500 Ton – 1000 Ton (Heavy-duty industrial applications)"
+      workingAreaAr: [
+        "1200 مم",
+        "1600 مم",
+        "2000 مم",
+        "2500 مم",
+        "3200 مم (الأكثر شيوعًا)",
+        "4000 مم",
+        "5000 مم",
+        "6000 مم",
+        "8000 مم",
+        "10,000 مم",
+        "إمكانية تصنيع أطوال خاصة (7م، 9م، 12م)"
       ],
 
       applications: [
         {
           category: "Sheet Metal Fabrication",
-          items: [
-            "Enclosures",
-            "Panels",
-            "Cabinets",
-            "Electrical boxes"
-          ]
+          categoryAr: "تصنيع الصاج",
+          items: ["Enclosures", "Panels", "Cabinets", "Electrical boxes"],
+          itemsAr: ["كباين", "ألواح", "خزائن", "صناديق كهربائية"]
         },
         {
           category: "HVAC & Ducting Industry",
-          items: [
-            "Duct components",
-            "Brackets",
-            "Angle bending"
-          ]
+          categoryAr: "HVAC والدكتات",
+          items: ["Duct components", "Brackets", "Angle bending"],
+          itemsAr: ["مكونات مجاري الهواء", "حوامل", "ثني زوايا"]
         },
         {
           category: "Metal Furniture & Decoration",
-          items: [
-            "Frames",
-            "Tables",
-            "Customized metal parts"
-          ]
+          categoryAr: "الأثاث المعدني",
+          items: ["Frames", "Tables", "Customized metal parts"],
+          itemsAr: ["إطارات", "طاولات", "قطع معدنية مخصصة"]
         },
         {
           category: "Automotive & Machinery",
-          items: [
-            "Brackets",
-            "Mounting parts",
-            "Structural components"
-          ]
+          categoryAr: "السيارات والميكانيكا",
+          items: ["Brackets", "Mounting parts", "Structural components"],
+          itemsAr: ["حوامل", "قطع تركيبية", "مكونات هيكلية"]
         },
         {
           category: "Industrial Manufacturing",
-          items: [
-            "Machine parts",
-            "Frames",
-            "Large custom metal projects"
-          ]
+          categoryAr: "تصنيع المعدات الصناعية",
+          items: ["Machine parts", "Frames", "Large custom metal projects"],
+          itemsAr: ["قطع ماكينات", "إطارات", "مشاريع معدنية كبيرة مخصصة"]
         }
       ],
 
@@ -5410,30 +7751,346 @@ With advanced CNC controllers, high-quality hydraulic or hybrid systems, and a r
         "Suitable for complex shapes",
         "Easy to operate",
         "High productivity for mass production"
+      ],
+      advantagesAr: [
+        "دقة وثبات عالي",
+        "دورات ثني سريعة",
+        "استهلاك منخفض للطاقة (في الموديلات الهجينة)",
+        "مناسب للأشكال المعقدة",
+        "سهل التشغيل",
+        "إنتاجية عالية للتشغيل الكمي"
       ]
     },
 
-    TitleTag: "",
-    MetaDescription: "",
+    TitleTag: "DA53T 4+1Axis CNC Press Brake Machine | High-Precision Sheet Metal Bending",
+    MetaDescription: "High-precision CNC press brake for sheet metal bending with advanced controllers, hydraulic/hybrid systems, and robust frame structure.",
     Keywords: "CNC press brake, CNC bending machine, hydraulic CNC brake press",
     SEOContent: ""
   },
 
-  // {
-  //   id: 23,
-  //   name: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press",
-  //   image: "/../products/43.webp",
-  //   slug: "wc67k-e310-200t6000mm-heavy-duty-sheet-metal-cnc-press-laser",
-  //   title: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press Brake",
-  //   desc: "1. Steel plate welded structure, hydraulic transmission...",
-  // },
+  //   {
+  //     id: 23,
+  //     name: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press",
+  //     image: "",
+  //     slug: "wc67k-e310-200t6000mm-heavy-duty-sheet-metal-cnc-press-laser",
+  //     title: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press Brake",
+  //     desc: "Reliable and cost-effective NC press brake for sheet-metal bending with hydraulic system and solid frame structure.",
+
+  //     overview: `
+  // Reliable and Cost-Effective Metal Bending for Workshops & Industrial Production
+
+  // The NC Press Brake Machine is a practical and economical solution for sheet-metal bending, designed for workshops and factories that need accurate bending performance without the complexity of fully computerized CNC systems.
+  // With a simple NC controller, hydraulic power, and a solid frame structure, it offers consistent results and easy operation—perfect for small to medium-scale production.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "Accurate Bending with NC Control",
+  //           points: [
+  //             "Back gauge position control",
+  //             "Bending angle via ram stroke",
+  //             "Multi-step bending programs for repeatable quality"
+  //           ]
+  //         },
+  //         {
+  //           title: "User-Friendly NC Controller",
+  //           points: [
+  //             "Simple operation, minimal training required",
+  //             "Common controllers: ESTUN E21, ESTUN E200P, MD11 / MD20",
+  //             "Programmable steps, automatic back gauge movement, digital stroke adjustment, memory storage for multiple jobs"
+  //           ]
+  //         },
+  //         {
+  //           title: "Hydraulic Bending System",
+  //           points: [
+  //             "Smooth bending motion",
+  //             "Strong pressing force",
+  //             "High durability, low maintenance cost",
+  //             "Suitable for carbon steel, stainless steel, aluminum, and galvanized sheets"
+  //           ]
+  //         },
+  //         {
+  //           title: "Heavy-Duty Machine Frame",
+  //           points: [
+  //             "Welded steel construction, stress-relieved body",
+  //             "Excellent stability during long working hours"
+  //           ]
+  //         },
+  //         {
+  //           title: "Back Gauge for Consistent Results",
+  //           points: [
+  //             "Motorized X-axis",
+  //             "Manual R-axis adjustment",
+  //             "Suitable for most standard bending applications"
+  //           ]
+  //         },
+  //         {
+  //           title: "Safety Systems",
+  //           points: [
+  //             "Emergency stop",
+  //             "Foot pedal control",
+  //             "Side & rear protective guards",
+  //             "Optional light curtain"
+  //           ]
+  //         }
+  //       ],
+
+  //       machineLengths: [
+  //         "1.2 meters (1200 mm)",
+  //         "1.6 meters (1600 mm)",
+  //         "2.0 meters (2000 mm)",
+  //         "2.5 meters (2500 mm)",
+  //         "3.2 meters (3200 mm)",
+  //         "4.0 meters (4000 mm)",
+  //         "5.0 meters (5000 mm)",
+  //         "6.0 meters (6000 mm)",
+  //         "8.0 meters (8000 mm)",
+  //         "10 meters (10,000 mm)",
+  //         "Custom lengths (7m, 9m, 12m) available upon request"
+  //       ],
+
+  //       tonCapacity: [
+  //         "40 Ton – 63 Ton (Light bending)",
+  //         "80 Ton – 100 Ton (Standard sheet metal work)",
+  //         "125 Ton – 160 Ton",
+  //         "200 Ton – 250 Ton",
+  //         "300 Ton – 400 Ton",
+  //         "500 Ton – 1000 Ton (Heavy-duty bending)"
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Sheet Metal Workshops",
+  //           items: [
+  //             "Small cabinets",
+  //             "Enclosures",
+  //             "Bending panels and boxes"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Light Industrial Fabrication",
+  //           items: [
+  //             "Duct components",
+  //             "Flanges",
+  //             "Support brackets"
+  //           ]
+  //         },
+  //         {
+  //           category: "Metal Furniture Production",
+  //           items: [
+  //             "Frames",
+  //             "Shelves",
+  //             "Decorative parts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Machinery Parts",
+  //           items: [
+  //             "Mounting plates",
+  //             "Angles and brackets",
+  //             "Formed components"
+  //           ]
+  //         },
+  //         {
+  //           category: "General Fabrication & Maintenance",
+  //           items: [
+  //             "Repair shops",
+  //             "Small production lines",
+  //             "Custom metal bending"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Affordable and practical bending solution",
+  //         "Easy to learn and operate",
+  //         "Low maintenance",
+  //         "Excellent for small and medium production",
+  //         "Strong hydraulic bending performance",
+  //         "High reliability for daily workshop use"
+  //       ]
+  //     }
+  //   },
+
+  //   {
+  //     id: 24,
+  //     name: "2 Axis NC E21 Hydraulic Press Brake Machine",
+  //     image: "",
+  //     slug: "2-axis-nc-e21-hydraulic-press-brake-laser-machine",
+  //     title: "2 Axis NC Press Brake",
+  //     desc: "High-performance NC hydraulic press brake for precise metal bending and sheet fabrication.",
+
+  //     overview: `
+  // High-Performance Metal Cutting for Industrial Sheet Fabrication
+
+  // The Shearing Machine is designed for fast, precise, and clean cutting of sheet metal.
+  // Built with a heavy-duty frame, advanced hydraulic systems, and a reliable blade mechanism, it delivers smooth cutting performance for a wide range of metals—making it an essential machine in any metal fabrication workshop.
+  // Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing types.
+  // `,
+
+  //     details: {
+  //       keyFeatures: [
+  //         {
+  //           title: "Available Cutting Lengths",
+  //           points: [
+  //             "1.2 meters (1200 mm)",
+  //             "1.6 meters (1600 mm)",
+  //             "2.0 meters (2000 mm)",
+  //             "2.5 meters (2500 mm)",
+  //             "3.2 meters (3200 mm) – Most common",
+  //             "4.0 meters (4000 mm)",
+  //             "5.0 meters (5000 mm)",
+  //             "6.0 meters (6000 mm)",
+  //             "Custom lengths (7m, 8m, 10m) available upon request"
+  //           ]
+  //         },
+  //         {
+  //           title: "Cutting Thickness Capacity",
+  //           points: [
+  //             "0.5 mm – 2 mm (Light sheet metal)",
+  //             "2 mm – 4 mm",
+  //             "4 mm – 6 mm (Medium thickness)",
+  //             "6 mm – 8 mm",
+  //             "8 mm – 13 mm (Heavy-duty cutting)",
+  //             "Up to 20 mm (High-strength industrial models)"
+  //           ]
+  //         },
+  //         {
+  //           title: "High Cutting Precision",
+  //           points: [
+  //             "Smooth, burr-free edges",
+  //             "Adjustable blade clearance",
+  //             "Stable performance for thin and medium sheets"
+  //           ]
+  //         },
+  //         {
+  //           title: "Hydraulic System for Stable Power",
+  //           points: [
+  //             "High-efficiency hydraulic cylinders",
+  //             "Fast cutting cycles",
+  //             "Low noise and reduced vibration"
+  //           ]
+  //         },
+  //         {
+  //           title: "Robust Machine Body",
+  //           points: [
+  //             "Welded steel structure",
+  //             "Stress-relieved frame",
+  //             "Minimal deformation during heavy-duty cutting"
+  //           ]
+  //         },
+  //         {
+  //           title: "Easy Operation & Digital Control",
+  //           points: [
+  //             "NC or digital control for back gauge, cutting length, and stroke",
+  //             "Interfaces: ESTUN E21S, MD series controllers"
+  //           ]
+  //         },
+  //         {
+  //           title: "Adjustable Cutting Angle",
+  //           points: [
+  //             "Optimized performance for thick or long sheets",
+  //             "Improved cutting quality and energy efficiency"
+  //           ]
+  //         },
+  //         {
+  //           title: "High-Quality Blades",
+  //           points: [
+  //             "Alloy tool steel (Cr12MoV or H13)",
+  //             "Long service life",
+  //             "Re-sharpenable multiple times"
+  //           ]
+  //         },
+  //         {
+  //           title: "Safety & Protection Systems",
+  //           points: [
+  //             "Front fences",
+  //             "Emergency stop",
+  //             "Finger protection guard",
+  //             "Rear safety gates"
+  //           ]
+  //         }
+  //       ],
+
+  //       applications: [
+  //         {
+  //           category: "Sheet Metal Fabrication",
+  //           items: [
+  //             "Steel sheets",
+  //             "Stainless steel",
+  //             "Aluminum",
+  //             "Galvanized sheets"
+  //           ]
+  //         },
+  //         {
+  //           category: "HVAC & Duct Manufacturing",
+  //           items: [
+  //             "Duct pieces",
+  //             "Flanges",
+  //             "Frames"
+  //           ]
+  //         },
+  //         {
+  //           category: "Electrical Panels & Cabinets",
+  //           items: [
+  //             "Cutting panels",
+  //             "Forming enclosure parts"
+  //           ]
+  //         },
+  //         {
+  //           category: "Metal Furniture Production",
+  //           items: [
+  //             "Shelves",
+  //             "Frames",
+  //             "Panels"
+  //           ]
+  //         },
+  //         {
+  //           category: "Automotive & Machinery Parts",
+  //           items: [
+  //             "Brackets",
+  //             "Covers",
+  //             "Custom-cut plates"
+  //           ]
+  //         },
+  //         {
+  //           category: "General Industrial Cutting",
+  //           items: [
+  //             "Workshops",
+  //             "Factories",
+  //             "Metal processing lines"
+  //           ]
+  //         }
+  //       ],
+
+  //       advantages: [
+  //         "Smooth, accurate cutting",
+  //         "Low operating cost",
+  //         "Long blade lifespan",
+  //         "Easy maintenance",
+  //         "High productivity for mass production",
+  //         "Reliable hydraulic performance"
+  //       ]
+  //     },
+
+  //     TitleTag: "",
+  //     MetaDescription: "",
+  //     Keywords: "NC press brake, hydraulic bending machine",
+  //     SEOContent: ""
+  //   },
+
   {
     id: 23,
     name: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press",
+    nameAr: "ماكينة الثني NC",
     image: "",
+    image_small: "",
     slug: "wc67k-e310-200t6000mm-heavy-duty-sheet-metal-cnc-press-laser",
     title: "WC67K E310 200T6000mm Heavy Duty Sheet Metal CNC Press Brake",
+    titleAr: "ماكينة الثني NC",
     desc: "Reliable and cost-effective NC press brake for sheet-metal bending with hydraulic system and solid frame structure.",
+    descAr: "ماكينة ثني NC عملية واقتصادية لصفائح المعادن مزودة بنظام هيدروليكي وهيكل صلب.",
 
     overview: `
 Reliable and Cost-Effective Metal Bending for Workshops & Industrial Production
@@ -5441,61 +8098,104 @@ Reliable and Cost-Effective Metal Bending for Workshops & Industrial Production
 The NC Press Brake Machine is a practical and economical solution for sheet-metal bending, designed for workshops and factories that need accurate bending performance without the complexity of fully computerized CNC systems.
 With a simple NC controller, hydraulic power, and a solid frame structure, it offers consistent results and easy operation—perfect for small to medium-scale production.
 `,
+    overviewAr: `
+نظرة عامة
+
+ماكينة الثني NC هي خيار عملي واقتصادي لثني صفائح المعادن، ومناسبة للورش والمصانع التي تحتاج دقة ثني ممتازة بدون تعقيد أنظمة CNC المتقدمة.
+تعتمد على وحدة تحكم NC بسيطة، نظام هيدروليكي ثابت، وهيكل قوي يضمن نتائج دقيقة وسهولة تشغيل—حل مثالي للإنتاج الخفيف والمتوسط.
+`,
 
     details: {
       keyFeatures: [
         {
           title: "Accurate Bending with NC Control",
+          titleAr: "دقة ثني عالية باستخدام تحكم NC",
           points: [
             "Back gauge position control",
             "Bending angle via ram stroke",
             "Multi-step bending programs for repeatable quality"
+          ],
+          pointsAr: [
+            "النظام يتحكم في موضع الباك جيج",
+            "زاوية الثني عن طريق مشوار الكباس",
+            "برامج ثني متعددة الخطوات للحصول على جودة متكررة"
           ]
         },
         {
           title: "User-Friendly NC Controller",
+          titleAr: "وحدة تحكم سهلة الاستخدام",
           points: [
             "Simple operation, minimal training required",
             "Common controllers: ESTUN E21, ESTUN E200P, MD11 / MD20",
             "Programmable steps, automatic back gauge movement, digital stroke adjustment, memory storage for multiple jobs"
+          ],
+          pointsAr: [
+            "تشغيل بسيط وما يحتاج خبرة كبيرة",
+            "وحدات التحكم المتوفرة: ESTUN E21, ESTUN E200P, MD11 / MD20",
+            "برمجة خطوات، حركة أوتوماتيكية للباك جيج، ضبط رقمي لمشوار الكباس، حفظ وظائف متعددة"
           ]
         },
         {
           title: "Hydraulic Bending System",
+          titleAr: "نظام ثني هيدروليكي قوي",
           points: [
             "Smooth bending motion",
             "Strong pressing force",
             "High durability, low maintenance cost",
             "Suitable for carbon steel, stainless steel, aluminum, and galvanized sheets"
+          ],
+          pointsAr: [
+            "حركة ثني ناعمة",
+            "قوة ضغط عالية",
+            "متانة ممتازة، تكلفة صيانة منخفضة",
+            "مناسب للصاج بأنواعه"
           ]
         },
         {
           title: "Heavy-Duty Machine Frame",
+          titleAr: "هيكل فولاذي ثقيل",
           points: [
             "Welded steel construction, stress-relieved body",
             "Excellent stability during long working hours"
+          ],
+          pointsAr: [
+            "جسم فولاذي ملحوم ومعالج حرارياً",
+            "ثبات عالي أثناء التشغيل الطويل"
           ]
         },
         {
           title: "Back Gauge for Consistent Results",
+          titleAr: "الباك جيج",
           points: [
             "Motorized X-axis",
             "Manual R-axis adjustment",
             "Suitable for most standard bending applications"
+          ],
+          pointsAr: [
+            "محور X كهربائي",
+            "محور R يدوي",
+            "مناسب لمعظم أعمال الثني القياسية"
           ]
         },
         {
           title: "Safety Systems",
+          titleAr: "أنظمة الأمان",
           points: [
             "Emergency stop",
             "Foot pedal control",
             "Side & rear protective guards",
             "Optional light curtain"
+          ],
+          pointsAr: [
+            "إيقاف طوارئ",
+            "دواسة قدم",
+            "حمايات جانبية وخلفية",
+            "ستارة ضوئية (اختياري)"
           ]
         }
       ],
 
-      machineLengths: [
+      workingArea: [
         "1.2 meters (1200 mm)",
         "1.6 meters (1600 mm)",
         "2.0 meters (2000 mm)",
@@ -5508,6 +8208,11 @@ With a simple NC controller, hydraulic power, and a solid frame structure, it of
         "10 meters (10,000 mm)",
         "Custom lengths (7m, 9m, 12m) available upon request"
       ],
+      workingAreaAr: [
+        "1200 – 1600 – 2000 – 2500 – 3200 مم (الأكثر طلبًا)",
+        "4000 – 5000 – 6000 – 8000 – 10,000 مم",
+        "إمكانية تصنيع أطوال خاصة (7م – 9م – 12م)"
+      ],
 
       tonCapacity: [
         "40 Ton – 63 Ton (Light bending)",
@@ -5517,47 +8222,45 @@ With a simple NC controller, hydraulic power, and a solid frame structure, it of
         "300 Ton – 400 Ton",
         "500 Ton – 1000 Ton (Heavy-duty bending)"
       ],
+      tonCapacityAr: [
+        "40–63 طن → أعمال خفيفة",
+        "80–100 طن → الاستخدام العام",
+        "125–160 طن",
+        "200–250 طن",
+        "300–400 طن",
+        "500–1000 طن → الاستخدام الصناعي الثقيل"
+      ],
 
       applications: [
         {
           category: "Sheet Metal Workshops",
-          items: [
-            "Small cabinets",
-            "Enclosures",
-            "Bending panels and boxes"
-          ]
+          categoryAr: "ورش تشكيل المعادن",
+          items: ["Small cabinets", "Enclosures", "Bending panels and boxes"],
+          itemsAr: ["كبائن صغيرة", "صناديق", "ألواح"]
         },
         {
           category: "HVAC & Light Industrial Fabrication",
-          items: [
-            "Duct components",
-            "Flanges",
-            "Support brackets"
-          ]
+          categoryAr: "تصنيع الدكتات والـ HVAC",
+          items: ["Duct components", "Flanges", "Support brackets"],
+          itemsAr: ["مكونات الدكت", "فلنجات", "حوامل دعم"]
         },
         {
           category: "Metal Furniture Production",
-          items: [
-            "Frames",
-            "Shelves",
-            "Decorative parts"
-          ]
+          categoryAr: "الأثاث المعدني",
+          items: ["Frames", "Shelves", "Decorative parts"],
+          itemsAr: ["إطارات", "رفوف", "قطع زخرفية"]
         },
         {
           category: "Automotive & Machinery Parts",
-          items: [
-            "Mounting plates",
-            "Angles and brackets",
-            "Formed components"
-          ]
+          categoryAr: "قطع السيارات والميكانيكا",
+          items: ["Mounting plates", "Angles and brackets", "Formed components"],
+          itemsAr: ["صفائح تركيب", "زوايا وحوامل", "مكونات مصبوبة"]
         },
         {
           category: "General Fabrication & Maintenance",
-          items: [
-            "Repair shops",
-            "Small production lines",
-            "Custom metal bending"
-          ]
+          categoryAr: "أعمال الصيانة والتصنيع العام",
+          items: ["Repair shops", "Small production lines", "Custom metal bending"],
+          itemsAr: ["ورش صيانة", "خطوط إنتاج صغيرة", "ثني معدني مخصص"]
         }
       ],
 
@@ -5568,25 +8271,33 @@ With a simple NC controller, hydraulic power, and a solid frame structure, it of
         "Excellent for small and medium production",
         "Strong hydraulic bending performance",
         "High reliability for daily workshop use"
+      ],
+      advantagesAr: [
+        "حل اقتصادي وعملي",
+        "تشغيل سهل",
+        "صيانة قليلة",
+        "ممتاز للإنتاج الخفيف والمتوسط",
+        "قوة هيدروليكية عالية",
+        "يعتمد عليه داخل الورش بشكل يومي"
       ]
-    }
-  },
+    },
 
-  // {
-  //   id: 24,
-  //   name: "2 Axis NC E21 Hydraulic Press Brake Machine",
-  //   image: "/../products/45.webp",
-  //   slug: "2-axis-nc-e21-hydraulic-press-brake-laser-machine",
-  //   title: "2 Axis NC Press Brake",
-  //   desc: "Model Type :WC67K",
-  // },
+    TitleTag: "WC67K E310 NC Press Brake | Cost-Effective Sheet Metal Bending",
+    MetaDescription: "Reliable NC press brake for sheet metal bending with hydraulic system and solid frame, suitable for workshops and small production.",
+    Keywords: "NC press brake, hydraulic bending machine, sheet metal",
+    SEOContent: ""
+  },
   {
     id: 24,
     name: "2 Axis NC E21 Hydraulic Press Brake Machine",
+    nameAr: "ماكينة القص – Shearing Machine",
     image: "",
+    image_small: "",
     slug: "2-axis-nc-e21-hydraulic-press-brake-laser-machine",
     title: "2 Axis NC Press Brake",
+    titleAr: "ماكينة القص – Shearing Machine",
     desc: "High-performance NC hydraulic press brake for precise metal bending and sheet fabrication.",
+    descAr: "ماكينة قص عالية الأداء لقص صفائح المعادن بدقة وسرعة.",
 
     overview: `
 High-Performance Metal Cutting for Industrial Sheet Fabrication
@@ -5595,11 +8306,21 @@ The Shearing Machine is designed for fast, precise, and clean cutting of sheet m
 Built with a heavy-duty frame, advanced hydraulic systems, and a reliable blade mechanism, it delivers smooth cutting performance for a wide range of metals—making it an essential machine in any metal fabrication workshop.
 Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing types.
 `,
+    overviewAr: `
+نظرة عامة
+
+ماكينة قص عالية الأداء لقص صفائح المعادن بدقة وسرعة.
+مصممة بهيكل ثقيل، نظام هيدروليكي قوي، وسكاكين عالية الجودة لقص نظيف وسلس.
+متوفرة بنوعي:
+● قص جيليوتين هيدروليكي
+● قص سوينغ بيم هيدروليكي
+`,
 
     details: {
       keyFeatures: [
         {
           title: "Available Cutting Lengths",
+          titleAr: "أطوال القص المتوفرة",
           points: [
             "1.2 meters (1200 mm)",
             "1.6 meters (1600 mm)",
@@ -5610,10 +8331,17 @@ Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing typ
             "5.0 meters (5000 mm)",
             "6.0 meters (6000 mm)",
             "Custom lengths (7m, 8m, 10m) available upon request"
+          ],
+          pointsAr: [
+            "1.2 م – 1.6 م – 2.0 م – 2.5 م",
+            "3.2 م (الأكثر طلبًا)",
+            "4.0 م – 5.0 م – 6.0 م",
+            "إمكانية تصنيع 7م / 8م / 10م حسب الطلب"
           ]
         },
         {
           title: "Cutting Thickness Capacity",
+          titleAr: "سماكات القص",
           points: [
             "0.5 mm – 2 mm (Light sheet metal)",
             "2 mm – 4 mm",
@@ -5621,61 +8349,108 @@ Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing typ
             "6 mm – 8 mm",
             "8 mm – 13 mm (Heavy-duty cutting)",
             "Up to 20 mm (High-strength industrial models)"
+          ],
+          pointsAr: [
+            "0.5 – 2 مم → خفيف",
+            "2 – 4 مم",
+            "4 – 6 مم",
+            "6 – 8 مم",
+            "8 – 13 مم",
+            "حتى 20 مم → موديلات صناعية ثقيلة"
           ]
         },
         {
           title: "High Cutting Precision",
+          titleAr: "دقة قص عالية",
           points: [
             "Smooth, burr-free edges",
             "Adjustable blade clearance",
             "Stable performance for thin and medium sheets"
+          ],
+          pointsAr: [
+            "حواف ناعمة بدون زوائد",
+            "ضبط خلوص السكين",
+            "أداء ثابت حتى مع التشغيل المتواصل"
           ]
         },
         {
           title: "Hydraulic System for Stable Power",
+          titleAr: "نظام هيدروليكي قوي",
           points: [
             "High-efficiency hydraulic cylinders",
             "Fast cutting cycles",
             "Low noise and reduced vibration"
+          ],
+          pointsAr: [
+            "أسطوانات عالية الكفاءة",
+            "سرعة قص ممتازة",
+            "اهتزاز وضوضاء منخفضة"
           ]
         },
         {
           title: "Robust Machine Body",
+          titleAr: "هيكل قوي وثابت",
           points: [
             "Welded steel structure",
             "Stress-relieved frame",
             "Minimal deformation during heavy-duty cutting"
+          ],
+          pointsAr: [
+            "فولاذ ملحوم",
+            "معالجة لإزالة الإجهاد",
+            "مقاوم للتشوه أثناء القص المستمر"
           ]
         },
         {
           title: "Easy Operation & Digital Control",
+          titleAr: "تشغيل سهل وتحكم رقمي",
           points: [
             "NC or digital control for back gauge, cutting length, and stroke",
             "Interfaces: ESTUN E21S, MD series controllers"
+          ],
+          pointsAr: [
+            "تحكم في: الباك جيج، طول القص، عدد ضربات القص",
+            "وحدات التحكم: ESTUN E21S، سلسلة MD"
           ]
         },
         {
           title: "Adjustable Cutting Angle",
+          titleAr: "زاوية قص قابلة للتعديل",
           points: [
             "Optimized performance for thick or long sheets",
             "Improved cutting quality and energy efficiency"
+          ],
+          pointsAr: [
+            "لتحسين أداء القص في السماكات الكبيرة وتقليل استهلاك الطاقة"
           ]
         },
         {
           title: "High-Quality Blades",
+          titleAr: "سكاكين عالية الجودة",
           points: [
             "Alloy tool steel (Cr12MoV or H13)",
             "Long service life",
             "Re-sharpenable multiple times"
+          ],
+          pointsAr: [
+            "مصنوعة من Cr12MoV أو H13",
+            "عمر طويل ويمكن شحذها أكثر من مرة"
           ]
         },
         {
           title: "Safety & Protection Systems",
+          titleAr: "أنظمة الأمان",
           points: [
             "Front fences",
             "Emergency stop",
             "Finger protection guard",
             "Rear safety gates"
+          ],
+          pointsAr: [
+            "حمايات أمامية",
+            "زر طوارئ",
+            "حماية أصابع",
+            "حواجز خلفية"
           ]
         }
       ],
@@ -5683,51 +8458,39 @@ Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing typ
       applications: [
         {
           category: "Sheet Metal Fabrication",
-          items: [
-            "Steel sheets",
-            "Stainless steel",
-            "Aluminum",
-            "Galvanized sheets"
-          ]
+          categoryAr: "تصنيع الصاج",
+          items: ["Steel sheets", "Stainless steel", "Aluminum", "Galvanized sheets"],
+          itemsAr: ["صفائح الحديد", "ستانلس ستيل", "ألمنيوم", "صفائح مجلفنة"]
         },
         {
           category: "HVAC & Duct Manufacturing",
-          items: [
-            "Duct pieces",
-            "Flanges",
-            "Frames"
-          ]
+          categoryAr: "صناعة الدكتات",
+          items: ["Duct pieces", "Flanges", "Frames"],
+          itemsAr: ["قطع الدكت", "فلنجات", "إطارات"]
         },
         {
           category: "Electrical Panels & Cabinets",
-          items: [
-            "Cutting panels",
-            "Forming enclosure parts"
-          ]
+          categoryAr: "لوحات الكهرباء والكباين",
+          items: ["Cutting panels", "Forming enclosure parts"],
+          itemsAr: ["قص ألواح", "تشكيل أجزاء الكباين"]
         },
         {
           category: "Metal Furniture Production",
-          items: [
-            "Shelves",
-            "Frames",
-            "Panels"
-          ]
+          categoryAr: "الأثاث المعدني",
+          items: ["Shelves", "Frames", "Panels"],
+          itemsAr: ["رفوف", "إطارات", "ألواح"]
         },
         {
           category: "Automotive & Machinery Parts",
-          items: [
-            "Brackets",
-            "Covers",
-            "Custom-cut plates"
-          ]
+          categoryAr: "قطع السيارات والميكانيكا",
+          items: ["Brackets", "Covers", "Custom-cut plates"],
+          itemsAr: ["حوامل", "أغطية", "صفائح مقطوعة مخصصة"]
         },
         {
           category: "General Industrial Cutting",
-          items: [
-            "Workshops",
-            "Factories",
-            "Metal processing lines"
-          ]
+          categoryAr: "الورش وخطوط التصنيع",
+          items: ["Workshops", "Factories", "Metal processing lines"],
+          itemsAr: ["ورش", "مصانع", "خطوط تصنيع المعادن"]
         }
       ],
 
@@ -5738,14 +8501,23 @@ Available in Hydraulic Guillotine Shearing and Hydraulic Swing Beam Shearing typ
         "Easy maintenance",
         "High productivity for mass production",
         "Reliable hydraulic performance"
+      ],
+      advantagesAr: [
+        "قص دقيق ونظيف",
+        "تشغيل منخفض التكلفة",
+        "سكاكين طويلة العمر",
+        "صيانة سهلة",
+        "إنتاجية عالية",
+        "أداء هيدروليكي موثوق"
       ]
     },
 
-    TitleTag: "",
-    MetaDescription: "",
-    Keywords: "NC press brake, hydraulic bending machine",
+    TitleTag: "2 Axis NC Hydraulic Shearing Machine | High-Performance Metal Cutting",
+    MetaDescription: "High-performance NC hydraulic shearing machine for precise and fast sheet metal cutting, suitable for industrial workshops.",
+    Keywords: "NC press brake, shearing machine, hydraulic cutting",
     SEOContent: ""
-  },
+  }
+
 ];
 
 export const productsWelding = [

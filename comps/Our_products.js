@@ -2,7 +2,7 @@ import React from "react";
 import Product from "./Product_comp";
 import styles from "../styles/Product.module.css";
 import Link from "next/link";
-import { RightOutlined } from "@ant-design/icons";
+import { LeftOutlined, RightOutlined } from "@ant-design/icons";
 import { Carousel } from "antd";
 import Image from "next/image";
 import {
@@ -104,7 +104,7 @@ const Our_products = () => {
       <div className="px-24 max-xl:px-10">
         <div className="">
           <div className="relative">
-            <div className="bg-[#f3ec5e24] p-6 rounded-full absolute -left-3 -top-3"></div>
+            <div className={`bg-[#f3ec5e24] p-6 rounded-full absolute ${language === "en" ? "-left-3" : "-right-3"} -top-3`}></div>
             <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
               {t("OUR PRODUCTS")}
             </p>
@@ -113,9 +113,7 @@ const Our_products = () => {
             {/* We offer a suitable laser machine for virtually any application. The
             range includes laser engravers, laser cutters, large-format laser
             cutting machines, and industrial marking lasers. */}
-            At the cutting edge of sheet metal cutting and bending, we're
-            committed to delivering expertly designed equipment that perfectly
-            fits your needs.
+            {t("High-Precision CNC & Laser Cutting Machines")}
           </h1>
         </div>
         <Carousel autoplay>
@@ -153,14 +151,19 @@ const Our_products = () => {
                     ? product.desc.substring(0, 100) + "..."
                     : product.desc;
 
+                const truncatedDescAr =
+                  product.desc.length > 100
+                    ? product.descAr.substring(0, 100) + "..."
+                    : product.descAr;
+
                 return (
                   <Product
                     key={product.id}
-                    title={product.name}
+                    title={(language === "en" ? product.name : product.nameAr) || product.name}
                     href={`/products/${product.id}`}
-                    background={{ backgroundImage: `url(${product.image})` }}
-                    method={product.title}
-                    description={truncatedDesc}
+                    background={{ backgroundImage: `url(${product.image_small})` }}
+                    method={(language === "en" ? product.title : product.titleAr) || product.title}
+                    description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
                   />
                 );
               })}
@@ -174,14 +177,19 @@ const Our_products = () => {
                     ? product.desc.substring(0, 100) + "..."
                     : product.desc;
 
+                const truncatedDescAr =
+                  product.desc.length > 100
+                    ? product.descAr.substring(0, 100) + "..."
+                    : product.descAr;
+
                 return (
                   <Product
                     key={product.id}
-                    title={product.name}
+                    title={(language === "en" ? product.name : product.nameAr) || product.name}
                     href={`/products/${product.id}`}
-                    background={{ backgroundImage: `url(${product.image})` }}
-                    method={product.title}
-                    description={truncatedDesc}
+                    background={{ backgroundImage: `url(${product.image_small})` }}
+                    method={(language === "en" ? product.title : product.titleAr) || product.title}
+                    description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
                   />
                 );
               })}
@@ -190,8 +198,12 @@ const Our_products = () => {
         </Carousel>
         <div className="mx-auto flex justify-center mt-14">
           <Link href="/" className={`${styles.btn_more} flex items-center`}>
-            More
-            <RightOutlined className={`ml-5 ${styles.arrow}`} />
+            {t("More")}
+            {
+              language === "en" ?
+                <RightOutlined className={`ml-5 ${styles.arrow}`} /> :
+                <LeftOutlined className={`mr-5 ${styles.arrow}`} />
+            }
           </Link>
         </div>
       </div>

@@ -6,8 +6,13 @@ import Link from "next/link";
 import EmailIcon from "@mui/icons-material/Email";
 import Head from "next/head";
 import MetaDefaults from "./MetaDefaults";
+import { useTranslation } from "react-i18next";
 
 const Layout = ({ children }) => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   return (
     <>
       {/* <Head>
@@ -56,7 +61,7 @@ const Layout = ({ children }) => {
       <div className="">{children}</div>
       <Link
         href="mailto:info@sigmamachines.net"
-        className="fixed bottom-24 right-5 z-50 bg-[#3baec1] hover:bg-[#339aab] p-4 max-lg:p-3 rounded-full"
+        className={`fixed bottom-24 ${language === "en" ? "right-5" : "left-5"} z-50 bg-[#3baec1] hover:bg-[#339aab] p-4 max-lg:p-3 rounded-full`}
       >
         <EmailIcon className="text-white" />
       </Link>

@@ -19,7 +19,7 @@ import Link from "next/link";
 import { useTranslation } from "react-i18next";
 import { getCookie, setCookie } from "cookies-next";
 import { Select } from "antd";
-import { PhoneFilled } from "@ant-design/icons";
+import { LeftOutlined, PhoneFilled, RightOutlined } from "@ant-design/icons";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const pages = [
@@ -383,7 +383,7 @@ function Navbar() {
                         }}
                       >
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
-                        <ArrowForwardIosIcon
+                        {/* <ArrowForwardIosIcon
                           sx={{
                             fontSize: "17px",
                             color: "#1c1c1c",
@@ -392,7 +392,13 @@ function Navbar() {
                             // textTransform: "capitalize",
                           }}
                           className="mx-4"
-                        />
+                        /> */}
+
+                        {
+                          language === "en" ?
+                            <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} /> :
+                            <LeftOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                        }
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -536,10 +542,13 @@ function Navbar() {
                         }}
                       >
                         {t("cnc_router_machines")}
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />{" "}
+
+                        {
+                          language === "en" ?
+                            <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                            <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                        }
+
                       </MenuItem>
                       <Menu
                         id="sub-menu"
@@ -598,10 +607,11 @@ function Navbar() {
                           }}
                         >
                           {t("atc_cnc_router")}
-                          <ArrowForwardIosIcon
-                            className="text-sm ml-5"
-                            sx={{ fontSize: "17px" }}
-                          />{" "}
+                          {
+                            language === "en" ?
+                              <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                              <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                          }
                         </MenuItem>
                         <Menu
                           id="sub-menu3"
@@ -645,10 +655,11 @@ function Navbar() {
                           }}
                         >
                           {t("multi_head_router")}
-                          <ArrowForwardIosIcon
-                            className="text-sm ml-5"
-                            sx={{ fontSize: "17px" }}
-                          />{" "}
+                          {
+                            language === "en" ?
+                              <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                              <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                          }
                         </MenuItem>
                         <Menu
                           id="sub-menu4"
@@ -720,10 +731,11 @@ function Navbar() {
                         }}
                       >
                         {t("fiber_laser_cutting")}
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />
+                        {
+                          language === "en" ?
+                            <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                            <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                        }
                       </MenuItem>
                       <Menu
                         id="sub2-menu"
@@ -775,10 +787,11 @@ function Navbar() {
                         }}
                       >
                         {t("fiber_laser_welding")}
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />
+                        {
+                          language === "en" ?
+                            <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                            <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                        }
                       </MenuItem>
                       <Menu
                         id="sub5-menu"
@@ -830,10 +843,11 @@ function Navbar() {
                         }}
                       >
                         {t("laser_marking_machines")}
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />
+                        {
+                          language === "en" ?
+                            <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                            <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                        }
                       </MenuItem>
                       <Menu
                         id="sub6-menu"
@@ -894,10 +908,11 @@ function Navbar() {
                         }}
                       >
                         {t("press_brake_machines")}
-                        <ArrowForwardIosIcon
-                          className="text-sm ml-5"
-                          sx={{ fontSize: "17px" }}
-                        />
+                        {
+                          language === "en" ?
+                            <RightOutlined className="text-sm ml-5" sx={{ fontSize: "17px" }} /> :
+                            <LeftOutlined className="text-sm mr-5" sx={{ fontSize: "17px" }} />
+                        }
                       </MenuItem>
                       <Menu
                         id="sub7-menu"

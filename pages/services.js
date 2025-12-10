@@ -6,6 +6,7 @@ import { Collapse } from "antd";
 import Head from "next/head";
 import Link from "next/link";
 import Meta from "@/comps/Meta";
+import { useTranslation } from "react-i18next";
 
 const text = `
   A dog is a type of domesticated animal.
@@ -31,6 +32,10 @@ const items = [
 ];
 
 const Services = () => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   return (
     <>
 
@@ -52,202 +57,140 @@ const Services = () => {
       />
 
 
-      <div className="relative">
-        <div className={`${styles.bg_services} `}>
-          <p className="text-center text-3xl max-lg:text-2xl text-white font-semibold pt-24 relative z-10">
-            Sigma Machines Services
-          </p>
-        </div>
-
-        {/* <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] max-lg:h-full w-full absolute top-0 z-0"></div> */}
-      </div>
-      <div className="px-24 max-xl:px-10">
-        <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-6 mt-20 max-xl:mt-10 mb-20">
-          <div>
-            <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
-              Service
+      <div dir={language === "en" ? "ltr" : "rtl"}>
+        <div className="relative">
+          <div className={`${styles.bg_services} `}>
+            <p className="text-center text-3xl max-lg:text-2xl text-white font-semibold pt-24 relative z-10">
+              {t("Sigma Machines Services")}
             </p>
-            <h1 className="text-[#1c1c1c] mt-4 text-4xl max-lg:text-2xl font-bold">
-              Professional Maintenance & Technical Support
-            </h1>
-            <p className="text-[#54545f] text-xl mt-4">
-              At Sigma Machines, service is not an option — it’s a core part of our identity. We provide one of the strongest post-sales technical support systems in Saudi Arabia, ensuring every machine operates at peak performance with minimal downtime.
-            </p>
-            <img
-              src="../services/1.jpg"
-              width="600"
-              height="150"
-              className="mx-auto mt-9 rounded-lg"
-            />
           </div>
-          <div className="grid grid-cols-1 max-xl:grid-cols-1 gap-6 mt-4">
+
+          {/* <div className="bg-[#00000085] max-lg:bg-[#4c4c4e] h-[250px] max-lg:h-full w-full absolute top-0 z-0"></div> */}
+        </div>
+        <div className="px-24 max-xl:px-10">
+          <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-6 mt-20 max-xl:mt-10 mb-20">
             <div>
-              <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                1
-              </div>
-              <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
-                Strong After-Sales Maintenance Team
-              </h3>
-              <p className="text-[#54545f] text-lg my-4">
-                Our dedicated maintenance engineers are highly trained and experienced in CNC routers, fiber laser cutters, CO₂ laser machines, welding systems, plasma machines, press brakes, and shearing equipment.
-                We respond quickly, diagnose accurately, and fix issues efficiently — keeping your production running without interruption.
+              <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
+                {t("Service")}
               </p>
-              {/* <Link
+              <h1 className="text-[#1c1c1c] mt-4 text-4xl max-lg:text-2xl font-bold">
+                {t("Professional Maintenance & Technical Support")}
+              </h1>
+              <p className="text-[#54545f] text-xl mt-4">
+                {t("At Sigma Machines, service is not an option — it’s a core part of our identity. We provide one of the strongest post-sales technical support systems in Saudi Arabia, ensuring every machine operates at peak performance with minimal downtime.")}
+              </p>
+              <img
+                src="../services/1.jpg"
+                width="600"
+                height="150"
+                className="mx-auto mt-9 rounded-lg"
+              />
+            </div>
+            <div className="grid grid-cols-1 max-xl:grid-cols-1 gap-6 mt-4">
+              <div>
+                <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
+                  1
+                </div>
+                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                  {t("Strong After-Sales Maintenance Team")}
+                </h3>
+                <p className="text-[#54545f] text-lg my-4">
+                  {t("Our dedicated maintenance engineers are highly trained and experienced in CNC routers, fiber laser cutters, CO₂ laser machines, welding systems, plasma machines, press brakes, and shearing equipment. We respond quickly, diagnose accurately, and fix issues efficiently — keeping your production running without interruption.")}
+                </p>
+                {/* <Link
                 className="text-[#d9d640] text-lg mt-6"
                 href="/themaintenance"
               >
                 View more
               </Link> */}
-            </div>
-            <div>
-              <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                2
               </div>
-              <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
-                Annual Maintenance Contracts
-              </h3>
-              <p className="text-[#54545f] text-lg mt-4">
-                We offer professional preventive maintenance plans tailored to factories, workshops, and production lines.
-                Contracts include:
+              <div>
+                <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
+                  2
+                </div>
+                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                  {t("Annual Maintenance Contracts")}
+                </h3>
+                <p className="text-[#54545f] text-lg mt-4">
+                  {t("We offer professional preventive maintenance plans tailored to factories, workshops, and production lines. Contracts include:  Scheduled preventive inspections  Full machine check-ups Laser alignment & calibration Lubrication & mechanical adjustments  Electrical diagnostics Performance optimization  These plans help extend machine lifespan, reduce breakdowns, and ensure stable, high-quality production.")}
 
-                Scheduled preventive inspections
-
-                Full machine check-ups
-
-                Laser alignment & calibration
-
-                Lubrication & mechanical adjustments
-
-                Electrical diagnostics
-
-                Performance optimization
-
-                These plans help extend machine lifespan, reduce breakdowns, and ensure stable, high-quality production.
-
-              </p>
-            </div>
-            <div>
-              <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                3
+                </p>
               </div>
-              <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
-                On-Site External Maintenance Service
-              </h3>
-              <p className="text-[#54545f] text-lg mt-4">
-                Our technicians can visit your facility anywhere in Saudi Arabia to perform full maintenance, emergency repairs, calibration, and upgrades.
-                We provide:
+              <div>
+                <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
+                  3
+                </div>
+                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                  {t("On-Site External Maintenance Service")}
+                </h3>
+                <p className="text-[#54545f] text-lg mt-4">
+                  {t("Our technicians can visit your facility anywhere in Saudi Arabia to perform full maintenance, emergency repairs, calibration, and upgrades. We provide: Emergency breakdown support  Replacement of critical parts  System recalibration  Motion system tuning  Software troubleshooting Operator training and re-training Maintenance isn’t limited to our machines — we service all types of machines")}
 
-                Emergency breakdown support
-
-                Replacement of critical parts
-
-                System recalibration
-
-                Motion system tuning
-
-                Software troubleshooting
-
-                Operator training and re-training
-
-                Maintenance isn’t limited to our machines — we service all types of machines
-
-              </p>
-            </div>
-            <div>
-              <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                4
+                </p>
               </div>
-              <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
-                Support for Chinese and International Suppliers in Saudi Arabia
-              </h3>
-              <p className="text-[#54545f] text-lg mt-4">
-                Sigma Machines provides full technical support and maintenance services for Chinese and international CNC and laser equipment suppliers operating in the Saudi market.
-                We act as a reliable local service partner for manufacturers who do not have a dedicated technical team inside the Kingdom.
+              <div>
+                <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
+                  4
+                </div>
+                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                  {t("Support for Chinese and International Suppliers in Saudi Arabia")}
+                </h3>
+                <p className="text-[#54545f] text-lg mt-4">
+                  {t("Sigma Machines provides full technical support and maintenance services for Chinese and international CNC and laser equipment suppliers operating in the Saudi market. We act as a reliable local service partner for manufacturers who do not have a dedicated technical team inside the Kingdom. Our team handles:  Warranty repairs On-site technical visits  Machine installation & commissioning  Preventive maintenance contracts  Spare parts replacement  Operator training and re-training  We support all major technologies including fiber laser cutting, CNC routers (3/4/5 axis), laser welding systems, laser marking machines, plasma cutting machines, press brakes, and shearing machines. This service enables global suppliers to maintain a strong presence in Saudi Arabia, ensure higher customer satisfaction, and strengthen their brand reputation in the region — without the need for permanent local staff.")}
 
-                Our team handles:
-
-                Warranty repairs
-
-                On-site technical visits
-
-                Machine installation & commissioning
-
-                Preventive maintenance contracts
-
-                Spare parts replacement
-
-                Operator training and re-training
-
-                We support all major technologies including fiber laser cutting, CNC routers (3/4/5 axis), laser welding systems, laser marking machines, plasma cutting machines, press brakes, and shearing machines.
-
-                This service enables global suppliers to maintain a strong presence in Saudi Arabia, ensure higher customer satisfaction, and strengthen their brand reputation in the region — without the need for permanent local staff.
-
-
-              </p>
-            </div>
-            <div>
-              <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                5
+                </p>
               </div>
-              <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
-                Fast Response & Reliable Support
-              </h3>
-              <p className="text-[#54545f] text-lg mt-4">
+              <div>
+                <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
+                  5
+                </div>
+                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                  {t("Fast Response & Reliable Support")}
+                </h3>
+                <p className="text-[#54545f] text-lg mt-4">
+                  {t("We know downtime costs money — that’s why our service team is structured for fast action:  Quick diagnosis  On-time visits  Professional repairs Transparent reporting  Follow-up checks")}
 
-                We know downtime costs money — that’s why our service team is structured for fast action:
-
-                Quick diagnosis
-
-                On-time visits
-
-                Professional repairs
-
-                Transparent reporting
-
-                Follow-up checks
-
-              </p>
-            </div>
-            <div>
-              <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
-                6
+                </p>
               </div>
-              <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
-                Spare Parts Availability
-              </h3>
-              <p className="text-[#54545f] text-lg mt-4">
+              <div>
+                <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
+                  6
+                </div>
+                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                  {t("Spare Parts Availability")}
+                </h3>
+                <p className="text-[#54545f] text-lg mt-4">
+                  {t("We keep essential spare parts in stock to ensure minimal waiting time for repairs. Motors, drivers, laser components, lens sets, belts, rails, controllers — all available for fast replacement.")}
 
-                We keep essential spare parts in stock to ensure minimal waiting time for repairs.
-                Motors, drivers, laser components, lens sets, belts, rails, controllers — all available for fast replacement.
-
-              </p>
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <We_are_here_for_you />
-      </div>
-      <div className="bg-[#d9d64038] pt-64 pb-24 -mt-44">
-        <div className="px-24 max-xl:px-10">
-          <div className="text-center">
-            <p className="text-[#d9d640] text-xl tracking-widest uppercase font-medium">
-              Frequently Asked Questions
-            </p>
-            <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold mb-12">
-              All that Need to Know
-            </h3>
-            {/* <p className="text-[#8d8e99] text-xl mt-5 mb-12">
+          <We_are_here_for_you />
+        </div>
+        <div className="bg-[#d9d64038] pt-64 pb-24 -mt-44">
+          <div className="px-24 max-xl:px-10">
+            <div className="text-center">
+              <p className="text-[#d9d640] text-xl tracking-widest uppercase font-medium">
+                {t("Frequently Asked Questions")}
+              </p>
+              <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold mb-12">
+                {t("All that Need to Know")}
+              </h3>
+              {/* <p className="text-[#8d8e99] text-xl mt-5 mb-12">
               Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p> */}
-          </div>
+            </div>
 
-          <Collapse
-            defaultActiveKey={["1"]}
-            ghost
-            showArrow={false}
-            items={items}
-            className="text-2xl"
-          />
+            <Collapse
+              defaultActiveKey={["1"]}
+              ghost
+              showArrow={false}
+              items={items}
+              className="text-2xl"
+            />
+          </div>
         </div>
       </div>
     </>

@@ -6,8 +6,13 @@ import Link from "next/link";
 import Head from "next/head";
 import Meta from "@/comps/Meta";
 import { TikTokOutlined } from "@ant-design/icons";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   const onChange = (e) => {
     console.log("Change:", e.target.value);
   };
@@ -19,16 +24,16 @@ const Contact = () => {
         description="Get in touch with Sigma Machines for inquiries, support, or custom industrial solutions – we're here to help via email, phone, or WhatsApp."
       />
 
-      <div className="bg-[#d9d64038]">
+      <div className="bg-[#d9d64038]" dir={language === "en" ? "ltr" : "rtl"}>
         <div className="px-24 max-xl:px-10">
           <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 pt-9 max-xl:pt-1 pb-12">
             <div className="text-lg mt-9 max-xl:mt-3">
               <h3 className="text-[#1d214e] text-2xl font-semibold">
-                Sigma Machines
+                {t("Sigma Machines")}
               </h3>
-              <p className="mt-8 text-[#d9d640]">Riyadh-Al-Sahafa</p>
-              <p className="text-[#1d214e]">distrait-king</p>
-              <p className="text-[#1d214e]">Abdulaziz Street</p>
+              <p className="mt-8 text-[#d9d640]"> {t("Riyadh-Al-Sahafa")}</p>
+              <p className="text-[#1d214e]"> {t("distrait-king")}</p>
+              <p className="text-[#1d214e]"> {t("Abdulaziz Street")}</p>
 
               <Link
                 href="mailto:info@sigmamachines.net"
@@ -36,18 +41,19 @@ const Contact = () => {
               >
                 info@sigmamachines.net
               </Link>
-              <h3>
+              <h3 >
                 <Link
                   href="tel:+966569745955"
                   className="text-[#1d214e] text-2xl font-semibold"
+                  dir="ltr"
                 >
-                  <span className="text-[#d9d640]">+966</span> 56 974 5955
+                  <span className="text-[#d9d640]" >+966</span> 56 974 5955
                 </Link>
               </h3>
 
               <p className="mt-4 text-[#858493]">
-                Monday - Friday: 09:00 to 18:00 (GMT +8). Closed on Saturday
-                Sunday.
+
+                {t("Monday - Friday: 09:00 to 18:00 (GMT +8). Closed on Saturday Sunday.")}
               </p>
 
               <hr />
@@ -89,36 +95,36 @@ const Contact = () => {
                 <div className={`${styles.half_circle} mobile_d_none`}></div>
                 <div className="bg-white p-8 rounded-3xl ml-auto relative z-0">
                   <h3 className="text-[#1d214e] text-2xl font-semibold">
-                    Write <span className="text-[#d9d640]"> A Message</span>
+                     {t("Write")} <span className="text-[#d9d640]">  {t("A Message")}</span>
                   </h3>
                   <div className="mt-8 text-lg">
-                    <p className="text-[#1d214e]">Full name</p>
+                    <p className="text-[#1d214e]"> {t("Full name")}</p>
                     <Input
-                      placeholder="Enter your name"
+                      placeholder={t("Enter your name")}
                       size="large"
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
-                    <p className="mt-4 text-[#1d214e]">Email*</p>
+                    <p className="mt-4 text-[#1d214e]">{t("Email")}*</p>
                     <Input
-                      placeholder="Enter your email"
+                      placeholder={t("Enter your email")}
                       size="large"
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
-                    <p className="mt-4 text-[#1d214e]">Phone</p>
+                    <p className="mt-4 text-[#1d214e]"> {t("Phone")}</p>
                     <Input
                       placeholder="+20"
                       size="large"
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
-                    <p className="mt-4 text-[#1d214e]">Message</p>
+                    <p className="mt-4 text-[#1d214e]"> {t("Message")}</p>
                     <TextArea
                       showCount
                       maxLength={100}
                       onChange={onChange}
-                      placeholder="Write your message here"
+                      placeholder={t("Write your message here")}
                       style={{
                         height: 100,
                         resize: "none",
@@ -134,7 +140,7 @@ const Contact = () => {
                       href="mailto:info@sigmamachines.net"
                       className={styles.btn_submit}
                     >
-                      Submit Now
+                       {t("Submit Now")}
                     </Link>
                   </div>
                 </div>

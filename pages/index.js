@@ -59,9 +59,9 @@ export default function Home() {
 
         <Main />
         <Products_bar />
-        <WhatWeOffer />
-        <Our_products />
+        {/* <WhatWeOffer /> */}
         <Our_services />
+        <Our_products />
         <Experience />
         <Samples />
 
