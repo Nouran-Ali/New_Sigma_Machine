@@ -31,9 +31,19 @@ const Contact = () => {
               <h3 className="text-[#1d214e] text-2xl font-semibold">
                 {t("Sigma Machines")}
               </h3>
-              <p className="mt-8 text-[#d9d640]"> {t("Riyadh-Al-Sahafa")}</p>
+              <h3 className="text-[#1d214e] text-xl font-semibold mt-8">
+                {t("Office address")}:
+              </h3>
+              <p className="mt-1 text-[#d9d640]"> {t("Riyadh-Al-Sahafa")}</p>
               <p className="text-[#1d214e]"> {t("distrait-king")}</p>
               <p className="text-[#1d214e]"> {t("Abdulaziz Street")}</p>
+
+              <h3 className="text-[#1d214e] text-xl font-semibold mt-5">
+                {t("Warehouse address")}:
+              </h3>
+              <p className=" text-[#d9d640]"> {t("Riyadh")}</p>
+              <p className="text-[#1d214e]"> {t("Al-Sulay Distric")}</p>
+              <p className="text-[#1d214e] mb-3"> {t("3969 Al-Jubeir Street")}</p>
 
               <Link
                 href="mailto:info@sigmamachines.net"
@@ -95,7 +105,7 @@ const Contact = () => {
                 <div className={`${styles.half_circle} mobile_d_none`}></div>
                 <div className="bg-white p-8 rounded-3xl ml-auto relative z-0">
                   <h3 className="text-[#1d214e] text-2xl font-semibold">
-                     {t("Write")} <span className="text-[#d9d640]">  {t("A Message")}</span>
+                    {t("Write")} <span className="text-[#d9d640]">  {t("A Message")}</span>
                   </h3>
                   <div className="mt-8 text-lg">
                     <p className="text-[#1d214e]"> {t("Full name")}</p>
@@ -140,7 +150,7 @@ const Contact = () => {
                       href="mailto:info@sigmamachines.net"
                       className={styles.btn_submit}
                     >
-                       {t("Submit Now")}
+                      {t("Submit Now")}
                     </Link>
                   </div>
                 </div>

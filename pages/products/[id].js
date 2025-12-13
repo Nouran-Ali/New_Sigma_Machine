@@ -139,7 +139,7 @@ const Product = () => {
 
         <div className="relative">
           <div className={`${styles.bg_products} `}>
-            <p className="relative z-10 text-center text-3xl max-lg:text-xl text-white font-semibold pt-36 max-lg:pt-32 max-lg:px-5">
+            <p className="relative z-10 text-center text-3xl max-lg:text-xl text-white font-semibold pt-36 max-lg:pt-10 max-lg:px-5">
               {t("Sigma Machines Products")} ( {language === "en" ? product?.name : product?.nameAr} )
             </p>
             <p className="text-center lg:text-lg text-[#a9a9a9] mt-3 relative z-10 max-lg:px-5">
@@ -251,12 +251,27 @@ const Product = () => {
 
           <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1 mt-7 mb-7">
             <div className="col-span-2">
-              <img
-                src={product?.image}
-                width={imageWidth}
-                height={imageHight}
-                className="rounded-lg max-lg:mb-5"
-              />
+              {
+                product?.image ?
+                  <img
+                    src={product?.image || "https://placehold.co"}
+                    width={imageWidth}
+                    height={imageHight}
+                    className="rounded-lg max-lg:mb-5"
+                    alt={product?.name}
+                    onError={(e) => {
+                      e.currentTarget.src = "https://placehold.co";
+                    }}
+                  />
+                  :
+                  <div className="h-full ml-5 bg-[#f7f4f775] flex items-center justify-center rounded-3xl">
+                    <span className="text-gray-400 text-sm">
+                      {t("No Image Available")}
+                    </span>
+                  </div>
+
+              }
+
             </div>
             <div>
               <div>

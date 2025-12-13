@@ -35,7 +35,7 @@ const items = [
 const Samples = () => {
 
     return (
-        <div className='mt-12 mb-12 px-24 max-xl:px-10 Samples'>
+        <div className='mt-12 mb-12 px-24 max-xl:px-10 Samples' >
             {/* <h1 className='text-xl tracking-widest uppercase text-center'>Samples</h1> */}
             <Tabs
                 defaultActiveKey="1"

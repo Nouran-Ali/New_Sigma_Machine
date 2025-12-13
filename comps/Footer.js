@@ -32,7 +32,7 @@ const Footer = () => {
                   <Link href="/about">{t("About us")}</Link>
                   <Link href="/services">{t("Services")}</Link>
                   <Link href="/products/1"> {t("Products")}</Link>
-                  <Link href="/resources"> {t("Resources")}</Link>
+                  <Link href="/themaintenance"> {t("Maintenance")}</Link>
                   <Link href="/contact"> {t("Contact")}</Link>
                 </div>
               </div>

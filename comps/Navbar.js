@@ -980,7 +980,7 @@ function Navbar() {
               >
                 {language == "ar" ? "EN" : "AR"}
               </Button>
-              <div className="flex items-center" dir="ltr">
+              <div className={`flex items-center ${language == "en" ? "lg:mx-4" : "lg:mx-10" } `} dir="ltr">
                 <div className={styles.bg_icon}>
                   <PhoneFilled />
                 </div>

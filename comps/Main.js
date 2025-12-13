@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
@@ -8,6 +8,43 @@ const Main = () => {
 
   const [t, i18n] = useTranslation();
   const { language } = i18n;
+
+  const images = [
+    "/products/router-550x750-removebg-preview.png",
+    "../products/20.webp",
+    "../products/21.webp",
+    "../products/23.webp",
+    "../products/24.webp",
+    "../products/25.webp",
+    "../products/26.webp",
+    "../products/27.webp",
+    "../products/28.webp",
+    "../products/29.webp",
+    "../products/30.webp",
+    "../products/31.webp",
+    "../products/32.webp",
+    "../products/33.webp",
+    "../products/34.webp",
+    "../products/35.webp",
+    "../products/40.webp",
+    "../products/41.webp",
+    "../products/42.webp",
+    "../products/co2-550x750.png",
+    "../products/fiber-laser-550x750.png",
+    "../products/Letter-Bending-550x750.png",
+    "../products/press-brake-550x750.png",
+    "../products/welding-550x750.png",
+  ];
+
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <>
@@ -76,7 +113,8 @@ const Main = () => {
                 height="550"
               /> */}
               <img
-                src="/products/router-550x750-removebg-preview.png"
+                // src="/products/router-550x750-removebg-preview.png"
+                 src={images[currentImage]}
                 className={` ${styles.image} relative z-10`}
                 width="800"
                 height="550"

@@ -200,8 +200,12 @@
 
 /* .image {
     /* transform: rotateY(-169deg); */
-    /* margin-top: -45px; 
+/* margin-top: -45px; 
 } */
+
+.image {
+    transition: opacity 0.5s ease-in-out;
+}
 
 /* our services */
 

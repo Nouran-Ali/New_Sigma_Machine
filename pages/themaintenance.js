@@ -10,8 +10,13 @@ import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
 import Meta from "@/comps/Meta";
+import { useTranslation } from "react-i18next";
 
 const Themaintenance = () => {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
   const [tabPosition, setTabPosition] = useState("left");
   const [tabPositionAr, setTabPositionAr] = useState("right");
   const [tabPositionTop, setTabPositionTop] = useState("top");
@@ -48,9 +53,9 @@ const Themaintenance = () => {
       />
 
       <div className={`${styles.bg_resources}`}>
-        <h1 className="text-white text-5xl text-center pt-24">Applications</h1>
+        <h1 className="text-white text-5xl text-center pt-24">{t("Applications")}</h1>
         <h1 className="text-[#bfbfbf] text-2xl text-center pt-5">
-          Maintenance
+           {t("Maintenance")}
         </h1>
       </div>
 

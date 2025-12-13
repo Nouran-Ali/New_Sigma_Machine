@@ -17,15 +17,39 @@ const Products_bar = () => {
 
   const containerRef = useRef(null)
 
-  const allProducts = [
-    ...products,
-    ...productsWelding,
-    ...productsPlasma,
-    ...productsPress,
-    ...productsShearing,
-  ];
+  // const images = products.map(item => item.image);
+  // const images = products
+  //   .filter(item => typeof item.image === "string" && item.image.trim())
+  //   .map(item => item.image);
 
-  const images = allProducts.map(item => item.image);
+  const images = [
+    "../products/20.webp",
+    "../products/21.webp",
+    "../products/23.webp",
+    "../products/24.webp",
+    "../products/25.webp",
+    "../products/26.webp",
+    "../products/27.webp",
+    "../products/28.webp",
+    "../products/29.webp",
+    "../products/30.webp",
+    "../products/31.webp",
+    "../products/32.webp",
+    "../products/33.webp",
+    "../products/34.webp",
+    "../products/35.webp",
+    "../products/40.webp",
+    "../products/41.webp",
+    "../products/42.webp",
+    "../products/co2-550x750.png",
+    "../products/fiber-laser-550x750.png",
+    "../products/Letter-Bending-550x750.png",
+    "../products/marker-portable-350x370.png",
+    "../products/marker-350x370.png",
+    "../products/press-brake-550x750.png",
+    "../products/router-550x750.png",
+    "../products/welding-550x750.png",
+  ]
 
   useAnimationFrame((t, delta) => {
     if (!isPaused && containerRef.current) {
