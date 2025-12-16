@@ -280,9 +280,12 @@ const Product = () => {
                     {language === "en" ? product?.name : product?.nameAr}
                   </h3>
 
-                  <h3 className="text-[#1c1c1c] text-xl mt-5">
-                    {t("Working Area")}
-                  </h3>
+                  {
+                    (product?.id === 24 || product?.id === 17 || product?.id === 20) ? null :
+                      <h3 className="text-[#1c1c1c] text-xl mt-5">
+                        {t("Working Area")}
+                      </h3>
+                  }
 
                   {(language === "en" ? product?.details?.workingArea : product?.details?.workingAreaAr)?.map((w, index) => (
                     <div key={index}>

@@ -5986,12 +5986,12 @@ With exceptionally clean weld spots and adjustable micro-level parameters, it is
         }
       ],
 
-      workingArea: [
-        "Thin sheet metals",
-        "Small delicate components",
-        "3D stainless-steel and aluminum letters",
-        "Electronics micro parts"
-      ],
+      // workingArea: [
+      //   "Thin sheet metals",
+      //   "Small delicate components",
+      //   "3D stainless-steel and aluminum letters",
+      //   "Electronics micro parts"
+      // ],
       workingAreaAr: [
         "معادن رقيقة",
         "قطع صغيرة ودقيقة",
@@ -6302,12 +6302,11 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
       ],
 
       workingArea: [
-        "Non-metal materials: wood, leather, acrylic, plastics, rubber, fabric, paper, cardboard, glass",
-        "Large marking fields with F-Theta lenses up to 800×800 mm"
+        "up to 800×800 mm"
       ],
       workingAreaAr: [
-        "مواد غير معدنية: خشب، جلد، أكريليك، بلاستيك، مطاط، قماش، ورق، كرتون، زجاج",
-        "مساحات تعليم كبيرة حتى 800×800 مم مع عدسات F-Theta"
+        
+        "حتى 800×800 مم  "
       ],
 
       applications: [
@@ -6686,16 +6685,10 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
       ],
 
       workingArea: [
-        "Metals: stainless steel, carbon steel, aluminum, brass, copper, titanium, gold, silver",
-        "Hard plastics: ABS, PVC, PC",
-        "Large marking fields up to 300×300 mm",
-        "Supports MOPA color marking on select metals"
+        "100×100 mm to 550×550 mm",
       ],
       workingAreaAr: [
-        "المعادن: ستانلس ستيل، كربون ستيل، ألومنيوم، نحاس أصفر، نحاس، تيتانيوم، ذهب، فضة",
-        "البلاستيك الصلب: ABS, PVC, PC",
-        "مساحات حفر كبيرة حتى 300×300 مم",
-        "يدعم الحفر الملون MOPA على بعض المعادن"
+        "100×100 مم الي 550×550 مم",
       ],
 
       applications: [
@@ -7008,18 +7001,18 @@ Using a short 355nm wavelength, UV lasers deliver “cold marking,” ideal for 
           ]
         }
       ],
-      workingArea: [
-        "Electronics & Semiconductors: IC chips, micro-components, connectors, phone parts, camera modules, PCB marking",
-        "Medical & Laboratory Devices: syringes, catheters, medical tubes, surgical plastics, pharmaceutical packaging",
-        "Cosmetics & Packaging: plastic bottles, transparent caps, date coding & batch marking, anti-counterfeit marking",
-        "Glass & Crystal Marking: cups, bottles, perfume glass, barcode marking, decorative engraving"
-      ],
-      workingAreaAr: [
-        "الإلكترونيات والرقائق: شرائح IC، المكونات الدقيقة، الموصلات، أجزاء الهواتف، وحدات الكاميرا، علامات PCB",
-        "الأجهزة الطبية والمخبرية: محاقن، قساطر، أنابيب طبية، بلاستيك جراحي، تغليف دوائي",
-        "المستحضرات والتغليف: زجاجات بلاستيكية، أغطية شفافة، ترميز تواريخ، ترميز دفعات، علامات مكافحة التزوير",
-        "الزجاج والكريستال: أكواب، زجاجات، زجاج العطور، باركود، نقش زخرفي"
-      ],
+      // workingArea: [
+      //   "Electronics & Semiconductors: IC chips, micro-components, connectors, phone parts, camera modules, PCB marking",
+      //   "Medical & Laboratory Devices: syringes, catheters, medical tubes, surgical plastics, pharmaceutical packaging",
+      //   "Cosmetics & Packaging: plastic bottles, transparent caps, date coding & batch marking, anti-counterfeit marking",
+      //   "Glass & Crystal Marking: cups, bottles, perfume glass, barcode marking, decorative engraving"
+      // ],
+      // workingAreaAr: [
+      //   "الإلكترونيات والرقائق: شرائح IC، المكونات الدقيقة، الموصلات، أجزاء الهواتف، وحدات الكاميرا، علامات PCB",
+      //   "الأجهزة الطبية والمخبرية: محاقن، قساطر، أنابيب طبية، بلاستيك جراحي، تغليف دوائي",
+      //   "المستحضرات والتغليف: زجاجات بلاستيكية، أغطية شفافة، ترميز تواريخ، ترميز دفعات، علامات مكافحة التزوير",
+      //   "الزجاج والكريستال: أكواب، زجاجات، زجاج العطور، باركود، نقش زخرفي"
+      // ],
       applications: [
         {
           category: "Electronics & Semiconductors",
@@ -8297,7 +8290,7 @@ With a simple NC controller, hydraulic power, and a solid frame structure, it of
     title: "2 Axis NC Press Brake",
     titleAr: "ماكينة القص – Shearing Machine",
     desc: "High-performance NC hydraulic press brake for precise metal bending and sheet fabrication.",
-    descAr: "ماكينة قص عالية الأداء لقص صفائح المعادن بدقة وسرعة.",
+    descAr: "ماكينة NC Hydraulic Press Brake عالية الأداء لعمليات الثني الدقيق للمعادن وتشكيل الصفائح المعدنية.",
 
     overview: `
 High-Performance Metal Cutting for Industrial Sheet Fabrication

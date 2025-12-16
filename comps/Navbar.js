@@ -50,7 +50,7 @@ const pages = [
   // },
   {
     title: "Maintenance",
-    title_ar: "المصادر",
+    title_ar: "الصيانة",
     href: "/themaintenance",
   },
   {
