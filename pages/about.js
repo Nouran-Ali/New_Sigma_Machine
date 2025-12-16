@@ -1,18 +1,58 @@
 import React from "react";
 import styles from "../styles/About.module.css";
 import Link from "next/link";
-import { CheckCircleFilled } from "@ant-design/icons";
+import { CheckCircleFilled, MinusOutlined, PlusOutlined } from "@ant-design/icons";
 import Image from "next/image";
 import BiotechIcon from "@mui/icons-material/Biotech";
 import InventoryIcon from "@mui/icons-material/Inventory";
 import DomainVerificationIcon from "@mui/icons-material/DomainVerification";
 import Meta from "@/comps/Meta";
 import { useTranslation } from "react-i18next";
+import { Collapse } from "antd";
+import We_are_here_for_you from "@/comps/We_are_here_for_you";
 
 const About = () => {
 
   const [t, i18n] = useTranslation();
   const { language } = i18n;
+
+  const text = `
+  A dog is a type of domesticated animal.
+  Known for its loyalty and faithfulness,
+  it can be found as a welcome guest in many households across the world.
+`;
+  const items = [
+    {
+      key: "1",
+      label: t("What services does Sigma provide for CNC machines?"),
+      children: <p className="text-lg text-[#54545f] ml-6">{t("We provide the supply and sale of CNC machines in various types and capacities, in addition to installation, training, maintenance, and after-sales services to ensure optimal machine performance.")}</p>,
+    },
+    {
+      key: "2",
+      label: t("Are the machines suitable for beginners or only for professionals?"),
+      children: <p className="text-lg text-[#54545f] ml-6">{t("Sigma machines are suitable for both beginners and professionals. We provide full operational training along with continuous technical support.")}</p>,
+    },
+    {
+      key: "3",
+      label: t("Can the machine be customized to suit my project needs?"),
+      children: <p className="text-lg text-[#54545f] ml-6">{t("Yes, we offer customized solutions based on the nature of your project and help you choose the appropriate specifications according to your workspace and production requirements.")}</p>,
+    },
+    {
+      key: "4",
+      label: t("Do you provide periodic maintenance services?"),
+      children: <p className="text-lg text-[#54545f] ml-6">{t("Yes, we provide periodic maintenance to ensure machine efficiency, reduce breakdowns, and extend the machine’s lifespan.")}</p>,
+    },
+    {
+      key: "5",
+      label: t("What does after-sales service include?"),
+      children: <p className="text-lg text-[#54545f] ml-6">{t("After-sales service includes technical support, consultations, maintenance, spare parts supply, and continuous follow-up to ensure credibility and customer satisfaction.")}</p>,
+    },
+    {
+      key: "6",
+      label: t("Do you offer machine shipping inside and outside the country?"),
+      children: <p className="text-lg text-[#54545f] ml-6">{t("Yes, we provide safe shipping services both domestically and internationally, ensuring the machine’s safety during transportation.")}</p>,
+    },
+  ];
 
   return (
     <>
@@ -185,6 +225,39 @@ const About = () => {
                 </div>
               </Link>
             </div>
+          </div>
+
+          <We_are_here_for_you />
+        </div>
+        <div className="bg-[#d9d64038] pt-64 pb-24 -mt-44">
+          <div className="px-24 max-xl:px-10">
+            <div className="text-center">
+              <p className="text-[#d9d640] text-xl tracking-widest uppercase font-medium">
+                {t("Frequently Asked Questions")}
+              </p>
+              <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold mb-12">
+                {t("All that Need to Know")}
+              </h3>
+              {/* <p className="text-[#8d8e99] text-xl mt-5 mb-12">
+                        Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                      </p> */}
+            </div>
+
+            <Collapse
+              defaultActiveKey={["1"]}
+              ghost
+              // showArrow={false}
+              showArrow
+              items={items}
+              className="text-2xl"
+              expandIcon={({ isActive }) =>
+                isActive ? (
+                  <MinusOutlined className="text-xl text-[#283D63] mt-4" />
+                ) : (
+                  <PlusOutlined className="text-xl text-[#283D63] mt-4" />
+                )
+              }
+            />
           </div>
         </div>
       </div>

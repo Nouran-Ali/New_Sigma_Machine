@@ -167,9 +167,9 @@ const Services = () => {
             </div>
           </div>
 
-          <We_are_here_for_you />
+          {/* <We_are_here_for_you /> */}
         </div>
-        <div className="bg-[#d9d64038] pt-64 pb-24 -mt-44">
+        {/* <div className="bg-[#d9d64038] pt-64 pb-24 -mt-44">
           <div className="px-24 max-xl:px-10">
             <div className="text-center">
               <p className="text-[#d9d640] text-xl tracking-widest uppercase font-medium">
@@ -178,9 +178,7 @@ const Services = () => {
               <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold mb-12">
                 {t("All that Need to Know")}
               </h3>
-              {/* <p className="text-[#8d8e99] text-xl mt-5 mb-12">
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p> */}
+              
             </div>
 
             <Collapse
@@ -191,7 +189,7 @@ const Services = () => {
               className="text-2xl"
             />
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
