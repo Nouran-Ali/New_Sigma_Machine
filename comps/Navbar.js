@@ -370,7 +370,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className="flex items-center text-[#304644] pl-5 ml-2 pt-3 font-bold normal-case text-base"
+                        className="flex items-center text-[#304644] pl-5 ml-2 pt-3 font-bold text-base"
                         sx={{
                           color: "rgb(48, 70, 68)",
                           marginRight: "15px",
@@ -382,6 +382,11 @@ function Navbar() {
                           justifyContent: "space-between",
                         }}
                       >
+
+                      {
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                        }
+
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
                         {/* <ArrowForwardIosIcon
                           sx={{
@@ -395,9 +400,8 @@ function Navbar() {
                         /> */}
 
                         {
-                          language === "en" ?
-                            <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} /> :
-                            <LeftOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                          language === "en" &&
+                            <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
                       </Button>
                       <Menu
@@ -423,7 +427,7 @@ function Navbar() {
                         color: "#304644",
                         textDecoration: "none",
                       }}
-                      className="flex items-center text-[#304644] px-5 mr-3 ml-2 pt-3 font-bold normal-case text-base"
+                      className="flex items-center max-lg:justify-end text-[#304644] px-5 mr-3 ml-2 max-lg:px-1 pt-3 font-bold normal-case text-base"
                     >
                       {i18n.language === "ar" ? title_ar : title}
                     </Link>
@@ -445,7 +449,7 @@ function Navbar() {
                     padding: "7px 28px 0px 28px",
                     fontSize: "16px",
                   }}
-                  className="flex items-center text-[#304644] px-7 mr-3 pt-3 font-bold normal-case text-base"
+                  className="flex items-center max-lg:justify-end text-[#304644] px-7 max-lg:px-0 max-lg:mx-auto mr-3 pt-3 font-bold normal-case text-base"
                 >
                   {language == "ar" ? "EN" : "AR"}
                 </Button>

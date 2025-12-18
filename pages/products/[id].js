@@ -76,6 +76,10 @@ const Product = () => {
 
   const mailtoLink = `mailto:info@sigmamachines.net?subject=Inquiry about ${product?.name}`;
 
+  const phoneNumber = "+966569745955";
+  const message = "Hello, I need more information about";
+  const messageAr = "مرحبا انا احتاج بعض المعلومات عن";
+
   return (
     <>
       {/* <Head>
@@ -293,10 +297,27 @@ const Product = () => {
                     </div>
                   ))}
                 </div>
-                <div className="flex bg-[#3baec1] text-white rounded-2xl mt-5 p-5 text-xl">
+                {/* <div className="flex bg-[#3baec1] text-white rounded-2xl mt-5 p-5 text-xl">
                   <a href={mailtoLink} className="flex items-center">
                     <MailOutlined />
                     <p className="mx-4">{t("Email us")}</p>
+                  </a>
+                </div> */}
+                <div className={`flex bg-green-500 hover:bg-green-600 text-white rounded-2xl mt-5 text-xl ${language === "en" ? "" : ""} z-50`}>
+                  <a
+                    href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                      `${ language === "en" ? message : messageAr} ${language === "en" ? product?.name : product?.nameAr}`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-white p-3 max-lg:p-2 rounded-full  transition-colors duration-300"
+                  >
+                    <img
+                      src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                      alt="WhatsApp"
+                      className="w-8 h-8"
+                    />
+                    <span className="mx-4">{t("Chat with us")}</span>
                   </a>
                 </div>
               </div>

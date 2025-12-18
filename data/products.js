@@ -5155,8 +5155,8 @@ It combines flat sheet cutting and tube/pipe cutting into a single high-performa
     name: "Handheld Fiber Laser Welding Machine",
     nameAr: "ماكينة اللحام بالليزر المحمولة – فايبر",
 
-    image: "",
-    image_small: "",
+    image: "/../products/welding-550x750.png",
+    image_small: "/../products/welding-350x370.png",
     slug: "handheld-fiber-laser-welding-machine",
 
     title: "Handheld Fiber Laser Welding Machine",
@@ -6210,8 +6210,8 @@ With exceptionally clean weld spots and adjustable micro-level parameters, it is
     name: "CO₂ Laser Marking Machine",
     nameAr: "ماكينة تعليم الليزر CO₂",
 
-    image: "",
-    image_small: "",
+    image: "/../products/marker550x750.png",
+    image_small: "/../products/marker-350x370.png",
     slug: "co2-laser-marking-machine",
 
     title: "CO₂ Laser Marking Machine",
@@ -6553,8 +6553,8 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
     name: "Fiber Laser Marking Machine",
     nameAr: "ماكينة الحفر بالليزر فايبر",
 
-    image: "",
-    image_small: "",
+    image: "/../products/marker550x750.png",
+    image_small: "/../products/marker-350x370.png",
     slug: "fiber-laser-marking-machine",
 
     title: "Fiber Laser Marking Machine",
@@ -6921,8 +6921,8 @@ Using advanced fiber laser sources (20W–100W, JPT, Raycus, MAX), it delivers e
     id: 20,
     name: "UV Laser Marking Machine",
     nameAr: "ماكينة الحفر بالليزر UV",
-    image: "",
-    image_small: "",
+    image: "/../products/marker550x750.png",
+    image_small: "/../products/marker-350x370.png",
     slug: "uv-laser-marking-machine",
     title: "UV Laser Marking Machine",
     titleAr: "ماكينة الحفر بالليزر UV",

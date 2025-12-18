@@ -7,6 +7,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import Head from "next/head";
 import MetaDefaults from "./MetaDefaults";
 import { useTranslation } from "react-i18next";
+import { PhoneIcon } from "lucide-react";
 
 const Layout = ({ children }) => {
 
@@ -60,8 +61,15 @@ const Layout = ({ children }) => {
       <Navbar />
       <div className="">{children}</div>
       <Link
+        href="tel:+966569745955"
+        className={`fixed bottom-44 max-lg:bottom-36 ${language === "en" ? "right-5" : "left-5"
+          } z-50 bg-[#25D366] hover:bg-[#1ebe5d] p-4 max-lg:p-3 rounded-full`}
+      >
+        <PhoneIcon className="text-white" />
+      </Link>
+      <Link
         href="mailto:info@sigmamachines.net"
-        className={`fixed bottom-24 ${language === "en" ? "right-5" : "left-5"} z-50 bg-[#3baec1] hover:bg-[#339aab] p-4 max-lg:p-3 rounded-full`}
+        className={`fixed bottom-24 max-lg:bottom-20 ${language === "en" ? "right-5" : "left-5"} z-50 bg-[#3baec1] hover:bg-[#339aab] p-4 max-lg:p-3 rounded-full`}
       >
         <EmailIcon className="text-white" />
       </Link>
