@@ -59,7 +59,7 @@ const Layout = ({ children }) => {
       </head>
 
       <Navbar />
-      <div className="">{children}</div>
+      <div className={`${language === "ar" && "body_ar" }`}>{children}</div>
       <Link
         href="tel:+966569745955"
         className={`fixed bottom-44 max-lg:bottom-36 ${language === "en" ? "right-5" : "left-5"
