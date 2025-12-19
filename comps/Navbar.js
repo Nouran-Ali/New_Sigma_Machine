@@ -94,6 +94,11 @@ function Navbar() {
     setAnchorEl(null);
     setAnchorElSub(null);
     setAnchorElSub2(null);
+    setAnchorElSub3(null);
+    setAnchorElSub4(null);
+    setAnchorElSub5(null);
+    setAnchorElSub6(null);
+    setAnchorElSub7(null);
   };
 
   const [anchorElSub, setAnchorElSub] = React.useState(null);
