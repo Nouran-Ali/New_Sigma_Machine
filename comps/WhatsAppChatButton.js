@@ -22,7 +22,7 @@ const WhatsAppChatButton = () => {
           alt="WhatsApp"
           className="w-8 h-8"
         />
-        {/* <span className="ml-2 text-sm">Chat with us</span> */}
+        <span className="mx-2 text-sm">{t("Contact us")}</span>
       </a>
     </div>
   );
