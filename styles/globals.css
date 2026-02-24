@@ -29,6 +29,7 @@ body {
   font-family: "Jost", sans-serif;
   font-weight: 500;
   overflow-x: hidden;
+  background-image: linear-gradient(90deg, transparent , transparent, rgba(0, 0, 0, 0.123));
 }
 
 .body_ar{

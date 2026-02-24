@@ -114,7 +114,7 @@ const Main = () => {
               /> */}
               <img
                 // src="/products/router-550x750-removebg-preview.png"
-                 src={images[currentImage]}
+                src={images[currentImage]}
                 className={` ${styles.image} relative z-10`}
                 width="800"
                 height="550"
@@ -163,6 +163,51 @@ const Main = () => {
             loading="lazy"
           // placeholder="blur"
           />
+        </div>
+      </div>
+
+      <div className="px-24 max-xl:px-10 py-16">
+        <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-6">
+
+          {/* Banner 1 */}
+          <div className="relative group overflow-hidden rounded-2xl">
+            <img
+              src="/1.png"
+              className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+            />
+            <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+              {/* <p className="text-white text-xl font-bold">
+                Fiber Laser Offer
+              </p> */}
+            </div>
+          </div>
+
+          {/* Banner 2 */}
+          <div className="relative group overflow-hidden rounded-2xl">
+            <img
+              src="/2.png"
+              className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+            />
+            <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+              {/* <p className="text-white text-xl font-bold">
+                CNC Router Deals
+              </p> */}
+            </div>
+          </div>
+
+          {/* Banner 3 */}
+          <div className="relative group overflow-hidden rounded-2xl">
+            <img
+              src="/10.jpeg"
+              className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
+            />
+            <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
+              {/* <p className="text-white text-xl font-bold">
+                Welding Machines
+              </p> */}
+            </div>
+          </div>
+
         </div>
       </div>
     </>

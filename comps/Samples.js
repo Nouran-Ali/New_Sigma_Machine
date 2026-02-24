@@ -4,6 +4,7 @@ import Fiber_laser_sample from './Fiber_laser_sample';
 import CO2_Laser_sample from './CO2_Laser_sample';
 import Cnc_router_sample from './Cnc_router_sample';
 import Laser_marking_sample from './Laser_marking_sample';
+import { useTranslation } from 'react-i18next';
 
 const onChange = (key) => {
     console.log(key);
@@ -34,17 +35,22 @@ const items = [
 
 const Samples = () => {
 
+    const [t, i18n] = useTranslation();
+    const { language } = i18n;
+
     return (
         <div className='mt-12 mb-12 px-24 max-xl:px-10 Samples' >
-            {/* <h1 className='text-xl tracking-widest uppercase text-center'>Samples</h1> */}
-            <Tabs
+            <h1 className='text-[#1c1c1c] text-3xl max-lg:text-xl tracking-widest uppercase text-center'>{t("Samples")}</h1>
+            {/* <Tabs
                 defaultActiveKey="1"
                 items={items}
                 onChange={onChange}
                 indicatorSize={(origin) => origin - 16}
                 centered={true}
                 className='mt-5'
-            />
+            /> */}
+            <Fiber_laser_sample />
+            <CO2_Laser_sample />
         </div>
     )
 }

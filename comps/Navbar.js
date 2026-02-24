@@ -30,7 +30,7 @@ const pages = [
   },
   {
     title: "About us",
-    title_ar: "عنا",
+    title_ar: "عن سيجما",
     href: "/about",
   },
   {
