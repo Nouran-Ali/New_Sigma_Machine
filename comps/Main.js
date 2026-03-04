@@ -166,10 +166,10 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="px-24 max-xl:px-10 py-16">
+      {/* <div className="px-24 max-xl:px-10 py-16">
         <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-6">
 
-          {/* Banner 1 */}
+          {/* Banner 1 *
           <div className="relative group overflow-hidden rounded-2xl">
             <img
               src="/1.png"
@@ -178,11 +178,11 @@ const Main = () => {
             <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
               {/* <p className="text-white text-xl font-bold">
                 Fiber Laser Offer
-              </p> */}
+              </p> *
             </div>
           </div>
 
-          {/* Banner 2 */}
+          {/* Banner 2 *
           <div className="relative group overflow-hidden rounded-2xl">
             <img
               src="/2.png"
@@ -191,11 +191,11 @@ const Main = () => {
             <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
               {/* <p className="text-white text-xl font-bold">
                 CNC Router Deals
-              </p> */}
+              </p> *
             </div>
           </div>
 
-          {/* Banner 3 */}
+          {/* Banner 3 *
           <div className="relative group overflow-hidden rounded-2xl">
             <img
               src="/10.jpeg"
@@ -204,12 +204,12 @@ const Main = () => {
             <div className="absolute inset-0 bg-black/20 flex items-center justify-center">
               {/* <p className="text-white text-xl font-bold">
                 Welding Machines
-              </p> */}
+              </p> *
             </div>
           </div>
 
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
