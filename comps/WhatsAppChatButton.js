@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 const WhatsAppChatButton = () => {
   const phoneNumber = "+966569745955";
   const message = "Hello, I need more information!";
+  const messageAr = "مرحبا احتاج المزيد من المعلومات";
 
   const [t, i18n] = useTranslation();
   const { language } = i18n;
@@ -11,7 +12,7 @@ const WhatsAppChatButton = () => {
     <div className={`fixed bottom-5 ${language === "en" ? "right-5" : "left-5"} z-50`}>
       <a
         href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-          message
+          language === "en" ? message : messageAr
         )}`}
         target="_blank"
         rel="noopener noreferrer"
