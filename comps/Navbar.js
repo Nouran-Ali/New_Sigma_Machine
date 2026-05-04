@@ -292,7 +292,7 @@ function Navbar() {
               sx={
                 language == "ar"
                   ? {
-                    mr: 15,
+                    mr: 5,
                     ml: 9,
                     display: { xs: "none", md: "flex" },
                     fontFamily: "monospace",
@@ -375,11 +375,12 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10" : "max-lg:mr-10" }  pt-3 font-normal text-[18px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10" : "max-lg:mr-10" }  pt-3 font-normal text-[18px] max-lg:text-[15px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           marginRight: "15px",
-                          fontWeight: "500",
+                          fontSize: "16px" ,
+                          fontWeight: "400",
                           textTransform: "capitalize",
                           padding: "0px 0px 0px 0px",
                           display: "flex",
@@ -521,7 +522,8 @@ function Navbar() {
                       className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]"
                       sx={{
                         color: "#54545F",
-                        fontWeight: "500",
+                        fontWeight: "400",
+                        fontSize: "16px" ,
                         padding: "13px 17px",
                         textTransform: "capitalize",
                         fontFamily: "Cairo",
