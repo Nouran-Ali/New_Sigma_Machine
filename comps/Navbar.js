@@ -378,11 +378,10 @@ function Navbar() {
                         className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10" }  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
-                          marginRight: "15px",
                           fontSize: "16px" ,
                           fontWeight: "400",
                           textTransform: "capitalize",
-                          padding: "0px 0px 0px 0px",
+                          padding: "10px 0px 1px 7px",
                           display: "flex",
                           justifyContent: "space-between",
                           fontFamily: "Cairo",
