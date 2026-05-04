@@ -26,29 +26,25 @@
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  /* font-family: "Jost", sans-serif; */
+  font-family: "Cairo", sans-serif;
   font-weight: 500;
   overflow-x: hidden;
-  background-image: linear-gradient(90deg, transparent , transparent, rgba(0, 0, 0, 0.123));
+  /* background-image: linear-gradient(90deg, transparent, transparent, rgba(0, 0, 0, 0.123)); */
 }
 
-.body_ar{
+.body_ar {
   font-family: "Cairo", sans-serif;
 }
 
-:where(.css-dev-only-do-not-override-1vr7spz).ant-carousel
-  .slick-dots
-  li
-  button {
+:where(.css-dev-only-do-not-override-1vr7spz).ant-carousel .slick-dots li button {
   background-color: black !important;
 }
 
-:where(.css-dev-only-do-not-override-1vr7spz).ant-carousel
-  .slick-dots
-  li.slick-active
-  button {
+:where(.css-dev-only-do-not-override-1vr7spz).ant-carousel .slick-dots li.slick-active button {
   background: black !important;
 }
+
 :where(.css-dev-only-do-not-override-1vr7spz).ant-carousel .slick-dots-bottom {
   bottom: -28px !important;
 }
@@ -58,10 +54,7 @@ body {
   z-index: 2;
 }
 
-.Samples
-  :where(.css-dev-only-do-not-override-byeoj0).ant-tabs
-  .ant-tabs-tab.ant-tabs-tab-active
-  .ant-tabs-tab-btn {
+.Samples :where(.css-dev-only-do-not-override-byeoj0).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
   color: #d9d640 !important;
 }
 
@@ -73,9 +66,7 @@ body {
   color: #d9d640 !important;
 }
 
-:where(.css-dev-only-do-not-override-byeoj0).ant-tabs
-  .ant-tabs-tab.ant-tabs-tab-active
-  .ant-tabs-tab-btn {
+:where(.css-dev-only-do-not-override-byeoj0).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
   color: #d9d640 !important;
 }
 
@@ -101,16 +92,25 @@ body {
 }
 
 @media (max-width: 780px) {
+
+  body {
+    background-image: linear-gradient(90deg, transparent, transparent, rgba(0, 0, 0, 0.123));
+  }
+
   .mobile_d_none {
     display: none;
   }
+
   .ant-tabs-tab.ant-tabs-tab-active {
     border-bottom: 2px solid #d9d640 !important;
     z-index: 2;
   }
+
   .reverce_mobile {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
   }
+
+
 }

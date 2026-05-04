@@ -96,11 +96,11 @@ const Product = ({
 
           {/* Content */}
           <div className="mt-28 space-y-3">
-            <p className="text-yellow-400 font-semibold tracking-wide text-xs uppercase">
+            <p className="text-[#94949bfa] font-semibold tracking-wide text-xs uppercase">
               {method}
             </p>
 
-            <p className="text-white text-sm font-bold">
+            <p className="text-white text-base font-bold">
               {title}
             </p>
 

@@ -375,21 +375,21 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className="flex items-center text-[#304644] pl-5 ml-2 pt-3 font-bold text-base"
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10" : "max-lg:mr-10" }  pt-3 font-normal text-[18px] max-lg:text-[16px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           marginRight: "15px",
-                          fontWeight: "700",
+                          fontWeight: "500",
                           textTransform: "capitalize",
-                          padding: "7px 0px 0px 28px",
-                          fontSize: "16px",
+                          padding: "0px 0px 0px 0px",
                           display: "flex",
                           justifyContent: "space-between",
+                          fontFamily: "Cairo",
                         }}
                       >
 
                       {
-                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
                         }
 
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
@@ -429,10 +429,10 @@ function Navbar() {
                       href={href}
                       style={{
                         marginRight: "15px",
-                        color: "#304644",
+                        color: "#54545F",
                         textDecoration: "none",
                       }}
-                      className="flex items-center max-lg:justify-end text-[#304644] px-5 mr-3 ml-2 max-lg:px-1 pt-3 font-bold normal-case text-base"
+                      className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start" } ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base" }  px-5 mr-3 ml-2 max-lg:px-1 pt-3 `}
                     >
                       {i18n.language === "ar" ? title_ar : title}
                     </Link>
@@ -450,11 +450,11 @@ function Navbar() {
                   sx={{
                     color: "rgb(48, 70, 68)",
                     marginRight: "15px",
-                    fontWeight: "700",
+                    fontWeight: "500",
                     padding: "7px 28px 0px 28px",
                     fontSize: "16px",
                   }}
-                  className="flex items-center max-lg:justify-end text-[#304644] px-7 max-lg:px-0 max-lg:mx-auto mr-3 pt-3 font-bold normal-case text-base"
+                  className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start" } text-[#54545F] px-7 max-lg:px-0 max-lg:mx-3 mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]`}
                 >
                   {language == "ar" ? "EN" : "AR"}
                 </Button>
@@ -518,13 +518,13 @@ function Navbar() {
                       aria-haspopup="true"
                       aria-expanded={open ? "true" : undefined}
                       onClick={handleClick}
-                      className="flex items-center text-[#304644] mr-3 pt-3 font-bold normal-case text-base"
+                      className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]"
                       sx={{
-                        fontSize: "17px",
-                        color: "#1c1c1c",
-                        fontWeight: "600",
+                        color: "#54545F",
+                        fontWeight: "500",
                         padding: "13px 17px",
                         textTransform: "capitalize",
+                        fontFamily: "Cairo",
                       }}
                     >
                       {i18n.language === "ar" ? "المنتجات" : "Products"}
@@ -981,11 +981,12 @@ function Navbar() {
               <Button
                 onClick={toggleLanguage}
                 style={{
-                  color: "#304644",
+                  color: "#54545F",
                   backgroundColor: "transparent",
-                  fontWeight: "600",
+                  fontWeight: "500",
                   marginRight: "10px",
                 }}
+                className="text-[18px] max-lg:text-[16px]"
               >
                 {language == "ar" ? "EN" : "AR"}
               </Button>

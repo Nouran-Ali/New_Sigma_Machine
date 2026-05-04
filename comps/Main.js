@@ -11,24 +11,23 @@ const Main = () => {
 
   const images = [
     "/products/router-550x750-removebg-preview.png",
-    "../products/20.webp",
-    "../products/21.webp",
-    "../products/23.webp",
-    "../products/24.webp",
-    "../products/25.webp",
-    "../products/26.webp",
-    "../products/27.webp",
-    "../products/28.webp",
-    "../products/29.webp",
-    "../products/30.webp",
-    "../products/31.webp",
-    "../products/32.webp",
-    "../products/33.webp",
-    "../products/34.webp",
-    "../products/35.webp",
-    "../products/40.webp",
-    "../products/41.webp",
-    "../products/42.webp",
+    "../products/20.png",
+    "../products/23.png",
+    "../products/24.png",
+    "../products/25.png",
+    "../products/26.png",
+    "../products/27.png",
+    "../products/28.png",
+    "../products/29.png",
+    "../products/30.png",
+    "../products/31.png",
+    "../products/32.png",
+    "../products/33.png",
+    "../products/34.png",
+    "../products/35.png",
+    "../products/40.png",
+    "../products/41.png",
+    "../products/42.png",
     "../products/co2-550x750.png",
     "../products/fiber-laser-550x750.png",
     "../products/Letter-Bending-550x750.png",
@@ -105,13 +104,7 @@ const Main = () => {
               </div>
             </div>
             <div>
-              <div className={styles.right_circle}></div>
-              {/* <img
-                src="/home/4.webp"
-                className={` ${styles.image} max-lg:pt-10`}
-                width="600"
-                height="550"
-              /> */}
+              {/* <div className={styles.right_circle}></div> */}
               <img
                 // src="/products/router-550x750-removebg-preview.png"
                 src={images[currentImage]}

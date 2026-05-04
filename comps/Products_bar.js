@@ -100,7 +100,7 @@ const Products_bar = () => {
           <motion.div
             key={i}
             whileTap={{ scale: 0.95 }}
-            className="flex-shrink-0 w-[255px] h-[253px] max-lg:w-[185px] max-lg:h-[183px] rounded-4xl max-lg:rounded-3xl overflow-hidden bg-black"
+            className="flex-shrink-0 w-[255px] h-[253px] max-lg:w-[185px] max-lg:h-[183px] rounded-4xl max-lg:rounded-3xl overflow-hidden bg-[#f7f7f7]"
           >
             <img
               src={img}

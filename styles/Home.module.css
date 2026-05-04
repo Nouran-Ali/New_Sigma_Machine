@@ -1,4 +1,5 @@
 .background {
+    /* background-color: #fffff433; */
     background-color: #fffff433;
     height: 100vh;
     overflow: clip;
@@ -6,15 +7,17 @@
 }
 
 .btn_more {
-    border-color: #d9d640;
+    border-color: #D4AF37;
     color: white;
-    background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
+    /* background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%); */
+    background: linear-gradient(135deg, #f0c743 0%, #D4AF37 45%, #f0c743 66%);
     border-radius: 27px;
-    padding: 20px 45px;
+    padding: 17px 45px;
 }
 
 .btn_more:hover {
-    background: linear-gradient(135deg, #d9d640 0%, #d9d640 45%, #c5c23a 66%);
+    /* background: linear-gradient(135deg, #d9d640 0%, #d9d640 45%, #D4AF37 66%); */
+    background: linear-gradient(135deg, #f0c743 0%, #f0c743 45%, #D4AF37 66%);
 }
 
 .white_circle {
@@ -205,6 +208,13 @@
 
 .image {
     transition: opacity 0.5s ease-in-out;
+    width: 100%;
+    height: 550px;
+
+    object-fit: contain;
+    object-position: center;
+
+    display: block;
 }
 
 /* our services */
@@ -269,10 +279,13 @@
 
 @media (max-width: 780px) {
     .btn_more {
-        border-color: #d9d640;
+        border-color: #D4AF37;
         color: white;
-        background: linear-gradient(135deg, #d9d640 0%, #c5c23a 45%, #d9d640 66%);
+        background: linear-gradient(135deg, #f0c743 0%, #D4AF37 45%, #f0c743 66%);
         border-radius: 27px;
-        padding: 20px 30px;
+        padding: 10px 25px;
     }
+    .image {
+    height: 300px;
+  }
 }
