@@ -375,7 +375,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10" : "max-lg:mr-10" }  pt-3 font-normal text-[18px] max-lg:text-[15px]`}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10" }  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           marginRight: "15px",
