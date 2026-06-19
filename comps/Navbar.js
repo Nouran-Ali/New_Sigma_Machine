@@ -43,15 +43,15 @@ const pages = [
     title_ar: "المنتجات",
     href: "/products",
   },
-  // {
-  //   title: "Resources",
-  //   title_ar: "المصادر",
-  //   href: "/resources",
-  // },
   {
     title: "Maintenance",
     title_ar: "الصيانة",
     href: "/themaintenance",
+  },
+  {
+    title: "Resources",
+    title_ar: "المصادر",
+    href: "/resources",
   },
   {
     title: "Contact",
@@ -206,6 +206,15 @@ function Navbar() {
     setAnchorElSub7(null);
   };
 
+  const [anchorEl8, setAnchorEl8] = React.useState(null);
+  const open8 = Boolean(anchorEl8);
+  const handleClick8 = (event) => {
+    setAnchorEl8(event.currentTarget);
+  };
+  const handleClose8 = () => {
+    setAnchorEl8(null);
+  };
+
   const [active, setActive] = useState();
   const [scrolling, setScrolling] = useState(false);
   const router = useRouter();
@@ -292,8 +301,8 @@ function Navbar() {
               sx={
                 language == "ar"
                   ? {
-                    mr: 5,
-                    ml: 9,
+                    mr: 6,
+                    ml: 2,
                     display: { xs: "none", md: "flex" },
                     fontFamily: "monospace",
                     fontWeight: 700,
@@ -302,7 +311,7 @@ function Navbar() {
                     textDecoration: "none",
                   }
                   : {
-                    mr: 5,
+                    mr: 2,
                     ml: 9,
                     display: { xs: "none", md: "flex" },
                     fontFamily: "monospace",
@@ -375,10 +384,10 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10" }  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10"}  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
-                          fontSize: "16px" ,
+                          fontSize: "16px",
                           fontWeight: "400",
                           textTransform: "capitalize",
                           padding: "10px 0px 1px 7px",
@@ -388,7 +397,7 @@ function Navbar() {
                         }}
                       >
 
-                      {
+                        {
                           language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
                         }
 
@@ -406,7 +415,7 @@ function Navbar() {
 
                         {
                           language === "en" &&
-                            <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
                       </Button>
                       <Menu
@@ -423,20 +432,77 @@ function Navbar() {
                         <MenuItem onClick={handleClose}>Logout</MenuItem>
                       </Menu>
                     </div>
-                  ) : (
-                    <Link
-                      key={index}
-                      href={href}
-                      style={{
-                        marginRight: "15px",
-                        color: "#54545F",
-                        textDecoration: "none",
-                      }}
-                      className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start" } ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base" }  px-5 mr-3 ml-2 max-lg:px-1 pt-3 `}
-                    >
-                      {i18n.language === "ar" ? title_ar : title}
-                    </Link>
+                  ) : title == "Resources" ? (
+                    <div>
+                      <Button
+                        id="basic-button"
+                        aria-controls={open ? "basic-menu" : undefined}
+                        aria-haspopup="true"
+                        aria-expanded={open ? "true" : undefined}
+                        onClick={handleClick}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10"}  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
+                        sx={{
+                          color: "rgb(48, 70, 68)",
+                          fontSize: "16px",
+                          fontWeight: "400",
+                          textTransform: "capitalize",
+                          padding: "10px 0px 1px 7px",
+                          display: "flex",
+                          justifyContent: "space-between",
+                          fontFamily: "Cairo",
+                        }}
+                      >
+
+                        {
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+
+                        {i18n.language === "ar" ? "المنتجات" : "Products"}
+                        {/* <ArrowForwardIosIcon
+                          sx={{
+                            fontSize: "17px",
+                            color: "#1c1c1c",
+                            // fontWeight: "600",
+                            // padding: "13px 17px",
+                            // textTransform: "capitalize",
+                          }}
+                          className="mx-4"
+                        /> */}
+
+                        {
+                          language === "en" &&
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                        }
+                      </Button>
+                      <Menu
+                        id="basic-menu"
+                        anchorEl={anchorEl}
+                        open={open}
+                        onClose={handleClose}
+                        MenuListProps={{
+                          "aria-labelledby": "basic-button",
+                        }}
+                      >
+                        <MenuItem onClick={handleClose}>Profile</MenuItem>
+                        <MenuItem onClick={handleClose}>My account</MenuItem>
+                        <MenuItem onClick={handleClose}>Logout</MenuItem>
+                      </Menu>
+                    </div>
                   )
+                    : (
+                      <Link
+                        key={index}
+                        href={href}
+                        style={{
+                          marginRight: "15px",
+                          color: "#54545F",
+                          textDecoration: "none",
+                        }}
+                        className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start"} ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 pt-3 `}
+                      >
+                        {i18n.language === "ar" ? title_ar : title}
+                      </Link>
+                    )
                 )}
                 <Button
                   onClick={toggleLanguage}
@@ -454,7 +520,7 @@ function Navbar() {
                     padding: "7px 28px 0px 28px",
                     fontSize: "16px",
                   }}
-                  className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start" } text-[#54545F] px-7 max-lg:px-0 max-lg:mx-3 mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]`}
+                  className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start"} text-[#54545F] px-7 max-lg:px-0 max-lg:mx-3 mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]`}
                 >
                   {language == "ar" ? "EN" : "AR"}
                 </Button>
@@ -518,11 +584,11 @@ function Navbar() {
                       aria-haspopup="true"
                       aria-expanded={open ? "true" : undefined}
                       onClick={handleClick}
-                      className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]"
+                      className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                       sx={{
                         color: "#54545F",
                         fontWeight: "400",
-                        fontSize: "16px" ,
+                        fontSize: "16px",
                         padding: "13px 17px",
                         textTransform: "capitalize",
                         fontFamily: "Cairo",
@@ -967,6 +1033,77 @@ function Navbar() {
                       </MenuItem>
                     </Menu>
                   </div>
+                ) : title == "Resources" ? (
+                  <div>
+                    <Button
+                      id="basic-button"
+                      aria-controls={open8 ? "basic-menu" : undefined}
+                      aria-haspopup="true"
+                      aria-expanded={open8 ? "true" : undefined}
+                      onClick={handleClick8}
+                      className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                      sx={{
+                        color: "#54545F",
+                        fontWeight: "400",
+                        fontSize: "16px",
+                        padding: "13px 17px",
+                        textTransform: "capitalize",
+                        fontFamily: "Cairo",
+                      }}
+                    >
+                      {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
+                    </Button>
+                    <Menu
+                      id="basic-menu"
+                      anchorEl={anchorEl8}
+                      open={open8}
+                      onClose={handleClose8}
+                      MenuListProps={{
+                        "aria-labelledby": "basic-button",
+                      }}
+
+                      sx={{
+                        direction: i18n.language === "ar" ? "rtl" : "ltr",
+                      }}
+                    >
+                      <MenuItem onClick={handleClose8}>
+                        <Link
+                          href={`/blog`}
+                          className="no-underline text-inherit"
+                        >
+                          {t("Blog")}
+                        </Link>
+                      </MenuItem>
+
+                       <MenuItem onClick={handleClose8}>
+                        <Link
+                          href={`/blog`}
+                          className="no-underline text-inherit"
+                        >
+                          {t("Case Studies")}
+                        </Link>
+                      </MenuItem>
+
+                       <MenuItem onClick={handleClose8}>
+                        <Link
+                          href={`/blog`}
+                          className="no-underline text-inherit"
+                        >
+                          {t("Industry News")}
+                        </Link>
+                      </MenuItem>
+
+                       <MenuItem onClick={handleClose8}>
+                        <Link
+                          href={`/blog`}
+                          className="no-underline text-inherit"
+                        >
+                          {t("Events & Exhibitions")}
+                        </Link>
+                      </MenuItem>
+
+                    </Menu>
+                  </div>
                 ) : (
                   <Link
                     key={index}
@@ -991,13 +1128,13 @@ function Navbar() {
               >
                 {language == "ar" ? "EN" : "AR"}
               </Button>
-              <div className={`flex items-center ${language == "en" ? "lg:mx-4" : "lg:mx-10" } `} dir="ltr">
+              <div className={`flex items-center ${language == "en" ? "lg:mx-4" : "lg:mx-10"} `} dir="ltr">
                 <div className={styles.bg_icon}>
                   <PhoneFilled />
                 </div>
-                <div className="ml-3">
+                <div className="ml-3 text-sm">
                   <p className="text-[#1c1c1c] text-left"> {t("Call Us")}</p>
-                  <p className="text-[#54545f]">+966 56 974 5955</p>
+                  <p className="text-[#54545f] ">+966 56 974 5955</p>
                 </div>
               </div>
             </Box>
