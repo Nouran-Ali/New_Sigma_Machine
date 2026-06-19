@@ -1,17 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-import Link from "next/link";
 import styles from "../../styles/Product.module.css";
-import { Image } from "antd";
-import { CaretRightOutlined, MailOutlined } from "@ant-design/icons";
 import Product_comp from "@/comps/Product_comp";
-import Head from "next/head";
 import {
-  products,
-  productsWelding,
-  productsPlasma,
-  productsPress,
-  productsShearing,
+  products
 } from "@/data/products";
 import Meta from "@/comps/Meta";
 import { useTranslation } from "react-i18next";

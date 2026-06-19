@@ -1,9 +1,7 @@
 import { Input } from "antd";
 const { TextArea } = Input;
-import Image from "next/image";
 import styles from "../styles/contact.module.css";
 import Link from "next/link";
-import Head from "next/head";
 import Meta from "@/comps/Meta";
 import { TikTokOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";

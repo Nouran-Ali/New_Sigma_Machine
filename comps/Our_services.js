@@ -1,13 +1,11 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import Image from "next/image";
 import { useTranslation } from "react-i18next";
 import { FaTools, FaFileContract, FaTruck, FaGlobe, FaClock, FaCogs } from "react-icons/fa";
 
 const Our_services = () => {
 
   const [t, i18n] = useTranslation();
-  const { language } = i18n;
 
   return (
     <div className={`${styles.bg_services} px-24 max-xl:px-10 mb-20`}>

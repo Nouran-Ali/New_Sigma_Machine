@@ -4,11 +4,11 @@ import Our_products from "@/comps/Our_products";
 import Our_services from "@/comps/Our_services";
 import Samples from "@/comps/Samples";
 import WhatWeOffer from "@/comps/WhatWeOffer";
-import Image from "next/image";
-import Head from 'next/head';
 import Meta from "@/comps/Meta";
 import Products_bar from "@/comps/Products_bar";
 import { useTranslation } from "react-i18next";
+import Blog from "../comps/Blog";
+import Event from "@/comps/Event";
 
 export default function Home() {
 
@@ -17,11 +17,6 @@ export default function Home() {
 
   return (
     <>
-      {/* <Meta
-        title="CNC Machines | Fiber Laser, CNC Routers, Laser Welders & Industrial Machinery"
-        description="Buy high-precision CNC machines including fiber laser cutters, CNC routers (3,4,5 axis), CO2 laser machines, plasma cutters, welding systems, marking machines & sheet metal equipment. High quality & fast delivery."
-        keywords="CNC Machines, Fiber Laser Cutting, CNC Router Supplier, Laser Machines, Industrial Machinery"
-      /> */}
       <Meta
         title="CNC Machines | Fiber Laser, CNC Routers, Laser Welders & Industrial Machinery"
         description="Buy high-precision CNC machines including fiber laser cutters, CNC routers, CO2 laser machines, welding systems, and industrial machinery with fast delivery across the Middle East."
@@ -63,7 +58,9 @@ export default function Home() {
         <Our_services />
         <Our_products />
         <Experience />
-        <Samples />
+        {/* <Samples /> */}
+        <Blog />
+        <Event />
 
         <section className="container mx-auto py-10 text-gray-700 sr-only">
           <h2>CNC Machine Maintenance in Saudi Arabia – Who We Serve</h2>

@@ -1,12 +1,9 @@
 import React from 'react'
-import styles from "../styles/Services.module.css";
-import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
 const We_are_here_for_you = () => {
 
     const [t, i18n] = useTranslation();
-    const { language } = i18n;
 
     return (
         <div className='bg-[#2a2a2a] text-white rounded-lg p-5 px-9 max-xl:px-5 relative -bottom-7'>

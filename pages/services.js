@@ -1,10 +1,5 @@
 import React from "react";
 import styles from "../styles/Services.module.css";
-import Image from "next/image";
-import We_are_here_for_you from "@/comps/We_are_here_for_you";
-import { Collapse } from "antd";
-import Head from "next/head";
-import Link from "next/link";
 import Meta from "@/comps/Meta";
 import { useTranslation } from "react-i18next";
 

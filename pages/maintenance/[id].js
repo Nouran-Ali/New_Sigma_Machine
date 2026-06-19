@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "../../styles/Resources.module.css";
 import { Carousel } from "antd";
-import Image from "next/image";
 import { useRouter } from "next/router";
 import Meta from "@/comps/Meta";
 

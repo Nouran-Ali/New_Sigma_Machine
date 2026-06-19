@@ -1,13 +1,6 @@
 import React from "react";
 import { motion, useMotionValue, useAnimationFrame } from "framer-motion"
-import { useEffect, useRef, useState } from "react"
-import {
-  products,
-  productsWelding,
-  productsPlasma,
-  productsPress,
-  productsShearing,
-} from "@/data/products";
+import { useRef, useState } from "react"
 
 const Products_bar = () => {
 
@@ -16,11 +9,6 @@ const Products_bar = () => {
   const x = useMotionValue(0)
 
   const containerRef = useRef(null)
-
-  // const images = products.map(item => item.image);
-  // const images = products
-  //   .filter(item => typeof item.image === "string" && item.image.trim())
-  //   .map(item => item.image);
 
   const images = [
     "../products/20.webp",

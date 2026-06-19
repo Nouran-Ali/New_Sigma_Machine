@@ -1,11 +1,8 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "../../styles/Resources.module.css";
-import { useState } from "react";
-import { Radio, Space, Tabs } from "antd";
 import Head from 'next/head';
 import { useTranslation } from "react-i18next";
 import { blogs } from "@/lib/blogs";
-import { useRouter } from "next/router";
 import Link from "next/link";
 
 const Blog = () => {

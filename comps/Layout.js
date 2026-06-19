@@ -16,43 +16,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      {/* <Head>
-        <title>Sigma Machines | High Quality Industrial Machinery</title>
-        <meta
-          name="description"
-          content="Sigma Machines is your trusted partner in industrial machinery – discover our top-quality machines for all your needs."
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="UTF-8" />
-        <meta
-          property="og:title"
-          content="Sigma Machines | High Quality Industrial Machinery"
-        />
-        <meta
-          property="og:description"
-          content="Sigma Machines offers reliable and efficient industrial machinery solutions."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://sigmamachines.net" />
-        <meta
-          property="og:image"
-          content="https://sigmamachines.net/products/32.webp"
-        />{" "}
-        <link rel="icon" href="/favicon.ico" />
-        
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "Sigma Machines",
-              url: "https://sigmamachines.net",
-              logo: "https://sigmamachines.net/logo.png",
-            }),
-          }}
-        />
-      </Head> */}
 
       <head>
         <MetaDefaults />

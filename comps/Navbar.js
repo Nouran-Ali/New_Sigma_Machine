@@ -1077,7 +1077,7 @@ function Navbar() {
 
                        <MenuItem onClick={handleClose8}>
                         <Link
-                          href={`/blog`}
+                          href={`/case-studies`}
                           className="no-underline text-inherit"
                         >
                           {t("Case Studies")}
@@ -1086,7 +1086,7 @@ function Navbar() {
 
                        <MenuItem onClick={handleClose8}>
                         <Link
-                          href={`/blog`}
+                          href={`/industry-news`}
                           className="no-underline text-inherit"
                         >
                           {t("Industry News")}
@@ -1095,7 +1095,7 @@ function Navbar() {
 
                        <MenuItem onClick={handleClose8}>
                         <Link
-                          href={`/blog`}
+                          href={`/events`}
                           className="no-underline text-inherit"
                         >
                           {t("Events & Exhibitions")}
