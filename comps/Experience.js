@@ -13,17 +13,17 @@ export const Experience = () => {
         <div className={styles.bg_experience}>
             <div className='flex justify-evenly items-center text-white text-center lg:pt-32 max-lg:pt-32'>
                 <div>
-                    <img src="../home/diamond.png" width="50" height="50" className='mx-auto mb-3 max-lg:w-[30px] max-lg:h-[30px]' />
+                    <img src="../home/diamond.png" width="50" height="50" className='mx-auto mb-3 max-lg:w-[30px] max-lg:h-[30px]' alt={t("Years Of Experience")}/>
                     <CountUp duration={1} end={8} />
                     <p className='mt-3'>{t("Years Of Experience")}</p>
                 </div>
                 <div>
-                    <img src="../home/group.png" width="50" height="50" className='mx-auto mb-3 max-lg:w-[30px] max-lg:h-[30px]' />
+                    <img src="../home/group.png" width="50" height="50" className='mx-auto mb-3 max-lg:w-[30px] max-lg:h-[30px]' alt="Experts"/>
                     <CountUp duration={5} end={300} />
                     <p className='mt-3'>Experts</p>
                 </div>
                 <div>
-                    <img src="../home/earth.png" width="50" height="50" className='mx-auto mb-3 max-lg:w-[30px] max-lg:h-[30px]' />
+                    <img src="../home/earth.png" width="50" height="50" className='mx-auto mb-3 max-lg:w-[30px] max-lg:h-[30px]' alt="Countries"/>
                     <CountUp duration={5} end={120} />
                     <p className='mt-3'>Countries</p>
                 </div>

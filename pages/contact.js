@@ -73,6 +73,7 @@ const Contact = () => {
                     width={30}
                     height={60}
                     className="mr-3"
+                    alt="facebook"
                   />
                 </Link>
                 <Link href="https://www.instagram.com/sigma_machines?igsh=MWRlMmc4OTMyanJwZQ==">
@@ -81,6 +82,7 @@ const Contact = () => {
                     width={30}
                     height={60}
                     className="mr-3"
+                    alt="instagram"
                   />
                 </Link>
 
@@ -93,6 +95,7 @@ const Contact = () => {
                     width={30}
                     height={60}
                     className="mr-3"
+                    alt="linkedin"
                   />
                 </Link>
               </div>
@@ -169,6 +172,7 @@ const Contact = () => {
                 width={550}
                 height={250}
                 className="mt-20 ml-7 mobile_d_none"
+                alt="contact"
               />
             </div>
           </div>

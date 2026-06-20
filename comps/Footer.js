@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 text-white font-medium pt-24 pb-24">
               <div className={`${language === "en" ? styles.border : styles.borderAr} pr-6`}>
                 <div className="flex">
-                  <img src="../logo2.png" width="90px" />
+                  <img src="../logo2.png" width="90px" alt="logo"/>
                   {/* <Image src="/logo2.png" width={90} height={60} className="" /> */}
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
@@ -51,6 +51,7 @@ const Footer = () => {
                       width={30}
                       height={60}
                       className="mr-3"
+                      alt="facebook"
                     />
                   </Link>
                   <Link href="https://www.instagram.com/sigma_machines?igsh=MWRlMmc4OTMyanJwZQ==">
@@ -59,6 +60,7 @@ const Footer = () => {
                       width={30}
                       height={60}
                       className="mr-3"
+                      alt="instagram"
                     />
                   </Link>
 
@@ -72,6 +74,7 @@ const Footer = () => {
                       width={30}
                       height={60}
                       className="mr-3"
+                      alt="linkedin"
                     />
                   </Link>
                   {/* <img

@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslation } from "react-i18next";
-
 const Main = () => {
 
   const [t, i18n] = useTranslation();
@@ -11,28 +10,28 @@ const Main = () => {
 
   const images = [
     "/products/router-550x750-removebg-preview.png",
-    "../products/20.png",
-    "../products/23.png",
-    "../products/24.png",
-    "../products/25.png",
-    "../products/26.png",
-    "../products/27.png",
-    "../products/28.png",
-    "../products/29.png",
-    "../products/30.png",
-    "../products/31.png",
-    "../products/32.png",
-    "../products/33.png",
-    "../products/34.png",
-    "../products/35.png",
-    "../products/40.png",
-    "../products/41.png",
-    "../products/42.png",
-    "../products/co2-550x750.png",
-    "../products/fiber-laser-550x750.png",
-    "../products/Letter-Bending-550x750.png",
-    "../products/press-brake-550x750.png",
-    "../products/welding-550x750.png",
+    "/../products/20.png",
+    "/../products/23.png",
+    "/../products/24.png",
+    "/../products/25.png",
+    "/../products/26.png",
+    "/../products/27.png",
+    "/../products/28.png",
+    "/../products/29.png",
+    "/../products/30.png",
+    "/../products/31.png",
+    "/../products/32.png",
+    "/../products/33.png",
+    "/../products/34.png",
+    "/../products/35.png",
+    "/../products/40.png",
+    "/../products/41.png",
+    "/../products/42.png",
+    "/../products/co2-550x750.png",
+    "/../products/fiber-laser-550x750.png",
+    "/../products/Letter-Bending-550x750.png",
+    "/../products/press-brake-550x750.png",
+    "/../products/welding-550x750.png",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -72,6 +71,7 @@ const Main = () => {
                   height="40"
                   className={`${styles.triangle_one} mobile_d_none`}
                   loading="lazy"
+                  alt="right-arrow"
                 />
                 <img
                   src="/home/right-arrow.webp"
@@ -79,6 +79,7 @@ const Main = () => {
                   height="20"
                   className={`${styles.triangle_two} mobile_d_none`}
                   loading="lazy"
+                  alt="right-arrow"
                 />
                 <img
                   src="/home/right-arrow.webp"
@@ -86,6 +87,7 @@ const Main = () => {
                   height="30"
                   className={`${styles.triangle_three} mobile_d_none`}
                   loading="lazy"
+                  alt="right-arrow"
                 />
                 <img
                   src="/home/right-arrow.webp"
@@ -93,6 +95,7 @@ const Main = () => {
                   height="20"
                   className={`${styles.triangle_four} mobile_d_none`}
                   loading="lazy"
+                  alt="right-arrow"
                 />
                 <img
                   src="/home/right-arrow.webp"
@@ -100,17 +103,20 @@ const Main = () => {
                   height="20"
                   className={`${styles.triangle_five} mobile_d_none`}
                   loading="lazy"
+                  alt="right-arrow"
                 />
               </div>
             </div>
             <div>
               {/* <div className={styles.right_circle}></div> */}
-              <img
+              <Image
                 // src="/products/router-550x750-removebg-preview.png"
                 src={images[currentImage]}
                 className={` ${styles.image} relative z-10`}
-                width="800"
-                height="550"
+                width={800}
+                height={550}
+                alt="router"
+                loading="lazy"
               />
               <div className={styles.right_dots}>
                 <img
@@ -119,6 +125,7 @@ const Main = () => {
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
+                  alt="menu"
                 />
                 <img
                   src="/home/menu.webp"
@@ -126,6 +133,7 @@ const Main = () => {
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
+                  alt="menu"
                 />
                 <img
                   src="/home/menu.webp"
@@ -133,6 +141,7 @@ const Main = () => {
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
+                  alt="menu"
                 />
                 <img
                   src="/home/menu.webp"
@@ -140,6 +149,7 @@ const Main = () => {
                   height="50"
                   loading="lazy"
                   className="mobile_d_none"
+                  alt="menu"
                 />
               </div>
             </div>
@@ -147,14 +157,15 @@ const Main = () => {
         </div>
         <div className={`${styles.white_circle} mobile_d_none`}></div>
         <div className={styles.left_dots}>
-          <img src="/home/menu.webp" width="40" height="40" loading="lazy" />
-          <img src="/home/menu.webp" width="40" height="40" loading="lazy" />
+          <img src="/home/menu.webp" width="40" height="40" loading="lazy" alt="menu"/>
+          <img src="/home/menu.webp" width="40" height="40" loading="lazy" alt="menu"/>
           <img
             src="/home/menu.webp"
             width="40"
             height="40"
             loading="lazy"
           // placeholder="blur"
+          alt="menu"
           />
         </div>
       </div>

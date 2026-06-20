@@ -5,7 +5,7 @@ const Laser_marking_sample = () => {
     return (
         <div className='grid grid-cols-4 max-xl:grid-cols-2 gap-4 text-center mt-5'>
             <Link href="/">
-                <img src="../home/Laser_Marking6.jpg" width={200} height={200} className='mx-auto mb-5' />
+                <img src="../home/Laser_Marking6.jpg" width={200} height={200} alt='Laser_Marking' className='mx-auto mb-5' />
                 <p className='text-[#54545f] text-lg'>Laser Marking6</p>
             </Link>
             {/* <Link href="/">

@@ -128,6 +128,7 @@ const Our_products = () => {
         width={130}
         height={130}
         className="absolute right-1 bottom-1 max-lg:w-[100px]"
+        alt="abstract_shape"
       />
     </div>
   );

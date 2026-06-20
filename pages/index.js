@@ -53,7 +53,7 @@ export default function Home() {
 
 
         <Main />
-        <Products_bar />
+        {/* <Products_bar /> */}
         {/* <WhatWeOffer /> */}
         <Our_services />
         <Our_products />

@@ -92,7 +92,7 @@ const Products_bar = () => {
           >
             <img
               src={img}
-              alt=""
+              alt="product"
               className="w-full h-full object-cover rounded-3xl p-2 select-none pointer-events-none"
               draggable={false}
             />

@@ -323,7 +323,7 @@ function Navbar() {
                   }
               }
             >
-              <img src="../logo.png" width="90px" className="max-lg:w-[50px]" />
+              <img src="../logo.png" width="90px" className="max-lg:w-[50px]" alt="logo"/>
             </Typography>
 
             <Box
@@ -554,7 +554,7 @@ function Navbar() {
                 justifyContent: "flex-end",
               }}
             >
-              <img src="../logo.png" width="75px" className="max-lg:w-[50px]" />
+              <img src="../logo.png" width="75px" className="max-lg:w-[50px]" alt="logo"/>
             </Typography>
             <Box
               sx={{

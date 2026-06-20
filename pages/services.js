@@ -79,6 +79,7 @@ const Services = () => {
                 width="600"
                 height="150"
                 className="mx-auto mt-9 rounded-lg"
+                alt="services"
               />
             </div>
             <div className="grid grid-cols-1 max-xl:grid-cols-1 gap-6 mt-4">

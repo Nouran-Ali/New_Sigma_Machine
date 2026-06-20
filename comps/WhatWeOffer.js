@@ -13,6 +13,7 @@ const WhatWeOffer = () => {
             <img
               src="../home/laser-cutting-machine.webp"
               className="object-cover w-full h-full"
+              alt="laser-cutting-machine"
             />
           </div>
           <div>
@@ -26,6 +27,7 @@ const WhatWeOffer = () => {
             <img
               src="../home/CO2.webp"
               className="object-cover w-full h-full"
+              alt="CO2"
             />
           </div>
           <div>
@@ -39,6 +41,7 @@ const WhatWeOffer = () => {
             <img
               src="../home/cnc.webp"
               className="object-cover w-full h-full"
+              alt="cnc"
             />
           </div>
           <div>
@@ -50,6 +53,7 @@ const WhatWeOffer = () => {
             <img
               src="../home/Welding_machine.webp"
               className="object-cover w-full h-full"
+              alt="Welding_machine"
             />
           </div>
           <div>

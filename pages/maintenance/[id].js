@@ -86,6 +86,7 @@ const Maintenance = () => {
                   width="300"
                   height="90"
                   className="rounded-xl mx-auto mt-8"
+                  alt={item.name}
                 />
               </div>
               <div>
@@ -94,6 +95,7 @@ const Maintenance = () => {
                   width="300"
                   height="90"
                   className="rounded-xl mx-auto mt-8"
+                  alt={item.name}
                 />
               </div>
             </Carousel>

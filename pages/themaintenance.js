@@ -67,6 +67,7 @@ const Themaintenance = () => {
               width="280"
               height="90"
               className="rounded-xl"
+              alt="Fiber laser cutting machine"
             />
             <p className="mt-3 text-center">Fiber laser cutting machine</p>
           </Link>
@@ -76,6 +77,7 @@ const Themaintenance = () => {
               width="280"
               height="90"
               className="rounded-xl"
+              alt="Router machines"
             />
             <p className="mt-3 text-center">Router machines</p>
           </Link>
@@ -85,6 +87,7 @@ const Themaintenance = () => {
               width="280"
               height="90"
               className="rounded-xl"
+              alt="Plasma machine maintenance"
             />
             <p className="mt-3 text-center">Plasma machine maintenance</p>
           </Link>
@@ -95,6 +98,7 @@ const Themaintenance = () => {
               width="280"
               height="90"
               className="rounded-xl"
+              alt="Fiber laser cutting rotary"
             />
             <p className="mt-3 text-center">Fiber laser cutting rotary</p>
           </Link>
@@ -115,6 +119,7 @@ const Themaintenance = () => {
               width="280"
               height="90"
               className="rounded-xl"
+              alt="Marker"
             />
             <p className="mt-3 text-center">Marker</p>
           </Link>
@@ -125,6 +130,7 @@ const Themaintenance = () => {
               width="280"
               height="90"
               className="rounded-xl"
+              alt="Welding yag"
             />
             <p className="mt-3 text-center">Welding yag</p>
           </Link>
