@@ -99,13 +99,12 @@ const Main = () => {
             </div>
             <div>
               {/* <div className={styles.right_circle}></div> */}
-              <Image
+              <img
                 src={images[currentImage]}
                 className={` ${styles.image} relative z-10`}
-                width={800}
-                height={550}
+                width="800"
+                height="550"
                 alt="what is cnc"
-                 priority
               />
               <div className={styles.right_dots}>
                 <img
