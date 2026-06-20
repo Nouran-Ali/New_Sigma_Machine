@@ -90,7 +90,7 @@ const Footer = () => {
               </div>
             </div>
             <div
-              className={`${styles.border_top} px-24 max-xl:px-10 text-white font-medium py-7`}
+              className={`${styles.border_top} px-24 max-xl:px-5 text-white max-lg:text-sm font-medium py-7 flex justify-between`}
             >
               <p>
                  {t("Copyright © 2025")}
@@ -102,6 +102,7 @@ const Footer = () => {
                 </Link>{" "}
                  {t("All Rights Reserved.")}
               </p>
+              <Link href="/privacy-policy"> {t("Privacy Policy")}</Link>
             </div>
           </div>
         </div>

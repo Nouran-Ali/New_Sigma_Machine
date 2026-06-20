@@ -377,7 +377,7 @@ function Navbar() {
                 ))} */}
                 {pages.map(({ title, title_ar, href }, index) =>
                   title == "Products" ? (
-                    <div>
+                    <div key={index}>
                       <Button
                         id="basic-button"
                         aria-controls={open ? "basic-menu" : undefined}
@@ -433,7 +433,7 @@ function Navbar() {
                       </Menu>
                     </div>
                   ) : title == "Resources" ? (
-                    <div>
+                    <div key={index}>
                       <Button
                         id="basic-button"
                         aria-controls={open ? "basic-menu" : undefined}
@@ -577,7 +577,7 @@ function Navbar() {
               ))} */}
               {pages.map(({ title, title_ar, href }, index) =>
                 title == "Products" ? (
-                  <div>
+                  <div key={index}>
                     <Button
                       id="basic-button"
                       aria-controls={open ? "basic-menu" : undefined}
@@ -1034,7 +1034,7 @@ function Navbar() {
                     </Menu>
                   </div>
                 ) : title == "Resources" ? (
-                  <div>
+                  <div key={index}>
                     <Button
                       id="basic-button"
                       aria-controls={open8 ? "basic-menu" : undefined}
