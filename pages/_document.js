@@ -35,9 +35,22 @@ export default function Document() {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-        
+
         <Main />
         <NextScript />
+        <script src="https://webchat-js.pages.dev/webchat.min.js"
+          data-webchat
+          data-deepseek-key="sk-YOUR_DEEPSEEK_KEY"
+          data-groq-key="gsk_YOUR_GROQ_KEY"
+          data-glm-key="YOUR_GLM_KEY"
+          data-bot-name="My Assistant"
+          data-primary-color="#4b4b4b"
+          data-accent-color="#D4AF37"
+          data-position="bottom-right"
+          data-theme="auto"
+          data-lazy-load="true"
+          data-lazy-scrape="true"
+          data-enable-popup="true"></script>
       </body>
     </Html>
   );

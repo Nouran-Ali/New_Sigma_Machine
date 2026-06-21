@@ -153,32 +153,41 @@
   "Industry News": "أخبار الصناعة",
   "Events & Exhibitions": "الفعاليات والمعارض",
   "Privacy Policy": "سياسة الخصوصية",
-
   "Last Updated": "آخر تحديث: يونيو 2026",
-
-"Information We Collect": "المعلومات التي نجمعها",
-"Information We Collect Description": "قد نقوم بجمع بعض المعلومات الشخصية مثل الاسم والبريد الإلكتروني ورقم الهاتف واسم الشركة وأي معلومات تقدمها من خلال نماذج التواصل أو طلبات عروض الأسعار أو استفسارات الدعم الفني.",
-
-"How We Use Your Information": "كيفية استخدام معلوماتك",
-"How We Use Your Information Description": "نستخدم المعلومات التي نجمعها للرد على الاستفسارات وتقديم معلومات عن المنتجات ومعالجة طلبات الخدمة وتحسين موقعنا الإلكتروني والتواصل معك بشأن منتجاتنا وخدماتنا.",
-
-"Cookies and Analytics": "ملفات تعريف الارتباط والتحليلات",
-"Cookies and Analytics Description": "قد يستخدم موقعنا ملفات تعريف الارتباط وأدوات التحليل مثل Google Analytics لفهم أداء الموقع وتحسين تجربة المستخدم.",
-
-"Data Security": "أمان البيانات",
-"Data Security Description": "نطبق إجراءات تقنية وتنظيمية مناسبة لحماية معلوماتك الشخصية من الوصول غير المصرح به أو الإفصاح عنها أو إساءة استخدامها.",
-
-"Third-Party Services": "خدمات الجهات الخارجية",
-"Third-Party Services Description": "قد نشارك المعلومات مع مزودي خدمات موثوقين عند الحاجة لتقديم خدماتنا أو الدعم الفني أو الاستجابة لطلبات العملاء.",
-
-"International Privacy Rights": "حقوق الخصوصية الدولية",
-"International Privacy Rights Description": "اعتمادًا على بلد إقامتك، قد تكون لديك حقوق تتعلق بالوصول إلى معلوماتك الشخصية أو تصحيحها أو حذفها. يمكن تقديم الطلبات باستخدام بيانات التواصل الموضحة أدناه.",
-
-"Updates to This Policy": "تحديثات سياسة الخصوصية",
-"Updates to This Policy Description": "قد نقوم بتحديث سياسة الخصوصية هذه بشكل دوري لتعكس التغييرات في خدماتنا أو المتطلبات القانونية أو ممارسات العمل. سيتم نشر أي تحديثات على هذه الصفحة.",
-
-"Contact Us Description": "إذا كانت لديك أي أسئلة بخصوص سياسة الخصوصية، يرجى التواصل معنا من خلال:",
-
-"Website": "الموقع الإلكتروني",
-"Saudi Arabia": "المملكة العربية السعودية"
+  "Information We Collect": "المعلومات التي نجمعها",
+  "Information We Collect Description": "قد نقوم بجمع بعض المعلومات الشخصية مثل الاسم والبريد الإلكتروني ورقم الهاتف واسم الشركة وأي معلومات تقدمها من خلال نماذج التواصل أو طلبات عروض الأسعار أو استفسارات الدعم الفني.",
+  "How We Use Your Information": "كيفية استخدام معلوماتك",
+  "How We Use Your Information Description": "نستخدم المعلومات التي نجمعها للرد على الاستفسارات وتقديم معلومات عن المنتجات ومعالجة طلبات الخدمة وتحسين موقعنا الإلكتروني والتواصل معك بشأن منتجاتنا وخدماتنا.",
+  "Cookies and Analytics": "ملفات تعريف الارتباط والتحليلات",
+  "Cookies and Analytics Description": "قد يستخدم موقعنا ملفات تعريف الارتباط وأدوات التحليل مثل Google Analytics لفهم أداء الموقع وتحسين تجربة المستخدم.",
+  "Data Security": "أمان البيانات",
+  "Data Security Description": "نطبق إجراءات تقنية وتنظيمية مناسبة لحماية معلوماتك الشخصية من الوصول غير المصرح به أو الإفصاح عنها أو إساءة استخدامها.",
+  "Third-Party Services": "خدمات الجهات الخارجية",
+  "Third-Party Services Description": "قد نشارك المعلومات مع مزودي خدمات موثوقين عند الحاجة لتقديم خدماتنا أو الدعم الفني أو الاستجابة لطلبات العملاء.",
+  "International Privacy Rights": "حقوق الخصوصية الدولية",
+  "International Privacy Rights Description": "اعتمادًا على بلد إقامتك، قد تكون لديك حقوق تتعلق بالوصول إلى معلوماتك الشخصية أو تصحيحها أو حذفها. يمكن تقديم الطلبات باستخدام بيانات التواصل الموضحة أدناه.",
+  "Updates to This Policy": "تحديثات سياسة الخصوصية",
+  "Updates to This Policy Description": "قد نقوم بتحديث سياسة الخصوصية هذه بشكل دوري لتعكس التغييرات في خدماتنا أو المتطلبات القانونية أو ممارسات العمل. سيتم نشر أي تحديثات على هذه الصفحة.",
+  "Contact Us Description": "إذا كانت لديك أي أسئلة بخصوص سياسة الخصوصية، يرجى التواصل معنا من خلال:",
+  "Website": "الموقع الإلكتروني",
+  "Saudi Arabia": "المملكة العربية السعودية",
+  "What is a CNC machine and what are its main uses?": "ما هي ماكينة CNC وما استخداماتها الأساسية؟", "A CNC machine (Computer Numerical Control) is an automated manufacturing machine that uses computer-controlled instructions to cut, engrave, drill, shape, and fabricate materials with high precision. CNC machines are widely used in woodworking, metal fabrication, acrylic processing, furniture manufacturing, signage production, and industrial manufacturing applications.": "ماكينة CNC (التحكم الرقمي بالحاسوب) هي آلة تصنيع آلية تعتمد على أوامر يتم التحكم بها بواسطة الكمبيوتر لتنفيذ عمليات القطع والحفر والنقش والتشكيل بدقة عالية. تُستخدم ماكينات CNC على نطاق واسع في صناعة الأخشاب والمعادن والأكريليك والأثاث واللافتات الإعلانية والعديد من التطبيقات الصناعية المختلفة.",
+  "How does a CNC machine work?": "كيف تعمل ماكينة CNC؟",
+  "A CNC machine operates using digital design files created through CAD/CAM software. The machine follows programmed instructions to automatically control movement, cutting tools, and machining operations, delivering accurate, repeatable, and efficient production results while minimizing human error.": "تعمل ماكينة CNC من خلال ملفات تصميم رقمية يتم إنشاؤها باستخدام برامج CAD/CAM. تتبع الماكينة أوامر مبرمجة للتحكم في الحركة وأدوات القطع وعمليات التشغيل بشكل آلي، مما يضمن دقة عالية ونتائج متكررة وكفاءة إنتاجية مع تقليل الأخطاء البشرية.",
+  "What is the difference between a CNC Router and other CNC machines?": "ما الفرق بين ماكينة CNC Router وماكينات CNC الأخرى؟",
+  "A CNC Router is primarily designed for cutting and engraving wood, MDF, acrylic, plastics, and composite materials. Other CNC machines such as CNC milling machines, CNC lathes, and fiber laser cutting machines are optimized for metalworking, precision machining, and industrial manufacturing applications. Choosing the right machine depends on your material type, production goals, and project requirements.": "تم تصميم ماكينة CNC Router بشكل أساسي لقطع ونقش الأخشاب وألواح MDF والأكريليك والبلاستيك والمواد المركبة. أما الأنواع الأخرى مثل ماكينات التفريز CNC والمخارط CNC وماكينات القطع بالليزر فايبر فتُستخدم بشكل أكبر في تشغيل المعادن والتصنيع الدقيق والتطبيقات الصناعية المتقدمة. يعتمد اختيار الماكينة المناسبة على نوع المادة ومتطلبات المشروع وأهداف الإنتاج.",
+  "What is the difference between 3-axis, 4-axis, and 5-axis CNC machines?": "ما الفرق بين ماكينات CNC ذات 3 محاور و4 محاور و5 محاور؟",
+  "A 3-axis CNC machine handles standard cutting and engraving tasks, while a 4-axis CNC machine adds rotational movement for more complex shapes. A 5-axis CNC machine offers advanced multi-directional machining capabilities, making it ideal for highly detailed industrial components, molds, and precision manufacturing projects.": "تُستخدم ماكينة CNC ذات 3 محاور في عمليات القطع والنقش التقليدية، بينما تضيف الماكينة ذات 4 محاور حركة دورانية تسمح بتنفيذ أشكال أكثر تعقيدًا. أما الماكينة ذات 5 محاور فتوفر إمكانيات تشغيل متقدمة من عدة اتجاهات، مما يجعلها مثالية لتصنيع القوالب والقطع الصناعية الدقيقة والمشاريع المعقدة.",
+  "How do I choose the right CNC machine for my project?": "كيف أختار ماكينة CNC المناسبة لمشروعي؟",
+  "Selecting the right CNC machine depends on several factors including material type, production volume, workpiece dimensions, required precision, and available budget. Sigma Machines helps customers identify the most suitable CNC solution based on their business needs, workspace requirements, and future production goals.": "يعتمد اختيار ماكينة CNC المناسبة على عدة عوامل مثل نوع المادة المراد تشغيلها، وحجم الإنتاج، وأبعاد القطعة، ومستوى الدقة المطلوبة، والميزانية المتاحة. تساعد Sigma Machines العملاء في اختيار الحل الأنسب وفقًا لاحتياجاتهم التشغيلية ومتطلبات مساحة العمل وأهداف التوسع المستقبلية.",
+  "How much does a CNC machine cost?": "كم سعر ماكينة CNC وما العوامل التي تؤثر على التكلفة؟",
+  "The price of a CNC machine varies depending on machine size, working area, number of axes, automation features, spindle power, and production capabilities. Entry-level CNC machines are typically more affordable, while industrial CNC machines with advanced specifications require a higher investment. Contact Sigma Machines for a customized quotation based on your specific requirements.": "يختلف سعر ماكينة CNC حسب حجم الماكينة ومساحة العمل وعدد المحاور وخصائص التشغيل الآلي وقدرة الإسبندل والإمكانيات الإنتاجية المطلوبة. تكون الماكينات المخصصة للمبتدئين أقل تكلفة، بينما تحتاج الماكينات الصناعية ذات المواصفات المتقدمة إلى استثمار أكبر. يمكن التواصل مع Sigma Machines للحصول على عرض سعر مخصص وفقًا لاحتياجات المشروع.",
+  "Does Sigma provide installation and training after purchasing a CNC machine?": "هل توفر Sigma التركيب والتدريب بعد شراء ماكينة CNC؟",
+  "Yes. Sigma Machines provides professional machine installation, operator training, and technical guidance to ensure customers can safely and efficiently operate their CNC machines. Our team supports clients throughout the setup process and beyond.": "نعم، توفر Sigma Machines خدمات التركيب الاحترافي والتدريب العملي للمشغلين بالإضافة إلى الإرشاد الفني لضمان تشغيل الماكينات بكفاءة وأمان. كما يقدم فريقنا الدعم المستمر للعملاء خلال مرحلة التركيب وما بعدها.",
+  "Does Sigma provide CNC machine maintenance and spare parts?": "هل توفر Sigma صيانة وقطع غيار لماكينات CNC؟",
+  "Yes. Sigma Machines offers preventive maintenance services, technical support, troubleshooting assistance, and genuine spare parts for CNC machines. Our maintenance solutions help maximize machine performance, reduce downtime, and extend equipment lifespan.": "نعم، توفر Sigma Machines خدمات الصيانة الدورية والدعم الفني والمساعدة في حل الأعطال بالإضافة إلى توفير قطع الغيار الأصلية لماكينات CNC. تساعد هذه الخدمات على تحسين الأداء وتقليل فترات التوقف وإطالة العمر التشغيلي للمعدات.",
+  "Can a CNC machine be upgraded after purchase?": "هل يمكن تطوير أو ترقية ماكينة CNC بعد الشراء؟",
+  "In many cases, CNC machines can be upgraded with additional features such as rotary axes, automation systems, software enhancements, improved spindles, and advanced control systems. Sigma Machines can evaluate upgrade possibilities based on your machine model and production requirements.": "في العديد من الحالات يمكن تطوير ماكينة CNC بإضافة محاور دورانية أو أنظمة تشغيل آلي أو تحديثات للبرامج أو تحسينات على الإسبندل وأنظمة التحكم. يمكن لفريق Sigma Machines تقييم خيارات الترقية المناسبة بناءً على طراز الماكينة ومتطلبات الإنتاج.",
+  "What services does Sigma Machines provide for CNC machines?": "ما الخدمات التي تقدمها Sigma Machines لماكينات CNC؟",
+  "Sigma Machines provides complete CNC solutions including machine supply, consultation, installation, operator training, maintenance services, technical support, spare parts, machine upgrades, and after-sales services. We help manufacturers improve productivity, precision, and operational efficiency through reliable CNC technology.": "تقدم Sigma Machines حلولًا متكاملة لماكينات CNC تشمل توريد الماكينات والاستشارات الفنية والتركيب والتدريب والصيانة والدعم الفني وقطع الغيار وخدمات الترقية وخدمات ما بعد البيع. نساعد المصانع والشركات على تحسين الإنتاجية والدقة والكفاءة التشغيلية من خلال تقنيات CNC الموثوقة."
 }
