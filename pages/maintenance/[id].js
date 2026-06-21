@@ -73,7 +73,7 @@ const Maintenance = () => {
     <>
       <Meta
         title="Maintenance"
-        description="Ensure optimal performance with Sigma Machines' industrial maintenance services – fast repairs, regular checkups, and expert technical support tailored to your machines."
+        description="Discover Sigma Machines' professional maintenance services and spare parts solutions for fiber laser cutting systems and industrial machinery. We provide fast, reliable support to keep your equipment operating at maximum efficiency with genuine and compatible spare parts from leading brands including Raycus, Max Laser, MFCS, IPG, BWT, Reci, AU3tech, Ospri, Bodor, BOCHU, BLT, CypCut, FSCUT, and Raytools. Our available components include laser sources, cutting heads, nozzles, ceramics, focus lenses, collimation lenses, protection lenses, protective lenses, and essential laser consumables. We support popular models such as RFL-C6000, BM109, BM110, BM111, BM114S, BM06K, BS06K, BM12K, BS12K, BLT421S, BLT310, BLT442, FSCUT2000E, FSCUT2000C, CypCutE, and XC3000. Whether you need maintenance, replacement parts, troubleshooting, upgrades, or technical support for your fiber laser machine, Sigma Machines delivers dependable solutions, expert service, and fast response times across the Middle East."
       />
 
       <div className="px-24 max-xl:px-10 mt-14 max-xl:mt-10 mb-24">

@@ -34,21 +34,10 @@ const Services = () => {
   return (
     <>
 
-      {/* <Meta title="Services" description="Discover our full range of industrial services at Sigma Machines – from machine installation and maintenance to expert support and custom solutions." /> */}
-
       <Meta
-        title="CNC & Laser Machine Maintenance in Saudi Arabia | Professional Service & Technical Support – Sigma Machines"
-        description="Professional CNC and laser machine maintenance in Saudi Arabia. Sigma Machines offers after-sales service, annual maintenance contracts, on-site repairs, and local support for Chinese CNC machines."
-        keywords="
-    CNC machine maintenance Saudi Arabia,
-    Fiber laser machine maintenance,
-    CNC router repair service,
-    Laser welding machine maintenance,
-    Industrial machine maintenance KSA,
-    China CNC distributor service Saudi Arabia,
-    On-site CNC repair,
-    Preventive maintenance Saudi Arabia
-  "
+        title="CNC & Laser Machine Maintenance in Saudi Arabia | Professional Service & Technical Support | Sigma Machines"
+        description="Sigma Machines offers professional CNC machine maintenance in Saudi Arabia, including fiber laser machine maintenance, CNC router repair services, laser welding machine maintenance, and industrial machine maintenance solutions. We provide preventive maintenance programs, annual service contracts, on-site CNC repair, emergency technical support, spare parts supply, and after-sales service for Chinese CNC machines and industrial production equipment throughout the Kingdom of Saudi Arabia."
+        keywords=" CNC machine maintenance Saudi Arabia,  Fiber laser machine maintenance,  CNC router repair service, Laser welding machine maintenance, Industrial machine maintenance KSA, China CNC distributor service Saudi Arabia, On-site CNC repair, Preventive maintenance Saudi Arabia"
       />
 
 
