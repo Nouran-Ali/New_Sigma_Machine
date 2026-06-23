@@ -90,6 +90,21 @@ export default function Article({ article }) {
                         <p className="text-gray-600 mt-3">
                             {language === "en" ? article.excerpt : article.excerpt_ar}
                         </p>
+                        {/* <p className="text-gray-600 mt-3 mb-4">
+                            {language === "en" ? article.description : article.description_ar}
+                        </p> */}
+
+                        {
+                            (article?.content?.en || article?.content?.ar) &&
+                            <div
+                                className="max-w-none [&_h2]:text-3xl [&_h2]:font-bold [&_h2]:mb-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:text-gray-700 [&_p]:leading-8 [&_p]:mb-4"
+                                dangerouslySetInnerHTML={{
+                                    __html: language === "en" ? article.content.en : article.content.ar,
+                                }}
+                            />
+                        }
+
+
 
                         <p className="text-gray-400 text-sm mt-3">
                             {language === "en" ? article.date : article.date_ar}

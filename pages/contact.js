@@ -36,6 +36,17 @@ const Contact = () => {
               <p className="text-[#1d214e]"> {t("distrait-king")}</p>
               <p className="text-[#1d214e]"> {t("Abdulaziz Street")}</p>
 
+              <div className="mt-3">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2863.5590084056057!2d46.81603652586277!3d24.7582337493428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f01da8e490fef%3A0xc8cc0906b5ff5847!2sSigma%20Machines%20Company!5e1!3m2!1sar!2seg!4v1782175761826!5m2!1sar!2seg"
+                  width="100%"
+                  height="170"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+
               <h3 className="text-[#1d214e] text-xl font-semibold mt-5">
                 {t("Warehouse address")}:
               </h3>

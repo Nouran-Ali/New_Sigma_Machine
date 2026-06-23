@@ -55,12 +55,145 @@ const Themaintenance = () => {
       <div className={`${styles.bg_resources}`}>
         <h1 className="text-white text-5xl text-center pt-24">{t("Applications")}</h1>
         <h1 className="text-[#bfbfbf] text-2xl text-center pt-5">
-           {t("Maintenance")}
+          {t("Maintenance")}
         </h1>
       </div>
 
-      <div className="px-24 max-xl:px-10 mt-12 mb-12">
-        <div className="grid grid-cols-4 max-xl:grid-cols-1 gap-4">
+      <div className="px-24 max-xl:px-10 mt-12 mb-12" dir={language === "en" ? "ltr" : "rtl"}>
+
+        <h3 className="text-2xl">{t("Signs that your machine needs maintenance")}</h3>
+
+        <div className="mb-4 mt-6">
+          <div className="grid grid-cols-3 max-xl:grid-cols-2 gap-4">
+
+            <img
+              src="../maintaines/7.jpeg"
+              height="90"
+              className="rounded-xl"
+              alt="Fiber laser cutting machine"
+            />
+            <img
+              src="../maintaines/8.jpeg"
+              height="90"
+              className="rounded-xl"
+              alt="Fiber laser cutting machine"
+            />
+            <img
+              src="../maintaines/9.jpeg"
+              height="90"
+              className="rounded-xl"
+              alt="Fiber laser cutting machine"
+            />
+            <img
+              src="../maintaines/10.jpeg"
+              height="90"
+              className="rounded-xl"
+              alt="Fiber laser cutting machine"
+            />
+            <img
+              src="../maintaines/11.jpeg"
+              height="90"
+              className="rounded-xl"
+              alt="Fiber laser cutting machine"
+            />
+          </div>
+        </div>
+
+
+        <p className="mt-10">{t("Fiber laser cutting machine malfunctions are not a surprise...because ignoring warning signs reduces the likelihood of timely detection and repair. Preventive maintenance is not optional...it's a successful operating strategy and a smart investment that preserves machine efficiency. 👌🏻✨")}</p>
+
+        <div className="mb-6 mt-3 grid grid-cols-2 max-xl:grid-cols-1 gap-4 items-center">
+          <img
+            src="../maintaines/1.jpeg"
+            className="rounded-xl "
+            alt="Fiber laser cutting machine"
+          />
+
+          <div className="">
+            <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 mt-5">
+
+              <img
+                src="../maintaines/2.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+              <img
+                src="../maintaines/3.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+              <img
+                src="../maintaines/4.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+              <img
+                src="../maintaines/5.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+            </div>
+          </div>
+        </div>
+
+
+        <p className="mt-10">{t("The most important indicator that a machine needs maintenance is the quality of its workmanship, because cutting accuracy and engraving cleanliness are the first things affected by a CO2 laser machine. ⚠️ Machine maintenance is a priority to maintain your work quality, not just to prevent breakdowns. 👌🏻")}</p>
+        <div className="mb-6 mt-3 grid grid-cols-2 max-xl:grid-cols-1 gap-4 items-center">
+          <img
+            src="../maintaines/12.jpeg"
+            className="rounded-xl "
+            alt="Fiber laser cutting machine"
+          />
+
+          <div className="">
+            <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 mt-5">
+
+              <img
+                src="../maintaines/13.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+              <img
+                src="../maintaines/14.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+              <img
+                src="../maintaines/15.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+              <img
+                src="../maintaines/17.jpeg"
+                width="280"
+                height="90"
+                className="rounded-xl"
+                alt="Fiber laser cutting machine"
+              />
+            </div>
+          </div>
+        </div>
+
+
+
+        <h3 className="text-2xl">{t("Maintenance")}</h3>
+
+        <div className="mb-4 mt-6 grid grid-cols-4 max-xl:grid-cols-1 gap-4">
+
           <Link href="/maintenance/1">
             <img
               src="../3.jpeg"

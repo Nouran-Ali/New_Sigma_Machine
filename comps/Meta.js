@@ -43,6 +43,46 @@ const Meta = ({ title, description, keywords, image, url }) => {
 
       {/* Favicon */}
       <link rel="icon" href="/favicon.ico" />
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Sigma Machines",
+            "url": "https://sigmamachines.net",
+            "logo": "https://sigmamachines.net/logo.png",
+            "image": "https://sigmamachines.net/logo.png",
+            "telephone": "+966569745955",
+            "email": "info@sigmamachines.net",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "8053 Salman Al Farisi Street, Office 4, First Floor",
+              "addressLocality": "Riyadh",
+              "addressRegion": "Riyadh",
+              "postalCode": "13221",
+              "addressCountry": "SA"
+            },
+            "areaServed": [
+              {
+                "@type": "City",
+                "name": "Riyadh"
+              },
+              {
+                "@type": "Country",
+                "name": "Saudi Arabia"
+              }
+            ],
+            "sameAs": [
+              "https://www.linkedin.com/company/sigma-machines",
+              "https://www.facebook.com/Sigmamachines",
+              "https://www.instagram.com/sigma_machines?igsh=MTQ0ZmQxYzg0Nzhncw==",
+              "https://www.tiktok.com/@sigma.machines?_r=1&_t=ZS-97R3FSvmdqD"
+            ]
+          })
+        }}
+      />
     </Head>
   );
 };
