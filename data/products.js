@@ -183,13 +183,13 @@ export const products = [
     MetaDescription:
       "High-performance 3 Axis CNC Router for woodworking, furniture, acrylic cutting, sign making & more. Fast cutting, high accuracy & stable performance.",
     Keywords:
-      "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine , 3 Axis CNC Router, CNC Router Egypt, CNC Machine Egypt, Wood CNC Machine, CNC Router Machine for Sale, CNC Router Price Egypt, Woodworking CNC Router, MDF CNC Cutting Machine, Industrial CNC Router, CNC Engraving Machine, Furniture Manufacturing CNC, Sigma Machines Egypt",
+      "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine , 3 Axis CNC Router, CNC Router Egypt, CNC Machine Egypt, Wood CNC Machine, CNC Router Machine for Sale, CNC Router Price Egypt, Woodworking CNC Router, MDF CNC Cutting Machine, Industrial CNC Router, CNC Engraving Machine, Furniture Manufacturing CNC, Sigma Machines Egypt , ماكينة cnc , cnc router, cnc operator ",
 
     TitleTagAr: "ماكينة راوتر CNC ثلاثية المحاور | قص الخشب وMDF والأكريليك",
     MetaDescriptionAr:
       "ماكينة 3 Axis CNC Router عالية الأداء للخشب والأكريليك وصناعة الأثاث واللوحات الإعلانية. دقة عالية وتشغيل ثابت وسرعة قص ممتازة.",
     KeywordsAr:
-      "راوتر CNC ثلاثي المحاور, ماكينة CNC خشب, قص MDF, قص أكريليك, ماكينة تفريغ CNC , 3 Axis CNC Router, CNC Router Egypt, CNC Machine Egypt, Wood CNC Machine, CNC Router Machine for Sale, CNC Router Price Egypt, Woodworking CNC Router, MDF CNC Cutting Machine, Industrial CNC Router, CNC Engraving Machine, Furniture Manufacturing CNC, Sigma Machines Egypt"
+      "راوتر CNC ثلاثي المحاور, ماكينة CNC خشب, قص MDF, قص أكريليك, ماكينة تفريغ CNC , 3 Axis CNC Router, CNC Router Egypt, CNC Machine Egypt, Wood CNC Machine, CNC Router Machine for Sale, CNC Router Price Egypt, Woodworking CNC Router, MDF CNC Cutting Machine, Industrial CNC Router, CNC Engraving Machine, Furniture Manufacturing CNC, Sigma Machines Egypt , ماكينة cnc , cnc router , cnc operator"
   },
 
   {

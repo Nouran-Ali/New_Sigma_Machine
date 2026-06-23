@@ -323,7 +323,7 @@ function Navbar() {
                   }
               }
             >
-              <img src="../logo.png" width="90px" className="max-lg:w-[50px]" alt="logo"/>
+              <img src="../logo.png" width="90px" className="max-lg:w-[50px]" alt="logo" />
             </Typography>
 
             <Box
@@ -554,7 +554,7 @@ function Navbar() {
                 justifyContent: "flex-end",
               }}
             >
-              <img src="../logo.png" width="75px" className="max-lg:w-[50px]" alt="logo"/>
+              <img src="../logo.png" width="75px" className="max-lg:w-[50px]" alt="logo" />
             </Typography>
             <Box
               sx={{
@@ -634,11 +634,14 @@ function Navbar() {
                         keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
-                          horizontal: "right",
+                          horizontal: language === "ar" ? "left" : "right",
                         }}
                         transformOrigin={{
                           vertical: "top",
-                          horizontal: "left",
+                          horizontal: language === "ar" ? "right" : "left",
+                        }}
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
                         <MenuItem onClick={handleClose}>
@@ -697,11 +700,14 @@ function Navbar() {
                           keepMounted={false}
                           anchorOrigin={{
                             vertical: "top",
-                            horizontal: "right",
+                            horizontal: language === "ar" ? "left" : "right",
                           }}
                           transformOrigin={{
                             vertical: "top",
-                            horizontal: "left",
+                            horizontal: language === "ar" ? "right" : "left",
+                          }}
+                          sx={{
+                            direction: i18n.language === "ar" ? "rtl" : "ltr",
                           }}
                         >
                           <MenuItem onClick={handleClose}>
@@ -745,11 +751,11 @@ function Navbar() {
                           keepMounted={false}
                           anchorOrigin={{
                             vertical: "top",
-                            horizontal: "right",
+                            horizontal: language === "ar" ? "left" : "right",
                           }}
                           transformOrigin={{
                             vertical: "top",
-                            horizontal: "left",
+                            horizontal: language === "ar" ? "right" : "left",
                           }}
                         >
                           <MenuItem onClick={handleClose}>
@@ -821,11 +827,14 @@ function Navbar() {
                         keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
-                          horizontal: "right",
+                          horizontal: language === "ar" ? "left" : "right",
                         }}
                         transformOrigin={{
                           vertical: "top",
-                          horizontal: "left",
+                          horizontal: language === "ar" ? "right" : "left",
+                        }}
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
                         <MenuItem onClick={handleClose}>
@@ -877,11 +886,14 @@ function Navbar() {
                         keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
-                          horizontal: "right",
+                          horizontal: language === "ar" ? "left" : "right",
                         }}
                         transformOrigin={{
                           vertical: "top",
-                          horizontal: "left",
+                          horizontal: language === "ar" ? "right" : "left",
+                        }}
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
                         <MenuItem onClick={handleClose}>
@@ -933,11 +945,14 @@ function Navbar() {
                         keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
-                          horizontal: "right",
+                          horizontal: language === "ar" ? "left" : "right",
                         }}
                         transformOrigin={{
                           vertical: "top",
-                          horizontal: "left",
+                          horizontal: language === "ar" ? "right" : "left",
+                        }}
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
                         <MenuItem onClick={handleClose}>
@@ -998,11 +1013,14 @@ function Navbar() {
                         keepMounted={false}
                         anchorOrigin={{
                           vertical: "top",
-                          horizontal: "right",
+                          horizontal: language === "ar" ? "left" : "right",
                         }}
                         transformOrigin={{
                           vertical: "top",
-                          horizontal: "left",
+                          horizontal: language === "ar" ? "right" : "left",
+                        }}
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
                         <MenuItem onClick={handleClose}>
@@ -1075,7 +1093,7 @@ function Navbar() {
                         </Link>
                       </MenuItem>
 
-                       <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose8}>
                         <Link
                           href={`/case-studies`}
                           className="no-underline text-inherit"
@@ -1084,7 +1102,7 @@ function Navbar() {
                         </Link>
                       </MenuItem>
 
-                       <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose8}>
                         <Link
                           href={`/industry-news`}
                           className="no-underline text-inherit"
@@ -1093,7 +1111,7 @@ function Navbar() {
                         </Link>
                       </MenuItem>
 
-                       <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose8}>
                         <Link
                           href={`/events`}
                           className="no-underline text-inherit"

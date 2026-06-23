@@ -1,7 +1,15 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import { useTranslation } from "react-i18next";
 
 export default function Document() {
+
+  const [t, i18n] = useTranslation();
+  const { language } = i18n;
+
+  const position = language === "ar"
+    ? "bottom-right"
+    : "bottom-left";
 
   return (
     <Html lang="en">
