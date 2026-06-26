@@ -10,7 +10,7 @@ import { useTranslation } from "react-i18next";
 import Blog from "../comps/Blog";
 import Event from "@/comps/Event";
 import Faq from "@/comps/Faq";
-import SpareParts from "@/comps/spareParts";
+import SpareParts from "@/comps/SpareParts";
 
 export default function Home() {
 
