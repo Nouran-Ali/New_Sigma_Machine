@@ -10,6 +10,7 @@ import { useTranslation } from "react-i18next";
 import Blog from "../comps/Blog";
 import Event from "@/comps/Event";
 import Faq from "@/comps/Faq";
+import SpareParts from "@/comps/spareParts";
 
 export default function Home() {
 
@@ -50,6 +51,7 @@ export default function Home() {
         {/* <WhatWeOffer /> */}
         <Our_services />
         <Our_products />
+        <SpareParts />
         <Experience />
         {/* <Samples /> */}
         <Faq />
