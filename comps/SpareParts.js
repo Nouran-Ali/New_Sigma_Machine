@@ -22,8 +22,12 @@ const SpareParts = () => {
                         </p>
                     </div>
                     <h1 className="text-[#1c1c1c] text-xl mt-4">
-                        {t("High-Precision CNC & Laser Cutting Machines")}
+                        {t("Premium Spare Parts for CNC & Laser Machines")}
                     </h1>
+
+                    <p className="text-gray-600 mt-4 leading-8 max-w-3xl">
+                        {t("We provide high-quality original and compatible spare parts for CNC, fiber laser cutting, laser marking, and press brake machines. Our products are carefully selected to ensure maximum performance, precision, durability, and reduced machine downtime, helping your production run efficiently with reliable replacement components.")}
+                    </p>
                 </div>
 
                 <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-8 mt-12">

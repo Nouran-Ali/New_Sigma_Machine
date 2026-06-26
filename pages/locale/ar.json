@@ -171,7 +171,8 @@
   "Contact Us Description": "إذا كانت لديك أي أسئلة بخصوص سياسة الخصوصية، يرجى التواصل معنا من خلال:",
   "Website": "الموقع الإلكتروني",
   "Saudi Arabia": "المملكة العربية السعودية",
-  "What is a CNC machine and what are its main uses?": "ما هي ماكينة CNC وما استخداماتها الأساسية؟", "A CNC machine (Computer Numerical Control) is an automated manufacturing machine that uses computer-controlled instructions to cut, engrave, drill, shape, and fabricate materials with high precision. CNC machines are widely used in woodworking, metal fabrication, acrylic processing, furniture manufacturing, signage production, and industrial manufacturing applications.": "ماكينة CNC (التحكم الرقمي بالحاسوب) هي آلة تصنيع آلية تعتمد على أوامر يتم التحكم بها بواسطة الكمبيوتر لتنفيذ عمليات القطع والحفر والنقش والتشكيل بدقة عالية. تُستخدم ماكينات CNC على نطاق واسع في صناعة الأخشاب والمعادن والأكريليك والأثاث واللافتات الإعلانية والعديد من التطبيقات الصناعية المختلفة.",
+  "What is a CNC machine and what are its main uses?": "ما هي ماكينة CNC وما استخداماتها الأساسية؟",
+  "A CNC machine (Computer Numerical Control) is an automated manufacturing machine that uses computer-controlled instructions to cut, engrave, drill, shape, and fabricate materials with high precision. CNC machines are widely used in woodworking, metal fabrication, acrylic processing, furniture manufacturing, signage production, and industrial manufacturing applications.": "ماكينة CNC (التحكم الرقمي بالحاسوب) هي آلة تصنيع آلية تعتمد على أوامر يتم التحكم بها بواسطة الكمبيوتر لتنفيذ عمليات القطع والحفر والنقش والتشكيل بدقة عالية. تُستخدم ماكينات CNC على نطاق واسع في صناعة الأخشاب والمعادن والأكريليك والأثاث واللافتات الإعلانية والعديد من التطبيقات الصناعية المختلفة.",
   "How does a CNC machine work?": "كيف تعمل ماكينة CNC؟",
   "A CNC machine operates using digital design files created through CAD/CAM software. The machine follows programmed instructions to automatically control movement, cutting tools, and machining operations, delivering accurate, repeatable, and efficient production results while minimizing human error.": "تعمل ماكينة CNC من خلال ملفات تصميم رقمية يتم إنشاؤها باستخدام برامج CAD/CAM. تتبع الماكينة أوامر مبرمجة للتحكم في الحركة وأدوات القطع وعمليات التشغيل بشكل آلي، مما يضمن دقة عالية ونتائج متكررة وكفاءة إنتاجية مع تقليل الأخطاء البشرية.",
   "What is the difference between a CNC Router and other CNC machines?": "ما الفرق بين ماكينة CNC Router وماكينات CNC الأخرى؟",
@@ -194,5 +195,8 @@
   "Fiber laser cutting machine malfunctions are not a surprise...because ignoring warning signs reduces the likelihood of timely detection and repair. Preventive maintenance is not optional...it's a successful operating strategy and a smart investment that preserves machine efficiency. 👌🏻✨": "عطال ماكينات الفايبر ليزر قطع مش مفاجأة .. لأن تجاهل العلامات التحذيرية يقلل من اكتشافها ومعالجتها في الوقت المناسب. الصيانة الوقائية مش خيار .. هي استراتيچية تشغيل ناجحة، واستثمار ذكي يحافظ على كفاءة الماكينة. 👌🏻✨",
   "Signs that your machine needs maintenance": "علامات تدل ان ماكينتك تحتاج صيانة",
   "Order": "اطلب",
-  "Part No:": "رقم الجزء"
+  "Part No:": "رقم الجزء",
+  "OUR Spare Parts": "قطع الغيار لدينا",
+  "Premium Spare Parts for CNC & Laser Machines": "قطع غيار عالية الجودة لماكينات CNC والليزر",
+  "We provide high-quality original and compatible spare parts for CNC, fiber laser cutting, laser marking, and press brake machines. Our products are carefully selected to ensure maximum performance, precision, durability, and reduced machine downtime, helping your production run efficiently with reliable replacement components.": "نوفر قطع غيار أصلية ومتوافقة عالية الجودة لماكينات CNC، وماكينات القطع بليزر الفايبر، وماكينات الليزر ماركينج، وماكينات الثني (Press Brake). يتم اختيار منتجاتنا بعناية لضمان أعلى مستويات الأداء والدقة والمتانة، مع تقليل فترات توقف الماكينات، مما يساعد على استمرار عمليات الإنتاج بكفاءة من خلال مكونات بديلة موثوقة."
 }
