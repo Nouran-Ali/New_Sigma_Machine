@@ -42,7 +42,7 @@ const SpareParts = () => {
 
                             <div className="p-6">
                                 <div className="flex justify-between items-center mb-3">
-                                    <h3 className="font-semibold text-xl">
+                                    <h3 className="font-semibold text-lg">
                                         {language === "en" ? item.name : item.name_ar}
                                     </h3>
 
