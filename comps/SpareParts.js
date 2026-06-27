@@ -11,6 +11,10 @@ const SpareParts = () => {
     const [t, i18n] = useTranslation();
     const { language } = i18n;
 
+    const phoneNumber = "+966569745955";
+    const message = "Hello, I need to order";
+    const messageAr = " مرحبا انا احتاج طلب  ";
+
     return (
         <div className="pt-14 pb-9 relative">
             <div className="px-24 max-xl:px-10">
@@ -46,7 +50,7 @@ const SpareParts = () => {
 
                             <div className="p-6">
                                 <div className="flex justify-between items-center mb-3">
-                                    <h3 className="font-semibold text-lg">
+                                    <h3 className="font-semibold text-base">
                                         {language === "en" ? item.name : item.name_ar}
                                     </h3>
 
@@ -75,7 +79,10 @@ const SpareParts = () => {
                                 </div>
 
                                 <Link
-                                    href={`/spare-parts/${item.id}`}
+                                    href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                                        `${language === "en" ? message : messageAr} ${language === "en" ? item.name : item.name_ar}`
+                                    )}`}
+                                    target="_blank"
                                     className="w-full block text-center bg-[#1c1c1c] text-white py-3 rounded-xl hover:bg-[#D4AF37] transition"
                                 >
                                     {t("Order")}
@@ -86,7 +93,7 @@ const SpareParts = () => {
                 </div>
 
                 <div className="mx-auto flex justify-center mt-14">
-                    <Link href="/" className={`${styles.btn_more} flex items-center`}>
+                    <Link href="/spare-parts" className={`${styles.btn_more} flex items-center`}>
                         {t("More")}
                         {
                             language === "en" ?
