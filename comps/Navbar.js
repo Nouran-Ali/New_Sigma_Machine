@@ -436,56 +436,74 @@ function Navbar() {
                     <div key={index}>
                       <Button
                         id="basic-button"
-                        aria-controls={open ? "basic-menu" : undefined}
+                        aria-controls={open8 ? "basic-menu" : undefined}
                         aria-haspopup="true"
-                        aria-expanded={open ? "true" : undefined}
-                        onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10"}  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
+                        aria-expanded={open8 ? "true" : undefined}
+                        onClick={handleClick8}
+                        className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                         sx={{
-                          color: "rgb(48, 70, 68)",
-                          fontSize: "16px",
+                          color: "#54545F",
                           fontWeight: "400",
+                          fontSize: "16px",
+                          padding: "13px 17px",
                           textTransform: "capitalize",
-                          padding: "10px 0px 1px 7px",
-                          display: "flex",
-                          justifyContent: "space-between",
                           fontFamily: "Cairo",
                         }}
                       >
-
                         {
                           language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
                         }
-
-                        {i18n.language === "ar" ? "المنتجات" : "Products"}
-                        {/* <ArrowForwardIosIcon
-                          sx={{
-                            fontSize: "17px",
-                            color: "#1c1c1c",
-                            // fontWeight: "600",
-                            // padding: "13px 17px",
-                            // textTransform: "capitalize",
-                          }}
-                          className="mx-4"
-                        /> */}
-
-                        {
-                          language === "en" &&
-                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
-                        }
+                        {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
                       </Button>
                       <Menu
                         id="basic-menu"
-                        anchorEl={anchorEl}
-                        open={open}
-                        onClose={handleClose}
+                        anchorEl={anchorEl8}
+                        open={open8}
+                        onClose={handleClose8}
                         MenuListProps={{
                           "aria-labelledby": "basic-button",
                         }}
+
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
+                        }}
                       >
-                        <MenuItem onClick={handleClose}>Profile</MenuItem>
-                        <MenuItem onClick={handleClose}>My account</MenuItem>
-                        <MenuItem onClick={handleClose}>Logout</MenuItem>
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/blog`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Blog")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/case-studies`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Case Studies")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/industry-news`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Industry News")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/events`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Events & Exhibitions")}
+                          </Link>
+                        </MenuItem>
+
                       </Menu>
                     </div>
                   )
