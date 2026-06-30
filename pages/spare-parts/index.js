@@ -1,18 +1,62 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../../styles/Resources.module.css";
 import Head from 'next/head';
 import { useTranslation } from "react-i18next";
 import { spareParts } from "@/data/spareParts";
 import Link from "next/link";
+import { Input, Select } from "antd";
+import { useMemo, useState } from "react";
+import { useRouter } from "next/router";
 
 const Sparearts = () => {
 
     const [t, i18n] = useTranslation();
     const { language } = i18n;
 
+    const { Search } = Input;
+
+    const router = useRouter();
+    const [search, setSearch] = useState("");
+    const [machine, setMachine] = useState("all");
+
     const phoneNumber = "+966569745955";
     const message = "Hello, I need to order";
     const messageAr = " مرحبا انا احتاج طلب  ";
+
+    const getMachine = (id) => {
+        if (id >= 1 && id <= 6) return "Marking";
+        if (id >= 7 && id <= 10) return "Press Brake";
+        if (id >= 11 && id <= 19) return "CNC Router";
+        if (id >= 20 && id <= 35) return "Fiber Laser Cutting";
+        if (id >= 36 && id <= 44) return "Plasma";
+        if (id >= 45 && id <= 46) return "Compressor";
+        if (id >= 47 && id <= 48) return "YAG";
+
+        return "Other";
+    };
+
+    useEffect(() => {
+        if (router.isReady) {
+            setMachine(router.query.machine || "all");
+        }
+    }, [router.isReady, router.query.machine]);
+
+    const filteredParts = useMemo(() => {
+        return spareParts.filter((item) => {
+
+            const partName =
+                language === "en"
+                    ? item.name.toLowerCase()
+                    : item.name_ar.toLowerCase();
+
+            const matchSearch = partName.includes(search.toLowerCase());
+
+            const matchMachine =
+                machine === "all" || getMachine(item.id) === machine;
+
+            return matchSearch && matchMachine;
+        });
+    }, [search, machine, language]);
 
     return (
         <>
@@ -31,8 +75,60 @@ const Sparearts = () => {
                 <h1 className="text-[#bfbfbf] text-2xl text-center pt-5">{t("Resources")}</h1>
             </div>
 
+            <div className="flex gap-8 max-lg:gap-4 px-24 max-lg:px-10 py-8" dir={language === "en" ? "ltr" : "rtl"}>
+
+                <Search
+                    placeholder={t("Search Spare Part")}
+                    allowClear
+                    value={search}
+                    onChange={(e) => setSearch(e.target.value)}
+                    className="flex-1"
+                />
+
+                <Select
+                    value={machine}
+                    onChange={setMachine}
+                    className="w-[270px] max-lg:w-[150px]"
+                    options={[
+                        {
+                            value: "all",
+                            label: t("All Machines"),
+                        },
+                        {
+                            value: "Marking",
+                            label: "Marking",
+                        },
+                        {
+                            value: "Press Brake",
+                            label: "Press Brake",
+                        },
+                        {
+                            value: "CNC Router",
+                            label: "CNC Router",
+                        },
+                        {
+                            value: "Fiber Laser Cutting",
+                            label: "Fiber Laser Cutting",
+                        },
+                        {
+                            value: "Plasma",
+                            label: "Plasma",
+                        },
+                        {
+                            value: "Compressor",
+                            label: "Compressor",
+                        },
+                        {
+                            value: "YAG",
+                            label: "YAG",
+                        },
+                    ]}
+                />
+
+            </div>
+
             <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-8 px-24 max-xl:px-10 py-6" dir={language === "en" ? "ltr" : "rtl"}>
-                {spareParts.map((item) => (
+                {filteredParts.map((item) => (
                     <div
                         key={item.id}
                         className="group bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition duration-300"

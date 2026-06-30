@@ -44,6 +44,11 @@ const pages = [
     href: "/products",
   },
   {
+    title: "Spare Parts",
+    title_ar: "قطع الغيار",
+    href: "/spare-parts",
+  },
+  {
     title: "Maintenance",
     title_ar: "الصيانة",
     href: "/themaintenance",
@@ -215,6 +220,15 @@ function Navbar() {
     setAnchorEl8(null);
   };
 
+  const [anchorEl9, setAnchorEl9] = React.useState(null);
+  const open9 = Boolean(anchorEl9);
+  const handleClick9 = (event) => {
+    setAnchorEl9(event.currentTarget);
+  };
+  const handleClose9 = () => {
+    setAnchorEl9(null);
+  };
+
   const [active, setActive] = useState();
   const [scrolling, setScrolling] = useState(false);
   const router = useRouter();
@@ -384,13 +398,13 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-10 max-lg:mr-10" : "max-lg:ml-10 max-lg:mr-10"}  pt-3 max-lg:pt-5 font-normal text-[18px] max-lg:text-[15px]`}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-24 max-lg:mr-0" : "max-lg:ml-2 max-lg:mr-24"}  pt-3 font-normal text-[18px] max-lg:text-[16px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           fontSize: "16px",
                           fontWeight: "400",
                           textTransform: "capitalize",
-                          padding: "10px 0px 1px 7px",
+                          padding: "13px 17px",
                           display: "flex",
                           justifyContent: "space-between",
                           fontFamily: "Cairo",
@@ -402,16 +416,6 @@ function Navbar() {
                         }
 
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
-                        {/* <ArrowForwardIosIcon
-                          sx={{
-                            fontSize: "17px",
-                            color: "#1c1c1c",
-                            // fontWeight: "600",
-                            // padding: "13px 17px",
-                            // textTransform: "capitalize",
-                          }}
-                          className="mx-4"
-                        /> */}
 
                         {
                           language === "en" &&
@@ -432,6 +436,115 @@ function Navbar() {
                         <MenuItem onClick={handleClose}>Logout</MenuItem>
                       </Menu>
                     </div>
+                  ) : title == "Spare Parts" ? (
+                    <div key={index}>
+                      <Button
+                        id="basic-button"
+                        aria-controls={open9 ? "basic-menu" : undefined}
+                        aria-haspopup="true"
+                        aria-expanded={open9 ? "true" : undefined}
+                        onClick={handleClick9}
+                        className={`flex items-center text-[#54545F]  ${i18n.language === "ar" ? "max-lg:ml-16 max-lg:mr-0" : "max-lg:ml-0 max-lg:mr-16"} pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        sx={{
+                          color: "#54545F",
+                          fontWeight: "400",
+                          fontSize: "16px",
+                          padding: "13px 17px",
+                          textTransform: "capitalize",
+                          fontFamily: "Cairo",
+                        }}
+                      >
+
+                        {
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+
+                        {i18n.language === "ar" ? "قطع الغيار" : "Spare Parts"}
+
+                        {
+                          language === "en" &&
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                        }
+                      </Button>
+                      <Menu
+                        id="basic-menu"
+                        anchorEl={anchorEl9}
+                        open={open9}
+                        onClose={handleClose9}
+                        MenuListProps={{
+                          "aria-labelledby": "basic-button",
+                        }}
+
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
+                        }}
+                      >
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            Marking
+                          </Link>
+                        </MenuItem>
+
+
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            Press Brake
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            CNC Router
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            Fiber Laser Cutting
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            Plasma
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            Compressor
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose9}>
+                          <Link
+                            href={`/spare-parts`}
+                            className="no-underline text-inherit"
+                          >
+                            YAG
+                          </Link>
+                        </MenuItem>
+
+                      </Menu>
+                    </div>
                   ) : title == "Resources" ? (
                     <div key={index}>
                       <Button
@@ -440,7 +553,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open8 ? "true" : undefined}
                         onClick={handleClick8}
-                        className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                        className={`flex items-center text-[#54545F] ${i18n.language === "ar" ? "max-lg:ml-14 max-lg:mr-0" : "max-lg:ml-0 max-lg:mr-14"} pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
                           color: "#54545F",
                           fontWeight: "400",
@@ -453,7 +566,13 @@ function Navbar() {
                         {
                           language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
                         }
+
                         {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
+
+                        {
+                          language === "en" &&
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                        }
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -538,7 +657,7 @@ function Navbar() {
                     padding: "7px 28px 0px 28px",
                     fontSize: "16px",
                   }}
-                  className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start"} text-[#54545F] px-7 max-lg:px-0 max-lg:mx-3 mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]`}
+                  className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-center" : "max-lg:justify-start"} text-[#54545F] px-7 max-lg:px-0 max-lg:mx-3 mr-3 pt-3 font-normal normal-case text-[18px] max-lg:text-[16px]`}
                 >
                   {language == "ar" ? "EN" : "AR"}
                 </Button>
@@ -1069,14 +1188,14 @@ function Navbar() {
                       </MenuItem>
                     </Menu>
                   </div>
-                ) : title == "Resources" ? (
+                ) : title == "Spare Parts" ? (
                   <div key={index}>
                     <Button
                       id="basic-button"
-                      aria-controls={open8 ? "basic-menu" : undefined}
+                      aria-controls={open9 ? "basic-menu" : undefined}
                       aria-haspopup="true"
-                      aria-expanded={open8 ? "true" : undefined}
-                      onClick={handleClick8}
+                      aria-expanded={open9 ? "true" : undefined}
+                      onClick={handleClick9}
                       className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                       sx={{
                         color: "#54545F",
@@ -1087,13 +1206,13 @@ function Navbar() {
                         fontFamily: "Cairo",
                       }}
                     >
-                      {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
+                      {i18n.language === "ar" ? "قطع الغيار" : "Spare Parts"}
                     </Button>
                     <Menu
                       id="basic-menu"
-                      anchorEl={anchorEl8}
-                      open={open8}
-                      onClose={handleClose8}
+                      anchorEl={anchorEl9}
+                      open={open9}
+                      onClose={handleClose9}
                       MenuListProps={{
                         "aria-labelledby": "basic-button",
                       }}
@@ -1102,55 +1221,154 @@ function Navbar() {
                         direction: i18n.language === "ar" ? "rtl" : "ltr",
                       }}
                     >
-                      <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/blog`}
+                          href={`/spare-parts`}
                           className="no-underline text-inherit"
                         >
-                          {t("Blog")}
+                          Marking
                         </Link>
                       </MenuItem>
 
-                      <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/case-studies`}
+                          href={`/spare-parts`}
                           className="no-underline text-inherit"
                         >
-                          {t("Case Studies")}
+                          Press Brake
                         </Link>
                       </MenuItem>
 
-                      <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/industry-news`}
+                          href={`/spare-parts`}
                           className="no-underline text-inherit"
                         >
-                          {t("Industry News")}
+                          CNC Router
                         </Link>
                       </MenuItem>
 
-                      <MenuItem onClick={handleClose8}>
+                      <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/events`}
+                          href={`/spare-parts`}
                           className="no-underline text-inherit"
                         >
-                          {t("Events & Exhibitions")}
+                          Fiber Laser Cutting
+                        </Link>
+                      </MenuItem>
+
+                      <MenuItem onClick={handleClose9}>
+                        <Link
+                          href={`/spare-parts`}
+                          className="no-underline text-inherit"
+                        >
+                          Plasma
+                        </Link>
+                      </MenuItem>
+
+                      <MenuItem onClick={handleClose9}>
+                        <Link
+                          href={`/spare-parts`}
+                          className="no-underline text-inherit"
+                        >
+                          Compressor
+                        </Link>
+                      </MenuItem>
+
+                      <MenuItem onClick={handleClose9}>
+                        <Link
+                          href={`/spare-parts`}
+                          className="no-underline text-inherit"
+                        >
+                          YAG
                         </Link>
                       </MenuItem>
 
                     </Menu>
                   </div>
-                ) : (
-                  <Link
-                    key={index}
-                    href={href}
-                    className={`${styles.link} ${handleActiveLink(href) ? styles.active : " "
-                      } flex items-center`}
-                    style={{ align: "center" }}
-                  >
-                    {i18n.language === "ar" ? title_ar : title}
-                  </Link>
                 )
+                  : title == "Resources" ? (
+                    <div key={index}>
+                      <Button
+                        id="basic-button"
+                        aria-controls={open8 ? "basic-menu" : undefined}
+                        aria-haspopup="true"
+                        aria-expanded={open8 ? "true" : undefined}
+                        onClick={handleClick8}
+                        className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                        sx={{
+                          color: "#54545F",
+                          fontWeight: "400",
+                          fontSize: "16px",
+                          padding: "13px 17px",
+                          textTransform: "capitalize",
+                          fontFamily: "Cairo",
+                        }}
+                      >
+                        {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
+                      </Button>
+                      <Menu
+                        id="basic-menu"
+                        anchorEl={anchorEl8}
+                        open={open8}
+                        onClose={handleClose8}
+                        MenuListProps={{
+                          "aria-labelledby": "basic-button",
+                        }}
+
+                        sx={{
+                          direction: i18n.language === "ar" ? "rtl" : "ltr",
+                        }}
+                      >
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/blog`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Blog")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/case-studies`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Case Studies")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/industry-news`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Industry News")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/events`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Events & Exhibitions")}
+                          </Link>
+                        </MenuItem>
+
+                      </Menu>
+                    </div>
+                  ) : (
+                    <Link
+                      key={index}
+                      href={href}
+                      className={`${styles.link} ${handleActiveLink(href) ? styles.active : " "
+                        } flex items-center`}
+                      style={{ align: "center" }}
+                    >
+                      {i18n.language === "ar" ? title_ar : title}
+                    </Link>
+                  )
               )}
               <Button
                 onClick={toggleLanguage}
@@ -1158,7 +1376,7 @@ function Navbar() {
                   color: "#54545F",
                   backgroundColor: "transparent",
                   fontWeight: "500",
-                  marginRight: "10px",
+                  marginRight: "5px",
                 }}
                 className="text-[18px] max-lg:text-[16px]"
               >
