@@ -33,7 +33,7 @@ const Our_products = () => {
         </div>
         <Carousel autoplay>
           <div>
-            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-6 mt-10">
+            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 items-stretch">
               {products.slice(0, 3).map((product) => {
                 const truncatedDesc =
                   product.desc.length > 100
@@ -53,13 +53,14 @@ const Our_products = () => {
                     background={{ backgroundImage: `url(${product.image_small || "empty.jpg"})` }}
                     method={(language === "en" ? product.title : product.titleAr) || product.title}
                     description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
+                    rate={product.rate}
                   />
                 );
               })}
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-6 mt-10">
+            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 items-stretch">
               {products.slice(4, 7).map((product) => {
                 const truncatedDesc =
                   product.desc.length > 100
@@ -79,13 +80,14 @@ const Our_products = () => {
                     background={{ backgroundImage: `url(${product.image_small || "empty.jpg"})` }}
                     method={(language === "en" ? product.title : product.titleAr) || product.title}
                     description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
+                    rate={product.rate}
                   />
                 );
               })}
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-6 mt-10">
+            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 mb-7 items-stretch">
               {products.slice(7, 10).map((product) => {
                 const truncatedDesc =
                   product.desc.length > 100
@@ -105,6 +107,7 @@ const Our_products = () => {
                     background={{ backgroundImage: `url(${product.image_small || "empty.jpg"})` }}
                     method={(language === "en" ? product.title : product.titleAr) || product.title}
                     description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
+                    rate={product.rate}
                   />
                 );
               })}

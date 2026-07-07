@@ -398,7 +398,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-24 max-lg:mr-0" : "max-lg:ml-2 max-lg:mr-24"}  pt-3 font-normal text-[18px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-24 max-lg:mr-0 float-right" : "max-lg:ml-2 max-lg:mr-24"}  pt-3 font-normal text-[18px] max-lg:text-[16px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           fontSize: "16px",
@@ -444,7 +444,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open9 ? "true" : undefined}
                         onClick={handleClick9}
-                        className={`flex items-center text-[#54545F]  ${i18n.language === "ar" ? "max-lg:ml-16 max-lg:mr-0" : "max-lg:ml-0 max-lg:mr-16"} pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F]  ${i18n.language === "ar" ? "max-lg:ml-16 max-lg:mr-0 float-right" : "max-lg:ml-0 max-lg:mr-16"} pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
                           color: "#54545F",
                           fontWeight: "400",

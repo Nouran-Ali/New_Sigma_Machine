@@ -3,6 +3,7 @@ export const products = [
     id: 1,
     name: "3 Axis CNC Router Machine",
     nameAr: " ماكينة راوتر CNC ثلاثية المحاور (3 Axis)",
+    rate: 5,
 
     overview:
       "Reliable, accurate, and versatile CNC cutting for wood, acrylic, plastics, and more.",
@@ -196,6 +197,7 @@ export const products = [
     id: 2,
     name: "4 Axis CNC Router Machine",
     nameAr: "ماكينة راوتر CNC رباعية المحاور ",
+    rate: 5,
 
     overview:
       "Advanced 4-Axis Machining with Tilting Spindle for Angled Cutting & Deep 3D Carving.",
@@ -403,6 +405,7 @@ export const products = [
     id: 3,
     name: "5 Axis CNC Router Machine",
     nameAr: "ماكينة راوتر CNC خمس محاور",
+    rate: 4,
 
     overview:
       "Ultimate 5-Axis Machining for Complex 3D Surfaces, Deep Sculpting & Multi-Angle Cutting.",
@@ -637,6 +640,7 @@ export const products = [
     id: 4,
     name: "Rotary Axis CNC Router Machine",
     nameAr: "ماكينة راوتر CNC بمحور دوار (Rotary Axis)",
+    rate: 0,
 
     overview:
       "Precision machining for cylindrical, curved, and 3D round components with full 360° rotary axis control.",
@@ -871,6 +875,7 @@ export const products = [
     id: 5,
     name: "3 Axis ATC CNC Router Machine",
     nameAr: "ماكينة راوتر CNC ثلاثية المحاور ATC (تغيير أدوات أوتوماتيكي)",
+    rate: 5,
 
     overview:
       "High-speed CNC machining with automatic tool changing for maximum productivity and multi-tool operations.",
@@ -1104,6 +1109,7 @@ export const products = [
     id: 6,
     name: "4 Axis ATC CNC Router Machine",
     nameAr: "ماكينة راوتر CNC رباعية المحاور ATC",
+    rate: 4,
 
     overview:
       "Advanced 4-Axis Machining with a Fully Automatic Tool Changer. The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing.",
@@ -1312,6 +1318,7 @@ export const products = [
     id: 7,
     name: "Multi-Spindle CNC Router",
     nameAr: "ماكينة راوتر CNC متعددة رؤوس القطع",
+    rate: 0,
 
     overview:
       "High-efficiency CNC router designed for mass production, allowing multiple spindles to operate simultaneously for maximum workflow output.",
@@ -1542,6 +1549,7 @@ export const products = [
     id: 8,
     name: "Multi-Process CNC Router",
     nameAr: "ماكينة راوتر CNC متعددة العمليات",
+    rate: 0,
 
     image: "",
     slug: "multi-process-cnc-router",
@@ -1743,7 +1751,7 @@ This makes it ideal for high-volume woodworking, furniture manufacturing, panel 
     id: 9,
     name: "Stone CNC Router (Marble & Granite CNC)",
     nameAr: "ماكينة راوتر CNC للحجر (رخام / جرانيت)",
-
+rate: 0,
     image: "",
     slug: "stone-cnc-router",
 
@@ -2002,6 +2010,7 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
     slug: "aluminum-cnc-router",
     title: "Production Process Of Aluminum CNC Router",
     titleAr: "تفاصيل إنتاج ماكينة راوتر CNC للألمنيوم",
+    rate: 3,
 
     desc: "The Aluminum CNC Router is built for high-speed, high-accuracy milling, cutting, drilling, and engraving of aluminum and other non-ferrous materials.",
     descAr:
