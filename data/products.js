@@ -4,6 +4,32 @@ export const products = [
     name: "3 Axis CNC Router Machine",
     nameAr: " ماكينة راوتر CNC ثلاثية المحاور (3 Axis)",
     rate: 5,
+    reviews: [
+      {
+        id: 1,
+        userName: "عبدالله العتيبي",
+        rating: 5,
+        comment:
+          "المنتج ممتاز والتغليف جيد، والأداء حتى الآن جدًا ممتاز. شكرًا لكم",
+        createdAt: "Jul 2026"
+      },
+      {
+        id: 2,
+        userName: "",
+        rating: 4,
+        comment:
+          "Good product Packaging was nice",
+        createdAt: "Jul 2026"
+      },
+      {
+        id: 3,
+        userName: "فيصل القحطاني",
+        rating: 5,
+        comment:
+          "خدمة العملاء كانت متعاونة وتم الرد على جميع استفساراتي تجربة شراء موفقة بإذن الله",
+        createdAt: "June 2026"
+      }
+    ],
 
     overview:
       "Reliable, accurate, and versatile CNC cutting for wood, acrylic, plastics, and more.",
@@ -198,6 +224,16 @@ export const products = [
     name: "4 Axis CNC Router Machine",
     nameAr: "ماكينة راوتر CNC رباعية المحاور ",
     rate: 5,
+    reviews: [
+      {
+        id: 1,
+        userName: "محمد الشهري",
+        rating: 5,
+        comment:
+          "وصل الطلب في الوقت المحدد وكانت المواصفات مطابقة تمامًا لما هو معروض في الموقع. تجربة ممتازة وسأتعامل معكم مرة أخرى.",
+        createdAt: "May 2026"
+      }
+    ],
 
     overview:
       "Advanced 4-Axis Machining with Tilting Spindle for Angled Cutting & Deep 3D Carving.",
@@ -406,6 +442,16 @@ export const products = [
     name: "5 Axis CNC Router Machine",
     nameAr: "ماكينة راوتر CNC خمس محاور",
     rate: 4,
+    reviews: [
+      {
+        id: 1,
+        userName: "خالد المطيري",
+        rating: 4,
+        comment:
+          "المنتج جيد والجودة مرضية، لكن استغرق الشحن وقتًا أطول من المتوقع. بشكل عام التجربة كانت جيدة وسأكرر الشراء عند الحاجة.",
+        createdAt: "Jun 2026"
+      }
+    ],
 
     overview:
       "Ultimate 5-Axis Machining for Complex 3D Surfaces, Deep Sculpting & Multi-Angle Cutting.",
@@ -877,6 +923,17 @@ export const products = [
     nameAr: "ماكينة راوتر CNC ثلاثية المحاور ATC (تغيير أدوات أوتوماتيكي)",
     rate: 5,
 
+    reviews: [
+      {
+        id: 1,
+        userName: "عبدالعزيز الحربي",
+        rating: 5,
+        comment:
+          "الماكينة ممتازة جدً تعمل بكفاءة عالية وتبديل الأدوات تلقائيًا وفر علينا الكثير من الوقت في الإنتاج. دقة القص والتشطيب رائعة وأنصح بها لأي ورشة تبحث عن الجودة والاعتمادية",
+        createdAt: "Jul 2026"
+      }
+    ],
+
     overview:
       "High-speed CNC machining with automatic tool changing for maximum productivity and multi-tool operations.",
     overviewAr:
@@ -1110,6 +1167,18 @@ export const products = [
     name: "4 Axis ATC CNC Router Machine",
     nameAr: "ماكينة راوتر CNC رباعية المحاور ATC",
     rate: 4,
+
+    reviews: [
+      {
+        id: 1,
+        userName: "تركي الدوسري",
+        rating: 4,
+        comment:
+          "الماكينة أداؤها ممتاز ودقة الحفر جيدة",
+        createdAt: "Jun 2026"
+      }
+    ],
+
 
     overview:
       "Advanced 4-Axis Machining with a Fully Automatic Tool Changer. The 4 Axis ATC CNC Router (Tilting Spindle Type) is designed for advanced 3D machining, angled cutting, and complex contour processing.",
@@ -1751,7 +1820,7 @@ This makes it ideal for high-volume woodworking, furniture manufacturing, panel 
     id: 9,
     name: "Stone CNC Router (Marble & Granite CNC)",
     nameAr: "ماكينة راوتر CNC للحجر (رخام / جرانيت)",
-rate: 0,
+    rate: 0,
     image: "",
     slug: "stone-cnc-router",
 
@@ -2010,7 +2079,7 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
     slug: "aluminum-cnc-router",
     title: "Production Process Of Aluminum CNC Router",
     titleAr: "تفاصيل إنتاج ماكينة راوتر CNC للألمنيوم",
-    rate: 3,
+    rate: 0,
 
     desc: "The Aluminum CNC Router is built for high-speed, high-accuracy milling, cutting, drilling, and engraving of aluminum and other non-ferrous materials.",
     descAr:

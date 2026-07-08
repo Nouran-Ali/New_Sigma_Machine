@@ -7,6 +7,7 @@ import {
 } from "@/data/products";
 import Meta from "@/comps/Meta";
 import { useTranslation } from "react-i18next";
+import { Star, UserCircle } from "lucide-react";
 
 const Product = () => {
 
@@ -253,7 +254,7 @@ const Product = () => {
                 <div className={`flex bg-green-500 hover:bg-green-600 text-white rounded-2xl mt-5 text-xl ${language === "en" ? "" : ""} z-50`}>
                   <a
                     href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                      `${ language === "en" ? message : messageAr} ${language === "en" ? product?.name : product?.nameAr}`
+                      `${language === "en" ? message : messageAr} ${language === "en" ? product?.name : product?.nameAr}`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -414,6 +415,90 @@ const Product = () => {
                 </div>
               </div>
 
+              {
+                (product?.rate == 0 || product?.rate === null) ? null :
+                  <div className="mt-16">
+                    <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                      {t("Reviews")}
+                    </h2>
+
+                    <hr className={`${styles.line} mx-auto mt-3 mb-8`} />
+
+                    {/* Average Rating */}
+                    <div className="flex flex-col items-center mb-10">
+                      <div className="flex items-center gap-1">
+                        {[1, 2, 3, 4, 5].map((star) => (
+                          <Star
+                            key={star}
+                            size={22}
+                            // fill="#d9d640"
+                            fill={star <= product?.rate ? "#d9d640" : "none"}
+                            color="#d9d640"
+                          />
+                        ))}
+                      </div>
+
+                      <p className="text-3xl font-bold mt-3">{product?.rate}.0</p>
+
+                      <span className="text-gray-500">
+                        ({product?.reviews?.length || 0} Reviews)
+                      </span>
+                    </div>
+
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                      {product?.reviews?.map((review) => (
+                        <div
+                          key={review.id}
+                          className="bg-white border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-lg transition-all"
+                        >
+                          <div className="flex items-center justify-between">
+                            <div className="flex items-center gap-3">
+                              <UserCircle
+                                size={48}
+                                className="text-gray-400"
+                              />
+
+                              <div>
+                                <h4 className="font-semibold text-lg">
+                                  {review.userName || "Username"}
+                                </h4>
+
+                                <p className="text-sm text-gray-400">
+                                  {review.createdAt}
+                                </p>
+                              </div>
+                            </div>
+
+                            <div className="flex gap-1">
+                              {[1, 2, 3, 4, 5].map((star) => (
+                                <Star
+                                  key={star}
+                                  size={18}
+                                  fill={star <= review.rating ? "#d9d640" : "none"}
+                                  color="#d9d640"
+                                />
+                              ))}
+                            </div>
+                          </div>
+
+                          <p className="mt-5 text-gray-600 leading-7">
+                            {review.comment}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+
+                    {product?.reviews?.length === 0 && (
+                      <div className="text-center py-12">
+                        <p className="text-gray-500 text-lg">
+                          {t("No reviews yet")}
+                        </p>
+                      </div>
+                    )}
+                  </div>
+
+              }
+
 
               {/* <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-1">
                   <h3 className="text-xl">Model</h3>
@@ -504,6 +589,7 @@ const Product = () => {
                   background={{ backgroundImage: `url(${product.image})` }}
                   method={(language === "en" ? product.title : product.titleAr) || product.title}
                   description={(language === "en" ? product.desc : product.descAr) || product.desc}
+                  rate={product.rate}
                 />
               </div>
             ))}
