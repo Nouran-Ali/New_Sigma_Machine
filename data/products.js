@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     name: "3 Axis CNC Router Machine",
-    nameAr: " ماكينة راوتر CNC ثلاثية المحاور (3 Axis)",
+    nameAr: "3 Axis CNC Router ماكينة",
     rate: 5,
     reviews: [
       {
@@ -222,7 +222,7 @@ export const products = [
   {
     id: 2,
     name: "4 Axis CNC Router Machine",
-    nameAr: "ماكينة راوتر CNC رباعية المحاور ",
+    nameAr: "4 Axis CNC Router ماكينة",
     rate: 5,
     reviews: [
       {
@@ -240,7 +240,8 @@ export const products = [
     overviewAr:
       "تقنية متقدمة للقص والنحت بزاويا مختلفة بفضل دوران/ميلان السبندل نفسه. ماكينة 4 Axis CNC هنا ليست نظام Rotary، بل حركة دوران للسبندل على محور B، مما يسمح بالقص من زوايا لا يمكن الوصول لها بماكينة 3 محاور. مثالية لقص الزوايا، التشطيب المائل، الأعمال الفنية، النحت العميق، والتشكيلات المعقدة.",
 
-    image: "",
+    image: "/../products/4 Axis CNC Router Machine.jfif",
+    image_small: "/../products/4 Axis CNC Router Machine.jfif",
     slug: "4-axis-cnc-router-laser-machine",
 
     title: "4 Axis CNC Router Machine",
@@ -2507,6 +2508,89 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
     image_small: "/../products/fiber-laser-350x370.png",
     slug: "sheet-metal-fiber-laser-cutting-machine",
 
+    rate: 5,
+    reviews: [
+      {
+        id: 1,
+        userName: "عبدالله العتيبي",
+        rating: 5,
+        comment:
+          "ماكينة ممتازة، دقة القص عالية جدًا وسرعة التنفيذ وفرت علينا وقت كبير في الإنتاج.",
+        createdAt: "May 2026",
+      },
+      {
+        id: 2,
+        userName: "",
+        rating: 5,
+        comment:
+          "Excellent cutting quality and very stable performance. Installation was smooth and the machine exceeded expectations.",
+        createdAt: "Apr 2026",
+      },
+      {
+        id: 3,
+        userName: "فيصل القحطاني",
+        rating: 5,
+        comment:
+          "استخدمناها في قص الستانلس والحديد والنتائج كانت احترافية، أنصح بها.",
+        createdAt: "Mar 2026",
+      },
+      {
+        id: 4,
+        userName: "سلمان الدوسري",
+        rating: 4,
+        comment:
+          "الأداء ممتاز وسهلة التشغيل، فقط احتجنا بعض الوقت للتعود على الإعدادات.",
+        createdAt: "Feb 2026",
+      },
+      {
+        id: 5,
+        userName: "",
+        rating: 5,
+        comment:
+          "Very fast machine with clean edges. Reduced material waste significantly.",
+        createdAt: "Jan 2026",
+      },
+      {
+        id: 6,
+        userName: "محمد الشمري",
+        rating: 5,
+        comment:
+          "خدمة ما بعد البيع ممتازة، والماكينة تعمل بكفاءة حتى مع التشغيل لساعات طويلة.",
+        createdAt: "Dec 2025",
+      },
+      {
+        id: 7,
+        userName: "تركي المطيري",
+        rating: 4,
+        comment:
+          "الجودة ممتازة والقص دقيق جدًا، وكانت مناسبة لاحتياجات المصنع لدينا.",
+        createdAt: "Nov 2025",
+      },
+      {
+        id: 8,
+        userName: "",
+        rating: 5,
+        comment:
+          "The machine is reliable and easy to maintain. Great value for the price.",
+        createdAt: "Sep 2025",
+      },
+      {
+        id: 9,
+        userName: "خالد العنزي",
+        rating: 5,
+        comment:
+          "أفضل ماكينة تعاملنا معها حتى الآن، السرعة والدقة وفرت علينا تكلفة التشغيل.",
+        createdAt: "Aug 2025",
+      },
+      {
+        id: 10,
+        userName: "ناصر الحربي",
+        rating: 5,
+        comment:
+          "تجربة ممتازة من الشراء حتى التشغيل، والنتائج في قص الصفائح كانت أكثر من رائعة.",
+        createdAt: "Jun 2025",
+      },
+    ],
     title: "Sheet Metal Fiber Laser Cutting Machine",
     titleAr: "ماكينة الفايبر ليزر لقص الصفائح المعدنية",
 
