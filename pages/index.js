@@ -11,6 +11,7 @@ import Blog from "../comps/Blog";
 import Event from "@/comps/Event";
 import Faq from "@/comps/Faq";
 import SpareParts from "@/comps/SpareParts";
+import OurClients from "@/comps/OurClients";
 
 export default function Home() {
 
@@ -52,6 +53,7 @@ export default function Home() {
         <Our_services />
         <Our_products />
         <SpareParts />
+        <OurClients />
         <Experience />
         {/* <Samples /> */}
         <Faq />
