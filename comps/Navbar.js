@@ -70,6 +70,7 @@ function Navbar() {
   const [t, i18n] = useTranslation();
   const { language } = i18n;
 
+
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
   const [anchorElProducts, setAnchorElProducts] = React.useState(null);
@@ -481,17 +482,16 @@ function Navbar() {
                       >
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=Marking"}
                             className="no-underline text-inherit"
                           >
                             Marking
                           </Link>
                         </MenuItem>
 
-
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=Press%20Brake"}
                             className="no-underline text-inherit"
                           >
                             Press Brake
@@ -500,7 +500,7 @@ function Navbar() {
 
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=CNC%20Router"}
                             className="no-underline text-inherit"
                           >
                             CNC Router
@@ -509,7 +509,7 @@ function Navbar() {
 
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=Fiber%20Laser%20Cutting"}
                             className="no-underline text-inherit"
                           >
                             Fiber Laser Cutting
@@ -518,7 +518,7 @@ function Navbar() {
 
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=Plasma"}
                             className="no-underline text-inherit"
                           >
                             Plasma
@@ -527,7 +527,7 @@ function Navbar() {
 
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=Compressor"}
                             className="no-underline text-inherit"
                           >
                             Compressor
@@ -536,7 +536,7 @@ function Navbar() {
 
                         <MenuItem onClick={handleClose9}>
                           <Link
-                            href={`/spare-parts`}
+                            href={"/spare-parts?machine=YAG"}
                             className="no-underline text-inherit"
                           >
                             YAG
@@ -1223,7 +1223,7 @@ function Navbar() {
                     >
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=Marking"}
                           className="no-underline text-inherit"
                         >
                           Marking
@@ -1232,7 +1232,7 @@ function Navbar() {
 
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=Press%20Brake"}
                           className="no-underline text-inherit"
                         >
                           Press Brake
@@ -1241,7 +1241,7 @@ function Navbar() {
 
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=CNC%20Router"}
                           className="no-underline text-inherit"
                         >
                           CNC Router
@@ -1250,7 +1250,7 @@ function Navbar() {
 
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=Fiber%20Laser%20Cutting"}
                           className="no-underline text-inherit"
                         >
                           Fiber Laser Cutting
@@ -1259,7 +1259,7 @@ function Navbar() {
 
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=Plasma"}
                           className="no-underline text-inherit"
                         >
                           Plasma
@@ -1268,7 +1268,7 @@ function Navbar() {
 
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=Compressor"}
                           className="no-underline text-inherit"
                         >
                           Compressor
@@ -1277,7 +1277,7 @@ function Navbar() {
 
                       <MenuItem onClick={handleClose9}>
                         <Link
-                          href={`/spare-parts`}
+                          href={"/spare-parts?machine=YAG"}
                           className="no-underline text-inherit"
                         >
                           YAG

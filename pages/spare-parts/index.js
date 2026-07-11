@@ -35,10 +35,16 @@ const Sparearts = () => {
         return "Other";
     };
 
+    // useEffect(() => {
+    //     if (router.isReady) {
+    //         setMachine(router.query.machine || "all");
+    //     }
+    // }, [router.isReady, router.query.machine]);
+
     useEffect(() => {
-        if (router.isReady) {
-            setMachine(router.query.machine || "all");
-        }
+        if (!router.isReady) return;
+
+        setMachine(router.query.machine || "all");
     }, [router.isReady, router.query.machine]);
 
     const filteredParts = useMemo(() => {
@@ -57,6 +63,19 @@ const Sparearts = () => {
             return matchSearch && matchMachine;
         });
     }, [search, machine, language]);
+
+    const handleMachineChange = (value) => {
+        setMachine(value);
+
+        router.replace(
+            {
+                pathname: "/spare-parts",
+                query: value === "all" ? {} : { machine: value },
+            },
+            undefined,
+            { shallow: true }
+        );
+    };
 
     return (
         <>
@@ -87,7 +106,7 @@ const Sparearts = () => {
 
                 <Select
                     value={machine}
-                    onChange={setMachine}
+                    onChange={handleMachineChange}
                     className="w-[270px] max-lg:w-[150px]"
                     options={[
                         {
