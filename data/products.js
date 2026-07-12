@@ -441,7 +441,7 @@ export const products = [
   {
     id: 3,
     name: "5 Axis CNC Router Machine",
-    nameAr: "ماكينة راوتر CNC خمس محاور",
+    nameAr: " 5 Axis CNC Router ماكينة",
     rate: 4,
     reviews: [
       {
@@ -686,7 +686,7 @@ export const products = [
   {
     id: 4,
     name: "Rotary Axis CNC Router Machine",
-    nameAr: "ماكينة راوتر CNC بمحور دوار (Rotary Axis)",
+    nameAr: "ماكينة CNC Router بمحور دوار (Rotary Axis)",
     rate: 0,
 
     overview:

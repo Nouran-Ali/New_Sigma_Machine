@@ -18,7 +18,7 @@ const Footer = () => {
             <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 text-white font-medium pt-24 pb-24">
               <div className={`${language === "en" ? styles.border : styles.borderAr} pr-6`}>
                 <div className="flex">
-                  <img src="../logo2.png" width="90px" alt="logo"/>
+                  <img src="../logo2.png" width="90px" alt="logo" />
                   {/* <Image src="/logo2.png" width={90} height={60} className="" /> */}
                   {/* <h3 className='text-[#fff] mt-4 text-xl font-bold'>Sigma Machines</h3> */}
                 </div>
@@ -38,7 +38,7 @@ const Footer = () => {
               </div>
               <div className="pl-6 max-xl:pl-0">
                 <h3 className="text-[#fff] mt-4 text-xl"> {t("Contact Us")}</h3>
-                <div className="flex mt-6">
+                <div className="flex mt-6 items-center">
                   {/* <img
                     src="../home/facebook.png"
                     width={30}
@@ -77,6 +77,15 @@ const Footer = () => {
                       alt="linkedin"
                     />
                   </Link>
+                  <Link href="https://www.youtube.com/@SigmaMachines">
+                    <img
+                      src="../home/youtube.png"
+                      width={30}
+                      height={80}
+                      className="mr-3"
+                      alt="youtube"
+                    />
+                  </Link>
                   {/* <img
                     src="../home/linkedin.png"
                     width={30}
@@ -93,14 +102,14 @@ const Footer = () => {
               className={`${styles.border_top} px-24 max-xl:px-5 text-white max-lg:text-sm font-medium py-7 flex justify-between`}
             >
               <p>
-                 {t("Copyright © 2025")}
+                {t("Copyright © 2025")}
                 <Link
                   href="https://www.linkedin.com/in/nouran-ali-1732b8266?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   className="text-white font-light"
                 >
-                   {t("here.")}
+                  {t("here.")}
                 </Link>{" "}
-                 {t("All Rights Reserved.")}
+                {t("All Rights Reserved.")}
               </p>
               <Link href="/privacy-policy"> {t("Privacy Policy")}</Link>
             </div>

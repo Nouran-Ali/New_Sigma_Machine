@@ -635,7 +635,7 @@ function Navbar() {
                           color: "#54545F",
                           textDecoration: "none",
                         }}
-                        className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start"} ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 pt-3 `}
+                        className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start"} ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 max-lg:mx-5 pt-3 `}
                       >
                         {i18n.language === "ar" ? title_ar : title}
                       </Link>
@@ -1320,6 +1320,16 @@ function Navbar() {
                           direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/media-center`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Media Center")}
+                          </Link>
+                        </MenuItem>
+
                         <MenuItem onClick={handleClose8}>
                           <Link
                             href={`/blog`}
