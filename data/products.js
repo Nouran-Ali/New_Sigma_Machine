@@ -240,8 +240,8 @@ export const products = [
     overviewAr:
       "تقنية متقدمة للقص والنحت بزاويا مختلفة بفضل دوران/ميلان السبندل نفسه. ماكينة 4 Axis CNC هنا ليست نظام Rotary، بل حركة دوران للسبندل على محور B، مما يسمح بالقص من زوايا لا يمكن الوصول لها بماكينة 3 محاور. مثالية لقص الزوايا، التشطيب المائل، الأعمال الفنية، النحت العميق، والتشكيلات المعقدة.",
 
-    image: "/../products/4 Axis CNC Router Machine.jfif",
-    image_small: "/../products/4 Axis CNC Router Machine.jfif",
+    image: "/../products/router-550x750.png",
+    image_small: "/../products/router-350x370.png",
     slug: "4-axis-cnc-router-laser-machine",
 
     title: "4 Axis CNC Router Machine",
@@ -459,7 +459,8 @@ export const products = [
     overviewAr:
       "تقنية الخمسة محاور هي قمة ما وصلت له تكنولوجيا القصّ والنحت ثلاثي الأبعاد. ماكينة 5 Axis CNC Router مزودة برأس سبندل يتحرك ويميل ويدور بالكامل (محور B + محور C)، مما يسمح للأداة بالوصول للقطعة من أي اتجاه تقريبًا دون الحاجة لقلب الخامة. مثالية للنحت العميق، الأشكال العضوية، القوالب الصناعية، الأجزاء الهندسية، والأعمال المعقدة متعددة الزوايا.",
 
-    image: "",
+    image: "/../products/router-550x750.png",
+    image_small: "/../products/router-350x370.png",
     slug: "5-axis-cnc-router-machine",
 
     title: "5 Axis CNC Router Machine",
