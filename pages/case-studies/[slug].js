@@ -95,13 +95,17 @@ export default function Case({ article }) {
 
 
 
-                        <h2 className="mt-3 text-lg ">Challenge</h2>
+                        <h2 className="mt-3 text-lg ">
+                            {language === "en" ? "Challenge" : "التحديات"}
+                        </h2>
                         <p className="text-gray-600 mt-1">{language === "ar" ? article.challenge_ar : article.challenge}</p>
 
-                        <h2 className="mt-3 text-lg ">Solution</h2>
+                        <h2 className="mt-3 text-lg ">
+                            {language === "en" ? "Solution" : "الحل"}
+                        </h2>
                         <p className="text-gray-600 mt-1">{language === "ar" ? article.solution_ar : article.solution}</p>
 
-                        <h2 className="mt-3 text-lg ">Results</h2>
+                        <h2 className="mt-3 text-lg ">{language === "en" ? "Results" : "النتائج"}</h2>
 
                         <ul className="text-gray-600 mt-1">
                             {(language === "ar"
@@ -112,7 +116,9 @@ export default function Case({ article }) {
                             ))}
                         </ul>
 
-                        <h2 className="mt-3 text-lg ">Technologies Used</h2>
+                        <h2 className="mt-3 text-lg ">
+                            {language === "en" ? "Technologies Used" : "التكنولوجيا المستخدمه"}
+                        </h2>
 
                         <ul className="text-gray-600 mt-1">
                             {(language === "ar"

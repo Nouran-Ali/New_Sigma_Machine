@@ -13,6 +13,7 @@ const Product = ({
   const [t, i18n] = useTranslation();
   const { language } = i18n;
 
+  console.log(background);
   return (
     // <Link href={href}>
     //   <div className="relative pt-32 pb-10 group">
@@ -111,12 +112,19 @@ const Product = ({
             >
               {/* الصورة الداخلية المعطوفة بنفس القطع الهندي */}
               <div
+                // style={{
+                //   ...background,
+                //   clipPath: "polygon(22% 0%, 100% 0%, 100% 70%, 55% 100%, 0% 100%, 12% 45%)",
+                // }}
                 style={{
-                  ...background,
+                  backgroundImage: `url("${encodeURI(background)}")`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
                   clipPath: "polygon(22% 0%, 100% 0%, 100% 70%, 55% 100%, 0% 100%, 12% 45%)",
                 }}
                 className="w-full h-full bg-cover bg-center bg-[#1a1a1a]"
               />
+              
               {/* إضاءة متدرجة فوق الصورة */}
               <div className="absolute inset-0 bg-gradient-to-t from-yellow-400/20 via-transparent to-transparent pointer-events-none"></div>
             </div>

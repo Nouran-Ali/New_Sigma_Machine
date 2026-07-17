@@ -36,8 +36,8 @@ export const products = [
     overviewAr:
       "دقة، استقرار، وتعدد استخدامات في قص وحفر المواد المختلفة مثل الخشب والأكريليك والبلاستيك وأكثر. تعد ماكينة 3 Axis CNC Router الخيار الأساسي والأكثر انتشارًا في سوق التصنيع، لأنها توفر قص وحفر وتفريز عالي الدقة مع حركة متزامنة على محاور X و Y و Z. تقدم أداء ثابت وجودة تشطيب ممتازة، مما يجعلها مثالية لورش النجارة، مصانع الأثاث، صناعة اللوحات الإعلانية، أعمال الأكريليك، النماذج الأولية، والتصنيع العام. خيار ممتاز يجمع بين الأداء والتكلفة والمرونة — مناسب للورش الصغيرة والمصانع الكبيرة.",
 
-    image: "/../products/router-550x750.png",
-    image_small: "/../products/router-350x370.png",
+    image: "/products/3 Axis CNC Router Machine.jfif",
+    image_small: "/products/3 Axis CNC Router Machine.jfif",
     slug: "3-axis-cnc-router-machine",
 
     title: "3 Axis CNC Router Machine",
@@ -240,8 +240,8 @@ export const products = [
     overviewAr:
       "تقنية متقدمة للقص والنحت بزاويا مختلفة بفضل دوران/ميلان السبندل نفسه. ماكينة 4 Axis CNC هنا ليست نظام Rotary، بل حركة دوران للسبندل على محور B، مما يسمح بالقص من زوايا لا يمكن الوصول لها بماكينة 3 محاور. مثالية لقص الزوايا، التشطيب المائل، الأعمال الفنية، النحت العميق، والتشكيلات المعقدة.",
 
-    image: "/../products/router-550x750.png",
-    image_small: "/../products/router-350x370.png",
+    image: "/products/router-550x750.png",
+    image_small: "/products/router-350x370.png",
     slug: "4-axis-cnc-router-laser-machine",
 
     title: "4 Axis CNC Router Machine",
@@ -459,8 +459,8 @@ export const products = [
     overviewAr:
       "تقنية الخمسة محاور هي قمة ما وصلت له تكنولوجيا القصّ والنحت ثلاثي الأبعاد. ماكينة 5 Axis CNC Router مزودة برأس سبندل يتحرك ويميل ويدور بالكامل (محور B + محور C)، مما يسمح للأداة بالوصول للقطعة من أي اتجاه تقريبًا دون الحاجة لقلب الخامة. مثالية للنحت العميق، الأشكال العضوية، القوالب الصناعية، الأجزاء الهندسية، والأعمال المعقدة متعددة الزوايا.",
 
-    image: "/../products/router-550x750.png",
-    image_small: "/../products/router-350x370.png",
+    image: "/products/5 Axis CNC Router Machine.jfif",
+    image_small: "/products/5 Axis CNC Router Machine.jfif",
     slug: "5-axis-cnc-router-machine",
 
     title: "5 Axis CNC Router Machine",
@@ -695,7 +695,8 @@ export const products = [
     overviewAr:
       "مصممة خصيصًا للقصّ والنحت على القطع الأسطوانية والدائرية. مزودة بمحور دوار (A-axis) يوفر معالجة كاملة بزاوية 360° لتصنيع الأعمدة، القوائم، الأرجل، القوالب، التماثيل، والمجسمات ثلاثية الأبعاد. تعمل كـ 3 محاور عادية + محور دوار لتوفير تشغيل 4 محاور كامل.",
 
-    image: "",
+    image: "/products/Rotary Axis CNC Router Machine.jfif",
+    image_small: "/products/Rotary Axis CNC Router Machine.jfif",
     slug: "rotary-axis-cnc-router-machine",
 
     title: "Rotary Axis CNC Router Machine",
@@ -941,7 +942,8 @@ export const products = [
     overviewAr:
       "مصممة للمصانع التي تحتاج سرعة + دقة + تنوع أدوات بدون توقف. نظام تغيير الأدوات الأوتوماتيكي ATC يسمح بتبديل عدة أدوات خلال ثوانٍ، مما يقلل وقت التوقف ويزيد الإنتاجية. مناسبة لصناعة الأثاث، اللوحات الإعلانية، النجارة، الأكريليك، البلاستيك، الألومنيوم، والإنتاج الضخم.",
 
-    image: "",
+    image: "/products/3 Axis ATC CNC Router Machine.jfif",
+    image_small: "/products/3 Axis ATC CNC Router Machine.jfif",
     slug: "3-axis-atc-cnc-router-machine",
 
     title: "3 Axis ATC CNC Router Machine",
@@ -1187,8 +1189,8 @@ export const products = [
     overviewAr:
       "ماكينة ATC رباعية المحاور مع رأس سبندل قابل للميلان — وليست بمحور دوّار — مناسبة للأعمال ثلاثية الأبعاد المعقدة، القص المائل، والنحت العميق. تجمع بين قوة الـ ATC ودقة الميلان 4 محاور في ماكينة واحدة.",
 
-    image: "/../products/router-550x750.png",
-    image_small: "/../products/router-350x370.png",
+    image: "/products/4 Axis ATC CNC Router Machine.jfif",
+    image_small: "/products/4 Axis ATC CNC Router Machine.jfif",
     slug: "4-axis-atc-cnc-router-machine",
 
     title: "Production Details Of 4 Axis ATC CNC Router Machine",
@@ -1396,7 +1398,8 @@ export const products = [
     overviewAr:
       "إنتاجية عالية وتشغيل جماعي في نفس الوقت. ماكينة Multi-Spindle CNC Router مصممة لخطوط الإنتاج التي تحتاج سرعة، جودة ثابتة، وقدرة على تشغيل عدة قطع في ضربة واحدة. وجود عدة سبندلات تعمل بالتزامن يرفع الإنتاجية بشكل كبير ويقلل الوقت والتكلفة، مما يجعلها مثالية لمصانع الأثاث، الورش، والمصانع التي تعتمد على التشغيل الكمي.",
 
-    image: "",
+    image: "/products/Multi-Spindle CNC Router.jfif",
+    image_small: "/products/Multi-Spindle CNC Router.jfif",
     slug: "multi-spindle-cnc-router",
 
     title: "Production Process Of Multi-Spindle CNC Router",
@@ -1622,7 +1625,8 @@ export const products = [
     nameAr: "ماكينة راوتر CNC متعددة العمليات",
     rate: 0,
 
-    image: "",
+    image: "/products/Multi-Process CNC Router.jfif",
+    image_small: "/products/Multi-Process CNC Router.jfif",
     slug: "multi-process-cnc-router",
 
     title: "Production Process Of Multi-Process CNC Router",
@@ -1823,7 +1827,8 @@ This makes it ideal for high-volume woodworking, furniture manufacturing, panel 
     name: "Stone CNC Router (Marble & Granite CNC)",
     nameAr: "ماكينة راوتر CNC للحجر (رخام / جرانيت)",
     rate: 0,
-    image: "",
+    image: "/products/Stone CNC Router.jfif",
+    image_small: "/products/Stone CNC Router.jfif",
     slug: "stone-cnc-router",
 
     title: "Production Process Of Stone CNC Router",
@@ -2797,8 +2802,8 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
     name: "Tube Fiber Laser Cutting Machine",
     nameAr: "ماكينة الفايبر ليزر لقص الأنابيب",
 
-    image: "",
-    image_small: "",
+    image: "/products/Tube Fiber Laser Cutting Machine.jfif",
+    image_small: "/products/Tube Fiber Laser Cutting Machine.jfif",
     slug: "tube-fiber-laser-cutting-machine",
 
     title: "Tube Fiber Laser Cutting Machine",
@@ -3007,8 +3012,8 @@ Designed for modern fabrication industries, it provides unmatched performance in
     name: "Tube & Sheet Fiber Laser Cutting Machine",
     nameAr: "ماكينة فايبر ليزر للصفائح والأنابيب",
 
-    image: "",
-    image_small: "",
+    image: "/products/Tube & Sheet Fiber Laser Cutting Machine.jfif",
+    image_small: "/products/Tube & Sheet Fiber Laser Cutting Machine.jfif",
     slug: "tube-sheet-fiber-laser-cutting-machine",
 
     title: "Tube & Sheet Fiber Laser Cutting Machine",
