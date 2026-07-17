@@ -377,6 +377,7 @@ function Navbar() {
                 sx={{
                   display: { xs: "block", md: "none" },
                 }}
+                dir={language == "ar" ? "rtl" : "ltr"}
               >
                 {/* {pages.map(({ title, title_ar, href }, index) => (
                   <MenuItem key={index} onClick={handleCloseNavMenu}>
@@ -399,7 +400,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2 ${i18n.language === "ar" ? "max-lg:ml-24 max-lg:mr-0" : "max-lg:ml-2 max-lg:mr-24"}  pt-3 font-normal text-[18px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pl-1 ml-2   pt-3 font-normal text-[18px] max-lg:text-[16px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           fontSize: "16px",
@@ -413,15 +414,16 @@ function Navbar() {
                       >
 
                         {
-                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
-                        }
-
-                        {i18n.language === "ar" ? "المنتجات" : "Products"}
-
-                        {
                           language === "en" &&
                           <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
+
+
+                        {i18n.language === "ar" ? "المنتجات" : "Products"}
+                        {
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -445,7 +447,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open9 ? "true" : undefined}
                         onClick={handleClick9}
-                        className={`flex items-center text-[#54545F]  ${i18n.language === "ar" ? "max-lg:ml-16 max-lg:mr-0" : "max-lg:ml-0 max-lg:mr-16"} pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
                           color: "#54545F",
                           fontWeight: "400",
@@ -457,15 +459,16 @@ function Navbar() {
                       >
 
                         {
-                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
-                        }
-
-                        {i18n.language === "ar" ? "قطع الغيار" : "Spare Parts"}
-
-                        {
                           language === "en" &&
                           <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
+
+
+                        {i18n.language === "ar" ? "قطع الغيار" : "Spare Parts"}
+                        {
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -553,7 +556,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open8 ? "true" : undefined}
                         onClick={handleClick8}
-                        className={`flex items-center text-[#54545F] ${i18n.language === "ar" ? "max-lg:ml-14 max-lg:mr-0" : "max-lg:ml-0 max-lg:mr-14"} pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
                           color: "#54545F",
                           fontWeight: "400",
@@ -563,16 +566,19 @@ function Navbar() {
                           fontFamily: "Cairo",
                         }}
                       >
-                        {
-                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
-                        }
-
-                        {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
 
                         {
                           language === "en" &&
                           <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
+
+
+                        {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
+
+                        {
+                          language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -635,7 +641,7 @@ function Navbar() {
                           color: "#54545F",
                           textDecoration: "none",
                         }}
-                        className={`flex items-center ${i18n.language === "ar" ? "max-lg:justify-end" : "max-lg:justify-start"} ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 max-lg:mx-5 pt-3 `}
+                        className={`flex items-center  ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 max-lg:mx-5 pt-3 `}
                       >
                         {i18n.language === "ar" ? title_ar : title}
                       </Link>
@@ -721,7 +727,7 @@ function Navbar() {
                       aria-haspopup="true"
                       aria-expanded={open ? "true" : undefined}
                       onClick={handleClick}
-                      className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                      className="flex items-center  text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                       sx={{
                         color: "#54545F",
                         fontWeight: "400",
