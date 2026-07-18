@@ -78,7 +78,7 @@ const Our_products = () => {
                     key={product.id}
                     title={(language === "en" ? product.name : product.nameAr) || product.name}
                     href={`/products/${product.id}`}
-                    background={{ backgroundImage: `url(${product.image_small || "empty.jpg"})` }}
+                    background={product.image_small || "empty.jpg"}
                     method={(language === "en" ? product.title : product.titleAr) || product.title}
                     description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
                     rate={product.rate}
@@ -105,7 +105,7 @@ const Our_products = () => {
                     key={product.id}
                     title={(language === "en" ? product.name : product.nameAr) || product.name}
                     href={`/products/${product.id}`}
-                    background={{ backgroundImage: `url(${product.image_small || "empty.jpg"})` }}
+                    background={product.image_small || "empty.jpg"}
                     method={(language === "en" ? product.title : product.titleAr) || product.title}
                     description={(language === "en" ? truncatedDesc : truncatedDescAr) || truncatedDesc}
                     rate={product.rate}
