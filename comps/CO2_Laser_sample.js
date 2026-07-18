@@ -6,20 +6,28 @@ const CO2_Laser_sample = () => {
     return (
         <div className='grid grid-cols-4 max-xl:grid-cols-2 gap-4 text-center mt-5'>
             <Link href="/">
-                <img src="../home/co21.jpg" width={200} height={200} className='mx-auto mb-5' />
-                <p className='text-[#54545f] text-lg'>CO2 Laser1</p>
+                <img src="../home/8.jpg" width={200} height={200} className='mx-auto mb-5' />
+                <p className='text-[#54545f] text-lg'>CO2 Laser Machine</p>
             </Link>
             <Link href="/">
-                <img src="../home/co22.jpg" width={200} height={200} className='mx-auto mb-5 ' />
-                <p className='text-[#54545f] text-lg'>CO2 Laser2</p>
+                <img src="../home/9.jpg" width={200} height={200} className='mx-auto mb-5 ' />
+                <p className='text-[#54545f] text-lg'>CO2 Laser Machine</p>
             </Link>
             <Link href="/">
-                <img src="../home/co23.jpg" width={200} height={200} className='mx-auto mb-5' />
-                <p className='text-[#54545f] text-lg'>CO2 Laser3</p>
+                <img src="../home/10.jpg" width={200} height={200} className='mx-auto mb-5' />
+                <p className='text-[#54545f] text-lg'>CO2 Laser Machine</p>
             </Link>
             <Link href="/">
-                <img src="../home/co24.jpg" width={200} height={200} className='mx-auto mb-5' />
-                <p className='text-[#54545f] text-lg'>CO2 Laser4</p>
+                <img src="../home/11.jpg" width={200} height={200} className='mx-auto mb-5' />
+                <p className='text-[#54545f] text-lg'>CO2 Laser Machine</p>
+            </Link>
+            <Link href="/">
+                <img src="../home/12.jpg" width={200} height={200} className='mx-auto mb-5' />
+                <p className='text-[#54545f] text-lg'>CO2 Laser Machine</p>
+            </Link>
+            <Link href="/">
+                <img src="../home/13.jpg" width={200} height={200} className='mx-auto mb-5' />
+                <p className='text-[#54545f] text-lg'>CO2 Laser Machine</p>
             </Link>
         </div>
     )

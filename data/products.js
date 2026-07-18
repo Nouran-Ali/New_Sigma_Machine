@@ -2276,6 +2276,101 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
     image: "/../products/co2-550x750.png",
     image_small: "/../products/co2-350x370.png",
     slug: "co2-laser-cutting-engraving-machine",
+    video: "/../products/co2 video.mp4",
+    rate: 5,
+    reviews: [
+      {
+        id: 3,
+        userName: "",
+        rating: 5,
+        comment: "Excellent machine. Clean cutting edges and very accurate engraving results.",
+        createdAt: "Jul 2026"
+      },
+      {
+        id: 4,
+        userName: "محمد الشهري",
+        rating: 5,
+        comment: "استخدمناها في ورشة الأكريليك والنتائج كانت أفضل من المتوقع.",
+        createdAt: "Jun 2026"
+      },
+      {
+        id: 5,
+        userName: "",
+        rating: 4,
+        comment: "Good value for the price. Installation was easy and performance is reliable.",
+        createdAt: "Jun 2026"
+      },
+      {
+        id: 6,
+        userName: "Sarah Johnson",
+        rating: 5,
+        comment: "Very impressed with the engraving quality. Works perfectly on wood and acrylic.",
+        createdAt: "Jun 2026"
+      },
+      {
+        id: 7,
+        userName: "خالد المطيري",
+        rating: 5,
+        comment: "الماكينة قوية وسريعة، وجودة التصنيع ممتازة. أنصح بها لأصحاب المشاريع.",
+        createdAt: "May 2026"
+      },
+      {
+        id: 8,
+        userName: "",
+        rating: 5,
+        comment: "Fast shipping, great packaging, and the machine worked perfectly out of the box.",
+        createdAt: "May 2026"
+      },
+      {
+        id: 9,
+        userName: "Emily Carter",
+        rating: 5,
+        comment: "Accurate cutting, smooth operation, and excellent customer support.",
+        createdAt: "May 2026"
+      },
+      {
+        id: 10,
+        userName: "سعود الحربي",
+        rating: 5,
+        comment: "جربناها على الخشب والجلد والأكريليك وكانت النتائج احترافية.",
+        createdAt: "Apr 2026"
+      },
+      {
+        id: 11,
+        userName: "",
+        rating: 4,
+        comment: "Reliable machine with consistent cutting quality. Highly recommended.",
+        createdAt: "Apr 2026"
+      },
+      {
+        id: 12,
+        userName: "Michael Brown",
+        rating: 5,
+        comment: "Easy to operate, powerful laser, and very precise engraving details.",
+        createdAt: "Apr 2026"
+      },
+      {
+        id: 13,
+        userName: "ناصر الدوسري",
+        rating: 5,
+        comment: "بعد عدة أشهر من الاستخدام ما زالت تعمل بكفاءة عالية دون أي مشاكل.",
+        createdAt: "Mar 2026"
+      },
+      {
+        id: 14,
+        userName: "",
+        rating: 5,
+        comment: "Amazing performance and excellent build quality. Worth every penny.",
+        createdAt: "Mar 2026"
+      },
+      {
+        id: 15,
+        userName: "Ahmed Alotaibi",
+        rating: 5,
+        comment: "Perfect for our production line. Stable performance and clean engraving every time.",
+        createdAt: "Feb 2026"
+      }
+    ],
 
     title: "CO₂ Laser Cutting & Engraving Machine",
     titleAr: "ماكينة ليزر CO₂ للقص والحفر",
@@ -2512,6 +2607,7 @@ With its reinforced steel frame, water-cooled spindle, corrosion-resistant table
 
     image: "/../products/fiber-laser-550x750.png",
     image_small: "/../products/fiber-laser-350x370.png",
+    video: "/../products/fiber laser.mp4",
     slug: "sheet-metal-fiber-laser-cutting-machine",
 
     rate: 5,

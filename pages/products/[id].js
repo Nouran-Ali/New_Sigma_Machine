@@ -278,6 +278,22 @@ const Product = () => {
                 {language === "en" ? product?.desc : product?.descAr}
               </p>
 
+              {product?.video && (
+                <div className="w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+                  <video
+                    className="w-full h-auto aspect-video object-cover"
+                    autoPlay
+                    muted
+                    loop
+                    playsInline
+                    controls
+                  >
+                    <source src={product.video} type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+              )}
+
               <div className="mt-12">
                 <h3 className="mt-8 text-3xl font-semibold text-[#1c1c1c]"> {t("Key Features")}</h3>
 
@@ -586,7 +602,7 @@ const Product = () => {
                   key={product.id}
                   title={(language === "en" ? product.name : product.nameAr) || product.name}
                   href={`/products/${product.id}`}
-                  background={{ backgroundImage: `url(${product.image})` }}
+                  background={product.image_small || "empty.jpg"}
                   method={(language === "en" ? product.title : product.titleAr) || product.title}
                   description={(language === "en" ? product.desc : product.descAr) || product.desc}
                   rate={product.rate}

@@ -56,8 +56,8 @@ export default function Home() {
         <SpareParts />
         <OurClients />
         <Deliveries />
+        <Samples />
         <Experience />
-        {/* <Samples /> */}
         <Faq />
         <Blog />
         <Event />
