@@ -400,7 +400,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F] pl-1 ml-2   pt-3 font-normal text-[18px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F]  w-full ${language === "en" ? "ml-5 pl-1" : "ml-2 pl-2"}   pt-3 font-normal text-[18px] max-lg:text-[16px]`}
                         sx={{
                           color: "rgb(48, 70, 68)",
                           fontSize: "16px",
@@ -413,15 +413,15 @@ function Navbar() {
                         }}
                       >
 
-                        {
-                          language === "en" &&
-                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
-                        }
 
 
                         {i18n.language === "ar" ? "المنتجات" : "Products"}
                         {
                           language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+                        {
+                          language === "en" &&
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
 
                       </Button>
@@ -447,7 +447,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open9 ? "true" : undefined}
                         onClick={handleClick9}
-                        className={`flex items-center text-[#54545F] pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pt-0 pb-1  w-full ${language === "en" ? "ml-5 pl-1" : "pl-2"} font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
                           color: "#54545F",
                           fontWeight: "400",
@@ -455,13 +455,12 @@ function Navbar() {
                           padding: "13px 17px",
                           textTransform: "capitalize",
                           fontFamily: "Cairo",
+                          display: "flex",
+                          justifyContent: "space-between",
                         }}
                       >
 
-                        {
-                          language === "en" &&
-                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
-                        }
+
 
 
                         {i18n.language === "ar" ? "قطع الغيار" : "Spare Parts"}
@@ -469,6 +468,10 @@ function Navbar() {
                           language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
                         }
 
+                        {
+                          language === "en" &&
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
+                        }
                       </Button>
                       <Menu
                         id="basic-menu"
@@ -556,7 +559,7 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open8 ? "true" : undefined}
                         onClick={handleClick8}
-                        className={`flex items-center text-[#54545F] pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#54545F] pt-3   w-full ${language === "en" ? "ml-5 pb-1 pl-1" : "pb-2 pl-2"} font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
                           color: "#54545F",
                           fontWeight: "400",
@@ -564,19 +567,22 @@ function Navbar() {
                           padding: "13px 17px",
                           textTransform: "capitalize",
                           fontFamily: "Cairo",
+                          display: "flex",
+                          justifyContent: "space-between",
                         }}
                       >
 
-                        {
-                          language === "en" &&
-                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
-                        }
+                        
 
 
                         {i18n.language === "ar" ? "مركز المعرفة" : "Resources"}
 
                         {
                           language === "ar" && <LeftOutlined className="mr-2" sx={{ fontSize: "17px", color: "#54545F", }} />
+                        }
+                        {
+                          language === "en" &&
+                          <RightOutlined className="mx-4" sx={{ fontSize: "17px", color: "#1c1c1c", }} />
                         }
 
                       </Button>

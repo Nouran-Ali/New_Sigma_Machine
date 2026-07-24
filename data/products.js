@@ -38,6 +38,7 @@ export const products = [
 
     image: "/products/3 Axis CNC Router Machine.jfif",
     image_small: "/products/3 Axis CNC Router Machine.jfif",
+    video: "/../products/cnc machine.mp4",
     slug: "3-axis-cnc-router-machine",
 
     title: "3 Axis CNC Router Machine",
