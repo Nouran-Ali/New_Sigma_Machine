@@ -191,8 +191,24 @@ const Themaintenance = () => {
 
 
         <h3 className="text-2xl">{t("Maintenance")}</h3>
+        <p>تحديث ماكينة الفايبر ليزر قطع من قدرة 3kW إلى 6kW لعميلنا في البحرين.</p>
 
         <div className="mb-4 mt-6 grid grid-cols-4 max-xl:grid-cols-1 gap-4">
+
+          <div className="col-span-2 w-full max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
+            <video
+              className="w-full h-auto aspect-video object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+            >
+              <source src="../maintaines/1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <p className="col-span-2"></p>
 
           <Link href="/maintenance/1">
             <img
