@@ -8,6 +8,8 @@ import Head from "next/head";
 import MetaDefaults from "./MetaDefaults";
 import { useTranslation } from "react-i18next";
 import { PhoneIcon } from "lucide-react";
+import JsonLd from "./JsonLd";
+import { saudiBranchSchema } from "@/lib/schema";
 
 const Layout = ({ children }) => {
 
@@ -19,6 +21,7 @@ const Layout = ({ children }) => {
 
       <head>
         <MetaDefaults />
+        <JsonLd data={saudiBranchSchema} />
       </head>
 
       <Navbar />
