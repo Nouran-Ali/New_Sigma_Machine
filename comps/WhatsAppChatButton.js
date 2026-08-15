@@ -9,7 +9,7 @@ const WhatsAppChatButton = () => {
   const { language } = i18n;
 
   return (
-    <div className={`fixed bottom-5 ${language === "en" ? "right-5" : "left-5"} z-50`}>
+    <div className={`fixed bottom-5 ${language === "en" ? "right-5" : "right-5"} z-50`}>
       <a
         href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
           language === "en" ? message : messageAr

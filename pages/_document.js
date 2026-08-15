@@ -55,7 +55,7 @@ export default function Document() {
           data-bot-name="My Assistant"
           data-primary-color="#4b4b4b"
           data-accent-color="#D4AF37"
-          data-position="bottom-right"
+          data-position="bottom-left"
           data-theme="auto"
           data-lazy-load="true"
           data-lazy-scrape="true"

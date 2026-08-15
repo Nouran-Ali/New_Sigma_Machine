@@ -3340,6 +3340,7 @@ It combines flat sheet cutting and tube/pipe cutting into a single high-performa
 
     image: "/../products/welding-550x750.png",
     image_small: "/../products/welding-350x370.png",
+    video: "/../products/Handheld Fiber Laser Welding Machine video.mp4",
     slug: "handheld-fiber-laser-welding-machine",
 
     title: "Handheld Fiber Laser Welding Machine",
@@ -4153,6 +4154,7 @@ Advanced RF or glass CO₂ laser sources deliver excellent marking quality for i
 
     image: "/../products/marker550x750.png",
     image_small: "/../products/marker-350x370.png",
+    video: "/../products/Fiber Laser Marking Machine video.mp4",
     slug: "fiber-laser-marking-machine",
 
     title: "Fiber Laser Marking Machine",
