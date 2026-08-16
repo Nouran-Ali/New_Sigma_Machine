@@ -61,7 +61,7 @@ export default function Article({ article }) {
 
             <article className="prose mx-auto pb-10 px-24 max-lg:px-5" dir={language === "en" ? "ltr" : "rtl"}>
                 <div
-                    className="bg-white rounded-2xl overflow-hidden"
+                    className="bg-[#101010] rounded-2xl overflow-hidden"
                 >
 
                     <div className="aspect-video rounded-3xl overflow-hidden shadow-lg">

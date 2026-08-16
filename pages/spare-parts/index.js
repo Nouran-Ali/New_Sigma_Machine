@@ -150,7 +150,7 @@ const Sparearts = () => {
                 {filteredParts.map((item) => (
                     <div
                         key={item.id}
-                        className="group bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition duration-300"
+                        className="group bg-[#101010] rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition duration-300"
                     >
                         <div className="h-32 overflow-hidden bg-gray-50">
                             <img
@@ -186,7 +186,7 @@ const Sparearts = () => {
                                 {item.sizes.map((size) => (
                                     <span
                                         key={size}
-                                        className="px-3 py-1 rounded-full bg-gray-100 text-xs"
+                                        className="px-3 py-1 rounded-full bg-[#181818] text-xs"
                                     >
                                         {size}
                                     </span>

@@ -295,7 +295,7 @@ function Navbar() {
       <AppBar
         position="sticky"
         sx={{
-          backgroundColor: scrolling ? "#ffffff" : "#fffff433",
+          backgroundColor: scrolling ? "#111111" : "#12121200",
           transition: "background-color 0.3s ease-in-out",
           boxShadow: scrolling ? "0px 0px 5px rgba(0, 0, 0, 0.2)" : "none",
           zIndex: 999,
@@ -338,7 +338,7 @@ function Navbar() {
                   }
               }
             >
-              <img src="../logo.png" width="90px" className="max-lg:w-[50px]" alt="logo" />
+              <img src="../logo2.png" width="90px" className="max-lg:w-[50px]" alt="logo" />
             </Typography>
 
             <Box
@@ -400,9 +400,9 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open ? "true" : undefined}
                         onClick={handleClick}
-                        className={`flex items-center text-[#54545F]  w-full ${language === "en" ? "ml-5 pl-1" : "ml-2 pl-2"}   pt-3 font-normal text-[18px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#a2a2a3]  w-full ${language === "en" ? "ml-5 pl-1" : "ml-2 pl-2"}   pt-3 font-normal text-[18px] max-lg:text-[16px]`}
                         sx={{
-                          color: "rgb(48, 70, 68)",
+                          color: "#a2a2a3",
                           fontSize: "16px",
                           fontWeight: "400",
                           textTransform: "capitalize",
@@ -447,9 +447,9 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open9 ? "true" : undefined}
                         onClick={handleClick9}
-                        className={`flex items-center text-[#54545F] pt-0 pb-1  w-full ${language === "en" ? "ml-5 pl-1" : "pl-2"} font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#a2a2a3] pt-0 pb-1  w-full ${language === "en" ? "ml-5 pl-1" : "pl-2"} font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
-                          color: "#54545F",
+                          color: "#a2a2a3",
                           fontWeight: "400",
                           fontSize: "16px",
                           padding: "13px 17px",
@@ -559,9 +559,9 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open8 ? "true" : undefined}
                         onClick={handleClick8}
-                        className={`flex items-center text-[#54545F] pt-3   w-full ${language === "en" ? "ml-5 pb-1 pl-1" : "pb-2 pl-2"} font-normal normal-case text-[16px] max-lg:text-[16px]`}
+                        className={`flex items-center text-[#a2a2a3] pt-3   w-full ${language === "en" ? "ml-5 pb-1 pl-1" : "pb-2 pl-2"} font-normal normal-case text-[16px] max-lg:text-[16px]`}
                         sx={{
-                          color: "#54545F",
+                          color: "#a2a2a3",
                           fontWeight: "400",
                           fontSize: "16px",
                           padding: "13px 17px",
@@ -644,10 +644,10 @@ function Navbar() {
                         href={href}
                         style={{
                           marginRight: "15px",
-                          color: "#54545F",
+                          color: "#a2a2a3",
                           textDecoration: "none",
                         }}
-                        className={`flex items-center  ${handleActiveLink(href) ? "text-[#1c1c1c] text-[16px] font-bold" : "text-[#54545F] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 max-lg:mx-5 pt-3 `}
+                        className={`flex items-center  ${handleActiveLink(href) ? "text-[#ffffff] text-[16px] font-bold" : "text-[#a2a2a3] font-normal normal-case text-base"}  px-5 mr-3 ml-2 max-lg:px-1 max-lg:mx-5 pt-3 `}
                       >
                         {i18n.language === "ar" ? title_ar : title}
                       </Link>
@@ -703,7 +703,7 @@ function Navbar() {
                 justifyContent: "flex-end",
               }}
             >
-              <img src="../logo.png" width="75px" className="max-lg:w-[50px]" alt="logo" />
+              <img src="../logo2.png" width="75px" className="max-lg:w-[50px]" alt="logo" />
             </Typography>
             <Box
               sx={{
@@ -733,9 +733,9 @@ function Navbar() {
                       aria-haspopup="true"
                       aria-expanded={open ? "true" : undefined}
                       onClick={handleClick}
-                      className="flex items-center  text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                      className="flex items-center  text-[#a2a2a3] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                       sx={{
-                        color: "#54545F",
+                        color: "#a2a2a3",
                         fontWeight: "400",
                         fontSize: "16px",
                         padding: "13px 17px",
@@ -1208,9 +1208,9 @@ function Navbar() {
                       aria-haspopup="true"
                       aria-expanded={open9 ? "true" : undefined}
                       onClick={handleClick9}
-                      className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                      className="flex items-center text-[#a2a2a3] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                       sx={{
-                        color: "#54545F",
+                        color: "#a2a2a3",
                         fontWeight: "400",
                         fontSize: "16px",
                         padding: "13px 17px",
@@ -1307,9 +1307,9 @@ function Navbar() {
                         aria-haspopup="true"
                         aria-expanded={open8 ? "true" : undefined}
                         onClick={handleClick8}
-                        className="flex items-center text-[#54545F] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
+                        className="flex items-center text-[#a2a2a3] mr-3 pt-3 font-normal normal-case text-[16px] max-lg:text-[16px]"
                         sx={{
-                          color: "#54545F",
+                          color: "#a2a2a3",
                           fontWeight: "400",
                           fontSize: "16px",
                           padding: "13px 17px",
@@ -1395,7 +1395,7 @@ function Navbar() {
               <Button
                 onClick={toggleLanguage}
                 style={{
-                  color: "#54545F",
+                  color: "#a2a2a3",
                   backgroundColor: "transparent",
                   fontWeight: "500",
                   marginRight: "5px",
@@ -1409,8 +1409,8 @@ function Navbar() {
                   <PhoneFilled />
                 </div>
                 <div className="ml-3 text-sm">
-                  <p className="text-[#1c1c1c] text-left"> {t("Call Us")}</p>
-                  <p className="text-[#54545f] ">+966 56 974 5955</p>
+                  <p className="text-[#a2a2a3] text-left"> {t("Call Us")}</p>
+                  <p className="text-[#ffffff] ">+966 56 974 5955</p>
                 </div>
               </div>
             </Box>

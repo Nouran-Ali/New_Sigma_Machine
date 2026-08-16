@@ -19,7 +19,7 @@ const Event = () => {
                     <Link
                         href={`/blog/${blog.slug}`}
                         key={blog.id}
-                        className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg duration-300"
+                        className="bg-[#101010] rounded-2xl overflow-hidden shadow-sm hover:shadow-lg duration-300"
                     >
 
                         <img

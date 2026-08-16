@@ -40,13 +40,13 @@ const Main = () => {
         <div className={styles.background}>
           <div className="grid grid-cols-2 max-xl:grid-cols-1 gap-4 px-24 max-xl:px-10 reverce_mobile">
             <div className="lg:mt-20 ">
-              <p className="text-[#666666] text-sm max-xl:text-sm tracking-widest uppercase font-medium relative z-10">
+              <p className="text-[#a2a2a3] text-sm max-xl:text-sm tracking-widest uppercase font-medium relative z-10">
                 {t("High-Precision CNC & Laser Cutting Machines")}
               </p>
-              <h1 className="text-[#1c1c1c] mt-4 text-6xl max-xl:text-4xl font-bold relative z-10">
+              <h1 className="text-[#ffffff] mt-4 text-6xl max-xl:text-4xl font-bold relative z-10">
                 {t("Sigma Machines")}
               </h1>
-              <p className="text-[#54545f] text-base mt-5 mb-12">
+              <p className="text-[#a2a2a3] text-base mt-5 mb-12">
                 {t("We provide a full range of CNC and laser machinery for wood, metal, acrylic, signage, furniture production, sheet metal fabrication, and industrial manufacturing. Our machines include fiber laser cutters, CNC routers (3, 4, and 5-axis), CO₂ lasers, plasma cutting systems, welding machines, marking lasers, press brakes, and shearing machines.")}
               </p>
               <Link href="/about" className={styles.btn_more}>
@@ -143,7 +143,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-        <div className={`${styles.white_circle} mobile_d_none`}></div>
+        <div className={`${styles.white_circle} `}></div>
         <div className={styles.left_dots}>
           <img src="/home/menu.webp" width="40" height="40" loading="lazy" alt="menu"/>
           <img src="/home/menu.webp" width="40" height="40" loading="lazy" alt="menu"/>

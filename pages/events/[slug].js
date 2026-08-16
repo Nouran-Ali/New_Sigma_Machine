@@ -58,7 +58,7 @@ export default function Events({ article }) {
 
             <article className="prose mx-auto pb-10 px-24 max-lg:px-5" dir={language === "en" ? "ltr" : "rtl"}>
                 <div
-                    className="bg-white rounded-2xl overflow-hidden"
+                    className="bg-[#101010] rounded-2xl overflow-hidden"
                 >
 
                     <img
@@ -69,7 +69,7 @@ export default function Events({ article }) {
 
                     <div className="p-6">
 
-                        <span className="text-[#D97706] text-sm">
+                        <span className="text-[#D4AF37] text-sm">
                             {language === "en" ? article.category : article.category_ar}
                         </span>
 
@@ -80,7 +80,7 @@ export default function Events({ article }) {
                             {language === "en" ? article.date : article.date_ar}
                         </p>
 
-                        <p className="text-gray-600 mt-3">
+                        <p className="text-[#a2a2a3] mt-3">
                             {language === "en" ? article.excerpt : article.excerpt_ar}
                         </p>
                         

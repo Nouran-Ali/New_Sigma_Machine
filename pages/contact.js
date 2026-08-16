@@ -22,19 +22,19 @@ const Contact = () => {
         description="Get in touch with Sigma Machines for inquiries, support, or custom industrial solutions – we're here to help via email, phone, or WhatsApp."
       />
 
-      <div className="bg-[#d9d64038]" dir={language === "en" ? "ltr" : "rtl"}>
+      <div className="bg-[#d9d6400d]" dir={language === "en" ? "ltr" : "rtl"}>
         <div className="px-24 max-xl:px-10">
           <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-4 pt-9 max-xl:pt-1 pb-12">
             <div className="text-lg mt-9 max-xl:mt-3">
-              <h3 className="text-[#1d214e] text-2xl font-semibold">
+              <h3 className="text-[#ffffff] text-2xl font-semibold">
                 {t("Sigma Machines")}
               </h3>
-              <h3 className="text-[#1d214e] text-xl font-semibold mt-8">
+              <h3 className="text-[#ffffff] text-xl font-semibold mt-8">
                 {t("Office address")}:
               </h3>
               <p className="mt-1 text-[#d9d640]"> {t("Riyadh-Al-Sahafa")}</p>
-              <p className="text-[#1d214e]"> {t("distrait-king")}</p>
-              <p className="text-[#1d214e]"> {t("Abdulaziz Street")}</p>
+              <p className="text-[#ffffff]"> {t("distrait-king")}</p>
+              <p className="text-[#ffffff]"> {t("Abdulaziz Street")}</p>
 
               <div className="mt-3">
                 <iframe
@@ -47,12 +47,12 @@ const Contact = () => {
                 />
               </div>
 
-              <h3 className="text-[#1d214e] text-xl font-semibold mt-5">
+              <h3 className="text-[#ffffff] text-xl font-semibold mt-5">
                 {t("Warehouse address")}:
               </h3>
               <p className=" text-[#d9d640]"> {t("Riyadh")}</p>
-              <p className="text-[#1d214e]"> {t("Al-Sulay Distric")}</p>
-              <p className="text-[#1d214e] mb-3"> {t("3969 Al-Jubeir Street")}</p>
+              <p className="text-[#ffffff]"> {t("Al-Sulay Distric")}</p>
+              <p className="text-[#ffffff] mb-3"> {t("3969 Al-Jubeir Street")}</p>
 
               <Link
                 href="mailto:info@sigmamachines.net"
@@ -63,7 +63,7 @@ const Contact = () => {
               <h3 >
                 <Link
                   href="tel:+966569745955"
-                  className="text-[#1d214e] text-2xl font-semibold"
+                  className="text-[#ffffff] text-2xl font-semibold"
                   dir="ltr"
                 >
                   <span className="text-[#d9d640]" >+966</span> 56 974 5955
@@ -116,32 +116,32 @@ const Contact = () => {
               <div className="lg:w-80 lg:ml-auto max-lg:mx-auto">
                 <div className={`${styles.half_circle} mobile_d_none`}></div>
                 <div className="bg-white p-8 rounded-3xl ml-auto relative z-0">
-                  <h3 className="text-[#1d214e] text-2xl font-semibold">
+                  <h3 className="text-[#000000] text-2xl font-semibold">
                     {t("Write")} <span className="text-[#d9d640]">  {t("A Message")}</span>
                   </h3>
                   <div className="mt-8 text-lg">
-                    <p className="text-[#1d214e]"> {t("Full name")}</p>
+                    <p className="text-[#a2a2a3]"> {t("Full name")}</p>
                     <Input
                       placeholder={t("Enter your name")}
                       size="large"
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
-                    <p className="mt-4 text-[#1d214e]">{t("Email")}*</p>
+                    <p className="mt-4 text-[#a2a2a3]">{t("Email")}*</p>
                     <Input
                       placeholder={t("Enter your email")}
                       size="large"
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
-                    <p className="mt-4 text-[#1d214e]"> {t("Phone")}</p>
+                    <p className="mt-4 text-[#a2a2a3]"> {t("Phone")}</p>
                     <Input
                       placeholder="+20"
                       size="large"
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
-                    <p className="mt-4 text-[#1d214e]"> {t("Message")}</p>
+                    <p className="mt-4 text-[#a2a2a3]"> {t("Message")}</p>
                     <TextArea
                       showCount
                       maxLength={100}

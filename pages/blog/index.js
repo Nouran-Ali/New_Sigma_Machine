@@ -40,7 +40,7 @@ const Blog = () => {
                     <Link
                         href={`/blog/${blog.slug}`}
                         key={blog.id}
-                        className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg duration-300"
+                        className="bg-[#101010] rounded-2xl overflow-hidden shadow-sm hover:shadow-lg duration-300"
                     >
 
                         <img
@@ -51,7 +51,7 @@ const Blog = () => {
 
                         <div className="p-6">
 
-                            <span className="text-[#D97706] text-sm">
+                            <span className="text-[#D4AF37] text-sm">
                                 {language === "en" ? blog.category : blog.category_ar}
                             </span>
 
@@ -59,7 +59,7 @@ const Blog = () => {
                                 {language === "en" ? blog.title : blog.title_ar}
                             </h2>
 
-                            <p className="text-gray-600 mt-3">
+                            <p className="text-[#a2a2a3] mt-3">
                                 {language === "en" ? blog.excerpt : blog.excerpt_ar}
                             </p>
 

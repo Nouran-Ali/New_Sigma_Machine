@@ -117,7 +117,7 @@ const Deliveries = () => {
                 >
                     {deliveries.map((item) => (
                         <SwiperSlide key={item.id}>
-                            <div className="bg-white rounded-3xl overflow-hidden shadow hover:shadow-xl duration-300 h-full mb-8">
+                            <div className="bg-[#101010] rounded-3xl overflow-hidden shadow hover:shadow-xl duration-300 h-full mb-8">
 
                                 {/* Images */}
 

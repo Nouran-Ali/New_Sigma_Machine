@@ -227,21 +227,21 @@ const Product = () => {
             </div>
             <div>
               <div>
-                <div className="bg-[#f7f4f775] p-12 rounded-3xl">
+                <div className="bg-[#101010] p-12 rounded-3xl">
                   <h3 className="text-[#d9d640] text-2xl tracking-widest">
                     {language === "en" ? product?.name : product?.nameAr}
                   </h3>
 
                   {
                     (product?.id === 24 || product?.id === 17 || product?.id === 20) ? null :
-                      <h3 className="text-[#1c1c1c] text-xl mt-5">
+                      <h3 className="text-[#a2a2a3] text-xl mt-5">
                         {t("Working Area")}
                       </h3>
                   }
 
                   {(language === "en" ? product?.details?.workingArea : product?.details?.workingAreaAr)?.map((w, index) => (
                     <div key={index}>
-                      <p className="text-[#8d8e99] text-xl mt-2">{w}</p>
+                      <p className="text-[#ffffff] text-xl mt-2">{w}</p>
                     </div>
                   ))}
                 </div>
@@ -274,7 +274,7 @@ const Product = () => {
           <div className=" mt-7 mb-7">
             <div className="col-span-2 lg:ml-6">
               {/* <h3 className="text-[#1c1c1c] text-3xl">Product Parameters</h3> */}
-              <p className="mt-5 mb-5 text-lg text-[#54545f]">
+              <p className="mt-5 mb-5 text-lg text-[#ffffff]">
                 {language === "en" ? product?.desc : product?.descAr}
               </p>
 
@@ -295,7 +295,7 @@ const Product = () => {
               )}
 
               <div className="mt-12">
-                <h3 className="mt-8 text-3xl font-semibold text-[#1c1c1c]"> {t("Key Features")}</h3>
+                <h3 className="mt-8 text-3xl font-semibold text-[#ffffff]"> {t("Key Features")}</h3>
 
                 <div className="grid grid-cols-3 max-xl:grid-cols-1 gap-6 mt-6">
                   {product?.details?.keyFeatures?.length > 0 &&
@@ -312,12 +312,12 @@ const Product = () => {
                                   "linear-gradient(to top right, #d9d640, #c5c23a, #d9d640)",
                               }}
                             ></div>
-                            <p className="">{language === "en" ? section.title : section.titleAr}</p>
+                            <p className="text-black">{language === "en" ? section.title : section.titleAr}</p>
                           </div>
                         </div>
 
                         {(language === "en" ? section.points : section.pointsAr)?.map((p) => (
-                          <p className="text-[#74757e] text-lg mt-2" key={p}>{p}</p>
+                          <p className="text-[#ffffff] text-lg mt-2" key={p}>{p}</p>
                         ))}
                       </div>
                     ))}
@@ -341,7 +341,7 @@ const Product = () => {
                 </div> */}
 
               <div className="mt-12">
-                <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                <h2 className="text-3xl font-semibold text-[#ffffff] text-center">
                   {t("Applications")}
                 </h2>
                 <hr className={`${styles.line} mx-auto text-center mt-3 mb-10`} />
@@ -352,7 +352,7 @@ const Product = () => {
                       key={section.category}
                       className="
           relative group p-7 rounded-3xl border border-gray-200 
-          bg-white/60 backdrop-blur-xl shadow-md 
+          bg-[#101010] backdrop-blur-xl shadow-md 
           hover:shadow-xl transition-all duration-300 hover:-translate-y-1
         "
                     >
@@ -366,7 +366,7 @@ const Product = () => {
                       </div>
 
                       {/* Category Title */}
-                      <h3 className="text-[#1c1c1c] text-xl font-semibold text-center mb-5 
+                      <h3 className="text-[#c5c23a] text-xl font-semibold text-center mb-5 
           group-hover:text-[#c5c23a] transition-all duration-300">
                         {language === "en" ? section.category : section.categoryAr}
                       </h3>
@@ -400,7 +400,7 @@ const Product = () => {
 
 
               <div className="mt-12">
-                <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                <h2 className="text-3xl font-semibold text-[#ffffff] text-center">
                   {t("Advantages")}
                 </h2>
                 <hr className={`${styles.line} mx-auto text-center mt-3 mb-6`} />
@@ -434,7 +434,7 @@ const Product = () => {
               {
                 (product?.rate == 0 || product?.rate === null) ? null :
                   <div className="mt-16">
-                    <h2 className="text-3xl font-semibold text-[#1c1c1c] text-center">
+                    <h2 className="text-3xl font-semibold text-[#ffffff] text-center">
                       {t("Reviews")}
                     </h2>
 
@@ -475,7 +475,7 @@ const Product = () => {
                               />
 
                               <div>
-                                <h4 className="font-semibold text-lg">
+                                <h4 className="font-semibold text-lg text-black">
                                   {review.userName || "Username"}
                                 </h4>
 

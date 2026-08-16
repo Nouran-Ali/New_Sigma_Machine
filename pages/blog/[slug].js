@@ -68,7 +68,7 @@ export default function Article({ article }) {
                     height={400}
                 /> */}
                 <div
-                    className="bg-white rounded-2xl overflow-hidden"
+                    className="bg-[#101010] rounded-2xl overflow-hidden"
                 >
 
                     <img
@@ -87,7 +87,7 @@ export default function Article({ article }) {
                             {language === "en" ? article.title : article.title_ar}
                         </h2>
 
-                        <p className="text-gray-600 mt-3">
+                        <p className="text-[#a2a2a3] mt-3">
                             {language === "en" ? article.excerpt : article.excerpt_ar}
                         </p>
                         {/* <p className="text-gray-600 mt-3 mb-4">
@@ -97,7 +97,7 @@ export default function Article({ article }) {
                         {
                             (article?.content?.en || article?.content?.ar) &&
                             <div
-                                className="max-w-none [&_h2]:text-3xl [&_h2]:font-bold [&_h2]:mb-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:text-gray-700 [&_p]:leading-8 [&_p]:mb-4"
+                                className="max-w-none [&_h2]:text-3xl [&_h2]:font-bold [&_h2]:mb-6 [&_h3]:text-xl [&_h3]:font-semibold [&_h3]:mt-8 [&_h3]:mb-3 [&_p]:text-[#a2a2a3] [&_p]:leading-8 [&_p]:mb-4"
                                 dangerouslySetInnerHTML={{
                                     __html: language === "en" ? article.content.en : article.content.ar,
                                 }}
@@ -106,7 +106,7 @@ export default function Article({ article }) {
 
 
 
-                        <p className="text-gray-400 text-sm mt-3">
+                        <p className="text-[#a2a2a3] text-sm mt-3">
                             {language === "en" ? article.date : article.date_ar}
                         </p>
 

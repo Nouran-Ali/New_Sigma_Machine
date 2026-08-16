@@ -25,11 +25,11 @@ const SpareParts = () => {
                             {t("OUR Spare Parts")}
                         </p>
                     </div>
-                    <h1 className="text-[#1c1c1c] text-xl mt-4">
+                    <h1 className="text-[#ffffff] text-xl mt-4">
                         {t("Premium Spare Parts for CNC & Laser Machines")}
                     </h1>
 
-                    <p className="text-gray-600 mt-4 leading-8">
+                    <p className="text-[#a2a2a3] mt-4 leading-8">
                         {t("We provide high-quality original and compatible spare parts for CNC, fiber laser cutting, laser marking, and press brake machines. Our products are carefully selected to ensure maximum performance, precision, durability, and reduced machine downtime, helping your production run efficiently with reliable replacement components.")}
                     </p>
                 </div>
@@ -38,7 +38,7 @@ const SpareParts = () => {
                     {spareParts.slice(0, 4).map((item) => (
                         <div
                             key={item.id}
-                            className="group bg-white rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition duration-300"
+                            className="group bg-[#101010] rounded-3xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-2xl transition duration-300"
                         >
                             <div className="h-32 overflow-hidden bg-gray-50">
                                 <img

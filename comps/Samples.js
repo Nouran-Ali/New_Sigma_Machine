@@ -40,7 +40,7 @@ const Samples = () => {
 
     return (
         <div className='mt-12 mb-12 px-24 max-xl:px-10 Samples' >
-            <h1 className='text-[#1c1c1c] text-3xl max-lg:text-xl tracking-widest uppercase text-center'>{t("Samples")}</h1>
+            <h1 className='text-[#ffffff] text-3xl max-lg:text-xl tracking-widest uppercase text-center mb-10'>{t("Samples")}</h1>
             {/* <Tabs
                 defaultActiveKey="1"
                 items={items}

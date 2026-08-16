@@ -31,7 +31,7 @@ const OurClients = () => {
                             {t("OUR Clients")}
                         </p>
                     </div>
-                    <h1 className="text-[#1c1c1c] text-xl mt-4">
+                    <h1 className="text-[#a2a2a3] text-xl mt-4 mb-7">
                         {t("Success Stories with Our Clients")}
                     </h1>
                 </div>
@@ -67,7 +67,7 @@ const OurClients = () => {
                 >
                     {clients.map((client) => (
                         <SwiperSlide key={client.id}>
-                            <div className="group bg-white rounded-3xl border border-gray-200 p-7 h-[230px]
+                            <div className="group bg-[#101010] rounded-3xl border border-gray-200 p-7 h-[230px]
             transition-all duration-500 hover:-translate-y-2 hover:border-yellow-500">
 
                                 <div className="w-20 h-20 rounded-2xl bg-gray-100 flex items-center justify-center mx-auto">

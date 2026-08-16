@@ -24,7 +24,7 @@ const Our_products = () => {
               {t("OUR PRODUCTS")}
             </p>
           </div>
-          <h1 className="text-[#1c1c1c] text-xl mt-4">
+          <h1 className="text-[#ffffff] text-xl mt-4">
             {/* We offer a suitable laser machine for virtually any application. The
             range includes laser engravers, laser cutters, large-format laser
             cutting machines, and industrial marking lasers. */}
@@ -33,7 +33,7 @@ const Our_products = () => {
         </div>
         <Carousel autoplay>
           <div>
-            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 items-stretch">
+            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 mt-10 items-stretch">
               {products.slice(0, 3).map((product) => {
                 const truncatedDesc =
                   product.desc.length > 100
@@ -61,7 +61,7 @@ const Our_products = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 items-stretch">
+            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 mt-10 items-stretch">
               {products.slice(4, 7).map((product) => {
                 const truncatedDesc =
                   product.desc.length > 100
@@ -88,7 +88,7 @@ const Our_products = () => {
             </div>
           </div>
           <div>
-            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 mt-10 mb-7 items-stretch">
+            <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-5 mt-10 mb-14 items-stretch">
               {products.slice(7, 10).map((product) => {
                 const truncatedDesc =
                   product.desc.length > 100
@@ -115,7 +115,7 @@ const Our_products = () => {
             </div>
           </div>
         </Carousel>
-        <div className="mx-auto flex justify-center mt-14">
+        <div className="mx-auto flex justify-center mt-8">
           <Link href="/" className={`${styles.btn_more} flex items-center`}>
             {t("More")}
             {

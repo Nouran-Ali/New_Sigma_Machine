@@ -6,7 +6,7 @@ const We_are_here_for_you = () => {
     const [t, i18n] = useTranslation();
 
     return (
-        <div className='bg-[#2a2a2a] text-white rounded-lg p-5 px-9 max-xl:px-5 relative -bottom-7'>
+        <div className='bg-[#000000] text-white rounded-lg p-5 px-9 max-xl:px-5 relative -bottom-7'>
             <div className='grid grid-cols-3 max-xl:grid-cols-2 gap-6 mt-20 mb-16 mx-16 max-xl:mx-4'>
                 <div className='col-span-3 text-center'>
                     <p className='text-xl max-xl:text-lg tracking-widest uppercase font-medium'> {t("Sigma Machines — Your Trusted Service Partner in Saudi Arabia")}</p>

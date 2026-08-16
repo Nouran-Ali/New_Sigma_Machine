@@ -66,7 +66,7 @@ export default function Case({ article }) {
                     height={400}
                 /> */}
                 <div
-                    className="bg-white rounded-2xl overflow-hidden"
+                    className="bg-[#101010] rounded-2xl overflow-hidden"
                 >
 
                     <img
@@ -77,7 +77,7 @@ export default function Case({ article }) {
 
                     <div className="p-6">
 
-                        <span className="text-[#D97706] text-sm">
+                        <span className="text-[#D4AF37] text-sm">
                             {language === "en" ? article.category : article.category_ar}
                         </span>
 
@@ -88,7 +88,7 @@ export default function Case({ article }) {
                             {language === "en" ? article.date : article.date_ar}
                         </p>
 
-                        <p className="text-gray-600 mt-3">
+                        <p className="text-[#a2a2a3] mt-3">
                             {language === "en" ? article.excerpt : article.excerpt_ar}
                         </p>
 
@@ -98,16 +98,16 @@ export default function Case({ article }) {
                         <h2 className="mt-3 text-lg ">
                             {language === "en" ? "Challenge" : "التحديات"}
                         </h2>
-                        <p className="text-gray-600 mt-1">{language === "ar" ? article.challenge_ar : article.challenge}</p>
+                        <p className="text-[#a2a2a3] mt-1">{language === "ar" ? article.challenge_ar : article.challenge}</p>
 
                         <h2 className="mt-3 text-lg ">
                             {language === "en" ? "Solution" : "الحل"}
                         </h2>
-                        <p className="text-gray-600 mt-1">{language === "ar" ? article.solution_ar : article.solution}</p>
+                        <p className="text-[#a2a2a3] mt-1">{language === "ar" ? article.solution_ar : article.solution}</p>
 
                         <h2 className="mt-3 text-lg ">{language === "en" ? "Results" : "النتائج"}</h2>
 
-                        <ul className="text-gray-600 mt-1">
+                        <ul className="text-[#a2a2a3] mt-1">
                             {(language === "ar"
                                 ? article.results_ar
                                 : article.results
@@ -120,7 +120,7 @@ export default function Case({ article }) {
                             {language === "en" ? "Technologies Used" : "التكنولوجيا المستخدمه"}
                         </h2>
 
-                        <ul className="text-gray-600 mt-1">
+                        <ul className="text-[#a2a2a3] mt-1">
                             {(language === "ar"
                                 ? article.technologies_ar
                                 : article.technologies

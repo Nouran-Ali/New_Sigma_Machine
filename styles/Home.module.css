@@ -1,6 +1,5 @@
 .background {
     /* background-color: #fffff433; */
-    background-color: #fffff433;
     height: 100vh;
     overflow: clip;
     position: relative;
@@ -235,7 +234,7 @@
 }
 
 .title_services {
-    color: #1c1c1c;
+    color: #ffffff;
 }
 
 .card_services_2 {
@@ -244,7 +243,7 @@
 }
 
 .card_services_3 {
-    background-color: #f4ffff;
+    background-color: #f4ffff38;
     border-radius: 44% 40% 46% 41% / 48% 53% 46% 26%;
 }
 
@@ -278,6 +277,16 @@
 }
 
 @media (max-width: 780px) {
+    .background {
+        height: 79vh;
+    }
+
+    .left_dots {
+        position: absolute;
+        top: 150px;
+        left: -10px;
+    }
+
     .btn_more {
         border-color: #D4AF37;
         color: white;
@@ -285,7 +294,9 @@
         border-radius: 27px;
         padding: 10px 25px;
     }
+
     .image {
-    height: 300px;
-  }
+        height: 300px;
+    }
+
 }

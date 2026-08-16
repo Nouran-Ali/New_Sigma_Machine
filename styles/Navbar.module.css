@@ -1,5 +1,6 @@
 .link {
-  color: #54545F;
+  /* color: #54545F; */
+  color: #a2a2a3;
   font-size: 16px;
   font-weight: 400;
   margin-left: 3px;
@@ -9,8 +10,10 @@
 }
 
 .active {
-  border-color: 1px solid #1c1c1c;
-  color: #1c1c1c;
+  /* border-color: 1px solid #1c1c1c; */
+  border-color: 1px solid #ffffff;
+  /* color: #1c1c1c; */
+  color: #fffefe;
   font-weight: 600;
   font-size: 18px;
 }

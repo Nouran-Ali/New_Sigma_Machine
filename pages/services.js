@@ -57,10 +57,10 @@ const Services = () => {
               <p className="text-[#d9d640] text-lg tracking-widest uppercase font-medium">
                 {t("Service")}
               </p>
-              <h1 className="text-[#1c1c1c] mt-4 text-4xl max-lg:text-2xl font-bold">
+              <h1 className="text-[#ffffff] mt-4 text-4xl max-lg:text-2xl font-bold">
                 {t("Professional Maintenance & Technical Support")}
               </h1>
-              <p className="text-[#54545f] text-xl mt-4">
+              <p className="text-[#a2a2a3] text-xl mt-4">
                 {t("At Sigma Machines, service is not an option — it’s a core part of our identity. We provide one of the strongest post-sales technical support systems in Saudi Arabia, ensuring every machine operates at peak performance with minimal downtime.")}
               </p>
               <img
@@ -76,10 +76,10 @@ const Services = () => {
                 <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
                   1
                 </div>
-                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                <h3 className="text-[#ffffff] mt-3 text-xl font-bold">
                   {t("Strong After-Sales Maintenance Team")}
                 </h3>
-                <p className="text-[#54545f] text-lg my-4">
+                <p className="text-[#a2a2a3] text-lg my-4">
                   {t("Our dedicated maintenance engineers are highly trained and experienced in CNC routers, fiber laser cutters, CO₂ laser machines, welding systems, plasma machines, press brakes, and shearing equipment. We respond quickly, diagnose accurately, and fix issues efficiently — keeping your production running without interruption.")}
                 </p>
                 {/* <Link
@@ -93,10 +93,10 @@ const Services = () => {
                 <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
                   2
                 </div>
-                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                <h3 className="text-[#ffffff] mt-3 text-xl font-bold">
                   {t("Annual Maintenance Contracts")}
                 </h3>
-                <p className="text-[#54545f] text-lg mt-4">
+                <p className="text-[#a2a2a3] text-lg mt-4">
                   {t("We offer professional preventive maintenance plans tailored to factories, workshops, and production lines. Contracts include:  Scheduled preventive inspections  Full machine check-ups Laser alignment & calibration Lubrication & mechanical adjustments  Electrical diagnostics Performance optimization  These plans help extend machine lifespan, reduce breakdowns, and ensure stable, high-quality production.")}
 
                 </p>
@@ -105,10 +105,10 @@ const Services = () => {
                 <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
                   3
                 </div>
-                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                <h3 className="text-[#ffffff] mt-3 text-xl font-bold">
                   {t("On-Site External Maintenance Service")}
                 </h3>
-                <p className="text-[#54545f] text-lg mt-4">
+                <p className="text-[#a2a2a3] text-lg mt-4">
                   {t("Our technicians can visit your facility anywhere in Saudi Arabia to perform full maintenance, emergency repairs, calibration, and upgrades. We provide: Emergency breakdown support  Replacement of critical parts  System recalibration  Motion system tuning  Software troubleshooting Operator training and re-training Maintenance isn’t limited to our machines — we service all types of machines")}
 
                 </p>
@@ -117,10 +117,10 @@ const Services = () => {
                 <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
                   4
                 </div>
-                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                <h3 className="text-[#ffffff] mt-3 text-xl font-bold">
                   {t("Support for Chinese and International Suppliers in Saudi Arabia")}
                 </h3>
-                <p className="text-[#54545f] text-lg mt-4">
+                <p className="text-[#a2a2a3] text-lg mt-4">
                   {t("Sigma Machines provides full technical support and maintenance services for Chinese and international CNC and laser equipment suppliers operating in the Saudi market. We act as a reliable local service partner for manufacturers who do not have a dedicated technical team inside the Kingdom. Our team handles:  Warranty repairs On-site technical visits  Machine installation & commissioning  Preventive maintenance contracts  Spare parts replacement  Operator training and re-training  We support all major technologies including fiber laser cutting, CNC routers (3/4/5 axis), laser welding systems, laser marking machines, plasma cutting machines, press brakes, and shearing machines. This service enables global suppliers to maintain a strong presence in Saudi Arabia, ensure higher customer satisfaction, and strengthen their brand reputation in the region — without the need for permanent local staff.")}
 
                 </p>
@@ -129,10 +129,10 @@ const Services = () => {
                 <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
                   5
                 </div>
-                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                <h3 className="text-[#ffffff] mt-3 text-xl font-bold">
                   {t("Fast Response & Reliable Support")}
                 </h3>
-                <p className="text-[#54545f] text-lg mt-4">
+                <p className="text-[#a2a2a3] text-lg mt-4">
                   {t("We know downtime costs money — that’s why our service team is structured for fast action:  Quick diagnosis  On-time visits  Professional repairs Transparent reporting  Follow-up checks")}
 
                 </p>
@@ -141,10 +141,10 @@ const Services = () => {
                 <div className="bg-[#d9d64038] rounded-full ml-auto p-5 px-7 mb-4 font-bold inline-block">
                   6
                 </div>
-                <h3 className="text-[#1c1c1c] mt-3 text-xl font-bold">
+                <h3 className="text-[#ffffff] mt-3 text-xl font-bold">
                   {t("Spare Parts Availability")}
                 </h3>
-                <p className="text-[#54545f] text-lg mt-4">
+                <p className="text-[#a2a2a3] text-lg mt-4">
                   {t("We keep essential spare parts in stock to ensure minimal waiting time for repairs. Motors, drivers, laser components, lens sets, belts, rails, controllers — all available for fast replacement.")}
 
                 </p>
@@ -160,7 +160,7 @@ const Services = () => {
               <p className="text-[#d9d640] text-xl tracking-widest uppercase font-medium">
                 {t("Frequently Asked Questions")}
               </p>
-              <h3 className="text-[#1c1c1c] mt-3 text-5xl font-bold mb-12">
+              <h3 className="text-[#ffffff] mt-3 text-5xl font-bold mb-12">
                 {t("All that Need to Know")}
               </h3>
               

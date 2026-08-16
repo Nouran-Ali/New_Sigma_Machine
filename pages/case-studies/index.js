@@ -35,7 +35,7 @@ const Blog = () => {
                     <Link
                         key={item.id}
                         href={`/case-studies/${item.slug}`}
-                        className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition"
+                        className="bg-[#101010] rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition"
                     >
 
                         <img
@@ -46,7 +46,7 @@ const Blog = () => {
 
                         <div className="p-6">
 
-                            <span className="text-sm text-[#D97706]">
+                            <span className="text-sm text-[#D4AF37]">
                                 {language === "en" ? item.category : item.category_ar}
                             </span>
 
@@ -54,7 +54,7 @@ const Blog = () => {
                                 {language === "en" ? item.title : item.title_ar}
                             </h2>
 
-                            <p className="text-gray-600 mt-3">
+                            <p className="text-[#a2a2a3] mt-3">
                                 {language === "en" ? item.excerpt : item.excerpt_ar}
                             </p>
 

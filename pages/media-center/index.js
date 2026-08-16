@@ -83,7 +83,7 @@ const MediaCenter = () => {
                         <Link
                             href={`/media-center/${video.slug}`}
                             key={video.id}
-                            className="group bg-white rounded-3xl overflow-hidden shadow hover:shadow-2xl duration-300 border border-gray-100"
+                            className="group bg-[#101010] rounded-3xl overflow-hidden shadow hover:shadow-2xl duration-300 border border-gray-100"
                         >
 
                             {/* Thumbnail */}
