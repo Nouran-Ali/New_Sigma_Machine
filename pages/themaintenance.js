@@ -13,9 +13,10 @@ import Meta from "@/comps/Meta";
 import { useTranslation } from "react-i18next";
 
 const Themaintenance = () => {
-
   const [t, i18n] = useTranslation();
   const { language } = i18n;
+
+  const [machineName, setMachineName] = useState("");
 
   const [tabPosition, setTabPosition] = useState("left");
   const [tabPositionAr, setTabPositionAr] = useState("right");
@@ -45,6 +46,23 @@ const Themaintenance = () => {
     };
   }, []);
 
+  const handleMaintenanceWhatsApp = () => {
+    if (!machineName.trim()) return;
+
+    const phoneNumber = "+966569745955";
+
+    const message =
+      language === "en"
+        ? `Hello, I would like to inquire about maintenance for my machine: ${machineName}`
+        : `مرحباً، أود الاستفسار عن صيانة ماكينة: ${machineName}`;
+
+    const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+
+    window.open(whatsappUrl, "_blank");
+  };
+
   return (
     <>
       <Meta
@@ -61,7 +79,45 @@ const Themaintenance = () => {
 
       <div className="px-24 max-xl:px-10 mt-12 mb-12" dir={language === "en" ? "ltr" : "rtl"}>
 
-        <h3 className="text-2xl">{t("Signs that your machine needs maintenance")}</h3>
+<div
+  className="mb-16 rounded-2xl px-8 py-10 shadow-sm"
+  dir={language === "en" ? "ltr" : "rtl"}
+>
+  <div className="max-w-3xl mx-auto text-center">
+    <h2 className="text-3xl font-bold mb-4">
+      {t("Need Maintenance for Your Machine?")}
+    </h2>
+
+    <p className="text-gray-600 mb-8">
+      {t(
+        "Tell us the name of your machine and our maintenance team will help you."
+      )}
+    </p>
+
+    <div className="flex flex-col sm:flex-row gap-4">
+      <input
+        type="text"
+        value={machineName}
+        onChange={(e) => setMachineName(e.target.value)}
+        placeholder={t("Enter machine name")}
+        className="flex-1 rounded-lg border border-gray-300 bg-white text-black px-5 py-3 outline-none transition focus:border-green-600 focus:ring-2 focus:ring-green-100"
+      />
+
+      <button
+        type="button"
+        onClick={handleMaintenanceWhatsApp}
+        disabled={!machineName.trim()}
+        className="rounded-lg bg-green-600 px-7 py-3 font-semibold text-white transition hover:bg-green-700 disabled:cursor-not-allowed disabled:opacity-50"
+      >
+        {t("Contact Us on WhatsApp")}
+      </button>
+    </div>
+  </div>
+</div>
+
+<h3 className="text-2xl">
+  {t("Signs that your machine needs maintenance")}
+</h3>
 
         <div className="mb-4 mt-6">
           <div className="grid grid-cols-3 max-xl:grid-cols-2 gap-4">
