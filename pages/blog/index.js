@@ -4,16 +4,12 @@ import Head from 'next/head';
 import { useTranslation } from "react-i18next";
 import { blogs } from "@/lib/blogs";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Blog = () => {
 
     const [t, i18n] = useTranslation();
     const { language } = i18n;
-
-    // const router = useRouter();
-    // const { slug } = router.query;
-
-    // const blog = blogs.find((item) => item.slug === slug);
 
     return (
         <>
