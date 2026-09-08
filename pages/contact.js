@@ -5,15 +5,19 @@ import Link from "next/link";
 import Meta from "@/comps/Meta";
 import { TikTokOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 const Contact = () => {
 
   const [t, i18n] = useTranslation();
   const { language } = i18n;
 
-  const onChange = (e) => {
-    console.log("Change:", e.target.value);
-  };
+  const [loading, setLoading] = useState(false);
+  const [formData, setFormData] = useState({ name: "", email: "", phone: "", message: "", });
+
+  const handleChange = (field, value) => { setFormData((prev) => ({ ...prev, [field]: value, })); };
+
+  const handleSubmit = async () => { if (!formData.email || !formData.message) { message.error("Please enter your email and message."); return; } try { setLoading(true); const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json", }, body: JSON.stringify(formData), }); const data = await response.json(); if (!response.ok) { throw new Error(data.message); } message.success("Your message has been sent successfully!"); setFormData({ name: "", email: "", phone: "", message: "", }); } catch (error) { console.error(error); } finally { setLoading(false); } };
 
   return (
     <>
@@ -124,6 +128,8 @@ const Contact = () => {
                     <Input
                       placeholder={t("Enter your name")}
                       size="large"
+                      value={formData.name}
+                      onChange={(e) => handleChange("name", e.target.value)}
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
@@ -131,13 +137,16 @@ const Contact = () => {
                     <Input
                       placeholder={t("Enter your email")}
                       size="large"
+                      value={formData.email}
+                      onChange={(e) => handleChange("email", e.target.value)}
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
                     <p className="mt-4 text-[#a2a2a3]"> {t("Phone")}</p>
                     <Input
-                      placeholder="+20"
+                      placeholder="+966"
                       size="large"
+                      value={formData.phone} onChange={(e) => handleChange("phone", e.target.value)}
                       className="rounded-full bg-[#faf9fe] pl-4"
                     />
 
@@ -145,7 +154,8 @@ const Contact = () => {
                     <TextArea
                       showCount
                       maxLength={100}
-                      onChange={onChange}
+                      value={formData.message}
+                      onChange={(e) => handleChange("message", e.target.value)}
                       placeholder={t("Write your message here")}
                       style={{
                         height: 100,
@@ -158,12 +168,18 @@ const Contact = () => {
                       className="bg-[#faf9fe] custom-textarea pl-4 mb-7"
                     />
 
-                    <Link
+                    {/* <Link
                       href="mailto:info@sigmamachines.net"
                       className={styles.btn_submit}
                     >
                       {t("Submit Now")}
-                    </Link>
+                    </Link> */}
+                    <button type="button"
+                      onClick={handleSubmit}
+                      disabled={loading}
+                      className={styles.btn_submit}>
+                      {loading ? "Sending..." : t("Submit Now")}
+                    </button>
                   </div>
                 </div>
               </div>
