@@ -215,5 +215,7 @@
   "Need Maintenance for Your Machine?": "تحتاج صيانه لماكينتك؟",
   "Tell us the name of your machine and our maintenance team will help you.": "أخبرنا باسم جهازك وسيقوم فريق الصيانة لدينا بمساعدتك.",
   "Enter machine name": "ادخل اسم ماكينتك",
-  "Contact Us on WhatsApp": "ارسال الان"
+  "Contact Us on WhatsApp": "ارسال الان",
+  "Your message has been sent successfully!": "تم إرسال رسالتك بنجاح!",
+  "Something went wrong. Please try again.": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
 }

@@ -30,7 +30,7 @@ const Contact = () => {
       if (!response.ok) {
         throw new Error(data.message || t("Failed to send message."));
       }
-      message.success("Your message has been sent successfully!");
+      message.success(t("Your message has been sent successfully!"));
       setFormData({ name: "", email: "", phone: "", message: "", });
     }
     catch (error) {
