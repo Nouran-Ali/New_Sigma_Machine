@@ -6,6 +6,7 @@ import Meta from "@/comps/Meta";
 import { TikTokOutlined } from "@ant-design/icons";
 import { useTranslation } from "react-i18next";
 import { useState } from "react";
+import { message } from "antd";
 
 const Contact = () => {
 
@@ -24,14 +25,20 @@ const Contact = () => {
     } try {
       setLoading(true);
       const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json", }, body: JSON.stringify(formData), });
-      const data = await response.json(); if (!response.ok) { throw new Error(data.message); }
+      const data = await response.json();
+      // if (!response.ok) { throw new Error(data.message); }
+      if (!response.ok) {
+        throw new Error(data.message || t("Failed to send message."));
+      }
       message.success("Your message has been sent successfully!");
       setFormData({ name: "", email: "", phone: "", message: "", });
     }
-    catch (error) { console.error(error); }
-    finally { 
+    catch (error) {
+      console.error(error);
+      message.error(error.message || t("Something went wrong. Please try again."));
+    }
+    finally {
       setLoading(false);
-      setFormData({ name: "", email: "", phone: "", message: "", });
     }
   };
 
