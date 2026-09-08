@@ -17,7 +17,27 @@ const Contact = () => {
 
   const handleChange = (field, value) => { setFormData((prev) => ({ ...prev, [field]: value, })); };
 
-  const handleSubmit = async () => { if (!formData.email || !formData.message) { message.error("Please enter your email and message."); return; } try { setLoading(true); const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json", }, body: JSON.stringify(formData), }); const data = await response.json(); if (!response.ok) { throw new Error(data.message); } message.success("Your message has been sent successfully!"); setFormData({ name: "", email: "", phone: "", message: "", }); } catch (error) { console.error(error); } finally { setLoading(false); } };
+  const handleSubmit = async () => {
+    if (!formData.email || !formData.message) {
+      message.error("Please enter your email and message.");
+      return;
+    } try {
+      setLoading(true);
+      const response = await fetch("/api/contact", { method: "POST", headers: { "Content-Type": "application/json", }, body: JSON.stringify(formData), });
+      const data = await response.json(); if (!response.ok) { throw new Error(data.message); }
+      message.success("Your message has been sent successfully!");
+      setFormData({ name: "", email: "", phone: "", message: "", });
+    }
+    catch (error) { console.error(error); }
+    finally { 
+      setLoading(false);
+      setFormData({ name: "", email: "", phone: "", message: "", });
+    }
+  };
+
+  const onChange = (e) => {
+    console.log("Change:", e.target.value);
+  };
 
   return (
     <>

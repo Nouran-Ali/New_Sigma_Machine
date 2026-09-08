@@ -70,8 +70,17 @@ const Product = () => {
   const mailtoLink = `mailto:info@sigmamachines.net?subject=Inquiry about ${product?.name}`;
 
   const phoneNumber = "+966569745955";
-  const message = "Hello, I need more information about";
-  const messageAr = "مرحبا انا احتاج بعض المعلومات عن";
+  // const message = "Hello, I am inquiring about from your website.";
+  // const messageAr = " مرحباً، أود الاستفسار عن المنتَج المعروض على موقعكم الإلكتروني. ";
+// const refCode = `[Ref: WEB-${Date.now().toString().slice(-4)}]`;
+
+const refCode = `[Ref: WEB-${Date.now().toString().slice(-4)}]`;
+const productName = language === "en" ? product?.name : product?.nameAr;
+const message = language === "en" 
+  ? `Hello, I am inquiring about (${productName}) from your website.` 
+  : `مرحباً، أود الاستفسار عن المنتج (${productName}) المعروض على موقعكم الإلكتروني.`;
+
+const fullText = `${message}\n\n${refCode}`;
 
   return (
     <>
@@ -253,9 +262,14 @@ const Product = () => {
                 </div> */}
                 <div className={`flex bg-green-500 hover:bg-green-600 text-white rounded-2xl mt-5 text-xl ${language === "en" ? "" : ""} z-50`}>
                   <a
-                    href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-                      `${language === "en" ? message : messageAr} ${language === "en" ? product?.name : product?.nameAr}`
-                    )}`}
+                    // href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+                    //   `${refCode} ${language === "en" ? message : messageAr} ( ${language === "en" ? product?.name : product?.nameAr} )`
+                    // )}`}
+                    href={`https://wa.me/${phoneNumber}?text=${encodeURIComponent(fullText)}`}
+                    onClick={() => {
+                      // إرسال إحصائية للنظام أو Analytics
+                      console.log("Customer clicked WhatsApp link from website");
+                    }}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center text-white p-3 max-lg:p-2 rounded-full  transition-colors duration-300"
