@@ -22,58 +22,98 @@ const About = () => {
   it can be found as a welcome guest in many households across the world.
 `;
   const items = [
-        {
-            key: "1",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("What is a CNC machine and what are its main uses?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A CNC machine (Computer Numerical Control) is an automated manufacturing machine that uses computer-controlled instructions to cut, engrave, drill, shape, and fabricate materials with high precision. CNC machines are widely used in woodworking, metal fabrication, acrylic processing, furniture manufacturing, signage production, and industrial manufacturing applications.")}</p>,
-        },
-        {
-            key: "2",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("How does a CNC machine work?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A CNC machine operates using digital design files created through CAD/CAM software. The machine follows programmed instructions to automatically control movement, cutting tools, and machining operations, delivering accurate, repeatable, and efficient production results while minimizing human error.")}</p>,
-        },
-        {
-            key: "3",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("What is the difference between a CNC Router and other CNC machines?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A CNC Router is primarily designed for cutting and engraving wood, MDF, acrylic, plastics, and composite materials. Other CNC machines such as CNC milling machines, CNC lathes, and fiber laser cutting machines are optimized for metalworking, precision machining, and industrial manufacturing applications. Choosing the right machine depends on your material type, production goals, and project requirements.")}</p>,
-        },
-        {
-            key: "4",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("What is the difference between 3-axis, 4-axis, and 5-axis CNC machines?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A 3-axis CNC machine handles standard cutting and engraving tasks, while a 4-axis CNC machine adds rotational movement for more complex shapes. A 5-axis CNC machine offers advanced multi-directional machining capabilities, making it ideal for highly detailed industrial components, molds, and precision manufacturing projects.")}</p>,
-        },
-        {
-            key: "5",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("How do I choose the right CNC machine for my project?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Selecting the right CNC machine depends on several factors including material type, production volume, workpiece dimensions, required precision, and available budget. Sigma Machines helps customers identify the most suitable CNC solution based on their business needs, workspace requirements, and future production goals.")}</p>,
-        },
-        {
-            key: "6",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("How much does a CNC machine cost?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("The price of a CNC machine varies depending on machine size, working area, number of axes, automation features, spindle power, and production capabilities. Entry-level CNC machines are typically more affordable, while industrial CNC machines with advanced specifications require a higher investment. Contact Sigma Machines for a customized quotation based on your specific requirements.")}</p>,
-        },
-        {
-            key: "7",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("Does Sigma provide installation and training after purchasing a CNC machine?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Yes. Sigma Machines provides professional machine installation, operator training, and technical guidance to ensure customers can safely and efficiently operate their CNC machines. Our team supports clients throughout the setup process and beyond.")}</p>,
-        },
-        {
-            key: "8",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("Does Sigma provide CNC machine maintenance and spare parts?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Yes. Sigma Machines offers preventive maintenance services, technical support, troubleshooting assistance, and genuine spare parts for CNC machines. Our maintenance solutions help maximize machine performance, reduce downtime, and extend equipment lifespan.")}</p>,
-        },
-        {
-            key: "9",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("Can a CNC machine be upgraded after purchase?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("In many cases, CNC machines can be upgraded with additional features such as rotary axes, automation systems, software enhancements, improved spindles, and advanced control systems. Sigma Machines can evaluate upgrade possibilities based on your machine model and production requirements.")}</p>,
-        },
-        {
-            key: "10",
-            label: <p className="text-lg text-[#ffffff] ml-6">{t("What services does Sigma Machines provide for CNC machines?")}</p>,
-            children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Sigma Machines provides complete CNC solutions including machine supply, consultation, installation, operator training, maintenance services, technical support, spare parts, machine upgrades, and after-sales services. We help manufacturers improve productivity, precision, and operational efficiency through reliable CNC technology.")}</p>,
-        },
+    {
+      key: "1",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is a CNC machine and what are its main uses?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A CNC machine (Computer Numerical Control) is an automated manufacturing machine that uses computer-controlled instructions to cut, engrave, drill, shape, and fabricate materials with high precision. CNC machines are widely used in woodworking, metal fabrication, acrylic processing, furniture manufacturing, signage production, and industrial manufacturing applications.")}</p>,
+    },
+    {
+      key: "2",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("How does a CNC machine work?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A CNC machine operates using digital design files created through CAD/CAM software. The machine follows programmed instructions to automatically control movement, cutting tools, and machining operations, delivering accurate, repeatable, and efficient production results while minimizing human error.")}</p>,
+    },
+    {
+      key: "3",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is the difference between a CNC Router and other CNC machines?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A CNC Router is primarily designed for cutting and engraving wood, MDF, acrylic, plastics, and composite materials. Other CNC machines such as CNC milling machines, CNC lathes, and fiber laser cutting machines are optimized for metalworking, precision machining, and industrial manufacturing applications. Choosing the right machine depends on your material type, production goals, and project requirements.")}</p>,
+    },
+    {
+      key: "4",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is the difference between 3-axis, 4-axis, and 5-axis CNC machines?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A 3-axis CNC machine handles standard cutting and engraving tasks, while a 4-axis CNC machine adds rotational movement for more complex shapes. A 5-axis CNC machine offers advanced multi-directional machining capabilities, making it ideal for highly detailed industrial components, molds, and precision manufacturing projects.")}</p>,
+    },
+    {
+      key: "5",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("How do I choose the right CNC machine for my project?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Selecting the right CNC machine depends on several factors including material type, production volume, workpiece dimensions, required precision, and available budget. Sigma Machines helps customers identify the most suitable CNC solution based on their business needs, workspace requirements, and future production goals.")}</p>,
+    },
+    {
+      key: "6",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("How much does a CNC machine cost?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("The price of a CNC machine varies depending on machine size, working area, number of axes, automation features, spindle power, and production capabilities. Entry-level CNC machines are typically more affordable, while industrial CNC machines with advanced specifications require a higher investment. Contact Sigma Machines for a customized quotation based on your specific requirements.")}</p>,
+    },
+    {
+      key: "7",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("Does Sigma provide installation and training after purchasing a CNC machine?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Yes. Sigma Machines provides professional machine installation, operator training, and technical guidance to ensure customers can safely and efficiently operate their CNC machines. Our team supports clients throughout the setup process and beyond.")}</p>,
+    },
+    {
+      key: "8",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("Does Sigma provide CNC machine maintenance and spare parts?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Yes. Sigma Machines offers preventive maintenance services, technical support, troubleshooting assistance, and genuine spare parts for CNC machines. Our maintenance solutions help maximize machine performance, reduce downtime, and extend equipment lifespan.")}</p>,
+    },
+    {
+      key: "9",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("Can a CNC machine be upgraded after purchase?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("In many cases, CNC machines can be upgraded with additional features such as rotary axes, automation systems, software enhancements, improved spindles, and advanced control systems. Sigma Machines can evaluate upgrade possibilities based on your machine model and production requirements.")}</p>,
+    },
+    {
+      key: "10",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What services does Sigma Machines provide for CNC machines?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Sigma Machines provides complete CNC solutions including machine supply, consultation, installation, operator training, maintenance services, technical support, spare parts, machine upgrades, and after-sales services. We help manufacturers improve productivity, precision, and operational efficiency through reliable CNC technology.")}</p>,
+    },
+    {
+      key: "11",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What materials can a CNC machine process?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("CNC machines can process a wide range of materials including solid wood, MDF, plywood, acrylic, aluminum, brass, steel, foam, PVC, composites, and stone, depending on the machine type and tooling used.")}</p>,
+    },
+    {
+      key: "12",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What software is required to operate a CNC machine?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("CNC machining requires CAD software (like AutoCAD or SolidWorks) to design the part, CAM software (like ArtCAM, Fusion 360, or Vectric) to convert designs into toolpaths (G-code), and control software (like Mach3 or Syntec) to run the machine.")}</p>,
+    },
+    {
+      key: "13",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What safety measures should be taken when operating a CNC machine?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Operators should wear protective equipment (safety glasses and ear protection), avoid loose clothing, ensure proper dust extraction, keep safety enclosures closed, and know the location of emergency stop buttons.")}</p>,
+    },
+    {
+      key: "14",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is the average lifespan of an industrial CNC machine?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("With regular maintenance, quality lubrication, and proper operational care, an industrial CNC machine can reliably perform for 10 to 15 years or more.")}</p>,
+    },
+    {
+      key: "15",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("How often does a CNC machine require routine maintenance?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Daily tasks include cleaning dust and debris. Weekly maintenance involves checking lubrication and air pressure. Full technical inspections and spindle checks should be scheduled quarterly or annually.")}</p>,
+    },
+    {
+      key: "16",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is the difference between a stepper motor and a servo motor in CNC machines?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("Stepper motors offer cost-effective, precise movement for lighter tasks, while servo motors deliver higher speed, greater power, smoother operation, and closed-loop feedback to prevent lost steps in heavy production.")}</p>,
+    },
+    {
+      key: "17",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is a vacuum bed on a CNC router and do I need one?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("A vacuum bed uses suction pumps to securely hold flat sheet materials on the working table without manual clamps. It significantly speeds up loading times and is ideal for high-volume sheet processing like furniture making.")}</p>,
+    },
+    {
+      key: "18",
+      label: <p className="text-lg text-[#ffffff] ml-6">{t("What is ATC (Automatic Tool Changer) and why is it useful?")}</p>,
+      children: <p className="text-lg text-[#a2a2a3] ml-6">{t("An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.")}</p>,
+    }
 
-    ];
+  ];
 
   return (
     <>
