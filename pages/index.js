@@ -19,12 +19,32 @@ export default function Home() {
   const [t, i18n] = useTranslation();
   const { language } = i18n;
 
+  const metaData = {
+    ar: {
+      title: "ماكينات CNC في السعودية | فايبر ليزر، راوتر CNC وماكينات لحام | سيجما ماشينز",
+      description: "سيجما ماشينز هي المورد الموثوق لماكينات CNC في السعودية والشرق الأوسط. نوفر ماكينات قص الفايبر ليزر، راوتر CNC، ثنايات هيدروليكية، وماكينات اللحام مع التركيب والضمان.",
+      keywords: "ماكينات CNC السعودية, فايبر ليزر الرياض, راوتر CNC خشب, ماكينات قص معادن, سيجما ماشينز"
+    },
+    en: {
+      title: "CNC Machines in Saudi Arabia | Fiber Laser, CNC Routers & Industrial Machinery | Sigma Machines",
+      description: "Sigma Machines is a trusted supplier of CNC machines in Saudi Arabia, offering fiber laser cutting machines, CNC routers, laser welding systems, and press brakes.",
+      keywords: "CNC machines Saudi Arabia, Fiber laser cutting KSA, CNC router supplier, Industrial machinery, Sigma Machines"
+    }
+  };
+
+  const currentMeta = metaData[language] || metaData.en;
+
   return (
     <>
-      <Meta
+      {/* <Meta
         title="CNC Machines in Saudi Arabia | Fiber Laser, CNC Routers, Laser Welders & Industrial Machinery | Sigma Machines"
         description="Sigma Machines is a trusted supplier of CNC machines in Saudi Arabia and the Middle East, offering fiber laser cutting machines, CNC routers, plasma cutting machines, laser welding systems, press brakes, shearing machines, laser marking machines, and industrial automation solutions. Explore high-precision machinery for metal fabrication, woodworking, manufacturing, and industrial production with installation, training, maintenance, and after-sales support."
         keywords="CNC Machines, CNC Machine , CNC machines Saudi Arabia, Laser cutting machines KSA , CNC router supplier Saudi Arabia, Industrial machinery distributor, Fiber laser machines Middle East, CNC machines for metal fabrication, Laser welding systems for industry, CNC خشب , CNC إختصار , ماكينة CNC , Cnc mesrs dz , أشكال CNC , سعر ماكينة CNC , أنواع ماكينات CNC , Cnc ملابس , CNC online , Bystronic laser cutting machine price , Bystronic laser manual pdf , TRUMPF laser cutting machine , Fiber laser cutting machine , AMADA laser cutting machine , Laser Automation , Bystronic Bystar 3015 laser manual , Used tube laser , تجربتي_مع فراكشنال ليزر co2 , فراكشنال ليزر CO2 قبل وبعد , ماكينة ليزر CO2 , ماكينة ليزر CO2 , Fiber laser cutting table , Fiber laser cutting design , Fiber laser cutting near me , Fiber laser cutting machine , Fiber Laser Cutting Machine price , CNC Fiber Laser cutting Machine , Plasma cutting Machine , Plasma cutting CNC , Plasma Cutting Machine price , Plasma cutting temperature , Plasma cutting Torch , Plasma cutting working principle , cnc machine , cnc design , cnc stock , cnc operator , ماكينة cnc , cnc router , cnc lathe machine , cnc machines , modern cnc design , what is cnc , cnc machine operator , cnc خشب , Types of welding machines with pictures , 4 types of welding machines with pictures , 5 types of welding machines , Welding machines Types , Names of welding machines , Types of welding machines for beginners , 3 types of welding machines , Laser welding machines , Laser Marking Machine price , Laser marking machine for metal , Laser marking process , Laser marking near me , Laser marking video , Laser marking head , Laser Marking price , Laser Marking Products , Press brake process , Hydraulic Press brake , Press Brake Bending Machine , Press brake steel , Press Brake manufacturers , Press brake operator , Manual press brake , Press brake homemade , Shearing Machine price , Types of shearing machine , Shear Cutting Machine Manual , CNC shearing machine , Mechanical Shearing Machine , Shearing machine diagram , RapidChange ATC , ATC CNC machine price , Rapid change ATC for sale , RapidChange ATC DIY , ATC spindle adapter , RapidChange ATC 3D print , buy cnc machine, cnc machine price saudi arabia, fiber laser cutting machine, cnc router machine, plasma cutting machine, laser welding machine, press brake machine, shearing machine, industrial machinery supplier, cnc machines saudi arabia , where to buy cnc machine"
+      /> */}
+      <Meta
+        title={currentMeta.title}
+        description={currentMeta.description}
+        keywords={currentMeta.keywords}
       />
 
       <div dir={language === "en" ? "ltr" : "rtl"}>
