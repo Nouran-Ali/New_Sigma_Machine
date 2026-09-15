@@ -45,7 +45,7 @@ export const products = [
     titleAr: "ماكينة راوتر CNC ثلاثية المحاور",
 
     desc: "3 Axis CNC Router machine for woodworking, MDF, acrylic, plastic, and sheet material processing. Sigma Machines supplies high-quality CNC routers in Egypt with precision cutting, engraving, and milling capabilities. Ideal for furniture manufacturing, signage production, and industrial applications. Looking for a CNC router Egypt supplier, CNC machine Egypt solutions, or CNC router machines for sale? Discover reliable performance, competitive CNC router prices, and professional local support.",
-    descAr: "ماكينة 3 Axis CNC Router احترافية للقص والحفر والتفريز على الخشب وMDF والأكريليك والبلاستيك والمواد المسطحة المختلفة. توفر سيجما ماشينز ماكينات CNC عالية الجودة في مصر بدقة تشغيل ممتازة وأداء موثوق لمصانع الأثاث والإعلانات والتطبيقات الصناعية. إذا كنت تبحث عن ماكينة CNC خشب، أو ماكينة راوتر CNC للبيع، أو ترغب في معرفة سعر ماكينة راوتر CNC وسعر ماكينة CNC خشب في مصر، فهذه الماكينة توفر الحل المثالي مع دعم فني وخدمة ما بعد البيع. لمعرفه أسعار ماكينات CNC بالسعودية تواصل معنا",
+    descAr: "ماكينة 3 Axis CNC Router احترافية للقص والحفر والتفريز على الخشب وMDF والأكريليك والبلاستيك والمواد المسطحة المختلفة. توفر سيجما ماشينز ماكينات CNC عالية الجودة في مصر بدقة تشغيل ممتازة وأداء موثوق لمصانع الأثاث والإعلانات والتطبيقات الصناعية. إذا كنت تبحث عن ماكينة CNC خشب، أو ماكينة راوتر CNC للبيع، أو ترغب في معرفة سعر ماكينة راوتر CNC وسعر ماكينة CNC خشب، فهذه الماكينة توفر الحل المثالي مع دعم فني وخدمة ما بعد البيع. لمعرفه أسعار ماكينات CNC بالسعودية تواصل معنا",
 
     details: {
       keyFeatures: [
@@ -213,7 +213,7 @@ export const products = [
     Keywords:
       "axis CNC router, wood CNC machine, MDF CNC cutting, acrylic CNC router, CNC engraving machine , 3 Axis CNC Router, CNC Router Egypt, CNC Machine Egypt, Wood CNC Machine, CNC Router Machine for Sale, CNC Router Price Egypt, Woodworking CNC Router, MDF CNC Cutting Machine, Industrial CNC Router, CNC Engraving Machine, Furniture Manufacturing CNC, Sigma Machines Egypt , ماكينة cnc , cnc router, cnc operator ",
 
-    TitleTagAr: "ماكينة راوتر CNC ثلاثية المحاور | قص الخشب وMDF والأكريليك",
+    TitleTagAr: "ماكينة CNC خشب 3 محاور | راوتر قص وتقطيع MDF وأكريليك | سيجما ماشينز",
     MetaDescriptionAr:
       "ماكينة 3 Axis CNC Router عالية الأداء للخشب والأكريليك وصناعة الأثاث واللوحات الإعلانية. دقة عالية وتشغيل ثابت وسرعة قص ممتازة.",
     KeywordsAr:

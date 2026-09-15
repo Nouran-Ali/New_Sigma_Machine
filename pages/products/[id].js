@@ -72,23 +72,47 @@ const Product = () => {
   const phoneNumber = "+966569745955";
   // const message = "Hello, I am inquiring about from your website.";
   // const messageAr = " مرحباً، أود الاستفسار عن المنتَج المعروض على موقعكم الإلكتروني. ";
-// const refCode = `[Ref: WEB-${Date.now().toString().slice(-4)}]`;
+  // const refCode = `[Ref: WEB-${Date.now().toString().slice(-4)}]`;
 
-const refCode = `[Ref: WEB-${Date.now().toString().slice(-4)}]`;
-const productName = language === "en" ? product?.name : product?.nameAr;
-const message = language === "en" 
-  ? `Hello, I am inquiring about (${productName}) from your website.` 
-  : `مرحباً، أود الاستفسار عن المنتج (${productName}) المعروض على موقعكم الإلكتروني.`;
+  const refCode = `[Ref: WEB-${Date.now().toString().slice(-4)}]`;
+  const productName = language === "en" ? product?.name : product?.nameAr;
+  const message = language === "en"
+    ? `Hello, I am inquiring about (${productName}) from your website.`
+    : `مرحباً، أود الاستفسار عن المنتج (${productName}) المعروض على موقعكم الإلكتروني.`;
 
-const fullText = `${message}\n\n${refCode}`;
+  const fullText = `${message}\n\n${refCode}`;
 
   return (
     <>
 
-      <Meta
-        title={product?.TitleTag || product?.name}
+      {/* <Meta
+        // title={product?.TitleTag || product?.name}
+        title={
+          language === "en"
+            ? product?.TitleTag || product?.name || product?.nameAr
+            : product?.TitleTagAr || product?.nameAr || product?.name
+        }
         description={`${product?.MetaDescription || product?.desc} , Explore a complete range of CNC Machine, CNC Routers, CNC Lathe Machines, Fiber Laser Cutting Machines, Plasma Cutting Machines, CO2 Laser Machines, Laser Welding Machines, Laser Marking Machines, Press Brake Bending Machines, Hydraulic Press Brakes, CNC Shearing Machines, Mechanical Shearing Machines, and Industrial Automation Solutions. Sigma Machines supplies advanced industrial machinery for metal fabrication, sheet metal processing, woodworking, manufacturing, and production facilities across Saudi Arabia and the Middle East.`}
         keywords={`${product?.Keywords} , CNC Machines, CNC Machine, CNC machines Saudi Arabia, Laser cutting machines KSA , CNC router supplier Saudi Arabia, Industrial machinery distributor, Fiber laser machines Middle East, CNC machines for metal fabrication, Laser welding systems for industry, CNC خشب , CNC إختصار , ماكينة CNC , Cnc mesrs dz , أشكال CNC , سعر ماكينة CNC , أنواع ماكينات CNC , Cnc ملابس , CNC online , Bystronic laser cutting machine price , Bystronic laser manual pdf , TRUMPF laser cutting machine , Fiber laser cutting machine , AMADA laser cutting machine , Laser Automation , Bystronic Bystar 3015 laser manual , Used tube laser , تجربتي_مع فراكشنال ليزر co2 , فراكشنال ليزر CO2 قبل وبعد , ماكينة ليزر CO2 , ماكينة ليزر CO2 , Fiber laser cutting table , Fiber laser cutting design , Fiber laser cutting near me , Fiber laser cutting machine , Fiber Laser Cutting Machine price , CNC Fiber Laser cutting Machine , Plasma cutting Machine , Plasma cutting CNC , Plasma Cutting Machine price , Plasma cutting temperature , Plasma cutting Torch , Plasma cutting working principle , cnc machine , cnc design , cnc stock , cnc operator , ماكينة cnc , cnc router , cnc lathe machine , cnc machines , modern cnc design , what is cnc , cnc machine operator , cnc خشب , Types of welding machines with pictures , 4 types of welding machines with pictures , 5 types of welding machines , Welding machines Types , Names of welding machines , Types of welding machines for beginners , 3 types of welding machines , Laser welding machines , Laser Marking Machine price , Laser marking machine for metal , Laser marking process , Laser marking near me , Laser marking video , Laser marking head , Laser Marking price , Laser Marking Products , Press brake process , Hydraulic Press brake , Press Brake Bending Machine , Press brake steel , Press Brake manufacturers , Press brake operator , Manual press brake , Press brake homemade , Shearing Machine price , Types of shearing machine , Shear Cutting Machine Manual , CNC shearing machine , Mechanical Shearing Machine , Shearing machine diagram , RapidChange ATC , ATC CNC machine price , Rapid change ATC for sale , RapidChange ATC DIY , ATC spindle adapter , RapidChange ATC 3D print , cnc machine operator , cnc machine price , cnc router machine , what is cnc , cnc laser cutting machine , cnc milling machine , cnc machines`}
+        image={product?.image}
+        url={`https://sigmamachines.net/products/${product?.id}`}
+      /> */}
+      <Meta
+        title={
+          language === "ar"
+            ? product?.TitleTagAr || product?.nameAr || product?.name
+            : product?.TitleTag || product?.name || product?.nameAr
+        }
+        description={
+          language === "ar"
+            ? product?.MetaDescriptionAr || product?.descAr
+            : product?.MetaDescription || product?.desc
+        }
+        keywords={
+          language === "ar"
+            ? product?.KeywordsAr
+            : product?.Keywords
+        }
         image={product?.image}
         url={`https://sigmamachines.net/products/${product?.id}`}
       />
