@@ -230,6 +230,17 @@ function Navbar() {
     setAnchorEl9(null);
   };
 
+  const [anchorElProg, setAnchorElProg] = React.useState(null);
+  const openProg = Boolean(anchorElProg);
+  const handleClickProg = (event) => {
+    setAnchorElProg(event.currentTarget);
+  };
+  const handleCloseProg = () => {
+    setAnchorElProg(null);
+  };
+
+  
+
   const [active, setActive] = useState();
   const [scrolling, setScrolling] = useState(false);
   const router = useRouter();
@@ -599,6 +610,25 @@ function Navbar() {
                           direction: i18n.language === "ar" ? "rtl" : "ltr",
                         }}
                       >
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/machinemanuals`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Machine Manuals & Spare Parts")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/comingsoon`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Programs")}
+                          </Link>
+                        </MenuItem>
+                        
                         <MenuItem onClick={handleClose8}>
                           <Link
                             href={`/blog`}
@@ -634,6 +664,8 @@ function Navbar() {
                             {t("Events & Exhibitions")}
                           </Link>
                         </MenuItem>
+
+                        
 
                       </Menu>
                     </div>
@@ -1335,6 +1367,24 @@ function Navbar() {
 
                         <MenuItem onClick={handleClose8}>
                           <Link
+                            href={`/machinemanuals`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Machine Manuals & Spare Parts")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/comingsoon`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Programs")}
+                          </Link>
+                        </MenuItem>
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
                             href={`/media-center`}
                             className="no-underline text-inherit"
                           >
@@ -1377,6 +1427,8 @@ function Navbar() {
                             {t("Events & Exhibitions")}
                           </Link>
                         </MenuItem>
+
+                        
 
                       </Menu>
                     </div>

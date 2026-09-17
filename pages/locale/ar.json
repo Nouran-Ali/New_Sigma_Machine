@@ -233,5 +233,8 @@
   "What is a vacuum bed on a CNC router and do I need one?": "ما هي طاولة الشفط (Vacuum Bed) وهل أحتاجها في الماكينة؟",
   "A vacuum bed uses suction pumps to securely hold flat sheet materials on the working table without manual clamps. It significantly speeds up loading times and is ideal for high-volume sheet processing like furniture making.": "طاولة الشفط تعتمد على مضخات تفريغ الهواء لتثبيت الخامات المسطحة بقوة على سطح الماكينة دون الحاجة لتثبيت يدوي. وهي خيار مثالي للمصانع والورش ذات الإنتاج الكثيف لتقليل وقت التثبيت.",
   "What is ATC (Automatic Tool Changer) and why is it useful?": "ما هو نظام تغيير الأدوات الأوتوماتيكي (ATC) وما أهميته؟",
-  "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.": "نظام ATC يسمح للماكينة وتبديل بنط القطع تلقائيًا أثناء عملية التشغيل دون تدخل بشري، مما يختصر وقت الإنتاج ويزيد من دقة التصاميم المعقدة التي تتطلب استخدام عدة أدوات قطع مختلفة."
+  "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.": "نظام ATC يسمح للماكينة وتبديل بنط القطع تلقائيًا أثناء عملية التشغيل دون تدخل بشري، مما يختصر وقت الإنتاج ويزيد من دقة التصاميم المعقدة التي تتطلب استخدام عدة أدوات قطع مختلفة.",
+  "Programs": "البرامج",
+  "Coming Soon": "قريبا...",
+  "Machine Manuals & Spare Parts": "أدلة تشغيل الماكينات وقطع الغيار"
 }

@@ -218,7 +218,6 @@
   "Contact Us on WhatsApp": "Contact Us on WhatsApp",
   "Your message has been sent successfully!": "Your message has been sent successfully!",
   "Something went wrong. Please try again.": "Something went wrong. Please try again.",
-
   "What materials can a CNC machine process?": "What materials can a CNC machine process?",
   "CNC machines can process a wide range of materials including solid wood, MDF, plywood, acrylic, aluminum, brass, steel, foam, PVC, composites, and stone, depending on the machine type and tooling used.": "CNC machines can process a wide range of materials including solid wood, MDF, plywood, acrylic, aluminum, brass, steel, foam, PVC, composites, and stone, depending on the machine type and tooling used.",
   "What software is required to operate a CNC machine?": "What software is required to operate a CNC machine?",
@@ -234,5 +233,8 @@
   "What is a vacuum bed on a CNC router and do I need one?": "What is a vacuum bed on a CNC router and do I need one?",
   "A vacuum bed uses suction pumps to securely hold flat sheet materials on the working table without manual clamps. It significantly speeds up loading times and is ideal for high-volume sheet processing like furniture making.": "A vacuum bed uses suction pumps to securely hold flat sheet materials on the working table without manual clamps. It significantly speeds up loading times and is ideal for high-volume sheet processing like furniture making.",
   "What is ATC (Automatic Tool Changer) and why is it useful?": "What is ATC (Automatic Tool Changer) and why is it useful?",
-  "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.": "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects."
+  "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.": "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.",
+  "Programs": "Programs",
+  "Coming Soon": "Coming Soon",
+  "Machine Manuals & Spare Parts": "Machine Manuals & Spare Parts"
 }
