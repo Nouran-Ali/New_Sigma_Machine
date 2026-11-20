@@ -611,9 +611,18 @@ function Navbar() {
                         }}
                       >
 
-                        <MenuItem onClick={handleClose8}>
+                        {/* <MenuItem onClick={handleClose8}>
                           <Link
                             href={`/machinemanuals`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Machine Manuals & Spare Parts")}
+                          </Link>
+                        </MenuItem> */}
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/comingsoon`}
                             className="no-underline text-inherit"
                           >
                             {t("Machine Manuals & Spare Parts")}
@@ -1365,9 +1374,18 @@ function Navbar() {
                         }}
                       >
 
-                        <MenuItem onClick={handleClose8}>
+                        {/* <MenuItem onClick={handleClose8}>
                           <Link
                             href={`/machinemanuals`}
+                            className="no-underline text-inherit"
+                          >
+                            {t("Machine Manuals & Spare Parts")}
+                          </Link>
+                        </MenuItem> */}
+
+                        <MenuItem onClick={handleClose8}>
+                          <Link
+                            href={`/comingsoon`}
                             className="no-underline text-inherit"
                           >
                             {t("Machine Manuals & Spare Parts")}

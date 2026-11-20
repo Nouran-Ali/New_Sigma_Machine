@@ -236,5 +236,6 @@
   "An Automatic Tool Changer (ATC) allows the machine to switch between different cutting tools automatically during a job. It eliminates manual tool changes, saving time and increasing accuracy on complex multi-tool projects.": "نظام ATC يسمح للماكينة وتبديل بنط القطع تلقائيًا أثناء عملية التشغيل دون تدخل بشري، مما يختصر وقت الإنتاج ويزيد من دقة التصاميم المعقدة التي تتطلب استخدام عدة أدوات قطع مختلفة.",
   "Programs": "البرامج",
   "Coming Soon": "قريبا...",
-  "Machine Manuals & Spare Parts": "أدلة تشغيل الماكينات وقطع الغيار"
+  "Machine Manuals & Spare Parts": "أدلة تشغيل الماكينات وقطع الغيار",
+  "Address": "العنوان"
 }
